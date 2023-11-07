@@ -20,4 +20,12 @@ public class Zoo {
         System.out.println("Vous avez inauguré votre propre Zoo !");
         return new Zoo(name, zooMaster);
     }
+    public String showCreatures()
+    {
+        return "Beaucoup";
+    }
+    public int numberOfCreatures()
+    {
+        return 0;
+    }
 }
