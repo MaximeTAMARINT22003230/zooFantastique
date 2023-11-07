@@ -1,9 +1,10 @@
-package Creature;
+package Creature.Oviparian;
 import Creature.Behavior.*;
 import Creature.Caracteristic.*;
+import Creature.Creature;
 
-public class Lycantropus extends Creature implements Run, Viviparian{
-    public Lycantropus(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Kraken extends Creature implements Swim {
+    public Kraken(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 

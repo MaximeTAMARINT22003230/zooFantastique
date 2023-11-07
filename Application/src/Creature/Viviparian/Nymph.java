@@ -1,9 +1,10 @@
-package Creature;
+package Creature.Viviparian;
 import Creature.Behavior.*;
 import Creature.Caracteristic.*;
+import Creature.Creature;
 
-public class Mermaid extends Creature implements Swim, Viviparian{
-    public Mermaid(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Nymph extends Creature implements Run, Revive{
+    public Nymph(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 

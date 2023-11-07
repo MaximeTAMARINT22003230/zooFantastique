@@ -1,9 +1,10 @@
-package Creature;
+package Creature.Oviparian;
 import Creature.Behavior.*;
 import Creature.Caracteristic.*;
+import Creature.Creature;
 
-public class Phenix extends Creature implements Fly, Oviparian, Revive{
-    public Phenix(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Dragon extends Creature implements Fly, Run, Swim, Revive {
+    public Dragon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 

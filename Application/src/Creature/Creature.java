@@ -27,8 +27,17 @@ public abstract class Creature {
     protected abstract void heal();
     protected abstract void sleep();
     protected abstract void age();
+    @Override
     public String toString()
     {
-        return "Je suis une créature";
+        return this.name + " le " + this.getClass().getSimpleName() + "\n" +
+                "Caractéristiques : " + "\n" +
+                "    Sexe : " + this.sex + "\n" +
+                "    Poids : " + this.weight + "\n" +
+                "    Taille : " + this.height + "\n" +
+                "    Age : " + this.age + "\n" +
+                "    Faim : " + this.hunger + "\n" +
+                "    Fatigue : " + this.fatigue + "\n" +
+                "    Santé : " + this.health;
     }
 }
