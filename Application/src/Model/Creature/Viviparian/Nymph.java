@@ -2,8 +2,8 @@ package Model.Creature.Viviparian;
 import Model.Creature.Behavior.Revive;
 import Model.Creature.Behavior.Run;
 import Model.Creature.Caracteristic.*;
-import Model.Creature.Creature.Behavior.*;
-import Model.Creature.Creature.Caracteristic.*;
+import Model.Creature.Behavior.*;
+import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
 
 public class Nymph extends Creature implements Run, Revive {

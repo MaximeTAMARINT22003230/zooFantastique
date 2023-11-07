@@ -4,8 +4,8 @@ import Model.Creature.Behavior.Revive;
 import Model.Creature.Behavior.Run;
 import Model.Creature.Behavior.Swim;
 import Model.Creature.Caracteristic.*;
-import Model.Creature.Creature.Behavior.*;
-import Model.Creature.Creature.Caracteristic.*;
+import Model.Creature.Behavior.*;
+import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
 
 public class Dragon extends Creature implements Fly, Run, Swim, Revive {

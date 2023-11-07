@@ -2,8 +2,8 @@ package Model.Creature.Viviparian;
 import Model.Creature.Behavior.Run;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
-import Model.Creature.Creature.Behavior.*;
-import Model.Creature.Creature.Caracteristic.*;
+import Model.Creature.Behavior.*;
+import Model.Creature.Caracteristic.*;
 
 public class Unicorn extends Creature implements Run {
     public Unicorn(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
