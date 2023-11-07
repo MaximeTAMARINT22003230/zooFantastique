@@ -1,8 +1,13 @@
 package Creature;
 
 import Creature.Behavior.*;
+import Creature.Caracteristic.*;
 
 public class Dragon extends Creature implements Fly, Run, Swim, Oviparian, Revive {
+    public Dragon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+        super(name, sex, weight, height, age, hunger, fatigue, health);
+    }
+
     @Override
     protected void eat() {
 

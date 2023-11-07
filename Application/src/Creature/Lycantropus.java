@@ -1,6 +1,12 @@
 package Creature;
 import Creature.Behavior.*;
+import Creature.Caracteristic.*;
+
 public class Lycantropus extends Creature implements Run, Viviparian{
+    public Lycantropus(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+        super(name, sex, weight, height, age, hunger, fatigue, health);
+    }
+
     @Override
     protected void eat() {
 
