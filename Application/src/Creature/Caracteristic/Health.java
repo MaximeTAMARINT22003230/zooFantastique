@@ -1,5 +1,5 @@
 package Creature.Caracteristic;
 
 public enum Health {
-    SUFFERING, ILL, SKATE
+    SUFFERING, ILL, SKATE, GOOD, VIGOROUS
 }

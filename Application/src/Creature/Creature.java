@@ -27,4 +27,8 @@ public abstract class Creature {
     protected abstract void heal();
     protected abstract void sleep();
     protected abstract void age();
+    public String toString()
+    {
+        return "Je suis une créature";
+    }
 }
