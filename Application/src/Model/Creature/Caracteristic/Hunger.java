@@ -1,4 +1,4 @@
-package Creature.Caracteristic;
+package Model.Creature.Caracteristic;
 
 public enum Hunger {
     STARVING, HUNGRY, GOOD, MEALS

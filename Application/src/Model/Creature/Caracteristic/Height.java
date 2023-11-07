@@ -1,4 +1,4 @@
-package Creature.Caracteristic;
+package Model.Creature.Caracteristic;
 
 public enum Height {
     SMALL, AVERAGE, BIG, HUMONGOUS

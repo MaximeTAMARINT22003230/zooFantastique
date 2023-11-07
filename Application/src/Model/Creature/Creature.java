@@ -1,6 +1,6 @@
-package Creature;
+package Model.Creature;
 
-import Creature.Caracteristic.*;
+import Model.Creature.Caracteristic.*;
 
 public abstract class Creature {
     protected String name;

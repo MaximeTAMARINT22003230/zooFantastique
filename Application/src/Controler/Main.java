@@ -1,5 +1,7 @@
-import Creature.Caracteristic.*;
-import Creature.Oviparian.Dragon;
+package Controler;
+
+import Model.Creature.Caracteristic.*;
+import Model.Creature.Oviparian.Dragon;
 
 public class Main {
     public static void main(String[] args) {

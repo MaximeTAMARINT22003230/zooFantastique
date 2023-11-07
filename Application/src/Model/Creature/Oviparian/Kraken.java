@@ -1,7 +1,9 @@
-package Creature.Oviparian;
-import Creature.Behavior.*;
-import Creature.Caracteristic.*;
-import Creature.Creature;
+package Model.Creature.Oviparian;
+import Model.Creature.Behavior.Swim;
+import Model.Creature.Caracteristic.*;
+import Model.Creature.Creature.Behavior.*;
+import Model.Creature.Creature.Caracteristic.*;
+import Model.Creature.Creature;
 
 public class Kraken extends Creature implements Swim {
     public Kraken(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
