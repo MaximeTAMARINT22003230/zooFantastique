@@ -5,4 +5,7 @@ import Model.Creature.Behavior.Swim;
 public class Aquarium extends Enclosure{
     private Swim creatures[];
 
+    public Aquarium(String name, String size) {
+        super(name, size);
+    }
 }

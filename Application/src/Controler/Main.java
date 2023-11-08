@@ -8,5 +8,6 @@ public class Main {
     public static void main(String[] args) {
         ZooMaster myZooMaster = new ZooMaster();
         Zoo myZoo = Zoo.opening("HelloWorld", myZooMaster);
+        System.out.println(myZoo);
     }
 }

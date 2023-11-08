@@ -2,32 +2,46 @@ package Model.Enclosure;
 
 import Model.Creature.Creature;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Enclosure {
+    private static int MAX = 5;
     protected String name;
     protected String size;
     protected int max;
-    protected int creaturesNb;
-    private Creature creatures[];
+    private List<Creature> creatures;
     protected String hygiene;
+    public Enclosure(String name, String size)
+    {
+        this.name = name;
+        this.size = size;
+        this.max = MAX;
+        this.creatures = new ArrayList<Creature>();
+    }
     public String toString()
     {
-        return "C'est un enclos";
+        String returnString = "Enclos " + this.name + "\n";
+        for (Creature creature : this.creatures) {
+            returnString += creature;
+        }
+        return returnString;
     }
     protected void addCreature(Creature creature)
     {
-        this.creatures[this.freeIndex()] = creature;
-    }
-
-    private int freeIndex() {
-        return 0;
+        this.creatures.add(creature);
     }
 
     protected Creature removeCreature(Creature creature)
     {
-        return null;
+        return this.creatures.remove(this.creatures.indexOf(creature));
     }
     protected void clean()
     {
 
+    }
+    public int count()
+    {
+        return 0;
     }
 }
