@@ -1,7 +1,9 @@
-package Controler;
+package Model;
 
+import Controler.ZooMaster;
+import Model.Creature.Caracteristic.Age;
+import Model.Creature.Caracteristic.Sex;
 import Model.Enclosure.Enclosure;
-import Model.ZooMaster;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,11 +28,11 @@ public class Zoo {
     }
     public String showCreatures()
     {
-        String creatures = "Créatures du Zoo " + this.name;
+        StringBuilder creatures = new StringBuilder("Créatures du Zoo " + this.name);
         for (Enclosure enclosure : this.enclosures) {
-            creatures += enclosure;
+            creatures.append(enclosure);
         }
-        return creatures;
+        return creatures.toString();
     }
     public int numberOfCreatures()
     {

@@ -1,13 +1,13 @@
-package Model.Creature.Oviparian;
-import Model.Creature.Behavior.Fly;
-import Model.Creature.Behavior.Revive;
+package Model.Creature.Bestiary;
+import Model.Creature.Behavior.Swim;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Behavior.*;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
+import Model.Creature.Oviparian;
 
-public class Phenix extends Creature implements Fly, Revive {
-    public Phenix(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Mégalodon extends Oviparian implements Swim {
+    public Mégalodon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 

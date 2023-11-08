@@ -1,12 +1,14 @@
-package Model.Creature.Oviparian;
-import Model.Creature.Behavior.Swim;
+package Model.Creature.Bestiary;
+import Model.Creature.Behavior.Revive;
+import Model.Creature.Behavior.Run;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Behavior.*;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
+import Model.Creature.Viviparian;
 
-public class Kraken extends Creature implements Swim {
-    public Kraken(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Nymph extends Viviparian implements Run, Revive {
+    public Nymph(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 

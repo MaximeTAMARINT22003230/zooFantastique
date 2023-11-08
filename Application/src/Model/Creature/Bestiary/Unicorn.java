@@ -1,12 +1,13 @@
-package Model.Creature.Viviparian;
-import Model.Creature.Behavior.Swim;
-import Model.Creature.Caracteristic.*;
-import Model.Creature.Behavior.*;
+package Model.Creature.Bestiary;
+import Model.Creature.Behavior.Run;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Creature;
+import Model.Creature.Behavior.*;
+import Model.Creature.Caracteristic.*;
+import Model.Creature.Viviparian;
 
-public class Mermaid extends Creature implements Swim {
-    public Mermaid(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+public class Unicorn extends Viviparian implements Run {
+    public Unicorn(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
 
