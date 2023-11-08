@@ -36,4 +36,9 @@ public class Nymph extends Viviparian implements Run, Revive {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }

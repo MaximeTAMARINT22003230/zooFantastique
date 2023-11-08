@@ -2,7 +2,7 @@ package Model.Creature;
 
 import Model.Creature.Caracteristic.*;
 
-public abstract class Creature {
+public abstract class Creature implements Runnable{
     protected String name;
     protected Sex sex;
     protected Weight weight;

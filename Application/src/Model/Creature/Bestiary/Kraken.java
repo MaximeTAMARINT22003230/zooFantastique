@@ -35,4 +35,9 @@ public class Kraken extends Oviparian implements Swim {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }

@@ -36,4 +36,9 @@ public class Phenix extends Oviparian implements Fly, Revive {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }

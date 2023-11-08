@@ -35,4 +35,10 @@ public class Mermaid extends Viviparian implements Swim {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+
+    }
 }

@@ -35,4 +35,9 @@ public class Unicorn extends Viviparian implements Run {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }

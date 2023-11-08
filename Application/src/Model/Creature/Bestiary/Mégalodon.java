@@ -35,4 +35,9 @@ public class Mégalodon extends Oviparian implements Swim {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }

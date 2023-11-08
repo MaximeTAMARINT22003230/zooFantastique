@@ -38,4 +38,9 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     protected void age() {
 
     }
+
+    @Override
+    public void run() {
+
+    }
 }
