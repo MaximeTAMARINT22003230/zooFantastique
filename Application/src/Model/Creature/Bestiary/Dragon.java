@@ -16,27 +16,28 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
 
     @Override
     protected void eat() {
-
+        hunger = hunger.eat();
     }
 
+    // à modifier car ce n'est pas la vue = pas de print
     @Override
     protected void shout() {
-
+        System.out.println("Dragon émet un song");
     }
 
     @Override
     protected void heal() {
-
+        health = health.heal();
     }
 
     @Override
     protected void sleep() {
-
+        fatigue = fatigue.sleep();
     }
 
     @Override
     protected void age() {
-
+        age = age.gettingOder();
     }
 
     @Override

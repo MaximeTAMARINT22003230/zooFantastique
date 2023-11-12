@@ -1,7 +1,7 @@
 package Controler;
 
-import Model.Creature.Caracteristic.Age;
-import Model.Creature.Caracteristic.Sex;
+import Model.Creature.Bestiary.Dragon;
+import Model.Creature.Caracteristic.*;
 import Model.Zoo;
 
 public class Main {
