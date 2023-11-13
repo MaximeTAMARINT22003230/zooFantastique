@@ -2,14 +2,14 @@ package Model.Enclosure;
 
 import Model.Creature.Behavior.Fly;
 
-public class Aviary extends Enclosure{
+public class Aviary extends Corral {
     private Fly creatures[];
     private int Height;
     public Aviary(String name, String size) {
         super(name, size);
     }
     @Override
-    protected void clean() {
+    public void clean() {
         super.clean();
     }
 }

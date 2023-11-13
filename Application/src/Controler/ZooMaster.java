@@ -3,7 +3,8 @@ package Controler;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
-import Model.Enclosure.Enclosure;
+import Model.Enclosure.Corral;
+import Model.Zoo;
 
 public class ZooMaster {
     private String name;
@@ -15,20 +16,23 @@ public class ZooMaster {
         this.sex = sex;
         this.age = age;
     }
-    private String check(Enclosure enclosure)
+    private String check(Corral corral)
     {
-        return enclosure.toString();
+        return corral.toString();
     }
-    private void clean(Enclosure enclosure)
+    private void clean(Corral corral)
     {
-
+        corral.clean();
     }
-    private void feed(Enclosure enclosure)
+    private void feed(Corral corral)
     {
-
+        corral.feed();
     }
-    private void move(Creature creature, Enclosure enclosure)
+    private void move(Creature creature, Corral corral, Zoo zoo)
     {
-
+        if(zoo.contains(creature) && corral.hasFreeSpace())
+        {
+            corral.addCreature(zoo.corralOf(creature).removeCreature(creature));
+        }
     }
 }

@@ -1,9 +1,8 @@
 package Model;
 
 import Controler.ZooMaster;
-import Model.Creature.Caracteristic.Age;
-import Model.Creature.Caracteristic.Sex;
-import Model.Enclosure.Enclosure;
+import Model.Creature.Creature;
+import Model.Enclosure.Corral;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,13 +12,13 @@ public class Zoo {
     private String name;
     private ZooMaster zooMaster;
     private int maxEnclosures;
-    private List<Enclosure> enclosures;
+    private List<Corral> corrals;
     private Zoo(String name, ZooMaster zooMaster)
     {
         this.name = name;
         this.zooMaster = zooMaster;
         this.maxEnclosures = MAX;
-        this.enclosures = new ArrayList<Enclosure>();
+        this.corrals = new ArrayList<Corral>();
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
@@ -29,16 +28,16 @@ public class Zoo {
     public String showCreatures()
     {
         StringBuilder creatures = new StringBuilder("Créatures du Zoo " + this.name);
-        for (Enclosure enclosure : this.enclosures) {
-            creatures.append(enclosure);
+        for (Corral corral : this.corrals) {
+            creatures.append(corral);
         }
         return creatures.toString();
     }
     public int numberOfCreatures()
     {
         int count = 0;
-        for (Enclosure enclosure : this.enclosures) {
-            count += enclosure.count();
+        for (Corral corral : this.corrals) {
+            count += corral.count();
         }
         return count;
     }
@@ -47,5 +46,25 @@ public class Zoo {
         return this.name + "\n" +
                 "    Propriétaire du Zoo : " + this.zooMaster + "\n" +
                 "    " + this.showCreatures();
+    }
+    public boolean contains(Creature creature)
+    {
+        for (Corral corral : this.corrals) {
+            if (corral.contains(creature))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    public Corral corralOf(Creature creature)
+    {
+        for (Corral corral : this.corrals) {
+            if (corral.contains(creature))
+            {
+                return corral;
+            }
+        }
+        return null;
     }
 }
