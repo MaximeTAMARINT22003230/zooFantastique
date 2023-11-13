@@ -5,14 +5,15 @@ import Model.Creature.Creature;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Enclosure {
+public class Corral {
     private static int MAX = 5;
     protected String name;
     protected String size;
     protected int max;
     private List<Creature> creatures;
     protected String hygiene;
-    public Enclosure(String name, String size)
+    protected String food;
+    public Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
@@ -27,21 +28,40 @@ public class Enclosure {
         }
         return returnString;
     }
-    protected void addCreature(Creature creature)
+    public void addCreature(Creature creature)
     {
         this.creatures.add(creature);
     }
 
-    protected Creature removeCreature(Creature creature)
+    public Creature removeCreature(Creature creature)
     {
         return this.creatures.remove(this.creatures.indexOf(creature));
     }
-    protected void clean()
+    public void clean()
     {
 
     }
     public int count()
     {
         return 0;
+    }
+    public void feed()
+    {
+
+    }
+    public boolean hasFreeSpace()
+    {
+        return true;
+    }
+    public boolean contains(Creature searched)
+    {
+        for(Creature creature : this.creatures)
+        {
+            if (creature.equals(searched))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
