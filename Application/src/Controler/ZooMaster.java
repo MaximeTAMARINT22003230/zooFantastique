@@ -82,8 +82,8 @@ public class ZooMaster {
     public String toString()
     {
         return "C'est vous !" + "\n" +
-                "    Nom : " + this.name +  "\n" +
-                "    Sexe : " + this.sex + "\n" +
-                "    Age : " + this.age;
+                "        Nom : " + this.name +  "\n" +
+                "        Sexe : " + this.sex + "\n" +
+                "        Age : " + this.age;
     }
 }

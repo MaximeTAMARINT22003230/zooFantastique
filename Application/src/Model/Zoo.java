@@ -11,13 +11,13 @@ public class Zoo {
     private final int MAX = 5;
     private String name;
     private ZooMaster zooMaster;
-    private int maxEnclosures;
+    private int maxCorral;
     private List<Corral> corrals;
     private Zoo(String name, ZooMaster zooMaster)
     {
         this.name = name;
         this.zooMaster = zooMaster;
-        this.maxEnclosures = MAX;
+        this.maxCorral = MAX;
         this.corrals = new ArrayList<Corral>();
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
@@ -27,13 +27,13 @@ public class Zoo {
     }
     public String showCreatures()
     {
-        StringBuilder creatures = new StringBuilder("Créatures du Zoo " + this.name);
+        StringBuilder creatures = new StringBuilder("Créatures du Zoo " + this.name + "\n");
         for (Corral corral : this.corrals) {
             creatures.append(corral);
         }
         return creatures.toString();
     }
-    public int numberOfCreatures()
+    public int countCreatures()
     {
         int count = 0;
         for (Corral corral : this.corrals) {
@@ -41,10 +41,15 @@ public class Zoo {
         }
         return count;
     }
+    public int countCorrals()
+    {
+        return this.corrals.size();
+    }
     public String toString()
     {
         return this.name + "\n" +
-                "    Propriétaire du Zoo : " + this.zooMaster + "\n" +
+                "    Propriétaire du Zoo : " + "\n" +
+                "    " + this.zooMaster + "\n" +
                 "    " + this.showCreatures();
     }
     public boolean contains(Creature creature)
@@ -66,5 +71,20 @@ public class Zoo {
             }
         }
         return null;
+    }
+    public void addCorral(Corral corral)
+    {
+        if(this.countCorrals() > maxCorral)
+        {
+            this.corrals.add(corral);
+        }
+    }
+    public void removeCorral(Corral corral)
+    {
+        this.corrals.remove(corral);
+    }
+    public void extend(int size)
+    {
+        this.maxCorral += size;
     }
 }
