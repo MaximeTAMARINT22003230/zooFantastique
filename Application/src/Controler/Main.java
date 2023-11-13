@@ -1,13 +1,14 @@
 package Controler;
 
-import Model.Creature.Bestiary.Dragon;
-import Model.Creature.Caracteristic.*;
-import Model.Zoo;
-
+/**
+ * The main class and entrance point of the application.
+ * Instantiate all needed classes and launch the game.
+ */
 public class Main {
     public static void main(String[] args) {
-        ZooMaster myZooMaster = new ZooMaster("Lucie", Sex.FEMALE, Age.TEEN);
-        Zoo myZoo = Zoo.opening("HelloWorld", myZooMaster);
-        System.out.println(myZoo);
+        // Launch the Interface
+        // Create the zoo master
+        // Inogurate the zoo
+        // Start the game
     }
 }
