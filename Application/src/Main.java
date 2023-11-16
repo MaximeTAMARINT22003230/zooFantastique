@@ -1,6 +1,4 @@
 import Controler.Controler;
-import Model.Zoo;
-import View.Interface;
 
 /**
  * The main class and entrance point of the application.
