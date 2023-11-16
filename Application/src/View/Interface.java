@@ -1,12 +1,5 @@
 package View;
 
-import Controler.*;
-import Model.Creature.Caracteristic.Age;
-import Model.Creature.Caracteristic.Sex;
-import Model.Creature.Creature;
-import Model.Enclosure.Corral;
-import Model.Zoo;
-
 import java.util.Scanner;
 
 public class Interface {

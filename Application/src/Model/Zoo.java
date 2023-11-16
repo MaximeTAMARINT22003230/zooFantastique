@@ -1,7 +1,7 @@
 package Model;
 
 import Model.Creature.Creature;
-import Model.Enclosure.Corral;
+import Model.Corral.Corral;
 
 import java.util.ArrayList;
 import java.util.List;

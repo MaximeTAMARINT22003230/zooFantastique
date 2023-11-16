@@ -3,8 +3,7 @@ package Model;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
-import Model.Enclosure.Corral;
-import Model.Zoo;
+import Model.Corral.Corral;
 
 /**
  * The ZooMaster class.

@@ -1,11 +1,11 @@
-package Model.Enclosure;
+package Model.Corral;
 
 import Model.Creature.Behavior.Swim;
 
 public class Aquarium extends Corral {
     private Swim creatures[];
 
-    public Aquarium(String name, String size) {
+    private Aquarium(String name, String size) {
         super(name, size);
     }
 }

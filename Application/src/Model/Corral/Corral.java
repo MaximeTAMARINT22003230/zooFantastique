@@ -1,4 +1,4 @@
-package Model.Enclosure;
+package Model.Corral;
 
 import Model.Creature.Creature;
 
@@ -13,12 +13,16 @@ public class Corral {
     private List<Creature> creatures;
     protected String hygiene;
     protected String food;
-    public Corral(String name, String size)
+    protected Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
         this.max = MAX;
         this.creatures = new ArrayList<Creature>();
+    }
+    public static Corral inaugurate(String name, String size)
+    {
+        return new Corral(name, size);
     }
     public String toString()
     {
