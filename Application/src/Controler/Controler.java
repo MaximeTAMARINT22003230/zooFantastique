@@ -1,26 +1,18 @@
 package Controler;
 
-import Model.Corral.Aquarium;
-import Model.Corral.Aviary;
-import Model.Creature.Bestiary.*;
-import Model.Creature.Caracteristic.Age;
-import Model.Creature.Caracteristic.Sex;
-import Model.Creature.Creature;
-import Model.Corral.Corral;
-import Model.Zoo;
-import Model.ZooMaster;
+import Model.Corral.*;
+import Model.*;
 import View.Interface;
 
-import java.util.Objects;
-
-public class Controler {
-    private Interface gui;
+public class Controler{
     private Zoo zoo;
     private Corral scope;
+    private Creator creator;
     public Controler()
     {
-        this.gui = new Interface();
-        this.zoo = this.createYourZoo();
+        super();
+        this.creator = new Creator();
+        this.zoo = this.creator.createYourZoo();
         this.scope = null;
         this.options();
     }
@@ -35,7 +27,7 @@ public class Controler {
             // Vue sur un enclos spécifique
         }
         String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom";
-        switch (this.gui.input(options))
+        switch (Interface.input(options))
         {
             case "Zoom" :
                 this.zoom();
@@ -58,19 +50,19 @@ public class Controler {
     {
         // UN : Sélectionner une créature
         // DEUX : Sélectionner son nouvel enclos
-        this.gui.show("Vous déplacez une créature");
+        Interface.show("Vous déplacez une créature");
         this.options();
     }
     private void zoom()
     {
-        switch (this.gui.input("Où voulez-vous aller ? " + this.zoo.corrals()))
+        switch (Interface.input("Où voulez-vous aller ? " + this.zoo.corrals()))
         {
             case "EnclosQuiExiste" :
                 // Set this.scope à l'enclos en question
-                this.gui.show("Vous vous approchez d'un enclos");
+                Interface.show("Vous vous approchez d'un enclos");
                 break;
             default :
-                this.gui.show("Vous retournez à l'entrée du zoo");
+                Interface.show("Vous retournez à l'entrée du zoo");
                 this.scope = null;
         }
         this.options();
@@ -79,13 +71,13 @@ public class Controler {
     {
         if (this.scope == null)
         {
-            this.zoo.addCorral(this.createYourCorral());
-            this.gui.show("Vous avez inauguré un nouvel enclos");
+            this.zoo.addCorral(this.creator.createYourCorral());
+            Interface.show("Vous avez inauguré un nouvel enclos");
         }
         else
         {
-            this.scope.addCreature(this.createYourCreature());
-            this.gui.show("Vous avez ajouté une nouvelle créature");
+            this.scope.addCreature(this.creator.createYourCreature());
+            Interface.show("Vous avez ajouté une nouvelle créature");
         }
 
         this.options();
@@ -93,65 +85,7 @@ public class Controler {
     private void remove()
     {
         // SELECTIONNER LA CREATURE OU L'ENCLOS
-        this.gui.show("Vous supprimé une créature");
+        Interface.show("Vous supprimé une créature");
         this.options();
-    }
-    private Sex askSex()
-    {
-        Sex sex = null;
-        while (sex == null)
-        {
-            String inputSex = this.gui.input("Sexe de votre maître de zoo : Male ou Female ?");
-            if(Objects.equals(inputSex, "Male"))
-            {
-                sex = Sex.MALE;
-            }
-            else if (Objects.equals(inputSex, "Female"))
-            {
-                sex = Sex.FEMALE;
-            }
-            else
-            {
-                this.gui.show("Mauvais input");
-            }
-        }
-        return sex;
-    }
-    private Age askAge()
-    {
-        return Age.ADULT;
-        //TODO : Faire cette méthode
-    }
-    private ZooMaster createYourZooMaster()
-    {
-        return new ZooMaster(gui.input("Nom de votre maître de zoo"),this.askSex(),this.askAge());
-    }
-    public Zoo createYourZoo()
-    {
-        return Zoo.opening(gui.input("Nom de votre Zoo"), this.createYourZooMaster());
-    }
-    public Creature createYourCreature()
-    {
-        return switch (this.gui.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
-                "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
-            case "Dragon" -> Dragon.newBorn(gui.input("Nom de votre dragon"), this.askSex());
-            case "Kraken" -> Kraken.newBorn(gui.input("Nom de votre kraken"), this.askSex());
-            case "Lycantropus" -> Lycantropus.newBorn(gui.input("Nom de votre loup garou"), this.askSex());
-            case "Megalodon" -> Megalodon.newBorn(gui.input("Nom de votre mégalodon"), this.askSex());
-            case "Mermaid" -> Mermaid.newBorn(gui.input("Nom de votre sirène"), this.askSex());
-            case "Nymph" -> Nymph.newBorn(gui.input("Nom de votre nymphe"), this.askSex());
-            case "Phenix" -> Phenix.newBorn(gui.input("Nom de votre phénix"), this.askSex());
-            case "Unicorn" -> Unicorn.newBorn(gui.input("Nom de votre licorne"), this.askSex());
-            default -> this.createYourCreature();
-        };
-    }
-    public Corral createYourCorral()
-    {
-        return switch (this.gui.input("Quel type d'enclos voulez vous faire ? Corral, Aviary, Aquarium")) {
-            case "Corral" -> Corral.inaugurate(gui.input("Nom de votre enclos"), "petit");
-            case "Aviary" -> Aviary.inaugurate(gui.input("Nom de votre enclos"), "petit");
-            case "Aquarium" -> Aquarium.inaugurate(gui.input("Nom de votre enclos"), "petit");
-            default -> this.createYourCorral();
-        };
     }
 }
