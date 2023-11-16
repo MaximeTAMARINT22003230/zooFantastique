@@ -24,10 +24,6 @@ public class Controler {
         this.scope = null;
         this.options();
     }
-    public void notification(String notification)
-    {
-        this.gui.show(notification);
-    }
     private Corral options()
     {
         if(this.scope == null)
