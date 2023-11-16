@@ -1,5 +1,7 @@
 package Controler;
 
+import Model.Corral.Aquarium;
+import Model.Corral.Aviary;
 import Model.Creature.Bestiary.Phenix;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
@@ -112,6 +114,11 @@ public class Controler {
     }
     public Corral createYourCorral()
     {
-        return Corral.inaugurate(gui.input("Nom de votre enclos"), "petit");
+        return switch (this.gui.input("Quel type d'enclos voulez vous faire ? Corral, Aviary, Aquarium")) {
+            case "Corral" -> Corral.inaugurate(gui.input("Nom de votre enclos"), "petit");
+            case "Aviary" -> Aviary.inaugurate(gui.input("Nom de votre enclos"), "petit");
+            case "Aquarium" -> Aquarium.inaugurate(gui.input("Nom de votre enclos"), "petit");
+            default -> this.createYourCorral();
+        };
     }
 }
