@@ -3,7 +3,7 @@ package Controler;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Zoo;
-import View.Interface;
+import Model.ZooMaster;
 
 /**
  * The test class of the application.

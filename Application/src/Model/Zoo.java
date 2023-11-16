@@ -1,6 +1,5 @@
 package Model;
 
-import Controler.ZooMaster;
 import Model.Creature.Creature;
 import Model.Enclosure.Corral;
 
