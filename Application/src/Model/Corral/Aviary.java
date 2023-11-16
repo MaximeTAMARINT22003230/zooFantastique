@@ -1,11 +1,11 @@
-package Model.Enclosure;
+package Model.Corral;
 
 import Model.Creature.Behavior.Fly;
 
 public class Aviary extends Corral {
     private Fly creatures[];
     private int Height;
-    public Aviary(String name, String size) {
+    private Aviary(String name, String size) {
         super(name, size);
     }
     @Override
