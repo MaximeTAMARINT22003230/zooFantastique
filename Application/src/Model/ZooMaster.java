@@ -1,4 +1,4 @@
-package Controler;
+package Model;
 
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
