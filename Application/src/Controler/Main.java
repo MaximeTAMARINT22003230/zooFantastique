@@ -1,5 +1,6 @@
 package Controler;
 
+import Model.Zoo;
 import View.Interface;
 
 /**
@@ -9,6 +10,10 @@ import View.Interface;
 public class Main {
     public static void main(String[] args) {
         Controler controler = new Controler();
-        controler.createYourZoo();
+        Zoo myzoo = controler.createYourZoo();
+        while(true)
+        {
+            //play
+        }
     }
 }
