@@ -78,6 +78,10 @@ public class Zoo {
             this.corrals.add(corral);
         }
     }
+    public String corrals()
+    {
+        return "Voici la liste des enclos";
+    }
     public void removeCorral(Corral corral)
     {
         this.corrals.remove(corral);

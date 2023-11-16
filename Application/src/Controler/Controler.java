@@ -60,12 +60,23 @@ public class Controler {
     }
     private void move()
     {
+        // UN : Sélectionner une créature
+        // DEUX : Sélectionner son nouvel enclos
         this.gui.show("Vous déplacez une créature");
         this.options();
     }
     private void zoom()
     {
-        this.gui.show("Vous vous approchez d'un enclos");
+        switch (this.gui.input("Où voulez-vous aller ? " + this.zoo.corrals()))
+        {
+            case "EnclosQuiExiste" :
+                // Set this.scope à l'enclos en question
+                this.gui.show("Vous vous approchez d'un enclos");
+                break;
+            default :
+                this.gui.show("Vous retournez à l'entrée du zoo");
+                this.scope = null;
+        }
         this.options();
     }
     private void add()
@@ -85,6 +96,7 @@ public class Controler {
     }
     private void remove()
     {
+        // SELECTIONNER LA CREATURE OU L'ENCLOS
         this.gui.show("Vous supprimé une créature");
         this.options();
     }
