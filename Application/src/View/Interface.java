@@ -12,23 +12,9 @@ public class Interface {
     {
         System.out.println(string);
     }
-    private ZooMaster createYourZooMaster()
+    public String input(String string)
     {
-        String name = "Gabriel";
-        Sex sex = Sex.MALE;
-        Age age = Age.ADULT;
-        return new ZooMaster(name,sex,age);
-    }
-    public Zoo createYourZoo()
-    {
-        ZooMaster zooMaster = this.createYourZooMaster();
-        String name = "Mon zoo";
-        return Zoo.opening(name, zooMaster);
-    }
-    public Corral createACorral()
-    {
-    }
-    public Creature createACreature()
-    {
+        this.show(string);
+        return System.console().readLine();
     }
 }
