@@ -8,9 +8,7 @@ import View.Interface;
  */
 public class Main {
     public static void main(String[] args) {
-        Interface gui = new Interface();
-        // Create the zoo master
-        // Inaugurate the zoo
-        // Start the game
+        Controler controler = new Controler();
+        controler.createYourZoo();
     }
 }
