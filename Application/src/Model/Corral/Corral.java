@@ -1,16 +1,17 @@
 package Model.Corral;
 
+import Model.Creature.Behavior.Run;
 import Model.Creature.Creature;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Corral {
-    private static int MAX = 5;
+    private static final int MAX = 5;
     protected String name;
     protected String size;
     protected int max;
-    private List<Creature> creatures;
+    private List<Run> creatures;
     protected String hygiene;
     protected String food;
     protected Corral(String name, String size)
@@ -18,7 +19,7 @@ public class Corral {
         this.name = name;
         this.size = size;
         this.max = MAX;
-        this.creatures = new ArrayList<Creature>();
+        this.creatures = new ArrayList<Run>();
     }
     public static Corral inaugurate(String name, String size)
     {
@@ -26,20 +27,23 @@ public class Corral {
     }
     public String toString()
     {
-        String returnString = "Enclos " + this.name + "\n";
-        for (Creature creature : this.creatures) {
-            returnString += creature;
+        StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
+        for (Run creature : this.creatures) {
+            returnString.append(creature);
         }
-        return returnString;
+        return returnString.toString();
     }
     public void addCreature(Creature creature)
     {
-        this.creatures.add(creature);
+        if (creature instanceof Run)
+        {
+            this.creatures.add((Run) creature);
+        }
     }
 
     public Creature removeCreature(Creature creature)
     {
-        return this.creatures.remove(this.creatures.indexOf(creature));
+        return (Creature) this.creatures.remove(this.creatures.indexOf((Run) creature));
     }
     public void clean()
     {
@@ -59,7 +63,7 @@ public class Corral {
     }
     public boolean contains(Creature searched)
     {
-        for(Creature creature : this.creatures)
+        for(Run creature : this.creatures)
         {
             if (creature.equals(searched))
             {
