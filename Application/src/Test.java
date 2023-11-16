@@ -1,5 +1,3 @@
-package Controler;
-
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Zoo;

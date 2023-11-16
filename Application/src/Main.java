@@ -1,5 +1,4 @@
-package Controler;
-
+import Controler.Controler;
 import Model.Zoo;
 import View.Interface;
 

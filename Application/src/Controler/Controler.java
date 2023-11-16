@@ -2,7 +2,7 @@ package Controler;
 
 import Model.Corral.Aquarium;
 import Model.Corral.Aviary;
-import Model.Creature.Bestiary.Phenix;
+import Model.Creature.Bestiary.*;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
@@ -23,6 +23,10 @@ public class Controler {
         this.zoo = this.createYourZoo();
         this.scope = null;
         this.options();
+    }
+    public void notification(String notification)
+    {
+        this.gui.show(notification);
     }
     private Corral options()
     {
@@ -66,7 +70,17 @@ public class Controler {
     }
     private void add()
     {
-        this.gui.show("Vous avez ajouté une nouvelle créature");
+        if (this.scope == null)
+        {
+            this.zoo.addCorral(this.createYourCorral());
+            this.gui.show("Vous avez inauguré un nouvel enclos");
+        }
+        else
+        {
+            this.scope.addCreature(this.createYourCreature());
+            this.gui.show("Vous avez ajouté une nouvelle créature");
+        }
+
         this.options();
     }
     private void remove()
@@ -110,7 +124,18 @@ public class Controler {
     }
     public Creature createYourCreature()
     {
-        return Phenix.newBorn(gui.input("Nom de votre créature"), this.askSex());
+        return switch (this.gui.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
+                "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
+            case "Dragon" -> Dragon.newBorn(gui.input("Nom de votre dragon"), this.askSex());
+            case "Kraken" -> Kraken.newBorn(gui.input("Nom de votre kraken"), this.askSex());
+            case "Lycantropus" -> Lycantropus.newBorn(gui.input("Nom de votre loup garou"), this.askSex());
+            case "Megalodon" -> Megalodon.newBorn(gui.input("Nom de votre mégalodon"), this.askSex());
+            case "Mermaid" -> Mermaid.newBorn(gui.input("Nom de votre sirène"), this.askSex());
+            case "Nymph" -> Nymph.newBorn(gui.input("Nom de votre nymphe"), this.askSex());
+            case "Phenix" -> Phenix.newBorn(gui.input("Nom de votre phénix"), this.askSex());
+            case "Unicorn" -> Unicorn.newBorn(gui.input("Nom de votre licorne"), this.askSex());
+            default -> this.createYourCreature();
+        };
     }
     public Corral createYourCorral()
     {
