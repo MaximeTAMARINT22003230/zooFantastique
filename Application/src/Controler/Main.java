@@ -10,10 +10,5 @@ import View.Interface;
 public class Main {
     public static void main(String[] args) {
         Controler controler = new Controler();
-        Zoo myzoo = controler.createYourZoo();
-        while(true)
-        {
-            //play
-        }
     }
 }
