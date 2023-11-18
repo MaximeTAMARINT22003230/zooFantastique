@@ -5,6 +5,7 @@ import Model.Corral.Corral;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Zoo {
     private final int MAX = 5;
@@ -80,7 +81,21 @@ public class Zoo {
     }
     public String corrals()
     {
-        return "Voici la liste des enclos";
+        StringBuilder corralsBuilder = new StringBuilder();
+        for (Corral corral : this.corrals) {
+            corralsBuilder.append(corral.getName()).append("\n");
+        }
+        return String.valueOf(corralsBuilder);
+    }
+    public Corral corral(String string)
+    {
+        for (Corral corral : this.corrals) {
+            if(Objects.equals(corral.getName(), string))
+            {
+                return corral;
+            }
+        }
+        return null;
     }
     public void removeCorral(Corral corral)
     {

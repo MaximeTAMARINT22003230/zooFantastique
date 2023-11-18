@@ -72,4 +72,8 @@ public class Corral {
         }
         return false;
     }
+
+    public String getName() {
+        return name;
+    }
 }
