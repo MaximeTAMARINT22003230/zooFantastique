@@ -57,7 +57,7 @@ public class Controler{
     {
         switch (Interface.input("Où voulez-vous aller ? " + this.zoo.corrals()))
         {
-            case "EnclosQuiExiste" :
+            case "quelque part" :
                 // Set this.scope à l'enclos en question
                 Interface.show("Vous vous approchez d'un enclos");
                 break;
