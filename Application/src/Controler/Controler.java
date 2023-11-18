@@ -1,7 +1,6 @@
 package Controler;
 
 import Model.Corral.*;
-import Model.*;
 import View.Interface;
 
 public class Controler{

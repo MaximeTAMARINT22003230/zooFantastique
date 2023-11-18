@@ -1,5 +1,6 @@
 package Model;
 
+import Controler.Zoo;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
