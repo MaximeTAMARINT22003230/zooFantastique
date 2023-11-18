@@ -5,6 +5,6 @@ import View.Interface;
 public class Notification extends Controler{
     public void notify(String string)
     {
-        Interface.notify(string);
+        Interface.show(string);
     }
 }

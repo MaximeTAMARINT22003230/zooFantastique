@@ -5,7 +5,6 @@ import Model.Corral.Aviary;
 import Model.Corral.Corral;
 import Model.Creature.Bestiary.*;
 import Model.Creature.Creature;
-import Model.Zoo;
 import Model.ZooMaster;
 import View.Interface;
 

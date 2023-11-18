@@ -1,7 +1,8 @@
-package Model;
+package Controler;
 
 import Model.Creature.Creature;
 import Model.Corral.Corral;
+import Model.ZooMaster;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +20,9 @@ public class Zoo {
         this.zooMaster = zooMaster;
         this.maxCorral = MAX;
         this.corrals = new ArrayList<Corral>();
+    }
+    public static void main(String[] args) {
+        Controler controler = new Controler();
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
