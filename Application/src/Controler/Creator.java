@@ -24,14 +24,14 @@ public class Creator{
     {
         return switch (Interface.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
                 "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
-            case "Dragon" -> Dragon.newBorn(Controler.instance, Interface.input("Nom de votre dragon"), Asker.askSex());
-            case "Kraken" -> Kraken.newBorn(Controler.instance, Interface.input("Nom de votre kraken"), Asker.askSex());
-            case "Lycantropus" -> Lycantropus.newBorn(Controler.instance, Interface.input("Nom de votre loup garou"), Asker.askSex());
-            case "Megalodon" -> Megalodon.newBorn(Controler.instance, Interface.input("Nom de votre mégalodon"), Asker.askSex());
-            case "Mermaid" -> Mermaid.newBorn(Controler.instance, Interface.input("Nom de votre sirène"), Asker.askSex());
-            case "Nymph" -> Nymph.newBorn(Controler.instance, Interface.input("Nom de votre nymphe"), Asker.askSex());
-            case "Phenix" -> Phenix.newBorn(Controler.instance, Interface.input("Nom de votre phénix"), Asker.askSex());
-            case "Unicorn" -> Unicorn.newBorn(Controler.instance, Interface.input("Nom de votre licorne"), Asker.askSex());
+            case "Dragon" -> Dragon.newBorn(Interface.input("Nom de votre dragon"), Asker.askSex());
+            case "Kraken" -> Kraken.newBorn(Interface.input("Nom de votre kraken"), Asker.askSex());
+            case "Lycantropus" -> Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), Asker.askSex());
+            case "Megalodon" -> Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), Asker.askSex());
+            case "Mermaid" -> Mermaid.newBorn(Interface.input("Nom de votre sirène"), Asker.askSex());
+            case "Nymph" -> Nymph.newBorn(Interface.input("Nom de votre nymphe"), Asker.askSex());
+            case "Phenix" -> Phenix.newBorn(Interface.input("Nom de votre phénix"), Asker.askSex());
+            case "Unicorn" -> Unicorn.newBorn(Interface.input("Nom de votre licorne"), Asker.askSex());
             default -> createYourCreature();
         };
     }
