@@ -6,7 +6,11 @@ import View.Interface;
 
 import java.util.Objects;
 
-public class Asker{
+/**
+ * One of the app's controler. Used to ask specific input to the user.
+ */
+public class Asker
+{
     public Sex askSex()
     {
         Sex sex = null;

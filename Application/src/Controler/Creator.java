@@ -8,10 +8,15 @@ import Model.Creature.Creature;
 import Model.ZooMaster;
 import View.Interface;
 
+/**
+ * One of the app's controler. Used when the user need to create an object
+ */
 public class Creator{
     private Asker asker;
-    public Creator ()
+    private Controler controler;
+    public Creator (Controler controler)
     {
+        this.controler = controler;
         this.asker = new Asker();
     }
     private ZooMaster createYourZooMaster()
@@ -26,14 +31,14 @@ public class Creator{
     {
         return switch (Interface.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
                 "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
-            case "Dragon" -> Dragon.newBorn(Interface.input("Nom de votre dragon"), this.asker.askSex());
-            case "Kraken" -> Kraken.newBorn(Interface.input("Nom de votre kraken"), this.asker.askSex());
-            case "Lycantropus" -> Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), this.asker.askSex());
-            case "Megalodon" -> Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), this.asker.askSex());
-            case "Mermaid" -> Mermaid.newBorn(Interface.input("Nom de votre sirène"), this.asker.askSex());
-            case "Nymph" -> Nymph.newBorn(Interface.input("Nom de votre nymphe"), this.asker.askSex());
-            case "Phenix" -> Phenix.newBorn(Interface.input("Nom de votre phénix"), this.asker.askSex());
-            case "Unicorn" -> Unicorn.newBorn(Interface.input("Nom de votre licorne"), this.asker.askSex());
+            case "Dragon" -> Dragon.newBorn(this.controler, Interface.input("Nom de votre dragon"), this.asker.askSex());
+            case "Kraken" -> Kraken.newBorn(this.controler, Interface.input("Nom de votre kraken"), this.asker.askSex());
+            case "Lycantropus" -> Lycantropus.newBorn(this.controler, Interface.input("Nom de votre loup garou"), this.asker.askSex());
+            case "Megalodon" -> Megalodon.newBorn(this.controler, Interface.input("Nom de votre mégalodon"), this.asker.askSex());
+            case "Mermaid" -> Mermaid.newBorn(this.controler, Interface.input("Nom de votre sirène"), this.asker.askSex());
+            case "Nymph" -> Nymph.newBorn(this.controler, Interface.input("Nom de votre nymphe"), this.asker.askSex());
+            case "Phenix" -> Phenix.newBorn(this.controler, Interface.input("Nom de votre phénix"), this.asker.askSex());
+            case "Unicorn" -> Unicorn.newBorn(this.controler, Interface.input("Nom de votre licorne"), this.asker.askSex());
             default -> this.createYourCreature();
         };
     }
