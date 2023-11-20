@@ -11,14 +11,12 @@ import View.Interface;
 public class Controler{
     private Zoo zoo;
     private Corral scope;
-    private Creator creator;
+    public static Controler instance = new Controler();
     public Controler()
     {
         super();
-        this.creator = new Creator(this);
-        this.zoo = this.creator.createYourZoo();
+        this.zoo = Creator.createYourZoo();
         this.scope = null;
-        this.options();
     }
     private Corral options()
     {
@@ -75,12 +73,12 @@ public class Controler{
     {
         if (this.scope == null)
         {
-            this.zoo.addCorral(this.creator.createYourCorral());
+            this.zoo.addCorral(Creator.createYourCorral());
             Interface.show("Vous avez inauguré un nouvel enclos");
         }
         else
         {
-            this.scope.addCreature(this.creator.createYourCreature());
+            this.scope.addCreature(Creator.createYourCreature());
             Interface.show("Vous avez ajouté une nouvelle créature");
         }
 

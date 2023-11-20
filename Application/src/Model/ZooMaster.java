@@ -1,8 +1,8 @@
 package Model;
 
+import Controler.Controler;
 import Controler.Zoo;
 import Model.Cooldown.Cooldown;
-import Model.Cooldown.CooldownType;
 import Model.Cooldown.Cooldownable;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
@@ -29,6 +29,7 @@ public class ZooMaster implements Runnable, Cooldownable {
     private Age age;
     private int actions;
     private int maxActions;
+    private Corral scope;
     /**
      * The class constructor
      *
@@ -81,7 +82,7 @@ public class ZooMaster implements Runnable, Cooldownable {
      */
     private void move(Creature creature, Corral corral, Zoo zoo)
     {
-        if(zoo.contains(creature) && corral.hasFreeSpace())
+        if(zoo.exists(creature) && corral.hasFreeSpace())
         {
             corral.addCreature(zoo.corralOf(creature).removeCreature(creature));
         }
@@ -99,7 +100,7 @@ public class ZooMaster implements Runnable, Cooldownable {
     public void run() {
         if(this.actions < this.maxActions)
         {
-            // allows the user to do an action
+            // do an action
         }
     }
     @Override

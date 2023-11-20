@@ -22,11 +22,10 @@ public class Zoo {
         this.corrals = new ArrayList<Corral>();
     }
     public static void main(String[] args) {
-        Controler controler = new Controler();
+        
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
-        System.out.println("Vous avez inauguré votre propre Zoo !");
         return new Zoo(name, zooMaster);
     }
     public String showCreatures()
@@ -56,7 +55,7 @@ public class Zoo {
                 "    " + this.zooMaster + "\n" +
                 "    " + this.showCreatures();
     }
-    public boolean contains(Creature creature)
+    public boolean exists(Creature creature)
     {
         for (Corral corral : this.corrals) {
             if (corral.contains(creature))
@@ -109,12 +108,22 @@ public class Zoo {
     {
         this.maxCorral += size;
     }
+    private boolean exists(Corral check)
+    {
+        for (Corral corral:this.corrals) {
+            if(corral.equals(check))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public void addCreature(Corral corral, Creature creature)
     {
-        // check if corral exists
-        // add the creature to the corral
-        // create a thread for the creature
-        Thread thread = new Thread(creature);
-        thread.start();
+        if (!this.exists(corral))
+        {
+            // Throw error
+        }
+        corral.addCreature(creature);
     }
 }

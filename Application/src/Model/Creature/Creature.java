@@ -17,10 +17,8 @@ public abstract class Creature implements Runnable{
     protected Hunger hunger;
     protected Fatigue fatigue;
     protected Health health;
-    private Controler controler;
-    protected Creature(Controler controler, String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
+    protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
-        this.controler = controler;
         this.name = name;
         this.sex = sex;
         this.weight = weight;
@@ -37,7 +35,7 @@ public abstract class Creature implements Runnable{
     protected abstract void age();
     protected void notification(Notification notification)
     {
-        this.controler.notification(notification, this);
+        Controler.instance.notification(notification, this);
     }
     @Override
     public String toString()

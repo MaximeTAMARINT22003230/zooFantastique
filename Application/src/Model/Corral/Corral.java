@@ -35,10 +35,13 @@ public class Corral {
     }
     public void addCreature(Creature creature)
     {
-        if (creature instanceof Run)
+        if (!(creature instanceof Run))
         {
-            this.creatures.add((Run) creature);
+            // Throw error
         }
+        this.creatures.add((Run) creature);
+        Thread thread = new Thread(creature);
+        thread.start();
     }
 
     public Creature removeCreature(Creature creature)

@@ -11,7 +11,7 @@ import java.util.Objects;
  */
 public class Asker
 {
-    public Sex askSex()
+    public static Sex askSex()
     {
         Sex sex = null;
         while (sex == null)
@@ -32,7 +32,7 @@ public class Asker
         }
         return sex;
     }
-    public Age askAge()
+    public static Age askAge()
     {
         return Age.ADULT;
         //TODO : Faire cette méthode

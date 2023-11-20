@@ -8,12 +8,12 @@ import Model.Creature.Caracteristic.*;
 import Model.Creature.Viviparian;
 
 public class Unicorn extends Viviparian implements Run {
-    private Unicorn(Controler controler, String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
-        super(controler, name, sex, weight, height, age, hunger, fatigue, health);
+    private Unicorn(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
+        super(name, sex, weight, height, age, hunger, fatigue, health);
     }
-    public static Unicorn newBorn(Controler controler, String name, Sex sex)
+    public static Unicorn newBorn(String name, Sex sex)
     {
-        return new Unicorn(controler, name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
+        return new Unicorn(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
     @Override
     protected void eat() {
