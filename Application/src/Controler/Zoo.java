@@ -109,4 +109,12 @@ public class Zoo {
     {
         this.maxCorral += size;
     }
+    public void addCreature(Corral corral, Creature creature)
+    {
+        // check if corral exists
+        // add the creature to the corral
+        // create a thread for the creature
+        Thread thread = new Thread(creature);
+        thread.start();
+    }
 }

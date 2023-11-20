@@ -1,6 +1,9 @@
 package Model;
 
 import Controler.Zoo;
+import Model.Cooldown.Cooldown;
+import Model.Cooldown.CooldownType;
+import Model.Cooldown.Cooldownable;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
@@ -10,7 +13,8 @@ import Model.Corral.Corral;
  * The ZooMaster class.
  * Represents the player as a ZooMaster which can interact with their zoo.
  */
-public class ZooMaster {
+public class ZooMaster implements Runnable, Cooldownable {
+    private final static int MAX = 5;
     /**
      * The name of the zoo master.
      */
@@ -23,6 +27,8 @@ public class ZooMaster {
      * The age of the zoo master.
      */
     private Age age;
+    private int actions;
+    private int maxActions;
     /**
      * The class constructor
      *
@@ -35,6 +41,8 @@ public class ZooMaster {
         this.name = name;
         this.sex = sex;
         this.age = age;
+        this.actions = 0;
+        this.maxActions = MAX;
     }
     /**
      * Allows you to get information about a given corral
@@ -85,5 +93,24 @@ public class ZooMaster {
                 "        Nom : " + this.name +  "\n" +
                 "        Sexe : " + this.sex + "\n" +
                 "        Age : " + this.age;
+    }
+
+    @Override
+    public void run() {
+        if(this.actions < this.maxActions)
+        {
+            // allows the user to do an action
+        }
+    }
+    @Override
+    public void cooldown(Cooldown cooldown) {
+        switch (cooldown.getType())
+        {
+            case REFRESH :
+                this.actions = 0;
+                break;
+            default:
+                // unknown cooldown type
+        }
     }
 }
