@@ -14,7 +14,7 @@ import View.Interface;
 public class Creator{
     private static ZooMaster createYourZooMaster()
     {
-        return new ZooMaster(Interface.input("Nom de votre maître de zoo"),Asker.askSex(),Asker.askAge());
+        return new ZooMaster(Interface.input("Nom de votre maître de zoo"),Asker.sex(),Asker.age());
     }
     public static Zoo createYourZoo()
     {
@@ -24,14 +24,14 @@ public class Creator{
     {
         return switch (Interface.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
                 "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
-            case "Dragon" -> Dragon.newBorn(Interface.input("Nom de votre dragon"), Asker.askSex());
-            case "Kraken" -> Kraken.newBorn(Interface.input("Nom de votre kraken"), Asker.askSex());
-            case "Lycantropus" -> Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), Asker.askSex());
-            case "Megalodon" -> Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), Asker.askSex());
-            case "Mermaid" -> Mermaid.newBorn(Interface.input("Nom de votre sirène"), Asker.askSex());
-            case "Nymph" -> Nymph.newBorn(Interface.input("Nom de votre nymphe"), Asker.askSex());
-            case "Phenix" -> Phenix.newBorn(Interface.input("Nom de votre phénix"), Asker.askSex());
-            case "Unicorn" -> Unicorn.newBorn(Interface.input("Nom de votre licorne"), Asker.askSex());
+            case "Dragon" -> Dragon.newBorn(Interface.input("Nom de votre dragon"), Asker.sex());
+            case "Kraken" -> Kraken.newBorn(Interface.input("Nom de votre kraken"), Asker.sex());
+            case "Lycantropus" -> Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), Asker.sex());
+            case "Megalodon" -> Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), Asker.sex());
+            case "Mermaid" -> Mermaid.newBorn(Interface.input("Nom de votre sirène"), Asker.sex());
+            case "Nymph" -> Nymph.newBorn(Interface.input("Nom de votre nymphe"), Asker.sex());
+            case "Phenix" -> Phenix.newBorn(Interface.input("Nom de votre phénix"), Asker.sex());
+            case "Unicorn" -> Unicorn.newBorn(Interface.input("Nom de votre licorne"), Asker.sex());
             default -> createYourCreature();
         };
     }

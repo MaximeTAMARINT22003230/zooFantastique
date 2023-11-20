@@ -1,7 +1,9 @@
 package Controler;
 
+import Model.Corral.Corral;
 import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
+import Model.Creature.Creature;
 import View.Interface;
 
 import java.util.Objects;
@@ -11,7 +13,7 @@ import java.util.Objects;
  */
 public class Asker
 {
-    public static Sex askSex()
+    public static Sex sex()
     {
         Sex sex = null;
         while (sex == null)
@@ -32,9 +34,19 @@ public class Asker
         }
         return sex;
     }
-    public static Age askAge()
+    public static Age age()
     {
-        return Age.ADULT;
-        //TODO : Faire cette méthode
+        // TODO : This method
+        return null;
+    }
+    public static Creature creature()
+    {
+        // TODO : This method
+        return null;
+    }
+    public static Corral corral()
+    {
+        // TODO : This method
+        return null;
     }
 }
