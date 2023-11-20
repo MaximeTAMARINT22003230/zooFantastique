@@ -1,7 +1,9 @@
 package Model.Corral;
 
-import Model.Creature.Behavior.Run;
+import Model.Creature.Behavior.*;
 import Model.Creature.Creature;
+import Model.Corral.Caracteristic.*;
+import Model.Creature.Creature.*
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,21 +12,17 @@ public class Corral {
     private static final int MAX = 5;
     protected String name;
     protected String size;
-
-    protected int number;
     protected int max;
+    protected int number;
     private List<Run> creatures;
-    protected String hygiene;
+    protected Hygiene hygiene;
     protected String food;
 
-    //degré de propreté
-    public enum  hygiene {
-        Bad, Correctly, Good
-    }
     protected Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
+        this.number = number;
         this.max = MAX;
         this.creatures = new ArrayList<Run>();
     }
@@ -33,8 +31,7 @@ public class Corral {
     {
         return new Corral(name, size);
     }
-    public String toString()
-    {
+    public String toString() {
         StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
         for (Run creature : this.creatures) {
             returnString.append(creature);
@@ -48,40 +45,40 @@ public class Corral {
         System.out.println("Nombre de créatures présentes : " + number);
         System.out.println("Propreté : " + hygiene);
         System.out.println("Créatures présentes :");
-        for (Creature creature : creatures) {
-            System.out.println("- " + creature.getName());
+        for (Run creature : creatures) {
+            System.out.println("- " + creature.getClass().getSimpleName());
 
         }
-        public void addCreature(Creature creature)
+    }
+    public void addCreature(Creature creature)
+    {
+        if (creatures instanceof Run)
         {
-            if (creature instanceof Run)
-            {
-                this.creatures.add((Run) creature);
-            }
-            if (number < max) {
-                number.add(creatures);
-                number++;
-                System.out.println(creatures.getNameEspece() + " a été ajouté au Corral.");
-            } else {
-                System.out.println("Le Corral est plein, impossible d'ajouter " + creatures.getNomEspece() + ".");
-            }
+            this.creatures.add((Run) creature);
         }
+        if (number < max) {
+            number.addCreature(creature);
+            number++;
+            System.out.println(creatures + " a été ajouté au Corral.");
+        } else {
+            System.out.println("Le Corral est plein, impossible d'ajouter " + creatures + ".");
+        }
+    }
 
-        public Creature removeCreature(Creature creature)
-        {
-            return (Creature) this.creatures.remove(this.creatures.indexOf((Run) creature));
-            if (creatures.remove(creatures)) {
-                number--;
-                System.out.println(creatures.getNomEspece() + " a été enlevé de l'enclos.");
-            } else {
-                System.out.println(creature.getNomEspece() + " n'est pas dans cet enclos.");
-            }
+    public Creature removeCreature(Creature creature)
+    {
+        return (Creature) this.creatures.remove(this.creatures.indexOf((Run) creature));
+        if (creatures.remove(creatures)) {
+            number--;
+            System.out.println(creatures.getEspece() + " a été enlevé de l'enclos.");
+        } else {
+            System.out.println(creatures.getNomEspece() + " n'est pas dans cet enclos.");
         }
-        public void clean()
-        {
-            hygiene= hygiene.Bon;
-            System.out.println("Le Corral a été nettoyé et est maintenant propre.");
-        }
+    }
+    public void clean()
+    {
+        hygiene= Hygiene.GOOD;
+        System.out.println("Le Corral a été nettoyé et est maintenant propre.");
     }
     public int count()
     {
@@ -89,7 +86,7 @@ public class Corral {
     }
     public void feed()
     {
-        for (Creature creature : creatures) {
+        for (Run creature : creatures) {
             creature.feed();
         }
         System.out.println("Les créatures du corral ont été nourries.");
