@@ -10,7 +10,6 @@ import Model.Creature.Creature;
 import Model.Corral.Corral;
 import View.Interface;
 import Controler.*;
-import Controler.Notification;
 
 /**
  * The ZooMaster class.
@@ -54,15 +53,10 @@ public class ZooMaster implements Cooldownable {
     {
         new Thread (new Cooldown(REFRESH_COOLDOWN, this, CooldownType.REFRESH));
     }
-    /**
-     * Allows you to get information about a given corral
-     *
-     * @param  corral  The corral you want to check
-     * @return         The corral's information
-     */
-    private String check(Corral corral)
+    private String check()
     {
-        return corral.toString();
+        // TODO : THis method
+        return null;
     }
     /**
      * Clean a corral.
@@ -120,11 +114,11 @@ public class ZooMaster implements Cooldownable {
     {
         if(this.scope == null)
         {
-            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out";
+            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out, Feed, Clean";
             switch (Interface.input(options))
             {
                 case "Zoom Out" :
-                    this.zoom();
+                    this.scope = null;
                     break;
                 case "Add" :
                     this.add();
@@ -134,6 +128,12 @@ public class ZooMaster implements Cooldownable {
                     break;
                 case "Move" :
                     this.move();
+                    break;
+                case "Feed" :
+                    this.feed(this.scope);
+                    break;
+                case "Clean" :
+                    this.clean(this.scope);
                     break;
                 default :
                     this.options();
@@ -148,7 +148,7 @@ public class ZooMaster implements Cooldownable {
                     this.zoom();
                     break;
                 case "Check" :
-                    this.remove();
+                    this.check();
                     break;
                 default :
                     this.options();

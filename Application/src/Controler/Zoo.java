@@ -22,7 +22,7 @@ public class Zoo {
         this.corrals = new ArrayList<Corral>();
     }
     public static void main(String[] args) {
-        
+
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
@@ -125,5 +125,9 @@ public class Zoo {
             // Throw error
         }
         corral.addCreature(creature);
+    }
+    public void removeCreature(Creature creature)
+    {
+        this.corralOf(creature).removeCreature(creature);
     }
 }

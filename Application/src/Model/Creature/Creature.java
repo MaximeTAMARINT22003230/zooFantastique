@@ -2,7 +2,6 @@ package Model.Creature;
 
 import Controler.Controler;
 import Model.Creature.Caracteristic.*;
-import Controler.Notification;
 
 /**
  * The creature abstract class. Contain anything common to all creatures.
@@ -33,10 +32,6 @@ public abstract class Creature implements Runnable{
     protected abstract void heal();
     protected abstract void sleep();
     protected abstract void age();
-    protected void notification(Notification notification)
-    {
-        Controler.instance.notification(notification, this);
-    }
     @Override
     public String toString()
     {
