@@ -1,7 +1,13 @@
 package Model.Creature;
 
+import Controler.Controler;
 import Model.Creature.Caracteristic.*;
+import Controler.Notification;
 
+/**
+ * The creature abstract class. Contain anything common to all creatures.
+ * Notify the controler when any change occures.
+ */
 public abstract class Creature implements Runnable{
     protected String name;
     protected Sex sex;
@@ -11,8 +17,10 @@ public abstract class Creature implements Runnable{
     protected Hunger hunger;
     protected Fatigue fatigue;
     protected Health health;
-    protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
+    private Controler controler;
+    protected Creature(Controler controler, String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
+        this.controler = controler;
         this.name = name;
         this.sex = sex;
         this.weight = weight;
@@ -27,6 +35,10 @@ public abstract class Creature implements Runnable{
     protected abstract void heal();
     protected abstract void sleep();
     protected abstract void age();
+    protected void notification(Notification notification)
+    {
+        this.controler.notification(notification, this);
+    }
     @Override
     public String toString()
     {

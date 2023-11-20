@@ -1,8 +1,13 @@
 package Controler;
 
 import Model.Corral.*;
+import Model.Creature.Creature;
 import View.Interface;
 
+/**
+ * The main controler of the app.
+ * Listening to anything happening in the zoo.
+ */
 public class Controler{
     private Zoo zoo;
     private Corral scope;
@@ -10,7 +15,7 @@ public class Controler{
     public Controler()
     {
         super();
-        this.creator = new Creator();
+        this.creator = new Creator(this);
         this.zoo = this.creator.createYourZoo();
         this.scope = null;
         this.options();
@@ -86,5 +91,18 @@ public class Controler{
         // SELECTIONNER LA CREATURE OU L'ENCLOS
         Interface.show("Vous supprimé une créature");
         this.options();
+    }
+    public void notification(Notification notification, Creature notificator)
+    {
+        switch (notification)
+        {
+            case KILL :
+                // kill the animal
+                break;
+            case DESTROY :
+                // destroy a corral
+            default:
+                // Unknown notification
+        }
     }
 }
