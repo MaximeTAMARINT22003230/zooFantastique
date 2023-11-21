@@ -130,4 +130,13 @@ public class Zoo {
     {
         this.corralOf(creature).removeCreature(creature);
     }
+    public List<Corral> getCorrals()
+    {
+        return this.corrals;
+    }
+    public List<Creature> getCreatures()
+    {
+        //TODO : this method
+        return null;
+    }
 }

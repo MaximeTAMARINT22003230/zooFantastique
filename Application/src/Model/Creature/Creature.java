@@ -32,6 +32,10 @@ public abstract class Creature implements Runnable{
     protected abstract void heal();
     protected abstract void sleep();
     protected abstract void age();
+    public String getName()
+    {
+        return this.name;
+    }
     @Override
     public String toString()
     {

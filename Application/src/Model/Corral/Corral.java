@@ -79,8 +79,22 @@ public class Corral {
     {
         return this.creatures.isEmpty();
     }
-
     public String getName() {
         return name;
+    }
+    public String showCreatures()
+    {
+        //TODO : this method
+        //TODO : implement this method in Aviary and Aquarium object
+        for (Run creature: this.creatures)
+        {
+
+        }
+        return null;
+    }
+    public List<Creature> getCreatures()
+    {
+        //TODO : This method
+        return null;
     }
 }

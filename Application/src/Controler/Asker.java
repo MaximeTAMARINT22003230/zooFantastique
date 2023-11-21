@@ -6,6 +6,7 @@ import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
 import View.Interface;
 
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -41,12 +42,38 @@ public class Asker
     }
     public static Creature creature()
     {
-        // TODO : This method
+        String input = Interface.input("Sélectionner nom de la créature :\n" + Controler.instance.zoo.showCreatures());
+        for (Creature creature: Controler.instance.zoo.getCreatures())
+        {
+            if(Objects.equals(input, creature.getName()))
+            {
+                return creature();
+            }
+        }
+        return null;
+    }
+    public static Creature creature(Corral corral)
+    {
+        String input = Interface.input("Sélectionner nom de la créature :\n" + corral.showCreatures());
+        for (Creature creature: (List<Creature>) corral.getCreatures())
+        {
+            if(Objects.equals(input, creature.getName()))
+            {
+                return creature();
+            }
+        }
         return null;
     }
     public static Corral corral()
     {
-        // TODO : This method
+        String input = Interface.input("Sélectionner nom de l'enclos :\n" + Controler.instance.zoo.corrals());
+        for (Corral corral: Controler.instance.zoo.getCorrals())
+        {
+            if(Objects.equals(input, corral.getName()))
+            {
+                return corral;
+            }
+        }
         return null;
     }
 }
