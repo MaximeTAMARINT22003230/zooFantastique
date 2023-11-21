@@ -14,6 +14,12 @@ public class Controler{
     public Controler()
     {
         this.zoo = Creator.createYourZoo();
+        this.zoo.zooMaster.options();
+    }
+    public static Controler start()
+    {
+        Controler.instance = new Controler();
+        return Controler.instance;
     }
     public void notification(String notification)
     {

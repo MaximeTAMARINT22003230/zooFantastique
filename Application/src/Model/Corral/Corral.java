@@ -75,6 +75,10 @@ public class Corral {
         }
         return false;
     }
+    public boolean empty()
+    {
+        return this.creatures.isEmpty();
+    }
 
     public String getName() {
         return name;

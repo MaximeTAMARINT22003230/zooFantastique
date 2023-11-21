@@ -11,7 +11,7 @@ import java.util.Objects;
 public class Zoo {
     private final int MAX = 5;
     private String name;
-    private ZooMaster zooMaster;
+    public ZooMaster zooMaster;
     private int maxCorral;
     private List<Corral> corrals;
     private Zoo(String name, ZooMaster zooMaster)
@@ -22,7 +22,7 @@ public class Zoo {
         this.corrals = new ArrayList<Corral>();
     }
     public static void main(String[] args) {
-
+        Controler.start();
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
