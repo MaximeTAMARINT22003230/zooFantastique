@@ -29,7 +29,7 @@ public class Corral {
     {
         StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
         for (Run creature : this.creatures) {
-            returnString.append(creature);
+            returnString.append(creature).append("\n");
         }
         return returnString.toString();
     }
@@ -37,8 +37,9 @@ public class Corral {
     {
         if (!(creature instanceof Run))
         {
-            // Throw error
+            // TODO : THROW ERROR
         }
+        assert creature instanceof Run;
         this.creatures.add((Run) creature);
         Thread thread = new Thread(creature);
         thread.start();

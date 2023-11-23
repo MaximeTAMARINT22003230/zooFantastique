@@ -22,7 +22,11 @@ public class Zoo {
         this.corrals = new ArrayList<Corral>();
     }
     public static void main(String[] args) {
-        Controler.start();
+        Controler.getInstance();
+        while(Controler.game)
+        {
+            Controler.getInstance().zoo.zooMaster.options();
+        }
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
@@ -53,7 +57,15 @@ public class Zoo {
         return this.name + "\n" +
                 "    Propriétaire du Zoo : " + "\n" +
                 "    " + this.zooMaster + "\n" +
-                "    " + this.showCreatures();
+                "    " + this.showCorrals();
+    }
+    private String showCorrals()
+    {
+        StringBuilder builder = new StringBuilder();
+        for (Corral corral: this.corrals) {
+            builder.append(corral.toString()).append("\n");
+        }
+        return String.valueOf(builder);
     }
     public boolean exists(Creature creature)
     {
@@ -77,7 +89,7 @@ public class Zoo {
     }
     public void addCorral(Corral corral)
     {
-        if(this.countCorrals() > maxCorral)
+        if(this.countCorrals() < maxCorral)
         {
             this.corrals.add(corral);
         }

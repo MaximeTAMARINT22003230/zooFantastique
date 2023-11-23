@@ -10,16 +10,20 @@ import View.Interface;
  */
 public class Controler{
     public Zoo zoo;
-    public static Controler instance = new Controler();
-    public Controler()
+    private static Controler instance;
+    public static boolean game;
+    private Controler()
     {
         this.zoo = Creator.createYourZoo();
-        this.zoo.zooMaster.options();
     }
-    public static Controler start()
+    public static Controler getInstance()
     {
-        Controler.instance = new Controler();
-        return Controler.instance;
+        if(instance == null)
+        {
+            game = true;
+            instance = new Controler();
+        }
+        return instance;
     }
     public void notification(String notification)
     {
