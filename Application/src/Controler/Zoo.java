@@ -3,6 +3,7 @@ package Controler;
 import Model.Creature.Creature;
 import Model.Corral.Corral;
 import Model.ZooMaster;
+import View.Interface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -148,7 +149,12 @@ public class Zoo {
     }
     public List<Creature> getCreatures()
     {
-        //TODO : this method
-        return null;
+        List<Creature> creatures = new ArrayList<>();
+        for (Corral corral: this.corrals)
+        {
+            Interface.show(corral.toString());
+            creatures.addAll(corral.getCreatures());
+        }
+        return creatures;
     }
 }
