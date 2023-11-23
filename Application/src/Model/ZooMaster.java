@@ -163,7 +163,7 @@ public class ZooMaster implements Cooldownable {
             {
                 return;
             }
-            Controler.getInstance().addCreature(Creator.createYourCreature(), this.scope);
+            Controler.getInstance().addCreature(Creator.createYourCreature(this.scope), this.scope);
         }
     }
     private void remove()
