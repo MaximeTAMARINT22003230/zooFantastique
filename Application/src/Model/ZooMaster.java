@@ -1,6 +1,5 @@
 package Model;
 
-
 import Model.Cooldown.Cooldown;
 import Model.Cooldown.CooldownType;
 import Model.Cooldown.Cooldownable;
@@ -11,14 +10,8 @@ import Model.Corral.Corral;
 import View.Interface;
 import Controler.*;
 
-import javax.naming.ldap.Control;
-
-/**
- * The ZooMaster class.
- * Represents the player as a ZooMaster which can interact with their zoo.
- */
 public class ZooMaster implements Cooldownable {
-    private final static int REFRESH_COOLDOWN = 5000;
+    private final static int REFRESH_COOLDOWN = 100;
     private final static int MAX = 5;
     private String name;
     private Sex sex;
@@ -44,11 +37,11 @@ public class ZooMaster implements Cooldownable {
     {
         if(this.scope == null)
         {
-            Controler.instance.notification(Controler.instance.zoo.toString());
+            Controler.getInstance().notification(Controler.getInstance().zoo.toString());
         }
         else
         {
-            Controler.instance.notification(this.scope.toString());
+            Controler.getInstance().notification(this.scope.toString());
         }
     }
     private void clean()
@@ -74,7 +67,7 @@ public class ZooMaster implements Cooldownable {
             case REFRESH :
                 this.actions = 0;
                 this.refreshCooldown();
-                Controler.instance.notification("Actions rafraichies");
+                Controler.getInstance().notification("Actions rafraichies");
                 break;
             default:
                 // unknown cooldown type
@@ -86,9 +79,10 @@ public class ZooMaster implements Cooldownable {
         {
             return;
         }
-        if(this.scope == null)
+        Interface.show("Actions restantes : " + (this.maxActions - this.actions));
+        if(this.scope != null)
         {
-            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out, Feed, Clean";
+            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out, Feed, Clean, Check";
             switch (Interface.input(options))
             {
                 case "Zoom Out" :
@@ -109,14 +103,16 @@ public class ZooMaster implements Cooldownable {
                 case "Clean" :
                     this.clean();
                     break;
+                case "Check" :
+                    this.check();
+                    break;
                 default :
-                    this.options();
                     return;
             }
         }
         else
         {
-            String options = "Que voulez vous faire ? \n Zoom, Check";
+            String options = "Que voulez vous faire ? \n Zoom, Check, Add";
             switch (Interface.input(options))
             {
                 case "Zoom" :
@@ -125,8 +121,10 @@ public class ZooMaster implements Cooldownable {
                 case "Check" :
                     this.check();
                     break;
+                case "Add" :
+                    this.add();
+                    break;
                 default :
-                    this.options();
                     return;
             }
         }
@@ -139,12 +137,12 @@ public class ZooMaster implements Cooldownable {
         Corral corral = Asker.corral();
         if(corral.hasFreeSpace())
         {
-            Controler.instance.removeCreature(creature);
-            Controler.instance.addCreature(creature, corral);
+            Controler.getInstance().removeCreature(creature);
+            Controler.getInstance().addCreature(creature, corral);
         }
         else
         {
-            Controler.instance.notification("Cet enclos est plein");
+            Controler.getInstance().notification("Cet enclos est plein");
         }
     }
     private void zoom()
@@ -155,11 +153,11 @@ public class ZooMaster implements Cooldownable {
     {
         if (this.scope == null)
         {
-            Controler.instance.addCorral(Creator.createYourCorral());
+            Controler.getInstance().addCorral(Creator.createYourCorral());
         }
         else
         {
-            Controler.instance.addCreature(Creator.createYourCreature(), this.scope);
+            Controler.getInstance().addCreature(Creator.createYourCreature(), this.scope);
         }
     }
     private void remove()
@@ -169,17 +167,17 @@ public class ZooMaster implements Cooldownable {
             Corral corral = Asker.corral();
             if(corral.empty())
             {
-                Controler.instance.removeCorral(corral);
+                Controler.getInstance().removeCorral(corral);
             }
             else
             {
-                Controler.instance.notification("Cet enclos n'est pas vide");
+                Controler.getInstance().notification("Cet enclos n'est pas vide");
             }
         }
         else
         {
             Creature creature = Asker.creature();
-            Controler.instance.removeCreature(creature);
+            Controler.getInstance().removeCreature(creature);
         }
     }
 }

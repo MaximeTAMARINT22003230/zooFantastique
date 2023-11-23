@@ -42,8 +42,8 @@ public class Asker
     }
     public static Creature creature()
     {
-        String input = Interface.input("Sélectionner nom de la créature :\n" + Controler.instance.zoo.showCreatures());
-        for (Creature creature: Controler.instance.zoo.getCreatures())
+        String input = Interface.input("Sélectionner nom de la créature :\n" + Controler.getInstance().zoo.showCreatures());
+        for (Creature creature: Controler.getInstance().zoo.getCreatures())
         {
             if(Objects.equals(input, creature.getName()))
             {
@@ -55,7 +55,7 @@ public class Asker
     public static Creature creature(Corral corral)
     {
         String input = Interface.input("Sélectionner nom de la créature :\n" + corral.showCreatures());
-        for (Creature creature: (List<Creature>) corral.getCreatures())
+        for (Creature creature: corral.getCreatures())
         {
             if(Objects.equals(input, creature.getName()))
             {
@@ -66,8 +66,8 @@ public class Asker
     }
     public static Corral corral()
     {
-        String input = Interface.input("Sélectionner nom de l'enclos :\n" + Controler.instance.zoo.corrals());
-        for (Corral corral: Controler.instance.zoo.getCorrals())
+        String input = Interface.input("Sélectionner nom de l'enclos :\n" + Controler.getInstance().zoo.corrals());
+        for (Corral corral: Controler.getInstance().zoo.getCorrals())
         {
             if(Objects.equals(input, corral.getName()))
             {
