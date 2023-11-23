@@ -11,7 +11,7 @@ import View.Interface;
 import Controler.*;
 
 public class ZooMaster implements Cooldownable {
-    private final static int REFRESH_COOLDOWN = 100;
+    private final static int REFRESH_COOLDOWN = 99999;
     private final static int MAX = 5;
     private String name;
     private Sex sex;
@@ -31,7 +31,7 @@ public class ZooMaster implements Cooldownable {
     }
     private void refreshCooldown()
     {
-        new Thread (new Cooldown(REFRESH_COOLDOWN, this, CooldownType.REFRESH));
+        new Cooldown(REFRESH_COOLDOWN, this, CooldownType.REFRESH);
     }
     private void check()
     {
@@ -67,7 +67,6 @@ public class ZooMaster implements Cooldownable {
             case REFRESH :
                 this.actions = 0;
                 this.refreshCooldown();
-                Controler.getInstance().notification("Actions rafraichies");
                 break;
             default:
                 // unknown cooldown type
@@ -82,10 +81,10 @@ public class ZooMaster implements Cooldownable {
         Interface.show("Actions restantes : " + (this.maxActions - this.actions));
         if(this.scope != null)
         {
-            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out, Feed, Clean, Check";
+            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoomout, Feed, Clean, Check";
             switch (Interface.input(options))
             {
-                case "Zoom Out" :
+                case "Zoomout" :
                     this.scope = null;
                     break;
                 case "Add" :
@@ -112,7 +111,7 @@ public class ZooMaster implements Cooldownable {
         }
         else
         {
-            String options = "Que voulez vous faire ? \n Zoom, Check, Add";
+            String options = "Que voulez vous faire ? \n Zoom, Check, Add, Remove";
             switch (Interface.input(options))
             {
                 case "Zoom" :
@@ -123,6 +122,9 @@ public class ZooMaster implements Cooldownable {
                     break;
                 case "Add" :
                     this.add();
+                    break;
+                case "Remove" :
+                    this.remove();
                     break;
                 default :
                     return;
@@ -157,6 +159,10 @@ public class ZooMaster implements Cooldownable {
         }
         else
         {
+            if(!this.scope.hasFreeSpace())
+            {
+                return;
+            }
             Controler.getInstance().addCreature(Creator.createYourCreature(), this.scope);
         }
     }

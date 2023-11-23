@@ -8,6 +8,8 @@ public class Cooldown implements Runnable{
     {
         this.cooldown = cooldown;
         this.caller = caller;
+        this.type = type;
+        new Thread(this).start();
     }
     @Override
     public void run() {
@@ -18,7 +20,6 @@ public class Cooldown implements Runnable{
         }
         this.caller.cooldown(this);
     }
-
     public CooldownType getType() {
         return type;
     }
