@@ -8,6 +8,8 @@ import Model.Creature.Creature;
 import Model.ZooMaster;
 import View.Interface;
 
+import java.util.Objects;
+
 /**
  * One of the app's controler. Used when the user need to create an object
  */
@@ -20,20 +22,59 @@ public class Creator{
     {
         return Zoo.opening(Interface.input("Nom de votre Zoo"), createYourZooMaster());
     }
-    public static Creature createYourCreature()
+    public static Creature createYourCreature(Corral corral)
     {
-        return switch (Interface.input("Quel créature voulez vous faire naître ? Dragon, Kraken, Lycantropus, " +
-                "Megalodon, Mermaid, Nymph, Phenix, Unicorn")) {
-            case "Dragon" -> Dragon.newBorn(Interface.input("Nom de votre dragon"), Asker.sex());
-            case "Kraken" -> Kraken.newBorn(Interface.input("Nom de votre kraken"), Asker.sex());
-            case "Lycantropus" -> Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), Asker.sex());
-            case "Megalodon" -> Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), Asker.sex());
-            case "Mermaid" -> Mermaid.newBorn(Interface.input("Nom de votre sirène"), Asker.sex());
-            case "Nymph" -> Nymph.newBorn(Interface.input("Nom de votre nymphe"), Asker.sex());
-            case "Phenix" -> Phenix.newBorn(Interface.input("Nom de votre phénix"), Asker.sex());
-            case "Unicorn" -> Unicorn.newBorn(Interface.input("Nom de votre licorne"), Asker.sex());
-            default -> createYourCreature();
-        };
+        String type = corral.getClass().getSimpleName();
+        String builder = "Quelle créature voulez-vous faire naître ? Dragon, ";
+        if(type.equals("Corral"))
+        {
+            builder += "Lycantropus, Nymph, Unicorn";
+        }
+        else if (type.equals("Aquarium"))
+        {
+            builder += "Kraken, Megalodon, Mermaid";
+        }
+        else
+        {
+            builder += "Phenix";
+        }
+        String choice = Interface.input(builder);
+        if (Objects.equals(choice, "Dragon"))
+        {
+            return Dragon.newBorn(Interface.input("Nom de votre dragon"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Kraken") && type.equals("Aquarium"))
+        {
+            return Kraken.newBorn(Interface.input("Nom de votre kraken"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Lycantropus") && type.equals("Corral"))
+        {
+            return Lycantropus.newBorn(Interface.input("Nom de votre loup garou"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Megalodon") && type.equals("Aquarium"))
+        {
+            return Megalodon.newBorn(Interface.input("Nom de votre mégalodon"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Mermaid") && type.equals("Aquarium"))
+        {
+            return Mermaid.newBorn(Interface.input("Nom de votre sirène"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Nymph") && type.equals("Corral"))
+        {
+            return Nymph.newBorn(Interface.input("Nom de votre nymphe"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Phenix") && type.equals("Aviary"))
+        {
+            return Phenix.newBorn(Interface.input("Nom de votre phénix"), Asker.sex());
+        }
+        else if (Objects.equals(choice, "Unicorn") && type.equals("Corral"))
+        {
+            return Unicorn.newBorn(Interface.input("Nom de votre licorne"), Asker.sex());
+        }
+        else
+        {
+            return createYourCreature(corral);
+        }
     }
     public static Corral createYourCorral()
     {
