@@ -18,6 +18,15 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
 
     @Override
     public void run() {
+        while (true){
+            System.out.println("cc");;
+            age();
 
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 }

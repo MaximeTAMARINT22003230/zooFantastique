@@ -92,7 +92,7 @@ public class Zoo {
     }
     public void addCorral(Corral corral)
     {
-        if(this.countCorrals() < maxCorral)
+        if(this.countCorrals() > maxCorral)
         {
             this.corrals.add(corral);
         }
