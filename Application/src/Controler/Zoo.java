@@ -14,7 +14,7 @@ import java.util.Objects;
 public class Zoo {
     private final int MAX = 5;
     private String name;
-    private ZooMaster zooMaster;
+    public ZooMaster zooMaster;
     private int maxCorral;
     private List<Corral> corrals;
     private Zoo(String name, ZooMaster zooMaster)
@@ -25,11 +25,10 @@ public class Zoo {
         this.corrals = new ArrayList<Corral>();
     }
     public static void main(String[] args) {
-        Controler controler = new Controler();
+        Controler.start();
     }
     public static Zoo opening(String name, ZooMaster zooMaster)
     {
-        System.out.println("Vous avez inauguré votre propre Zoo !");
         return new Zoo(name, zooMaster);
     }
     public String showCreatures()
@@ -59,7 +58,7 @@ public class Zoo {
                 "    " + this.zooMaster + "\n" +
                 "    " + this.showCreatures();
     }
-    public boolean contains(Creature creature)
+    public boolean exists(Creature creature)
     {
         for (Corral corral : this.corrals) {
             if (corral.contains(creature))
@@ -112,12 +111,35 @@ public class Zoo {
     {
         this.maxCorral += size;
     }
+    private boolean exists(Corral check)
+    {
+        for (Corral corral:this.corrals) {
+            if(corral.equals(check))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
     public void addCreature(Corral corral, Creature creature)
     {
-        // check if corral exists
-        // add the creature to the corral
-        // create a thread for the creature
-        Thread thread = new Thread(creature);
-        thread.start();
+        if (!this.exists(corral))
+        {
+            // Throw error
+        }
+        corral.addCreature(creature);
+    }
+    public void removeCreature(Creature creature)
+    {
+        this.corralOf(creature).removeCreature(creature);
+    }
+    public List<Corral> getCorrals()
+    {
+        return this.corrals;
+    }
+    public List<Creature> getCreatures()
+    {
+        //TODO : this method
+        return null;
     }
 }

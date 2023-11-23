@@ -1,6 +1,6 @@
 package Model;
 
-import Controler.Zoo;
+
 import Model.Cooldown.Cooldown;
 import Model.Cooldown.CooldownType;
 import Model.Cooldown.Cooldownable;
@@ -8,34 +8,24 @@ import Model.Creature.Caracteristic.Age;
 import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
 import Model.Corral.Corral;
+import View.Interface;
+import Controler.*;
+
+import javax.naming.ldap.Control;
 
 /**
  * The ZooMaster class.
  * Represents the player as a ZooMaster which can interact with their zoo.
  */
-public class ZooMaster implements Runnable, Cooldownable {
+public class ZooMaster implements Cooldownable {
+    private final static int REFRESH_COOLDOWN = 5000;
     private final static int MAX = 5;
-    /**
-     * The name of the zoo master.
-     */
     private String name;
-    /**
-     * The sex of the zoo master.
-     */
     private Sex sex;
-    /**
-     * The age of the zoo master.
-     */
     private Age age;
     private int actions;
     private int maxActions;
-    /**
-     * The class constructor
-     *
-     * @param  name  Your name
-     * @param  sex   Your sex
-     * @param  age   Your age
-     */
+    private Corral scope;
     public ZooMaster(String name, Sex sex, Age age)
     {
         this.name = name;
@@ -43,48 +33,31 @@ public class ZooMaster implements Runnable, Cooldownable {
         this.age = age;
         this.actions = 0;
         this.maxActions = MAX;
+        this.scope = null;
+        this.refreshCooldown();
     }
-    /**
-     * Allows you to get information about a given corral
-     *
-     * @param  corral  The corral you want to check
-     * @return         The corral's information
-     */
-    private String check(Corral corral)
+    private void refreshCooldown()
     {
-        return corral.toString();
+        new Thread (new Cooldown(REFRESH_COOLDOWN, this, CooldownType.REFRESH));
     }
-    /**
-     * Clean a corral.
-     *
-     * @param  corral  The corral you want to clean
-     */
-    private void clean(Corral corral)
+    private void check()
     {
-        corral.clean();
-    }
-    /**
-     * Refill the food supplies of a corral.
-     *
-     * @param  corral  The corral you want to refill
-     */
-    private void feed(Corral corral)
-    {
-        corral.feed();
-    }
-    /**
-     * Move a creature to a new corral
-     *
-     * @param  creature     The creature to move
-     * @param  corral       The creature's new home
-     * @param  zoo          Your current zoo
-     */
-    private void move(Creature creature, Corral corral, Zoo zoo)
-    {
-        if(zoo.contains(creature) && corral.hasFreeSpace())
+        if(this.scope == null)
         {
-            corral.addCreature(zoo.corralOf(creature).removeCreature(creature));
+            Controler.instance.notification(Controler.instance.zoo.toString());
         }
+        else
+        {
+            Controler.instance.notification(this.scope.toString());
+        }
+    }
+    private void clean()
+    {
+        this.scope.clean();
+    }
+    private void feed()
+    {
+        this.scope.feed();
     }
     @Override
     public String toString()
@@ -94,23 +67,119 @@ public class ZooMaster implements Runnable, Cooldownable {
                 "        Sexe : " + this.sex + "\n" +
                 "        Age : " + this.age;
     }
-
-    @Override
-    public void run() {
-        if(this.actions < this.maxActions)
-        {
-            // allows the user to do an action
-        }
-    }
     @Override
     public void cooldown(Cooldown cooldown) {
         switch (cooldown.getType())
         {
             case REFRESH :
                 this.actions = 0;
+                this.refreshCooldown();
+                Controler.instance.notification("Actions rafraichies");
                 break;
             default:
                 // unknown cooldown type
+        }
+    }
+    public void options()
+    {
+        if(this.actions >= this.maxActions)
+        {
+            return;
+        }
+        if(this.scope == null)
+        {
+            String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom Out, Feed, Clean";
+            switch (Interface.input(options))
+            {
+                case "Zoom Out" :
+                    this.scope = null;
+                    break;
+                case "Add" :
+                    this.add();
+                    break;
+                case "Remove" :
+                    this.remove();
+                    break;
+                case "Move" :
+                    this.move();
+                    break;
+                case "Feed" :
+                    this.feed();
+                    break;
+                case "Clean" :
+                    this.clean();
+                    break;
+                default :
+                    this.options();
+                    return;
+            }
+        }
+        else
+        {
+            String options = "Que voulez vous faire ? \n Zoom, Check";
+            switch (Interface.input(options))
+            {
+                case "Zoom" :
+                    this.zoom();
+                    break;
+                case "Check" :
+                    this.check();
+                    break;
+                default :
+                    this.options();
+                    return;
+            }
+        }
+        this.actions += 1;
+        this.options();
+    }
+    private void move()
+    {
+        Creature creature = Asker.creature();
+        Corral corral = Asker.corral();
+        if(corral.hasFreeSpace())
+        {
+            Controler.instance.removeCreature(creature);
+            Controler.instance.addCreature(creature, corral);
+        }
+        else
+        {
+            Controler.instance.notification("Cet enclos est plein");
+        }
+    }
+    private void zoom()
+    {
+        this.scope = Asker.corral();
+    }
+    private void add()
+    {
+        if (this.scope == null)
+        {
+            Controler.instance.addCorral(Creator.createYourCorral());
+        }
+        else
+        {
+            Controler.instance.addCreature(Creator.createYourCreature(), this.scope);
+        }
+    }
+    private void remove()
+    {
+        if(this.scope == null)
+        {
+            Corral corral = Asker.corral();
+            if(corral.empty())
+            {
+                Controler.instance.removeCorral(corral);
+            }
+            else
+            {
+                Controler.instance.notification("Cet enclos n'est pas vide");
+            }
+        }
+        else
+        {
+            Creature creature = Asker.creature();
+            Controler.instance.removeCreature(creature);
         }
     }
 }

@@ -35,10 +35,13 @@ public class Corral {
     }
     public void addCreature(Creature creature)
     {
-        if (creature instanceof Run)
+        if (!(creature instanceof Run))
         {
-            this.creatures.add((Run) creature);
+            // Throw error
         }
+        this.creatures.add((Run) creature);
+        Thread thread = new Thread(creature);
+        thread.start();
     }
 
     public Creature removeCreature(Creature creature)
@@ -72,8 +75,26 @@ public class Corral {
         }
         return false;
     }
-
+    public boolean empty()
+    {
+        return this.creatures.isEmpty();
+    }
     public String getName() {
         return name;
+    }
+    public String showCreatures()
+    {
+        //TODO : this method
+        //TODO : implement this method in Aviary and Aquarium object
+        for (Run creature: this.creatures)
+        {
+
+        }
+        return null;
+    }
+    public List<Creature> getCreatures()
+    {
+        //TODO : This method
+        return null;
     }
 }

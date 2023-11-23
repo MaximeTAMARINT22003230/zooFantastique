@@ -9,100 +9,40 @@ import View.Interface;
  * Listening to anything happening in the zoo.
  */
 public class Controler{
-    private Zoo zoo;
-    private Corral scope;
-    private Creator creator;
+    public Zoo zoo;
+    public static Controler instance = new Controler();
     public Controler()
     {
-        super();
-        this.creator = new Creator(this);
-        this.zoo = this.creator.createYourZoo();
-        this.scope = null;
-        this.options();
+        this.zoo = Creator.createYourZoo();
+        this.zoo.zooMaster.options();
     }
-    private Corral options()
+    public static Controler start()
     {
-        if(this.scope == null)
-        {
-            // Vue générale
-        }
-        else
-        {
-            // Vue sur un enclos spécifique
-        }
-        String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoom";
-        switch (Interface.input(options))
-        {
-            case "Zoom" :
-                this.zoom();
-                break;
-            case "Add" :
-                this.add();
-                break;
-            case "Remove" :
-                this.remove();
-                break;
-            case "Move" :
-                this.move();
-                break;
-            default :
-                this.options();
-        }
-        return null;
+        Controler.instance = new Controler();
+        return Controler.instance;
     }
-    private void move()
+    public void notification(String notification)
     {
-        // UN : Sélectionner une créature
-        // DEUX : Sélectionner son nouvel enclos
-        Interface.show("Vous déplacez une créature");
-        this.options();
+        Interface.show(notification);
     }
-    private void zoom()
+    public void addCreature(Creature creature, Corral corral)
     {
-        switch (Interface.input("Où voulez-vous aller ? " + this.zoo.corrals()))
-        {
-            case "quelque part" :
-                // Set this.scope à l'enclos en question
-                Interface.show("Vous vous approchez d'un enclos");
-                break;
-            default :
-                Interface.show("Vous retournez à l'entrée du zoo");
-                this.scope = null;
-        }
-        this.options();
+        this.zoo.addCreature(corral, creature);
+        Interface.show("Vous avez accueilli une nouvelle créature");
     }
-    private void add()
+    public void addCorral(Corral corral)
     {
-        if (this.scope == null)
-        {
-            this.zoo.addCorral(this.creator.createYourCorral());
-            Interface.show("Vous avez inauguré un nouvel enclos");
-        }
-        else
-        {
-            this.scope.addCreature(this.creator.createYourCreature());
-            Interface.show("Vous avez ajouté une nouvelle créature");
-        }
-
-        this.options();
+        this.zoo.addCorral(corral);
+        Interface.show("Vous avez inauguré un nouvel enclos");
     }
-    private void remove()
+    public void removeCreature(Creature creature)
     {
-        // SELECTIONNER LA CREATURE OU L'ENCLOS
-        Interface.show("Vous supprimé une créature");
-        this.options();
+        this.zoo.removeCreature(creature);
+        Interface.show("Vous avez tué une créature...");
     }
-    public void notification(Notification notification, Creature notificator)
+    public void removeCorral(Corral corral)
     {
-        switch (notification)
-        {
-            case KILL :
-                // kill the animal
-                break;
-            case DESTROY :
-                // destroy a corral
-            default:
-                // Unknown notification
-        }
+        this.zoo.removeCorral(corral);
+        Interface.show("Vous avez explosé un enclos...");
     }
 }
