@@ -15,34 +15,10 @@ public class Mermaid extends Viviparian implements Swim {
     {
         return new Mermaid(controler, name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-    @Override
-    protected void eat() {
-
-    }
-
-    @Override
-    protected void shout() {
-
-    }
-
-    @Override
-    protected void heal() {
-
-    }
-
-    @Override
-    protected void sleep() {
-
-    }
-
-    @Override
-    protected void age() {
-
-    }
 
     @Override
     public void run() {
 
-
     }
+
 }

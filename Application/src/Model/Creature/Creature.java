@@ -30,11 +30,22 @@ public abstract class Creature implements Runnable{
         this.fatigue = fatigue;
         this.health = health;
     }
-    protected abstract void eat();
-    protected abstract void shout();
-    protected abstract void heal();
-    protected abstract void sleep();
-    protected abstract void age();
+    protected void eat(){
+        hunger = hunger.eat();
+    }
+    // notification pour dire je cris ?
+    protected void shout(){
+        System.out.println(this.name+" émet un son ("+this.getClass()+")");
+    }
+    protected void heal(){
+        health = health.heal();
+    }
+    protected void sleep(){
+        fatigue = fatigue.sleep();
+    }
+    protected void age() {
+        age = age.gettingOder();
+    };
     protected void notification(Notification notification)
     {
         this.controler.notification(notification, this);

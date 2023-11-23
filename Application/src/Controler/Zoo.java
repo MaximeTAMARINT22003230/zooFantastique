@@ -1,7 +1,10 @@
 package Controler;
 
+import Model.Creature.Bestiary.Dragon;
+import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
 import Model.Corral.Corral;
+import Model.DiceRoll;
 import Model.ZooMaster;
 
 import java.util.ArrayList;
