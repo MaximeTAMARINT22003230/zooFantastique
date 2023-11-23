@@ -2,6 +2,7 @@ package Model.Corral;
 
 import Model.Creature.Behavior.Run;
 import Model.Creature.Creature;
+import View.Interface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,8 +29,12 @@ public class Corral {
     public String toString()
     {
         StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
-        for (Run creature : this.creatures) {
-            returnString.append(creature).append("\n");
+        ArrayList<Creature> creatures = new ArrayList<>();
+        for (Run run : this.creatures) {
+            creatures.add((Creature) run);
+        }
+        for (Creature creature : creatures) {
+            returnString.append(creature.getName()).append("\n");
         }
         return returnString.toString();
     }
@@ -83,19 +88,13 @@ public class Corral {
     public String getName() {
         return name;
     }
-    public String showCreatures()
-    {
-        //TODO : this method
-        //TODO : implement this method in Aviary and Aquarium object
-        for (Run creature: this.creatures)
-        {
-
-        }
-        return null;
-    }
     public List<Creature> getCreatures()
     {
-        //TODO : This method
-        return null;
+        List<Creature> creatures = new ArrayList<>();
+        for (Run creature : this.creatures) {
+            creatures.add((Creature) creature);
+        }
+        Interface.show(creatures.toString());
+        return creatures;
     }
 }

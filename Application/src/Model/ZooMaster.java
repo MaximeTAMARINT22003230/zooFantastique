@@ -11,7 +11,7 @@ import View.Interface;
 import Controler.*;
 
 public class ZooMaster implements Cooldownable {
-    private final static int REFRESH_COOLDOWN = 99999;
+    private final static int REFRESH_COOLDOWN = 9999;
     private final static int MAX = 5;
     private String name;
     private Sex sex;
@@ -37,10 +37,12 @@ public class ZooMaster implements Cooldownable {
     {
         if(this.scope == null)
         {
+            // Show the zoo and the corrals
             Controler.getInstance().notification(Controler.getInstance().zoo.toString());
         }
         else
         {
+            // Show the corral and the creatures
             Controler.getInstance().notification(this.scope.toString());
         }
     }
@@ -76,6 +78,12 @@ public class ZooMaster implements Cooldownable {
     {
         if(this.actions >= this.maxActions)
         {
+            Interface.show("Vous êtes fatigué, attendez un peu...");
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             return;
         }
         Interface.show("Actions restantes : " + (this.maxActions - this.actions));
@@ -182,7 +190,8 @@ public class ZooMaster implements Cooldownable {
         }
         else
         {
-            Creature creature = Asker.creature();
+            Creature creature = Asker.creature(this.scope);
+            Interface.show(creature.toString());
             Controler.getInstance().removeCreature(creature);
         }
     }

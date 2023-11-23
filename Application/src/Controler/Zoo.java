@@ -1,5 +1,7 @@
 package Controler;
 
+import Model.Creature.Bestiary.Dragon;
+import Model.Creature.Caracteristic.Sex;
 import Model.Creature.Creature;
 import Model.Corral.Corral;
 import Model.ZooMaster;
@@ -58,7 +60,15 @@ public class Zoo {
         return this.name + "\n" +
                 "    Propriétaire du Zoo : " + "\n" +
                 "    " + this.zooMaster + "\n" +
-                "    " + this.showCorrals();
+                "    " + this.showOnlyCorrals();
+    }
+    private String showOnlyCorrals()
+    {
+        StringBuilder builder = new StringBuilder();
+        for (Corral corral: this.corrals) {
+            builder.append(corral.getClass().getSimpleName()).append(corral.getName()).append("\n");
+        }
+        return String.valueOf(builder);
     }
     private String showCorrals()
     {
@@ -141,7 +151,14 @@ public class Zoo {
     }
     public void removeCreature(Creature creature)
     {
-        this.corralOf(creature).removeCreature(creature);
+        if(exists(creature))
+        {
+            this.corralOf(creature).removeCreature(creature);
+        }
+        else
+        {
+            Interface.show("La créature n'existe pas");
+        }
     }
     public List<Corral> getCorrals()
     {
@@ -152,8 +169,10 @@ public class Zoo {
         List<Creature> creatures = new ArrayList<>();
         for (Corral corral: this.corrals)
         {
-            Interface.show(corral.toString());
-            creatures.addAll(corral.getCreatures());
+            for (Creature creature : corral.getCreatures())
+            {
+                creatures.add(creature);
+            }
         }
         return creatures;
     }

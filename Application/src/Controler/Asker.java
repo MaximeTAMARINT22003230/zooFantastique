@@ -54,7 +54,7 @@ public class Asker
     }
     public static Creature creature(Corral corral)
     {
-        String input = Interface.input("Sélectionner nom de la créature :\n" + corral.showCreatures());
+        String input = Interface.input("Sélectionner nom de la créature :\n" + corral);
         for (Creature creature: corral.getCreatures())
         {
             if(Objects.equals(input, creature.getName()))
