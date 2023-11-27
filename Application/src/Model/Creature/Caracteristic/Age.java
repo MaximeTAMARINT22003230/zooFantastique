@@ -1,5 +1,7 @@
 package Model.Creature.Caracteristic;
 
+import Controler.Controler;
+
 public enum Age {
     BABY, CHILD, TEEN, ADULT, ELDER;
 
@@ -8,6 +10,7 @@ public enum Age {
      */
     public Age gettingOder() {
         if (ordinal() < values().length-1) {
+            Controler.getInstance().notification("prend de l'age");
             return values()[ordinal()+1];
         }
         else {

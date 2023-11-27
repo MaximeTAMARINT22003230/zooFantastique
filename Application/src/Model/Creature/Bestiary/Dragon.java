@@ -6,6 +6,7 @@ import Model.Creature.Behavior.Run;
 import Model.Creature.Behavior.Swim;
 import Model.Creature.Caracteristic.*;
 import Model.Creature.Oviparian;
+import Model.DiceRoll;
 
 public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     private Dragon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
@@ -19,11 +20,23 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     @Override
     public void run() {
         while (true){
-            System.out.println("cc");;
-            age();
+            int randomAction = DiceRoll.d100();
+
+            if (randomAction <= 20)
+                shout();
+            if (randomAction <= 60 && randomAction >= 15)
+                age();
+            if (randomAction <= 70 && randomAction >= 35)
+                age();
+            if (randomAction <= 80 && randomAction >= 55)
+                age();
+            if (randomAction <= 90 && randomAction >= 75)
+                age();
+            if (randomAction <= 100 && randomAction >= 85)
+                age();
 
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

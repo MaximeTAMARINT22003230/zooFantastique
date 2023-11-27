@@ -14,4 +14,13 @@ public enum Health {
             return values()[ordinal()];
         }
     }
+
+    public Health loseHealth() {
+        if (ordinal() > 0) {
+            return values()[ordinal()-1];
+        }
+        else {
+            return values()[ordinal()];
+        }
+    }
 }

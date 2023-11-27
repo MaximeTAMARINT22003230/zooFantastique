@@ -32,7 +32,12 @@ public abstract class Creature implements Runnable{
     }
     // notification pour dire je cris ?
     protected void shout(){
-        Controler.getInstance().notification(this.name+" émet un son ("+this.getClass()+")");
+        Controler.getInstance().notification(this.name+" émet un son ("+this.getClass().getSimpleName()+")");
+    }
+    protected  void loseHealth() {
+        if (this.health == Health.values()[0])
+            Controler.getInstance().removeCreature(this);
+        health = health.loseHealth();
     }
     protected void heal(){
         health = health.heal();
@@ -41,7 +46,7 @@ public abstract class Creature implements Runnable{
         fatigue = fatigue.sleep();
     }
     protected void age() {
-        if (this.age == Age.ELDER){
+        if (this.age == Age.values()[Age.values().length]){
             Controler.getInstance().removeCreature(this);
         }
         age = age.gettingOder();
