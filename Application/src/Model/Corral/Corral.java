@@ -68,6 +68,7 @@ public class Corral {
     }
     public boolean hasFreeSpace()
     {
+        //TODO : this method
         return true;
     }
     public boolean contains(Creature searched)

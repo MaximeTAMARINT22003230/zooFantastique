@@ -191,7 +191,6 @@ public class ZooMaster implements Cooldownable {
         else
         {
             Creature creature = Asker.creature(this.scope);
-            Interface.show(creature.toString());
             Controler.getInstance().removeCreature(creature);
         }
     }

@@ -57,9 +57,9 @@ public class Asker
         String input = Interface.input("Sélectionner nom de la créature :\n" + corral);
         for (Creature creature: corral.getCreatures())
         {
-            if(Objects.equals(input, creature.getName()))
+            if(input.equals(creature.getName()))
             {
-                return creature();
+                return creature;
             }
         }
         return null;

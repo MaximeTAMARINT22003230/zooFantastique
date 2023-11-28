@@ -49,4 +49,27 @@ public abstract class Creature implements Runnable{
                 "    Fatigue : " + this.fatigue + "\n" +
                 "    Santé : " + this.health;
     }
+    @Override
+    public boolean equals(Object o)
+    {
+        // Creature is compared to itself
+        if (o == this) {
+            return true;
+        }
+
+        // Check if the object is a creature
+        if (!(o instanceof Creature)) {
+            return false;
+        }
+
+        // Cast to Creature type
+        Creature c = (Creature) o;
+
+        // TODO : Complete the comparison
+        if(this.name.equals(c.getName()))
+        {
+            return true;
+        }
+        return false;
+    }
 }
