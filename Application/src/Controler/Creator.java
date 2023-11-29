@@ -5,7 +5,6 @@ import Model.Corral.Aviary;
 import Model.Corral.Corral;
 import Model.Creature.Bestiary.*;
 import Model.Creature.Creature;
-import Model.ZooMaster;
 import View.Interface;
 
 import java.util.Objects;

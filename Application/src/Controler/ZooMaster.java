@@ -1,4 +1,4 @@
-package Model;
+package Controler;
 
 import Model.Cooldown.Cooldown;
 import Model.Cooldown.CooldownType;
@@ -86,7 +86,8 @@ public class ZooMaster implements Cooldownable {
             }
             return;
         }
-        Interface.show("Actions restantes : " + (this.maxActions - this.actions));
+        Interface.show("\n ------------------------------------------- \n " +
+                "Actions restantes : " + (this.maxActions - this.actions));
         if(this.scope != null)
         {
             String options = "Que voulez vous faire ? \n Move, Add, Remove, Zoomout, Feed, Clean, Check";

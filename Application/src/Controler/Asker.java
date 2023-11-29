@@ -19,7 +19,7 @@ public class Asker
         Sex sex = null;
         while (sex == null)
         {
-            String inputSex = Interface.input("Sexe de votre maître de zoo : Male ou Female ?");
+            String inputSex = Interface.input("Sexe : Male ou Female ?");
             if(Objects.equals(inputSex, "Male"))
             {
                 sex = Sex.MALE;
@@ -47,7 +47,7 @@ public class Asker
         {
             if(Objects.equals(input, creature.getName()))
             {
-                return creature();
+                return creature;
             }
         }
         return null;
