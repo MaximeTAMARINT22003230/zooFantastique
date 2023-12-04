@@ -1,6 +1,7 @@
 package Model.Creature;
 
 import Controler.Controler;
+import Model.Creature.Behavior.Revive;
 import Model.Creature.Caracteristic.*;
 
 /**
@@ -31,24 +32,34 @@ public abstract class Creature implements Runnable{
         hunger = hunger.eat();
     }
     // notification pour dire je cris ?
+    protected void toBeHungry() {
+        if (this.hunger == Hunger.values()[0])
+            loseHealth();
+        this.hunger = hunger.toBeHungry();
+    }
     protected void shout(){
         Controler.getInstance().notification(this.name+" émet un son ("+this.getClass().getSimpleName()+")");
     }
     protected  void loseHealth() {
         if (this.health == Health.values()[0])
             Controler.getInstance().removeCreature(this);
-        health = health.loseHealth();
+        this.health = health.loseHealth();
     }
     protected void heal(){
         health = health.heal();
+    }
+    protected void gettingFatigue() {
+        if (this.fatigue == Fatigue.values()[0])
+            // faire comportement pour dormir de façon prolongé
+            loseHealth();
+        this.fatigue = fatigue.gettingFatigue();
     }
     protected void sleep(){
         fatigue = fatigue.sleep();
     }
     protected void age() {
-        if (this.age == Age.values()[Age.values().length]){
+        if (this.age == Age.values()[Age.values().length])
             Controler.getInstance().removeCreature(this);
-        }
         age = age.gettingOder();
     }
     public String getName()

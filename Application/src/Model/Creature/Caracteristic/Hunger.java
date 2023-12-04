@@ -14,4 +14,17 @@ public enum Hunger {
             return values()[ordinal()];
         }
     }
+
+    /**
+     *
+     * @return renvoie le stade de faim supérieur
+     */
+    public Hunger toBeHungry() {
+        if (ordinal() > 0 ) {
+            return values()[ordinal()-1];
+        }
+        else {
+            return values()[ordinal()];
+        }
+    }
 }

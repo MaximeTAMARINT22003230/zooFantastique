@@ -4,7 +4,7 @@ public enum Fatigue {
     SLEEP, EXHAUSTED, SLEEPY, GOOD, EXCITED;
 
     /**
-     * @return renvoie le stade de fatigue suivant
+     * @return renvoie le stade de fatigue suivant si il n'est pas déjà au plus bas
      */
     public Fatigue gettingFatigue() {
         if (ordinal() > 0) {
