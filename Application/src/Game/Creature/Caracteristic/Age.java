@@ -1,6 +1,6 @@
 package Game.Creature.Caracteristic;
 
-import Controler.Controler;
+import Interactions.Controler;
 
 public enum Age {
     BABY, CHILD, TEEN, ADULT, ELDER;

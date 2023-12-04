@@ -1,5 +1,6 @@
 package Game.Creature;
 
+import Interactions.Controler;
 import Game.Creature.Behavior.BirthBehavior;
 import Game.Creature.Caracteristic.*;
 

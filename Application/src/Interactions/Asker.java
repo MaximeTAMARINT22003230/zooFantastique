@@ -7,11 +7,14 @@ import Game.Creature.Creature;
 
 import java.util.Objects;
 
-/**
- * One of the app's controler. Used to ask specific input to the user.
+/** The Askes is used to ask specific input to the player
+ * Contains only static methods
  */
 public class Asker
 {
+    /** Ask the player to input a sex either MALE or FEMALE
+     * @return The input Sex
+     */
     public static Sex sex()
     {
         Sex sex = null;
@@ -33,11 +36,20 @@ public class Asker
         }
         return sex;
     }
+
+    /** Ask the player to input a correct Age
+     *
+     * @return The Age input
+     */
     public static Age age()
     {
         // TODO : This method
         return null;
     }
+
+    /** Ask the player to choose a creature with an input
+     * @return The chosen creature
+     */
     public static Creature creature()
     {
         String input = Interface.input("Sélectionner nom de la créature :\n" + Controler.getInstance().zoo.showCreatures());
@@ -50,6 +62,11 @@ public class Asker
         }
         return null;
     }
+
+    /** Ask the player to chose a creature with an input
+     * @param corral A specific corral for the choice to be made
+     * @return The chosen creature
+     */
     public static Creature creature(Corral corral)
     {
         String input = Interface.input("Sélectionner nom de la créature :\n" + corral);
@@ -62,6 +79,11 @@ public class Asker
         }
         return null;
     }
+
+    /** Ask the player to chose a corral
+     * depending on the existing ones
+     * @return The chosen corral
+     */
     public static Corral corral()
     {
         String input = Interface.input("Sélectionner nom de l'enclos :\n" + Controler.getInstance().zoo.corrals());
