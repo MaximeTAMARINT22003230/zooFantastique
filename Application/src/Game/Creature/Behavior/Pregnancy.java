@@ -1,26 +1,50 @@
 package Game.Creature.Behavior;
 
-import Game.Corral.Corral;
 import Game.Creature.Creature;
 import Interactions.Controler;
 import Game.Cooldown.Cooldown;
 import Game.Cooldown.CooldownType;
 import Game.Cooldown.Cooldownable;
 
+/** The Pregnancy behavior, used by Viviparians
+ * Allows a creature to make a baby (usually female)
+ */
 public class Pregnancy extends BirthBehavior implements Cooldownable {
+    /** The carried baby
+     * Is null until inseminated
+     */
     private Creature baby;
-    private Corral corral;
+    /** The creature carrying the child */
+    private Creature parent;
+    /** The basic pregnancy time */
     private static final int PREGNANCY_COOLDOWN = 49999;
-    public void inseminate(Creature baby, Corral corral)
+
+    /** Inseminate the parent with a new baby
+     *
+     * @param baby the future newborn
+     * @param parent the baby's parent
+     */
+    public void inseminate(Creature baby, Creature parent)
     {
         this.baby = baby;
-        this.corral = corral;
-
+        this.parent = parent;
+        this.pregnancyCooldown();
     }
+
+    /** Give birth to the handled baby
+     * Adds it to the parent's corral
+     */
     public void giveBirth()
     {
-        Controler.getInstance().addCreature(this.baby, this.corral);
+        Controler.getInstance().addCreature(this.baby, Controler.getInstance().zoo.corralOf(this.parent));
+        this.baby = null;
     }
+
+    /** Implementation from the Cooldownable interface
+     * Handled cooldowns :
+     *     - INCUBATION : Give birth to the carried baby
+     * @param cooldown
+     */
     @Override
     public void cooldown(Cooldown cooldown) {
         switch (cooldown.getType())
@@ -32,6 +56,8 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
                 //throw new Exception("Unhandled cooldown");
         }
     }
+
+    /** Start a pregnancy */
     private void pregnancyCooldown()
     {
         new Cooldown(PREGNANCY_COOLDOWN, this, CooldownType.INCUBATION);
