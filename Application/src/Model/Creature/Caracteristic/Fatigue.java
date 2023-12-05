@@ -1,13 +1,16 @@
 package Model.Creature.Caracteristic;
 
+import Controler.Controler;
+
 public enum Fatigue {
     SLEEP, EXHAUSTED, SLEEPY, GOOD, EXCITED;
 
     /**
-     * @return renvoie le stade de fatigue suivant si il n'est pas déjà au plus bas
+     * @return to the lower fatigue stage if not already at its lowest
      */
     public Fatigue gettingFatigue() {
         if (ordinal() > 0) {
+            Controler.getInstance().notification("gagne en fatigue");
             return values()[ordinal()-1];
         }
         else {
@@ -16,7 +19,7 @@ public enum Fatigue {
     }
 
     /**
-     * @return renvoie le stade de fatigue le moin haut
+     * @return the lowest fatigue stage
      */
     public Fatigue sleep() {
         return values()[values().length-1];

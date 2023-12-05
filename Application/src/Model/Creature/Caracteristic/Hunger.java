@@ -16,7 +16,6 @@ public enum Hunger {
     }
 
     /**
-     *
      * @return renvoie le stade de faim supérieur
      */
     public Hunger toBeHungry() {

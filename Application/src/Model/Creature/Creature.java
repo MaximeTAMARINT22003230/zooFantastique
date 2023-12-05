@@ -62,6 +62,20 @@ public abstract class Creature implements Runnable{
             Controler.getInstance().removeCreature(this);
         age = age.gettingOder();
     }
+    protected void growUp() {
+        this.height = height.growUp();
+    }
+    protected void toSwell() {
+        //this.weight == Weight.values()[0]
+        if (this.weight == Weight.values()[Weight.values().length-1])
+            loseHealth();
+        this.weight = weight.toSwell();
+    }
+    protected void toLoseWeight() {
+        if (this.weight == Weight.values()[0])
+            loseHealth();
+        this.weight = weight.toLoseWeight();
+    }
     public String getName()
     {
         return this.name;

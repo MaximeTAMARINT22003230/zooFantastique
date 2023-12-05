@@ -4,7 +4,7 @@ public enum Health {
     SUFFERING, ILL, SKATE, GOOD, VIGOROUS;
 
     /**
-     * @return le stade de soin supérieur si il n'est pas déjà au plus haut
+     * @return to the next level of care if not already at the top
      */
     public Health heal() {
         if (ordinal() < values().length-1) {
@@ -16,8 +16,7 @@ public enum Health {
     }
 
     /**
-     *
-     * @return le stade de soin inférieur si il n'est pas déjà au plus bas
+     * @return to the lower care stage if not already at the lowest level
      */
     public Health loseHealth() {
         if (ordinal() > 0) {
