@@ -2,6 +2,7 @@ package Game.Creature;
 
 import Game.Creature.Behavior.BirthBehavior;
 import Game.Creature.Caracteristic.*;
+import Interactions.Controler;
 
 /**
  * The creature abstract class. Contain anything common to all creatures.
