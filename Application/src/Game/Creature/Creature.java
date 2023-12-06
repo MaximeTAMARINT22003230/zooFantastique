@@ -17,6 +17,8 @@ public abstract class Creature implements Runnable{
     protected Hunger hunger;
     protected Fatigue fatigue;
     protected Health health;
+    protected boolean isAlive;
+    protected boolean isSleeping;
     protected BirthBehavior birthingBehavior;
     protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
@@ -28,6 +30,8 @@ public abstract class Creature implements Runnable{
         this.hunger = hunger;
         this.fatigue = fatigue;
         this.health = health;
+        this.isAlive = true;
+        this.isSleeping = false;
     }
     protected void eat(){
         hunger = hunger.eat();
@@ -42,8 +46,10 @@ public abstract class Creature implements Runnable{
         Controler.getInstance().notification(this.name+" émet un son ("+this.getClass().getSimpleName()+")");
     }
     protected  void loseHealth() {
-        if (this.health == Health.values()[0])
+        if (this.health == Health.values()[0]) {
+            this.isAlive = false;
             Controler.getInstance().removeCreature(this);
+        }
         this.health = health.loseHealth();
     }
     protected void heal(){
@@ -59,8 +65,10 @@ public abstract class Creature implements Runnable{
         fatigue = fatigue.sleep();
     }
     protected void age() {
-        if (this.age == Age.values()[Age.values().length-1])
+        if (this.age == Age.values()[Age.values().length-1]) {
+            this.isAlive = false;
             Controler.getInstance().removeCreature(this);
+        }
         age = age.gettingOder();
     }
     protected void growUp() {
