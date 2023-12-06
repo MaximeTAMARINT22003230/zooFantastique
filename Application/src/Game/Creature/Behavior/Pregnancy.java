@@ -49,7 +49,7 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
     public void cooldown(Cooldown cooldown) {
         switch (cooldown.getType())
         {
-            case  CooldownType.INCUBATION:
+            case  INCUBATION:
                 this.giveBirth();
                 break;
             default:

@@ -59,7 +59,7 @@ public abstract class Creature implements Runnable{
         fatigue = fatigue.sleep();
     }
     protected void age() {
-        if (this.age == Age.values()[Age.values().length])
+        if (this.age == Age.values()[Age.values().length-1])
             Controler.getInstance().removeCreature(this);
         age = age.gettingOder();
     }

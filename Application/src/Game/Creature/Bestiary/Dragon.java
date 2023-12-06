@@ -18,7 +18,7 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     @Override
     public void run() {
         while (true){
-            int randomAction = DiceRoll.d100();
+            int randomAction = Model.DiceRoll.d100();
 
             if (randomAction <= 20)
                 shout();

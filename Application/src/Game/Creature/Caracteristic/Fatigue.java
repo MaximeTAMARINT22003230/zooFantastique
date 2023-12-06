@@ -1,6 +1,6 @@
 package Game.Creature.Caracteristic;
 
-import Controler.Controler;
+import Interactions.Controler;
 
 public enum Fatigue {
     SLEEP, EXHAUSTED, SLEEPY, GOOD, EXCITED;
