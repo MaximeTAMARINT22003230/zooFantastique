@@ -1,8 +1,8 @@
 package Player;
 
-import Game.Cooldown.Cooldown;
-import Game.Cooldown.CooldownType;
-import Game.Cooldown.Cooldownable;
+import Game.Logic.Cooldown.Cooldown;
+import Game.Logic.Cooldown.CooldownType;
+import Game.Logic.Cooldown.Cooldownable;
 import Interactions.Asker;
 import Interactions.Controler;
 import Interactions.Creator;

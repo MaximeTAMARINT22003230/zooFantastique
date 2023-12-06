@@ -1,4 +1,4 @@
 package Game.Lycantropus;
 
-public class Howl {
+public class Colony {
 }

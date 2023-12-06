@@ -1,4 +1,4 @@
-package Game.Cooldown;
+package Game.Logic.Cooldown;
 
 public class Cooldown implements Runnable{
     private int cooldown;

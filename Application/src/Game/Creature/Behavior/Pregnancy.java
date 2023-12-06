@@ -2,9 +2,9 @@ package Game.Creature.Behavior;
 
 import Game.Creature.Creature;
 import Interactions.Controler;
-import Game.Cooldown.Cooldown;
-import Game.Cooldown.CooldownType;
-import Game.Cooldown.Cooldownable;
+import Game.Logic.Cooldown.Cooldown;
+import Game.Logic.Cooldown.CooldownType;
+import Game.Logic.Cooldown.Cooldownable;
 
 /** The Pregnancy behavior, used by Viviparians
  * Allows a creature to make a baby (usually female)

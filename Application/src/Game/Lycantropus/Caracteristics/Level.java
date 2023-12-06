@@ -1,7 +1,5 @@
 package Game.Lycantropus.Caracteristics;
 
-import Game.Lycantropus.Lycantropus;
-
 public enum Level
 {
     STRONG, FRAGILE; //TODO : THIS ENUM

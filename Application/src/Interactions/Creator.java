@@ -5,7 +5,7 @@ import Game.Corral.Aviary;
 import Game.Corral.Corral;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Creature;
-import Game.Lycantropus.Lycantropus;
+import Game.Lycantropus.Component.Lycantropus;
 import Player.*;
 
 import java.util.Objects;
