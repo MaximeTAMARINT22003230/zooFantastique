@@ -7,6 +7,9 @@ import Interactions.Interface;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents an enclosure to house creatures with the ability to run.
+ */
 public class Corral {
     private static final int MAX = 5;
     protected String name;
@@ -22,6 +25,14 @@ public class Corral {
         this.max = MAX;
         this.creatures = new ArrayList<Run>();
     }
+
+    /**
+     * Creates and returns a new instance of Corral.
+     *
+     * @param name The name of the corral.
+     * @param size The size of the corral.
+     * @return A new Corral instance.
+     */
     public static Corral inaugurate(String name, String size)
     {
         return new Corral(name, size);
@@ -86,9 +97,20 @@ public class Corral {
     {
         return this.creatures.isEmpty();
     }
+
+    /**
+     * Retrieves the name of the corral.
+     *
+     * @return The name of the corral.
+     */
     public String getName() {
         return name;
     }
+    /**
+     * Retrieves a list of creatures in the corral.
+     *
+     * @return A list of creatures.
+     */
     public List<Creature> getCreatures()
     {
         List<Creature> creatures = new ArrayList<>();
