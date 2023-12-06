@@ -1,4 +1,4 @@
-package Model;
+package Game;
 
 public class DiceRoll {
     public static int d4(){

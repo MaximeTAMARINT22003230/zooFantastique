@@ -1,5 +1,6 @@
 package Game.Corral;
 
+import Game.Corral.Caracteristic.Hygiene;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Creature;
 import Interactions.Interface;
@@ -67,7 +68,8 @@ public class Corral {
     public void feed()
     {
         for (Run creature : creatures) {
-            creature.feed();
+            assert creature instanceof Creature;
+            //creature.feed();
         }
         System.out.println("Les créatures du corral ont été nourries.");
     }
