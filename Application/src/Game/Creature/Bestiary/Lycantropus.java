@@ -12,8 +12,4 @@ public class Lycantropus extends Viviparian implements Run {
         return new Lycantropus(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    @Override
-    public void run() {
-
-    }
 }

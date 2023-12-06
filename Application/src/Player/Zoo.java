@@ -1,5 +1,6 @@
 package Player;
 
+import Game.Creature.Behavior.Revive;
 import Interactions.Controler;
 import Game.Creature.Creature;
 import Game.Corral.Corral;
@@ -158,6 +159,31 @@ public class Zoo {
             Interface.show("La créature n'existe pas");
         }
     }
+
+    public void kill(Creature creature)
+    {
+        if(exists(creature))
+        {
+            this.corralOf(creature).kill(creature);
+        }
+        else
+        {
+            Interface.show("La créature n'existe pas");
+        }
+    }
+
+    public void reviveCreature(Creature creature)
+    {
+        if(exists(creature))
+        {
+            this.corralOf(creature).removeCreature(creature);
+        }
+        else
+        {
+            Interface.show("La créature n'existe pas");
+        }
+    }
+
     public List<Corral> getCorrals()
     {
         return this.corrals;

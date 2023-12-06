@@ -12,9 +12,4 @@ public class Kraken extends Oviparian implements Swim {
         return new Kraken(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    @Override
-    public void run() {
-
-    }
-
 }

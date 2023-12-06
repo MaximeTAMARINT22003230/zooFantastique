@@ -23,4 +23,10 @@ public enum Fatigue {
     public Fatigue sleep() {
         return values()[values().length-1];
     }
+
+    public boolean isSleeping() {
+        if (ordinal() == 0)
+            return true;
+        return false;
+    }
 }

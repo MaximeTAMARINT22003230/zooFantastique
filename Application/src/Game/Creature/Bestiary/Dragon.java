@@ -15,45 +15,4 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     {
         return new Dragon(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-
-    @Override
-    public void run() {
-        while (this.isAlive){
-
-            if (!this.isAlive)
-                break;
-
-            if (this.isSleeping) {
-                int t = Model.DiceRoll.d4();
-                if (t == 1) {
-                    Controler.getInstance().notification(this.name + " se reveil (" + this.getClass().getSimpleName() + ") : " +t);
-                    isSleeping = false;
-                } else {
-                    Controler.getInstance().notification(this.name + " dort toujours (" + this.getClass().getSimpleName() + ") : "+t);
-                }
-            }
-            else {
-                int randomAction = Model.DiceRoll.d100();
-
-                if (randomAction <= 15)
-                    shout();
-                if (randomAction <= 30 && randomAction >= 16)
-                    age();
-                if (randomAction <= 45 && randomAction >= 31)
-                    gettingFatigue();
-                if (randomAction <= 60 && randomAction >= 46)
-                    gettingFatigue();
-                if (randomAction <= 75 && randomAction >= 61)
-                    gettingFatigue();
-                if (randomAction <= 90 && randomAction >= 76)
-                    gettingFatigue();
-            }
-
-            try {
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
-        }
-    }
 }

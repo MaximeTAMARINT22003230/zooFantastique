@@ -12,9 +12,4 @@ public class Megalodon extends Oviparian implements Swim {
         return new Megalodon(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    @Override
-    public void run() {
-
-    }
-
 }

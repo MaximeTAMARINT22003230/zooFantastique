@@ -13,9 +13,4 @@ public class Nymph extends Viviparian implements Run, Revive {
         return new Nymph(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    @Override
-    public void run() {
-
-    }
-
 }

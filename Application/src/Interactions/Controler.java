@@ -1,6 +1,7 @@
 package Interactions;
 
 import Game.Corral.*;
+import Game.Creature.Behavior.Revive;
 import Game.Creature.Creature;
 import Player.Zoo;
 
@@ -42,8 +43,15 @@ public class Controler{
     public void removeCreature(Creature creature)
     {
         this.zoo.removeCreature(creature);
-        Interface.show("Vous avez tué une créature...");
+        Interface.show(creature.getName()+" Vous avez tué une créature... ("+creature.getClass().getSimpleName()+")");
     }
+
+    public void kill(Creature creature)
+    {
+        this.zoo.kill(creature);
+        Interface.show(creature.getName()+" est mort(e)... ("+creature.getClass().getSimpleName()+")");
+    }
+
     public void removeCorral(Corral corral)
     {
         this.zoo.removeCorral(corral);
