@@ -1,5 +1,11 @@
 package Player;
 
+import Game.Logic.Cooldown.Cooldown;
+import Game.Logic.Cooldown.CooldownType;
+import Game.Logic.Cooldown.Cooldownable;
+import Game.Lycantropus.Howl;
+import Game.Lycantropus.Lycan;
+import Game.Lycantropus.Pack;
 import Interactions.Controler;
 import Game.Creature.Creature;
 import Game.Corral.Corral;
@@ -9,18 +15,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Zoo {
+public class Zoo implements Cooldownable {
     private final int MAX = 5;
+    private final int LOVE_SEASON_DURATION = 40000;
     private String name;
     public ZooMaster zooMaster;
     private int maxCorral;
     private List<Corral> corrals;
+    public List<Pack> colony;
+    public boolean loveSeason;
     private Zoo(String name, ZooMaster zooMaster)
     {
         this.name = name;
         this.zooMaster = zooMaster;
         this.maxCorral = MAX;
         this.corrals = new ArrayList<Corral>();
+        this.loveSeason = false;
     }
     public static void main(String[] args) {
         Controler.getInstance();
@@ -173,5 +183,32 @@ public class Zoo {
             }
         }
         return creatures;
+    }
+
+    @Override
+    public void cooldown(Cooldown cooldown) {
+        switch (cooldown.getType())
+        {
+            case END_LOVE_SEASON :
+                this.loveSeason = false;
+                new Cooldown(LOVE_SEASON_DURATION*3,this, CooldownType.START_LOVE_SEASON);
+                break;
+            case START_LOVE_SEASON:
+                this.loveSeason = true;
+                new Cooldown(LOVE_SEASON_DURATION*3,this, CooldownType.END_LOVE_SEASON);
+                break;
+            default:
+                // unknown cooldown type
+        }
+    }
+    public void spread(Howl howl)
+    {
+        for (Pack pack : this.colony) {
+            if((howl.getTarget() != null && pack.contains(howl.getTarget())
+                    || (howl.getHowler() != null && pack.contains(howl.getHowler())) ))
+            {
+                pack.spread(howl);
+            }
+        }
     }
 }

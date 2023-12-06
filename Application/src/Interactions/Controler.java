@@ -42,13 +42,21 @@ public class Controler
         return instance;
     }
 
-    /** Send a notification to the user (casually used when a Crature has something to say) <br>
+    /** Send a notification to the user (usually used when a Crature has something to say) <br>
      * Allows a separation between the Model and the Interface
      * @param notification What it has to say
      */
     public void notification(String notification)
     {
         Interface.show(notification);
+    }
+    /** Send a notification to the user (usually used when a Crature has something to say) <br>
+     * Allows a separation between the Model and the Interface
+     * @param notification What it has to say
+     */
+    public void notification(Object notification)
+    {
+        Interface.show(notification.toString());
     }
 
     /** Add a new creature to the Zoo

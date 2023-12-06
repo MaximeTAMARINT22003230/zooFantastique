@@ -2,16 +2,20 @@ package Game.Lycantropus.Component;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Viviparian;
-import Game.Lycantropus.Caracteristics.Domination;
+import Game.Lycantropus.Caracteristics.Rank;
 import Game.Lycantropus.Caracteristics.Level;
-import Game.Lycantropus.Howl.Howl;
+import Game.Lycantropus.Caracteristics.Strength;
+import Game.Lycantropus.Howl;
 import Game.Lycantropus.Pack;
+import Interactions.Controler;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Lycantropus extends Viviparian implements Run {
+    private Strength strength;
     private int domination;
-    private Domination rank;
+    private Rank rank;
     private Level level;
     private Pack pack;
     private Howl howl;
@@ -34,13 +38,46 @@ public class Lycantropus extends Viviparian implements Run {
             // FAIL
         }
     }
-    private void scream()
+    private void howl(Howl howl)
     {
-        //TODO THIS METHOD
+        Controler.getInstance().notification(howl);
+        Controler.getInstance().zoo.spread(howl);
     }
     public void hear(Howl howl)
     {
-        //TODO THIS METHOD
+        switch (howl)
+        {
+            case Howl.BELONGING ->
+            {
+                if(!Objects.equals(howl.getHowler(), this)) this.howl(Howl.ANSWER);
+                break;
+            }
+            case Howl.DOMINATION ->
+            {
+                //HE IS AGGRESSED
+            }
+            case Howl.ANSWER ->
+            {
+                //HE IS AGGRESSED
+            }
+            case Howl.AGGRESSIVE ->
+            {
+                //HE IS AGGRESSED
+            }
+            case Howl.SUBMISSION ->
+            {
+                //HE IS AGGRESSED
+            }
+            default ->
+            {
+                // Unhandled howl
+            }
+        }
+    }
+    @Override
+    public boolean equals(Object o)
+    {
+        return true;
     }
     private void humanize()
     {
@@ -54,5 +91,9 @@ public class Lycantropus extends Viviparian implements Run {
     @Override
     public void run() {
 
+    }
+    public Level getLevel()
+    {
+        return this.level;
     }
 }

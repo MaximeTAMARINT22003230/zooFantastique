@@ -50,4 +50,27 @@ public class Pack {
     {
 
     }
+    public void spread(Howl howl)
+    {
+        if(howl == Howl.BELONGING)
+        {
+            for (Lycan lycan : this.lycans)
+            {
+                ((Lycantropus) lycan).hear(howl);
+            }
+        }
+        else if (howl.getTarget() != null)
+        {
+            for (Lycan lycan : this.lycans) {
+                if(howl.getTarget() == lycan)
+                {
+                    ((Lycantropus) lycan).hear(howl);
+                }
+            }
+        }
+    }
+    public boolean contains(Lycan lycan)
+    {
+        return true; //TODO THIS METHOD
+    }
 }

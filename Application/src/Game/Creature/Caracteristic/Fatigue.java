@@ -2,7 +2,6 @@ package Game.Creature.Caracteristic;
 
 public enum Fatigue {
     SLEEP, EXHAUSTED, SLEEPY, GOOD, EXCITED;
-
     /**
      * @return renvoie le stade de fatigue suivant
      */
