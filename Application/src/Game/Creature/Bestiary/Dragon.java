@@ -5,6 +5,7 @@ import Game.Creature.Behavior.Run;
 import Game.Creature.Behavior.Swim;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Oviparian;
+import Interactions.Controler;
 
 public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     private Dragon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
@@ -22,20 +23,31 @@ public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
             if (!this.isAlive)
                 break;
 
-            int randomAction = Model.DiceRoll.d100();
+            if (this.isSleeping) {
+                int t = Model.DiceRoll.d4();
+                if (t == 1) {
+                    Controler.getInstance().notification(this.name + " se reveil (" + this.getClass().getSimpleName() + ") : " +t);
+                    isSleeping = false;
+                } else {
+                    Controler.getInstance().notification(this.name + " dort toujours (" + this.getClass().getSimpleName() + ") : "+t);
+                }
+            }
+            else {
+                int randomAction = Model.DiceRoll.d100();
 
-            if (randomAction <= 15)
-                shout();
-            if (randomAction <= 30 && randomAction >= 16)
-                age();
-            if (randomAction <= 45 && randomAction >= 31)
-                age();
-            if (randomAction <= 60 && randomAction >= 46)
-                age();
-            if (randomAction <= 75 && randomAction >= 61)
-                age();
-            if (randomAction <= 90 && randomAction >= 76)
-                age();
+                if (randomAction <= 15)
+                    shout();
+                if (randomAction <= 30 && randomAction >= 16)
+                    age();
+                if (randomAction <= 45 && randomAction >= 31)
+                    gettingFatigue();
+                if (randomAction <= 60 && randomAction >= 46)
+                    gettingFatigue();
+                if (randomAction <= 75 && randomAction >= 61)
+                    gettingFatigue();
+                if (randomAction <= 90 && randomAction >= 76)
+                    gettingFatigue();
+            }
 
             try {
                 Thread.sleep(2000);

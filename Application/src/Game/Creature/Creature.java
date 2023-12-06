@@ -56,12 +56,17 @@ public abstract class Creature implements Runnable{
         health = health.heal();
     }
     protected void gettingFatigue() {
-        if (this.fatigue == Fatigue.values()[0])
-            // faire comportement pour dormir de façon prolongé
-            loseHealth();
-        this.fatigue = fatigue.gettingFatigue();
+        if (this.fatigue == Fatigue.values()[0]) {
+            sleep();
+        }
+        else {
+            this.fatigue = fatigue.gettingFatigue();
+            Controler.getInstance().notification(this.name+" getting fatigue ("+this.getClass().getSimpleName()+")");
+        }
     }
     protected void sleep(){
+        isSleeping = true;
+        Controler.getInstance().notification(this.name+" is sleeping ("+this.getClass().getSimpleName()+")");
         fatigue = fatigue.sleep();
     }
     protected void age() {

@@ -10,7 +10,6 @@ public enum Fatigue {
      */
     public Fatigue gettingFatigue() {
         if (ordinal() > 0) {
-            Controler.getInstance().notification("gagne en fatigue");
             return values()[ordinal()-1];
         }
         else {
