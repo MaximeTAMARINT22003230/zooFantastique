@@ -6,6 +6,8 @@ import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;
 
+import java.util.Objects;
+
 /** The Pregnancy behavior, used by Viviparians
  * Allows a creature to make a baby (usually female)
  */
@@ -47,13 +49,9 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
      */
     @Override
     public void cooldown(Cooldown cooldown) {
-        switch (cooldown.getType())
-        {
-            case  CooldownType.INCUBATION:
-                this.giveBirth();
-                break;
-            default:
-                //throw new Exception("Unhandled cooldown");
+        //throw new Exception("Unhandled cooldown");
+        if (Objects.requireNonNull(cooldown.getType()) == CooldownType.INCUBATION) {
+            this.giveBirth();
         }
     }
 

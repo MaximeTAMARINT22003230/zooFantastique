@@ -47,24 +47,24 @@ public class Lycantropus extends Viviparian implements Run {
     {
         switch (howl)
         {
-            case Howl.BELONGING ->
+            case BELONGING ->
             {
                 if(!Objects.equals(howl.getHowler(), this)) this.howl(Howl.ANSWER);
                 break;
             }
-            case Howl.DOMINATION ->
+            case DOMINATION ->
             {
                 //HE IS AGGRESSED
             }
-            case Howl.ANSWER ->
+            case ANSWER ->
             {
                 //HE IS AGGRESSED
             }
-            case Howl.AGGRESSIVE ->
+            case AGGRESSIVE ->
             {
                 //HE IS AGGRESSED
             }
-            case Howl.SUBMISSION ->
+            case SUBMISSION ->
             {
                 //HE IS AGGRESSED
             }
