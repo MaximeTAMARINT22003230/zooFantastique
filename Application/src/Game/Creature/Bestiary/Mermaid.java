@@ -3,7 +3,7 @@ import Game.Creature.Behavior.Swim;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Viviparian;
 
-public class Mermaid extends Viviparian implements Swim {
+public final class Mermaid extends Viviparian implements Swim {
     private Mermaid(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }

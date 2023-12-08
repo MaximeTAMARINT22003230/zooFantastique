@@ -3,7 +3,7 @@ import Game.Creature.Behavior.Swim;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Oviparian;
 
-public class Kraken extends Oviparian implements Swim {
+public final class Kraken extends Oviparian implements Swim {
     private Kraken(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }

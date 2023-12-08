@@ -12,7 +12,7 @@ import Player.Controler;
 import java.util.List;
 import java.util.Objects;
 
-public class Lycantropus extends Viviparian implements Run {
+public final class Lycantropus extends Viviparian implements Run {
     private Strength strength;
     private int domination;
     private Rank rank;

@@ -7,7 +7,7 @@ import Game.Creature.Caracteristic.*;
 import Game.Creature.Oviparian;
 import Game.Logic.DiceRoll;
 
-public class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
+public final class Dragon extends Oviparian implements Fly, Run, Swim, Revive {
     private Dragon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }

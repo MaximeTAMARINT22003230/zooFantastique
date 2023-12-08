@@ -3,7 +3,7 @@ import Game.Creature.Behavior.Run;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Viviparian;
 
-public class Unicorn extends Viviparian implements Run {
+public final class Unicorn extends Viviparian implements Run {
     private Unicorn(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }

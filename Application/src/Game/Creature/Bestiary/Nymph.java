@@ -4,7 +4,7 @@ import Game.Creature.Behavior.Run;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Viviparian;
 
-public class Nymph extends Viviparian implements Run, Revive {
+public final class Nymph extends Viviparian implements Run, Revive {
     private Nymph(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }

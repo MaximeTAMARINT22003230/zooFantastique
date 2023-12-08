@@ -4,7 +4,7 @@ import Game.Creature.Behavior.Revive;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Oviparian;
 
-public class Phenix extends Oviparian implements Fly, Revive {
+public final class Phenix extends Oviparian implements Fly, Revive {
     private Phenix(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
