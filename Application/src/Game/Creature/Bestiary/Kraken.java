@@ -7,7 +7,7 @@ import Game.Creature.Oviparian;
  * Represents a Kraken
  * Inherits from the Oviparian class and implements the Swim behavior.
  */
-public class Kraken extends Oviparian implements Swim {
+public final class Kraken extends Oviparian implements Swim {
     private Kraken(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
@@ -21,6 +21,11 @@ public class Kraken extends Oviparian implements Swim {
     public static Kraken newBorn(String name, Sex sex)
     {
         return new Kraken(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
+    }
+
+    @Override
+    public void run() {
+
     }
 
 }

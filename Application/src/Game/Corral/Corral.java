@@ -1,11 +1,12 @@
 package Game.Corral;
 
 import Game.Creature.Behavior.Revive;
+import Game.Corral.Caracteristic.Hygiene;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Caracteristic.StorageLevel;
 import Game.Creature.Creature;
-import Interactions.Interface;
+import Player.Interface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,19 +18,20 @@ public class Corral implements Runnable{
     private static final int MAX = 5;
     protected String name;
     protected String size;
-    protected boolean isDestroyed;
     protected int max;
     private List<Run> creatures;
-    protected String hygiene;
+    protected Hygiene hygiene;
+    private boolean isDestroyed;
     protected StorageLevel food;
+
     protected Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
         this.max = MAX;
-        this.isDestroyed = false;
         this.food = StorageLevel.MANY;
         this.creatures = new ArrayList<Run>();
+        this.isDestroyed = false;
     }
     /**
      * Creates and returns a new instance of Corral.
@@ -116,7 +118,8 @@ public class Corral implements Runnable{
 
     public void clean()
     {
-
+        hygiene= Hygiene.GOOD;
+        System.out.println("Le Corral a été nettoyé et est maintenant propre.");
     }
     public int count()
     {
@@ -170,10 +173,6 @@ public class Corral implements Runnable{
         }
         Interface.show(creatures.toString());
         return creatures;
-    }
-    public void isDestroyed()
-    {
-        this.isDestroyed = true;
     }
     @Override
     public void run(){

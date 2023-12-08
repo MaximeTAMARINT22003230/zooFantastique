@@ -2,7 +2,6 @@ package Game.Creature.Caracteristic;
 
 public enum Fatigue {
     SLEEP, EXHAUSTED, SLEEPY, GOOD, EXCITED;
-
     /**
      * @return to the lower fatigue stage if not already at its lowest
      */

@@ -1,8 +1,9 @@
 package Game.Creature;
 
 import Game.Creature.Behavior.*;
+import Player.Controler;
+import Game.Creature.Behavior.BirthBehavior;
 import Game.Creature.Caracteristic.*;
-import Interactions.Controler;
 
 /**
  * The creature abstract class. Contain anything common to all creatures.
@@ -18,7 +19,7 @@ public abstract class Creature implements Runnable{
     protected Fatigue fatigue;
     protected Health health;
     protected boolean isAlive;
-    protected BirthBehavior birthingBehavior;
+    public BirthBehavior birthingBehavior;
     protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
         this.name = name;
@@ -35,7 +36,6 @@ public abstract class Creature implements Runnable{
     @Override
     public void run() {
         while (this.isAlive){
-
             if (fatigue.isSleeping()) {
                 int t = Model.DiceRoll.d4();
                 if (t == 1) {

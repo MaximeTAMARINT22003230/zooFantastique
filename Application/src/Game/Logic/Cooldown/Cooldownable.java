@@ -1,4 +1,4 @@
-package Game.Cooldown;
+package Game.Logic.Cooldown;
 
 /**
  * The Cooldownable interface, implemented by entities that can undergo cooldown.

@@ -1,4 +1,4 @@
-package Model;
+package Game.Logic;
 
 public class DiceRoll {
     public static int d4(){

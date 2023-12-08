@@ -1,7 +1,5 @@
 package Game.Corral;
 
-import Game.Creature.Behavior.Fly;
-import Game.Creature.Behavior.Run;
 import Game.Creature.Behavior.Swim;
 import Game.Creature.Creature;
 
