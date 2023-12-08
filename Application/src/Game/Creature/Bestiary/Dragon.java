@@ -5,7 +5,6 @@ import Game.Creature.Behavior.Run;
 import Game.Creature.Behavior.Swim;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Oviparian;
-import Interactions.Controler;
 
 /**
  * Represents a Dragon

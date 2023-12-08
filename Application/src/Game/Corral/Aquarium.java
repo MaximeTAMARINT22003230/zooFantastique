@@ -1,6 +1,7 @@
 package Game.Corral;
 
 import Game.Creature.Behavior.Fly;
+import Game.Creature.Behavior.Run;
 import Game.Creature.Behavior.Swim;
 import Game.Creature.Creature;
 
@@ -29,18 +30,14 @@ public class Aquarium extends Corral {
         return new Aquarium(name, size);
     }
 
-    public String toString()
-    {
-        StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
-        ArrayList<Creature> creatures = new ArrayList<>();
-        for (Swim creature : this.creatures) {
-            creatures.add((Creature) creature);
-        }
-        for (Creature creature : creatures) {
-            returnString.append(creature.getName()).append("\n");
-        }
-        return returnString.toString();
-    }
+    @Override
+    protected ArrayList<Creature> completeTable() {
+       ArrayList<Creature> creatures = new ArrayList<>();
+       for (Swim creature : this.creatures) {
+           creatures.add((Creature) creature);
+       }
+       return creatures;
+   }
     @Override
     public void addCreature(Creature creature)
     {

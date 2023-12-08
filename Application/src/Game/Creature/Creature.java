@@ -102,12 +102,11 @@ public abstract class Creature implements Runnable{
     protected void toSwim() {
         Controler.getInstance().notification(this.name+" swims ("+this.getClass().getSimpleName()+")");
     }
-
-    /////
-    protected void eat(){
+    public void eat(){
         hunger = hunger.eat();
+        if (Model.DiceRoll.d4() == 1)
+            toSwell();
     }
-    // notification pour dire je cris ?
     protected void toBeHungry() {
         if (this.hunger == Hunger.values()[0])
             loseHealth();
@@ -170,6 +169,7 @@ public abstract class Creature implements Runnable{
     public Sex getSex(){
         return this.sex;
     }
+    public Hunger getHunger() {return this.hunger;}
     @Override
     public String toString()
     {

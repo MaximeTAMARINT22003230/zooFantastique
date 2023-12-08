@@ -1,6 +1,7 @@
 package Game.Corral;
 
 import Game.Creature.Behavior.Fly;
+import Game.Creature.Behavior.Swim;
 import Game.Creature.Creature;
 
 import java.util.ArrayList;
@@ -28,17 +29,13 @@ public class Aviary extends Corral {
         return new Aviary(name, size);
     }
 
-    public String toString()
-    {
-        StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
+    @Override
+    protected ArrayList<Creature> completeTable() {
         ArrayList<Creature> creatures = new ArrayList<>();
         for (Fly creature : this.creatures) {
             creatures.add((Creature) creature);
         }
-        for (Creature creature : creatures) {
-            returnString.append(creature.getName()).append("\n");
-        }
-        return returnString.toString();
+        return creatures;
     }
     @Override
     public void addCreature(Creature creature)

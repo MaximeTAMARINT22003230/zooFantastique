@@ -26,4 +26,8 @@ public enum Hunger {
             return values()[ordinal()];
         }
     }
+
+    public boolean isHungry(){
+        return ordinal() < values().length-1;
+    }
 }

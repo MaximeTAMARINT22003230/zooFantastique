@@ -3,8 +3,8 @@ package Game.Corral;
 import Game.Creature.Behavior.Revive;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Bestiary.*;
+import Game.Creature.Caracteristic.StorageLevel;
 import Game.Creature.Creature;
-import Interactions.Controler;
 import Interactions.Interface;
 
 import java.util.ArrayList;
@@ -21,13 +21,14 @@ public class Corral implements Runnable{
     protected int max;
     private List<Run> creatures;
     protected String hygiene;
-    protected String food;
+    protected StorageLevel food;
     protected Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
         this.max = MAX;
         this.isDestroyed = false;
+        this.food = StorageLevel.MANY;
         this.creatures = new ArrayList<Run>();
     }
     /**
@@ -41,13 +42,19 @@ public class Corral implements Runnable{
     {
         return new Corral(name, size);
     }
-    public String toString()
-    {
-        StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
+
+    protected ArrayList<Creature> completeTable() {
         ArrayList<Creature> creatures = new ArrayList<>();
         for (Run creature : this.creatures) {
             creatures.add((Creature) creature);
         }
+        return creatures;
+    }
+
+    public String toString()
+    {
+        StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
+        ArrayList<Creature> creatures = completeTable();
         for (Creature creature : creatures) {
             returnString.append(creature.getName()).append("\n");
         }
@@ -117,7 +124,20 @@ public class Corral implements Runnable{
     }
     public void feed()
     {
-
+        this.food = food.fillStorage();
+    }
+    protected void givesFoodToCreature()
+    {
+        if (!this.food.isEmpty()) {
+            ArrayList<Creature> creatures = completeTable();
+            for (Creature creature : creatures) {
+                if (creature.getHunger().isHungry()) {
+                    creature.eat();
+                    if (Model.DiceRoll.d20() == 1)
+                        this.food.levelDown();
+                }
+            }
+        }
     }
     public boolean hasFreeSpace()
     {
@@ -159,14 +179,10 @@ public class Corral implements Runnable{
     public void run(){
         while (!isDestroyed) {
 
-            int randomAction = Model.DiceRoll.d8();
-
-            if (randomAction == 1) {
-                // perd un point de propreté
-            }
+            givesFoodToCreature();
 
             try {
-                Thread.sleep(5000);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
