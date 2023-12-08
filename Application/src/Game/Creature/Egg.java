@@ -1,6 +1,6 @@
 package Game.Creature;
 
-import Interactions.Controler;
+import Player.Controler;
 import Game.Corral.Corral;
 /**
  * Represents an egg that can hatch into a creature.

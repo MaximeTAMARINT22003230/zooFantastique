@@ -1,18 +1,23 @@
-package Interactions;
+package Player;
 
 import Game.Corral.Aquarium;
 import Game.Corral.Aviary;
 import Game.Corral.Corral;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Creature;
-import Player.*;
+import Game.Lycantropus.Lycantropus;
 
 import java.util.Objects;
 
 /**
- * One of the app's controler. Used when the user need to create an object
+ * The Creator interact with the player to create anything. <br>
+ * Has only a bunch of usefulle static methods.
  */
 public class Creator{
+    /** Create a Zoo Master <br>
+     * Ask to input a name, a sex and an age
+     * @return The new Zoo Master
+     */
     private static ZooMaster createYourZooMaster()
     {
         return new ZooMaster(Interface.input("Nom de votre maître de zoo"),Asker.sex(),Asker.age());

@@ -8,7 +8,7 @@ import Game.Creature.Oviparian;
  * Represents a Megalodon
  * Inherits from the Oviparian class and implements the Swim behavior.
  */
-public class Megalodon extends Oviparian implements Swim {
+public final class Megalodon extends Oviparian implements Swim {
     private Megalodon(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
@@ -24,10 +24,9 @@ public class Megalodon extends Oviparian implements Swim {
         return new Megalodon(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    /**
-     * Implements the swimming behavior of a Megalodon.
-     */
     @Override
     public void run() {
+
     }
+
 }

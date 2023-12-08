@@ -1,8 +1,14 @@
 package Game.Corral;
 
+import Game.Creature.Behavior.Revive;
+import Game.Corral.Caracteristic.Hygiene;
 import Game.Creature.Behavior.Run;
+import Game.Creature.Bestiary.*;
+import Game.Creature.Caracteristic.StorageLevel;
 import Game.Creature.Creature;
-import Interactions.Interface;
+import Game.Logic.DiceRoll;
+import Game.Lycantropus.Lycantropus;
+import Player.Interface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,23 +16,26 @@ import java.util.List;
 /**
  * Represents an enclosure to house creatures with the ability to run.
  */
-public class Corral {
+public class Corral implements Runnable{
     private static final int MAX = 5;
     protected String name;
     protected String size;
     protected int max;
     private List<Run> creatures;
     protected Hygiene hygiene;
-    protected String food;
+    private boolean isDestroyed;
+    protected StorageLevel food;
+
     protected Corral(String name, String size)
     {
         this.name = name;
         this.size = size;
         this.max = MAX;
+        this.food = StorageLevel.MANY;
         this.creatures = new ArrayList<Run>();
         this.hygiene = Hygiene.GOOD;
+        this.isDestroyed = false;
     }
-
     /**
      * Creates and returns a new instance of Corral.
      *
@@ -38,13 +47,19 @@ public class Corral {
     {
         return new Corral(name, size);
     }
+
+    protected ArrayList<Creature> completeTable() {
+        ArrayList<Creature> creatures = new ArrayList<>();
+        for (Run creature : this.creatures) {
+            creatures.add((Creature) creature);
+        }
+        return creatures;
+    }
+
     public String toString()
     {
         StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
-        ArrayList<Creature> creatures = new ArrayList<>();
-        for (Run run : this.creatures) {
-            creatures.add((Creature) run);
-        }
+        ArrayList<Creature> creatures = completeTable();
         for (Creature creature : creatures) {
             returnString.append(creature.getName()).append("\n");
         }
@@ -54,16 +69,9 @@ public class Corral {
     {
         if (!(creature instanceof Run))
         {
-            // TODO : THROW ERROR
+            throw new IllegalArgumentException("Cette créature ne peut pas courir");
         }
         assert creature instanceof Run;
-
-        if (!checkCreature(creature)) {
-            // TODO : THROW ERROR OR HANDLE THE CASE WHERE CREATURE CANNOT BE ADDED
-            System.out.println("Cette créature ne peut pas être ajoutée à cet enclos.");
-            return;
-        }
-
         this.creatures.add((Run) creature);
         Thread thread = new Thread(creature);
         thread.start();
@@ -80,6 +88,48 @@ public class Corral {
 
     public Hygiene getHygiene() {
         return this.hygiene;
+
+    public void kill(Creature creature)
+    {
+        if (creature instanceof Revive) {
+            String type = creature.getClass().getSimpleName();
+            removeCreature(creature);
+            switch (type) {
+                case "Dragon":
+                    creature = Dragon.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Kraken":
+                    creature = Kraken.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Lycantropus":
+                    creature = Lycantropus.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Megalodon":
+                    creature = Megalodon.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Mermaid":
+                    creature = Mermaid.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Nymph":
+                    creature = Nymph.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Phenix":
+                    creature = Phenix.newBorn(creature.getName(),creature.getSex());
+                    break;
+                case "Unicorn":
+                    creature = Unicorn.newBorn(creature.getName(),creature.getSex());
+                    break;
+            }
+            addCreature(creature);
+        }
+        else
+            removeCreature(creature);
+    }
+
+    public void clean()
+    {
+        hygiene= Hygiene.GOOD;
+        System.out.println("Le Corral a été nettoyé et est maintenant propre.");
     }
     public int count()
     {
@@ -87,7 +137,20 @@ public class Corral {
     }
     public void feed()
     {
-
+        this.food = food.fillStorage();
+    }
+    protected void givesFoodToCreature()
+    {
+        if (!this.food.isEmpty()) {
+            ArrayList<Creature> creatures = completeTable();
+            for (Creature creature : creatures) {
+                if (creature.getHunger().isHungry()) {
+                    creature.eat();
+                    if (DiceRoll.d20() == 1)
+                        this.food.levelDown();
+                }
+            }
+        }
     }
     public boolean hasFreeSpace()
     {
@@ -132,7 +195,23 @@ public class Corral {
         Interface.show(creatures.toString());
         return creatures;
     }
-
+    @Override
+    public void run(){
+        while (!isDestroyed)
+        {
+            givesFoodToCreature();
+                try
+                {
+                    Thread.sleep(10000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+         }
+    }
+    public void destroy()
+    {
+        this.isDestroyed = true;
+    }
     public boolean checkCreature(Creature creature) {
         if (creatures.isEmpty()) {
             return true;

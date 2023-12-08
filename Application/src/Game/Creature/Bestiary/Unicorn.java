@@ -6,7 +6,8 @@ import Game.Creature.Viviparian;
  * Represents a Unicorn
  * Inherits from the Viviparian class and implements the Run behavior.
  */
-public class Unicorn extends Viviparian implements Run {
+
+public final class Unicorn extends Viviparian implements Run {
     private Unicorn(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
     }
@@ -22,9 +23,6 @@ public class Unicorn extends Viviparian implements Run {
         return new Unicorn(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
 
-    /**
-     * Implements the running behavior of a Unicorn.
-     */
     @Override
     public void run() {
 

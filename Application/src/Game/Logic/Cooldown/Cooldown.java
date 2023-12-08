@@ -1,4 +1,4 @@
-package Game.Cooldown;
+package Game.Logic.Cooldown;
 
 /**
  * Represents a cooldown that triggers an action after a specified duration.

@@ -1,9 +1,8 @@
 package Game.Creature.Behavior;
 
-import Game.Corral.Corral;
 import Game.Creature.Creature;
 import Game.Creature.Egg;
-import Interactions.Controler;
+import Player.Controler;
 
 /** The Laying behavior, used by Oviparrian
  * Allows a creature to lay eggs
@@ -14,8 +13,14 @@ public class Laying extends BirthBehavior {
      * @param creature The creature laying an egg
      * @return the new egg
      */
-    public Egg lay(Creature creature)
+    private Egg lay(Creature creature)
     {
         return Egg.lay(creature, Controler.getInstance().zoo.corralOf(creature));
+    }
+
+    @Override
+    public void makeBaby(Creature baby, Creature parent)
+    {
+        this.lay(parent);
     }
 }

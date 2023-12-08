@@ -1,8 +1,10 @@
 package Game.Creature;
 
+import Game.Creature.Behavior.*;
+import Game.Logic.DiceRoll;
+import Player.Controler;
 import Game.Creature.Behavior.BirthBehavior;
 import Game.Creature.Caracteristic.*;
-import Interactions.Controler;
 
 /**
  * The creature abstract class. Contain anything common to all creatures.
@@ -18,8 +20,7 @@ public abstract class Creature implements Runnable{
     protected Fatigue fatigue;
     protected Health health;
     protected boolean isAlive;
-    protected boolean isSleeping;
-    protected BirthBehavior birthingBehavior;
+    public BirthBehavior birthingBehavior;
     protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
         this.name = name;
@@ -31,16 +32,90 @@ public abstract class Creature implements Runnable{
         this.fatigue = fatigue;
         this.health = health;
         this.isAlive = true;
-        this.isSleeping = false;
     }
-    protected void eat(){
+
+    @Override
+    public void run() {
+        while (this.isAlive){
+            if (fatigue.isSleeping()) {
+                int t = DiceRoll.d4();
+                if (t == 1) {
+                    Controler.getInstance().notification(this.name + " se reveil (" + this.getClass().getSimpleName() + ") : " +t);
+                    sleep();
+                } else {
+                    Controler.getInstance().notification(this.name + " dort toujours (" + this.getClass().getSimpleName() + ") : "+t);
+                }
+            }
+            else {
+                int randomAction = DiceRoll.d12();
+
+                switch (randomAction) {
+                    case 1:
+                        shout();
+                        break;
+                    case 2:
+                        age();
+                        break;
+                    case 3:
+                        gettingFatigue();
+                        break;
+                    case 4:
+                        toBeHungry();
+                        break;
+                    case 5:
+                        toLoseWeight();
+                        break;
+                    case 6:
+                        growUp();
+                        break;
+                    case 7:
+                        heal();
+                        break;
+                    case 8:
+                        if(this instanceof Fly)
+                            toFly();
+                        break;
+                    case 9:
+                        if(this instanceof Run)
+                            toRun();
+                        break;
+                    case 10:
+                        if (this instanceof Swim)
+                            toSwim();
+                        break;
+                }
+                if (DiceRoll.d20() == 1)
+                    reproduce();
+            }
+
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+    /// Behavior
+    protected void toFly() {
+        Controler.getInstance().notification(this.name+" flies ("+this.getClass().getSimpleName()+")");
+    }
+    protected void toRun() {
+        Controler.getInstance().notification(this.name+" runs ("+this.getClass().getSimpleName()+")");
+    }
+    protected void toSwim() {
+        Controler.getInstance().notification(this.name+" swims ("+this.getClass().getSimpleName()+")");
+    }
+    ///
+    public void eat(){
         hunger = hunger.eat();
+        if (DiceRoll.d4() == 1)
+            toSwell();
     }
-    // notification pour dire je cris ?
     protected void toBeHungry() {
         if (this.hunger == Hunger.values()[0])
             loseHealth();
-        this.hunger = hunger.toBeHungry();
+        else
+            this.hunger = hunger.toBeHungry();
     }
     protected void shout(){
         Controler.getInstance().notification(this.name+" émet un son ("+this.getClass().getSimpleName()+")");
@@ -48,52 +123,59 @@ public abstract class Creature implements Runnable{
     protected  void loseHealth() {
         if (this.health == Health.values()[0]) {
             this.isAlive = false;
-            Controler.getInstance().removeCreature(this);
+            Controler.getInstance().kill(this);
         }
-        this.health = health.loseHealth();
+        else
+            this.health = health.loseHealth();
     }
     protected void heal(){
         health = health.heal();
     }
     protected void gettingFatigue() {
-        if (this.fatigue == Fatigue.values()[0]) {
-            sleep();
-        }
-        else {
+        if (this.fatigue != Fatigue.values()[0]) {
             this.fatigue = fatigue.gettingFatigue();
-            Controler.getInstance().notification(this.name+" getting fatigue ("+this.getClass().getSimpleName()+")");
+            Controler.getInstance().notification(this.name + " getting fatigue (" + this.getClass().getSimpleName() + ")");
         }
+        else
+            Controler.getInstance().notification(this.name + " is sleeping (" + this.getClass().getSimpleName() + ")");
     }
     protected void sleep(){
-        isSleeping = true;
-        Controler.getInstance().notification(this.name+" is sleeping ("+this.getClass().getSimpleName()+")");
         fatigue = fatigue.sleep();
     }
     protected void age() {
         if (this.age == Age.values()[Age.values().length-1]) {
             this.isAlive = false;
-            Controler.getInstance().removeCreature(this);
+            loseHealth();
         }
-        age = age.gettingOder();
+        else
+            age = age.gettingOder();
     }
     protected void growUp() {
         this.height = height.growUp();
     }
     protected void toSwell() {
-        //this.weight == Weight.values()[0]
         if (this.weight == Weight.values()[Weight.values().length-1])
             loseHealth();
-        this.weight = weight.toSwell();
+        else
+            this.weight = weight.toSwell();
     }
     protected void toLoseWeight() {
         if (this.weight == Weight.values()[0])
             loseHealth();
-        this.weight = weight.toLoseWeight();
+        else
+            this.weight = weight.toLoseWeight();
+    }
+    protected void reproduce() {
+        // implement reproduce
     }
     public String getName()
     {
         return this.name;
     }
+    public Sex getSex(){
+        return this.sex;
+    }
+    public Hunger getHunger() {return this.hunger;}
     @Override
     public String toString()
     {
