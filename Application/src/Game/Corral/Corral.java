@@ -16,7 +16,7 @@ public class Corral {
     protected String size;
     protected int max;
     private List<Run> creatures;
-    protected CleanlinessLevel cleanliness;
+    protected Hygiene hygiene;
     protected String food;
     protected Corral(String name, String size)
     {
@@ -24,7 +24,7 @@ public class Corral {
         this.size = size;
         this.max = MAX;
         this.creatures = new ArrayList<Run>();
-        this.cleanliness = CleanlinessLevel.GOOD;
+        this.hygiene = Hygiene.GOOD;
     }
 
     /**
@@ -74,13 +74,12 @@ public class Corral {
         return (Creature) this.creatures.remove(this.creatures.indexOf((Run) creature));
     }
     public void clean() {
-        // Mise à jour du niveau de propreté à un niveau supérieur
-        this.cleanliness = this.cleanliness.improveCleanliness();
-        System.out.println("L'enclos a été nettoyé. Niveau de propreté : " + this.cleanliness);
+        this.hygiene = this.hygiene.clean();
+        System.out.println("L'enclos a été nettoyé. Niveau de propreté : " + this.hygiene);
     }
 
-    public CleanlinessLevel getCleanliness() {
-        return this.cleanliness;
+    public Hygiene getHygiene() {
+        return this.hygiene;
     }
     public int count()
     {
