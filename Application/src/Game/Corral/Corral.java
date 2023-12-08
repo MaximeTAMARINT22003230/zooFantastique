@@ -56,6 +56,13 @@ public class Corral {
             // TODO : THROW ERROR
         }
         assert creature instanceof Run;
+
+        if (!checkCreature(creature)) {
+            // TODO : THROW ERROR OR HANDLE THE CASE WHERE CREATURE CANNOT BE ADDED
+            System.out.println("Cette créature ne peut pas être ajoutée à cet enclos.");
+            return;
+        }
+
         this.creatures.add((Run) creature);
         Thread thread = new Thread(creature);
         thread.start();
@@ -120,4 +127,23 @@ public class Corral {
         Interface.show(creatures.toString());
         return creatures;
     }
+
+    public boolean checkCreature(Creature creature) {
+        if (creatures.isEmpty()) {
+            return true;
+        } else {
+
+            Class<?> newCreatureType = creature.getClass();
+            for (Run existingCreature : creatures) {
+                Class<?> existingCreatureType = existingCreature.getClass();
+                if (!existingCreatureType.equals(newCreatureType)) {
+
+                    return false;
+                }
+            }
+
+            return true;
+        }
+    }
+
 }
