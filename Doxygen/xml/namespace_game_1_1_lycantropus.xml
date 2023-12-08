@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_lycantropus" kind="namespace" language="Java">
+    <compoundname>Game::Lycantropus</compoundname>
+    <innerclass refid="class_game_1_1_lycantropus_1_1_couple" prot="public">Game::Lycantropus::Couple</innerclass>
+    <innerclass refid="enum_game_1_1_lycantropus_1_1_howl" prot="public">Game::Lycantropus::Howl</innerclass>
+    <innerclass refid="class_game_1_1_lycantropus_1_1_lycantropus" prot="public">Game::Lycantropus::Lycantropus</innerclass>
+    <innerclass refid="class_game_1_1_lycantropus_1_1_pack" prot="public">Game::Lycantropus::Pack</innerclass>
+    <innernamespace refid="namespace_game_1_1_lycantropus_1_1_caracteristics">Game::Lycantropus::Caracteristics</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Couple.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

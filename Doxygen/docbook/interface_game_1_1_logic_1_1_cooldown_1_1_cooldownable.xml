@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable" xml:lang="en-US">
+<title>Game.Logic.Cooldown.Cooldownable Interface Reference</title>
+<indexterm><primary>Game.Logic.Cooldown.Cooldownable</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9">cooldown</link> (<link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown">Cooldown</link> cooldown)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The Cooldownable interface, implemented by entities that can undergo cooldown. Specifies a method to handle cooldown behavior. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9"/><section>
+    <title>cooldown()</title>
+<indexterm><primary>cooldown</primary><secondary>Game.Logic.Cooldown.Cooldownable</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.Cooldownable</primary><secondary>cooldown</secondary></indexterm>
+<para><computeroutput>void Game.Logic.Cooldown.Cooldownable.cooldown (<link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown">Cooldown</link> cooldown)</computeroutput></para>
+<para>Initiates a cooldown for the implementing entity.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>cooldown</entry><entry>
+<para>The cooldown duration to be applied. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Application/src/Game/Logic/Cooldown/<link linkend="__cooldownable_8java">Cooldownable.java</link></section>
+</section>

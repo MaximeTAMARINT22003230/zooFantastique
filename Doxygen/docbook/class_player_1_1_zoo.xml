@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_1_1_zoo" xml:lang="en-US">
+<title>Player.Zoo Class Reference</title>
+<indexterm><primary>Player.Zoo</primary></indexterm>
+<para>Inheritance diagram for Player.Zoo:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_player_1_1_zoo.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703">showCreatures</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_player_1_1_zoo_1a652181903ef7fae670026374366689d9">countCreatures</link> ()</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1">countCorrals</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_player_1_1_zoo_1afbd3e5247984a0645c764179a4d4e503">toString</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313">exists</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>Corral <link linkend="_class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e">corralOf</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919">addCorral</link> (Corral <link linkend="_class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e">corral</link>)</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6">corrals</link> ()</para>
+</listitem>
+            <listitem><para>Corral <link linkend="_class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e">corral</link> (String string)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30">removeCorral</link> (Corral <link linkend="_class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e">corral</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1a1a425c32c2db16ebabd4eaaea202f952">extend</link> (int size)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2">addCreature</link> (Corral <link linkend="_class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e">corral</link>, Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176">removeCreature</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34">kill</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2">reviveCreature</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>List&lt; Corral &gt; <link linkend="_class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d">getCorrals</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; Creature &gt; <link linkend="_class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0">getCreatures</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b">cooldown</link> (Cooldown cooldown)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8">spread</link> (Howl howl)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static void <link linkend="_class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4">main</link> (String[] args)</para>
+</listitem>
+            <listitem><para>static <link linkend="_class_player_1_1_zoo">Zoo</link> <link linkend="_class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444">opening</link> (String name, <link linkend="_class_player_1_1_zoo_master">ZooMaster</link> <link linkend="_class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1">zooMaster</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_1_1_zoo_master">ZooMaster</link> <link linkend="_class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1">zooMaster</link></para>
+</listitem>
+            <listitem><para>List&lt; Pack &gt; <link linkend="_class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d">colony</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_player_1_1_zoo_1a40857a4576781c9c27e483f75c5f809d">loveSeason</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a Zoo that manages various corrals and creatures. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919"/><section>
+    <title>addCorral()</title>
+<indexterm><primary>addCorral</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>addCorral</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.addCorral (Corral corral)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2"/><section>
+    <title>addCreature()</title>
+<indexterm><primary>addCreature</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>addCreature</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.addCreature (Corral corral, Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b"/><section>
+    <title>cooldown()</title>
+<indexterm><primary>cooldown</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>cooldown</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.cooldown (Cooldown cooldown)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e"/><section>
+    <title>corral()</title>
+<indexterm><primary>corral</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>corral</secondary></indexterm>
+<para><computeroutput>Corral Player.Zoo.corral (String string)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e"/><section>
+    <title>corralOf()</title>
+<indexterm><primary>corralOf</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>corralOf</secondary></indexterm>
+<para><computeroutput>Corral Player.Zoo.corralOf (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6"/><section>
+    <title>corrals()</title>
+<indexterm><primary>corrals</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>corrals</secondary></indexterm>
+<para><computeroutput>String Player.Zoo.corrals ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1"/><section>
+    <title>countCorrals()</title>
+<indexterm><primary>countCorrals</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>countCorrals</secondary></indexterm>
+<para><computeroutput>int Player.Zoo.countCorrals ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a652181903ef7fae670026374366689d9"/><section>
+    <title>countCreatures()</title>
+<indexterm><primary>countCreatures</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>countCreatures</secondary></indexterm>
+<para><computeroutput>int Player.Zoo.countCreatures ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313"/><section>
+    <title>exists()</title>
+<indexterm><primary>exists</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>exists</secondary></indexterm>
+<para><computeroutput>boolean Player.Zoo.exists (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a1a425c32c2db16ebabd4eaaea202f952"/><section>
+    <title>extend()</title>
+<indexterm><primary>extend</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>extend</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.extend (int size)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d"/><section>
+    <title>getCorrals()</title>
+<indexterm><primary>getCorrals</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>getCorrals</secondary></indexterm>
+<para><computeroutput>List&lt; Corral &gt; Player.Zoo.getCorrals ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0"/><section>
+    <title>getCreatures()</title>
+<indexterm><primary>getCreatures</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>getCreatures</secondary></indexterm>
+<para><computeroutput>List&lt; Creature &gt; Player.Zoo.getCreatures ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34"/><section>
+    <title>kill()</title>
+<indexterm><primary>kill</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>kill</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.kill (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>static void Player.Zoo.main (String[] args)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444"/><section>
+    <title>opening()</title>
+<indexterm><primary>opening</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>opening</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_player_1_1_zoo">Zoo</link> Player.Zoo.opening (String name, <link linkend="_class_player_1_1_zoo_master">ZooMaster</link> zooMaster)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30"/><section>
+    <title>removeCorral()</title>
+<indexterm><primary>removeCorral</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>removeCorral</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.removeCorral (Corral corral)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176"/><section>
+    <title>removeCreature()</title>
+<indexterm><primary>removeCreature</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>removeCreature</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.removeCreature (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2"/><section>
+    <title>reviveCreature()</title>
+<indexterm><primary>reviveCreature</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>reviveCreature</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.reviveCreature (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703"/><section>
+    <title>showCreatures()</title>
+<indexterm><primary>showCreatures</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>showCreatures</secondary></indexterm>
+<para><computeroutput>String Player.Zoo.showCreatures ( )</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8"/><section>
+    <title>spread()</title>
+<indexterm><primary>spread</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>spread</secondary></indexterm>
+<para><computeroutput>void Player.Zoo.spread (Howl howl)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1afbd3e5247984a0645c764179a4d4e503"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Player.Zoo.toString ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d"/><section>
+    <title>colony</title>
+<indexterm><primary>colony</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>colony</secondary></indexterm>
+<para><computeroutput>List&lt;Pack&gt; Player.Zoo.colony</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a40857a4576781c9c27e483f75c5f809d"/><section>
+    <title>loveSeason</title>
+<indexterm><primary>loveSeason</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>loveSeason</secondary></indexterm>
+<para><computeroutput>boolean Player.Zoo.loveSeason</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1"/><section>
+    <title>zooMaster</title>
+<indexterm><primary>zooMaster</primary><secondary>Player.Zoo</secondary></indexterm>
+<indexterm><primary>Player.Zoo</primary><secondary>zooMaster</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_1_1_zoo_master">ZooMaster</link> Player.Zoo.zooMaster</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Player/<link linkend="__zoo_8java">Zoo.java</link></section>
+</section>

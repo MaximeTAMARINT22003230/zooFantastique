@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_egg" kind="class" language="Java" prot="public">
+    <compoundname>Game::Creature::Egg</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_egg_1a847226d6a33d3564fef6e3b3dccf855a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+        <definition>Creature Game.Creature.Egg.creature</definition>
+        <argsstring></argsstring>
+        <name>creature</name>
+        <qualifiedname>Game.Creature.Egg.creature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="9" column="22" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_egg_1a97572a024fac08aae971e04a6b7b7a83" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game.Creature.Egg.hatchTime</definition>
+        <argsstring></argsstring>
+        <name>hatchTime</name>
+        <qualifiedname>Game.Creature.Egg.hatchTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="10" column="17" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_egg_1a28953cf39f3556491b8f77b5073e8f0b" prot="private" static="no" mutable="no">
+        <type>Corral</type>
+        <definition>Corral Game.Creature.Egg.corral</definition>
+        <argsstring></argsstring>
+        <name>corral</name>
+        <qualifiedname>Game.Creature.Egg.corral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="11" column="20" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_egg_1a390f6c8dacf460426eb586a6203f10a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Creature.Egg.Egg</definition>
+        <argsstring>(Creature creature, Corral corral, int hatchTime)</argsstring>
+        <name>Egg</name>
+        <qualifiedname>Game.Creature.Egg.Egg</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>creature</declname>
+        </param>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hatchTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="12" column="13" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="12" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_creature_1_1_egg" kindref="compound">Egg</ref></type>
+        <definition>static Egg Game.Creature.Egg.lay</definition>
+        <argsstring>(Creature creature, Corral corral)</argsstring>
+        <name>lay</name>
+        <qualifiedname>Game.Creature.Egg.lay</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>creature</declname>
+        </param>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new Egg laid by a creature in a specific corral.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The creature laying the egg. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>corral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corral where the egg is laid. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new Egg instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="26" column="23" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="26" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Egg.hatch</definition>
+        <argsstring>()</argsstring>
+        <name>hatch</name>
+        <qualifiedname>Game.Creature.Egg.hatch</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hatches the egg, adding the creature to the corral after the hatching time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="34" column="17" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="34" bodyend="38"/>
+        <referencedby refid="class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50" compoundref="_egg_8java" startline="44" endline="51">Game.Creature.Egg.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Egg.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Game.Creature.Egg.run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Runs a thread to simulate the hatching process after the specified hatch time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Egg.java" line="44" column="17" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="44" bodyend="51"/>
+        <references refid="class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83" compoundref="_egg_8java" startline="34" endline="38">Game.Creature.Egg.hatch</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an egg that can hatch into a creature. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Egg</label>
+        <link refid="class_game_1_1_creature_1_1_egg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Creature.Egg</label>
+        <link refid="class_game_1_1_creature_1_1_egg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Egg.java" line="8" column="7" bodyfile="Application/src/Game/Creature/Egg.java" bodystart="8" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_egg_1a28953cf39f3556491b8f77b5073e8f0b" prot="private" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>corral</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1a847226d6a33d3564fef6e3b3dccf855a" prot="private" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>creature</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1a390f6c8dacf460426eb586a6203f10a9" prot="private" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>Egg</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83" prot="public" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>hatch</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1a97572a024fac08aae971e04a6b7b7a83" prot="private" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>hatchTime</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908" prot="public" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>lay</name></member>
+      <member refid="class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50" prot="public" virt="non-virtual"><scope>Game::Creature::Egg</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

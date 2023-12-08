@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_1_1_asker" xml:lang="en-US">
+<title>Player.Asker Class Reference</title>
+<indexterm><primary>Player.Asker</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static Sex <link linkend="_class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972">sex</link> ()</para>
+</listitem>
+            <listitem><para>static Age <link linkend="_class_player_1_1_asker_1a3d2d356941452a85edf090b2d6932fb5">age</link> ()</para>
+</listitem>
+            <listitem><para>static Creature <link linkend="_class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f">creature</link> ()</para>
+</listitem>
+            <listitem><para>static Creature <link linkend="_class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843">creature</link> (Corral <link linkend="_class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e">corral</link>)</para>
+</listitem>
+            <listitem><para>static Corral <link linkend="_class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e">corral</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The Askes is used to ask specific input to the player Contains only static methods </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_1_1_asker_1a3d2d356941452a85edf090b2d6932fb5"/><section>
+    <title>age()</title>
+<indexterm><primary>age</primary><secondary>Player.Asker</secondary></indexterm>
+<indexterm><primary>Player.Asker</primary><secondary>age</secondary></indexterm>
+<para><computeroutput>static Age Player.Asker.age ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Ask the player to input a correct Age</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The Age input </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e"/><section>
+    <title>corral()</title>
+<indexterm><primary>corral</primary><secondary>Player.Asker</secondary></indexterm>
+<indexterm><primary>Player.Asker</primary><secondary>corral</secondary></indexterm>
+<para><computeroutput>static Corral Player.Asker.corral ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Ask the player to chose a corral depending on the existing ones <formalpara><title>Returns</title>
+
+<para>The chosen corral </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f"/><section>
+    <title>creature()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>creature</primary><secondary>Player.Asker</secondary></indexterm>
+<indexterm><primary>Player.Asker</primary><secondary>creature</secondary></indexterm>
+<para><computeroutput>static Creature Player.Asker.creature ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Ask the player to choose a creature with an input <formalpara><title>Returns</title>
+
+<para>The chosen creature </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843"/><section>
+    <title>creature()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>creature</primary><secondary>Player.Asker</secondary></indexterm>
+<indexterm><primary>Player.Asker</primary><secondary>creature</secondary></indexterm>
+<para><computeroutput>static Creature Player.Asker.creature (Corral corral)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Ask the player to chose a creature with an input 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>corral</entry><entry>
+<para>A specific corral for the choice to be made </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The chosen creature </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972"/><section>
+    <title>sex()</title>
+<indexterm><primary>sex</primary><secondary>Player.Asker</secondary></indexterm>
+<indexterm><primary>Player.Asker</primary><secondary>sex</secondary></indexterm>
+<para><computeroutput>static Sex Player.Asker.sex ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Ask the player to input a sex either MALE or FEMALE <formalpara><title>Returns</title>
+
+<para>The input Sex </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Player/<link linkend="__asker_8java">Asker.java</link></section>
+</section>

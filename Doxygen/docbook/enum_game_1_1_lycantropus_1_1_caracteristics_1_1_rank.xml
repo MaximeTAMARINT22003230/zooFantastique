@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" xml:lang="en-US">
+<title>Game.Lycantropus.Caracteristics.Rank Enum Reference</title>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1abc46645d821bc18d39976e502144bc37">downgrade</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08d6b876dace571e8d78c56b86cc652f">upgrade</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1af582bc316b0388e6447c97ba5d7566f9">ALPHA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aeaa9f148fa6a52a6c19f3d7ead863f1b">BETA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a954a05be2b793ad5b9e88be006897c1f">GAMMA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a6fdffe6669d7ef258346fa96a126abe2">DELTA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2f9346a85dc8516c770151b162eef9a9">EPSILON</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a05b8e28d597614b44f9ed74725cfff74">ZETA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2344a51adc9bad355da774565c02f8b4">ETA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a0befb7e53d4e0ecc58fde370cd1a5c44">THETA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ae8512ee00356b5e67952bcae82009400">IOTA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aaaf59d0ba592d4f2515252672870d69b">KAPPA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ab42989030272c58a58532b6f2157a6b0">LAMBDA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a1941a72be781171c3ce1312ae602562e">MU</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1add334370ff8c27a06b46079846694eba">NU</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a71fc35bbd50b03f70ec1bef19d5877cf">XI</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aacef013cf3ac8f78961c8b072a0d7e78">OMICRON</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4ac435fb51e2b77be6beae63c9829de0">PI</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a83ee4be57629f7e3f147ba50ea51dc64">RHO</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ad325179c666c282f8ca22f9fe59572e5">SIGMA</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a24192754ffbbb30adcaf19858307a70f">TAU</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08a21b0944289f6b2092a8e3ae1b0f40">UPSILON</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4e656ac0e871f8e81010733fdae01b68">PHI</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a75e08e7a81e3ce46ac1d57eb89cd611c">CHI</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aee393357f1a66668e0c5da63f7b85a05">PSI</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ac69c68d2ba92c06d3a0d0ea3b4155a96">OMEGA</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1abc46645d821bc18d39976e502144bc37"/><section>
+    <title>downgrade()</title>
+<indexterm><primary>downgrade</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>downgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> Game.Lycantropus.Caracteristics.Rank.downgrade ( )</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08d6b876dace571e8d78c56b86cc652f"/><section>
+    <title>upgrade()</title>
+<indexterm><primary>upgrade</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>upgrade</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> Game.Lycantropus.Caracteristics.Rank.upgrade ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1af582bc316b0388e6447c97ba5d7566f9"/><section>
+    <title>ALPHA</title>
+<indexterm><primary>ALPHA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>ALPHA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.ALPHA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aeaa9f148fa6a52a6c19f3d7ead863f1b"/><section>
+    <title>BETA</title>
+<indexterm><primary>BETA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>BETA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.BETA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a75e08e7a81e3ce46ac1d57eb89cd611c"/><section>
+    <title>CHI</title>
+<indexterm><primary>CHI</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>CHI</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.CHI</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a6fdffe6669d7ef258346fa96a126abe2"/><section>
+    <title>DELTA</title>
+<indexterm><primary>DELTA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>DELTA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.DELTA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2f9346a85dc8516c770151b162eef9a9"/><section>
+    <title>EPSILON</title>
+<indexterm><primary>EPSILON</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>EPSILON</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.EPSILON</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2344a51adc9bad355da774565c02f8b4"/><section>
+    <title>ETA</title>
+<indexterm><primary>ETA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>ETA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.ETA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a954a05be2b793ad5b9e88be006897c1f"/><section>
+    <title>GAMMA</title>
+<indexterm><primary>GAMMA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>GAMMA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.GAMMA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ae8512ee00356b5e67952bcae82009400"/><section>
+    <title>IOTA</title>
+<indexterm><primary>IOTA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>IOTA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.IOTA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aaaf59d0ba592d4f2515252672870d69b"/><section>
+    <title>KAPPA</title>
+<indexterm><primary>KAPPA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>KAPPA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.KAPPA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ab42989030272c58a58532b6f2157a6b0"/><section>
+    <title>LAMBDA</title>
+<indexterm><primary>LAMBDA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>LAMBDA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.LAMBDA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a1941a72be781171c3ce1312ae602562e"/><section>
+    <title>MU</title>
+<indexterm><primary>MU</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>MU</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.MU</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1add334370ff8c27a06b46079846694eba"/><section>
+    <title>NU</title>
+<indexterm><primary>NU</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>NU</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.NU</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ac69c68d2ba92c06d3a0d0ea3b4155a96"/><section>
+    <title>OMEGA</title>
+<indexterm><primary>OMEGA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>OMEGA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.OMEGA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aacef013cf3ac8f78961c8b072a0d7e78"/><section>
+    <title>OMICRON</title>
+<indexterm><primary>OMICRON</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>OMICRON</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.OMICRON</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4e656ac0e871f8e81010733fdae01b68"/><section>
+    <title>PHI</title>
+<indexterm><primary>PHI</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>PHI</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.PHI</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4ac435fb51e2b77be6beae63c9829de0"/><section>
+    <title>PI</title>
+<indexterm><primary>PI</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>PI</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.PI</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aee393357f1a66668e0c5da63f7b85a05"/><section>
+    <title>PSI</title>
+<indexterm><primary>PSI</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>PSI</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.PSI</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a83ee4be57629f7e3f147ba50ea51dc64"/><section>
+    <title>RHO</title>
+<indexterm><primary>RHO</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>RHO</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.RHO</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ad325179c666c282f8ca22f9fe59572e5"/><section>
+    <title>SIGMA</title>
+<indexterm><primary>SIGMA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>SIGMA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.SIGMA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a24192754ffbbb30adcaf19858307a70f"/><section>
+    <title>TAU</title>
+<indexterm><primary>TAU</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>TAU</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.TAU</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a0befb7e53d4e0ecc58fde370cd1a5c44"/><section>
+    <title>THETA</title>
+<indexterm><primary>THETA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>THETA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.THETA</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08a21b0944289f6b2092a8e3ae1b0f40"/><section>
+    <title>UPSILON</title>
+<indexterm><primary>UPSILON</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>UPSILON</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.UPSILON</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a71fc35bbd50b03f70ec1bef19d5877cf"/><section>
+    <title>XI</title>
+<indexterm><primary>XI</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>XI</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.XI</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a05b8e28d597614b44f9ed74725cfff74"/><section>
+    <title>ZETA</title>
+<indexterm><primary>ZETA</primary><secondary>Game.Lycantropus.Caracteristics.Rank</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Rank</primary><secondary>ZETA</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Rank.ZETA</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Lycantropus/Caracteristics/<link linkend="__rank_8java">Rank.java</link></section>
+</section>

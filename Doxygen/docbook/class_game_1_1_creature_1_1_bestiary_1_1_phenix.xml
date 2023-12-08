@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_creature_1_1_bestiary_1_1_phenix" xml:lang="en-US">
+<title>Game.Creature.Bestiary.Phenix Class Reference</title>
+<indexterm><primary>Game.Creature.Bestiary.Phenix</primary></indexterm>
+<para>Inheritance diagram for Game.Creature.Bestiary.Phenix:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_creature_1_1_bestiary_1_1_phenix.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a245f53f965c4fe730b89cd86f0a2bf76">run</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Public Member Functions inherited from <link linkend="_class_game_1_1_creature_1_1_oviparian">Game.Creature.Oviparian</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22">Oviparian</link> (String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link>, Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link>, Weight <link linkend="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17">weight</link>, Height <link linkend="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb">height</link>, Age <link linkend="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd">age</link>, Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3">hunger</link>, Fatigue <link linkend="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688">fatigue</link>, Health <link linkend="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26">health</link>)</para>
+</listitem>
+        </itemizedlist>
+Public Member Functions inherited from <link linkend="_class_game_1_1_creature_1_1_creature">Game.Creature.Creature</link>        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d">eat</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db">getName</link> ()</para>
+</listitem>
+            <listitem><para>Sex <link linkend="_class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7">getSex</link> ()</para>
+</listitem>
+            <listitem><para>Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e">getHunger</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420">toString</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6">equals</link> (Object o)</para>
+</listitem>
+        </itemizedlist>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix">Phenix</link> <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix_1aaea0bfc67cc8f72079ac29cc250a49ea">newBorn</link> (String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link>, Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Public Attributes inherited from <link linkend="_class_game_1_1_creature_1_1_creature">Game.Creature.Creature</link>        <itemizedlist>
+            <listitem><para>BirthBehavior <link linkend="_class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de">birthingBehavior</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+Protected Member Functions inherited from <link linkend="_class_game_1_1_creature_1_1_creature">Game.Creature.Creature</link>        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d">Creature</link> (String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link>, Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link>, Weight <link linkend="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17">weight</link>, Height <link linkend="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb">height</link>, Age <link linkend="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd">age</link>, Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3">hunger</link>, Fatigue <link linkend="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688">fatigue</link>, Health <link linkend="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26">health</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd">toFly</link> ()</para>
+
+<para>Behavior. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3">toRun</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448">toSwim</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92">toBeHungry</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31">shout</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912">loseHealth</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29">heal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8">gettingFatigue</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d">sleep</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18">age</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca">growUp</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa">toSwell</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671">toLoseWeight</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c">reproduce</link> ()</para>
+</listitem>
+        </itemizedlist>
+Protected Attributes inherited from <link linkend="_class_game_1_1_creature_1_1_creature">Game.Creature.Creature</link>        <itemizedlist>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link></para>
+</listitem>
+            <listitem><para>Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link></para>
+</listitem>
+            <listitem><para>Weight <link linkend="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17">weight</link></para>
+</listitem>
+            <listitem><para>Height <link linkend="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb">height</link></para>
+</listitem>
+            <listitem><para>Age <link linkend="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd">age</link></para>
+</listitem>
+            <listitem><para>Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3">hunger</link></para>
+</listitem>
+            <listitem><para>Fatigue <link linkend="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688">fatigue</link></para>
+</listitem>
+            <listitem><para>Health <link linkend="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26">health</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331">isAlive</link></para>
+</listitem>
+        </itemizedlist>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a Phoenix Inherits from the Oviparian class and implements Fly and Revive behaviors. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_bestiary_1_1_phenix_1aaea0bfc67cc8f72079ac29cc250a49ea"/><section>
+    <title>newBorn()</title>
+<indexterm><primary>newBorn</primary><secondary>Game.Creature.Bestiary.Phenix</secondary></indexterm>
+<indexterm><primary>Game.Creature.Bestiary.Phenix</primary><secondary>newBorn</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix">Phenix</link> Game.Creature.Bestiary.Phenix.newBorn (String name, Sex sex)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Creates and returns a newborn Phoenix with default attributes.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>The name of the newborn Phoenix. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>sex</entry><entry>
+<para>The sex of the newborn Phoenix. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A new Phoenix instance. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a245f53f965c4fe730b89cd86f0a2bf76"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Creature.Bestiary.Phenix</secondary></indexterm>
+<indexterm><primary>Game.Creature.Bestiary.Phenix</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Bestiary.Phenix.run ( )</computeroutput></para><para>
+Reimplemented from <link linkend="_class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6">Game.Creature.Creature</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Creature/Bestiary/<link linkend="__phenix_8java">Phenix.java</link></section>
+</section>

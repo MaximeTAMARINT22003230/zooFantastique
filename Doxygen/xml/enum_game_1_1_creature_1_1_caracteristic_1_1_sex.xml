@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_sex" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Sex</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1a4b215b1fc46a96fd85ae46bd3e9f20c4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Sex.MALE</definition>
+        <argsstring></argsstring>
+        <name>MALE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Sex.MALE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Sex.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Sex.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1ab23191263d3e175de75ff17ea1ff31cb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Sex.FEMALE</definition>
+        <argsstring></argsstring>
+        <name>FEMALE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Sex.FEMALE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Sex.java" line="5" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Sex.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Sex.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Sex.java" bodystart="3" bodyend="5"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1ab23191263d3e175de75ff17ea1ff31cb" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Sex</scope><name>FEMALE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1a4b215b1fc46a96fd85ae46bd3e9f20c4" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Sex</scope><name>MALE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_lycantropus" xml:lang="en-US">
+<title>Package Game.Lycantropus</title>
+<indexterm><primary>Game.Lycantropus</primary></indexterm>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_lycantropus_1_1_caracteristics">Caracteristics</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_lycantropus_1_1_couple">Couple</link></para>
+</listitem>
+            <listitem><para>enum <link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_lycantropus_1_1_pack">Pack</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

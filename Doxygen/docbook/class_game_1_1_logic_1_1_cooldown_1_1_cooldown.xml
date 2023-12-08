@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown" xml:lang="en-US">
+<title>Game.Logic.Cooldown.Cooldown Class Reference</title>
+<indexterm><primary>Game.Logic.Cooldown.Cooldown</primary></indexterm>
+<para>Inheritance diagram for Game.Logic.Cooldown.Cooldown:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_logic_1_1_cooldown_1_1_cooldown.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a5db6dc2c689ac999afc596ade9b97859">Cooldown</link> (int cooldown, <link linkend="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable">Cooldownable</link> caller, <link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">CooldownType</link> type)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a">run</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">CooldownType</link> <link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a4caf0db5fe5b02749ffec6ad46f11fc0">getType</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents a cooldown that triggers an action after a specified duration. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a5db6dc2c689ac999afc596ade9b97859"/><section>
+    <title>Cooldown()</title>
+<indexterm><primary>Cooldown</primary><secondary>Game.Logic.Cooldown.Cooldown</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.Cooldown</primary><secondary>Cooldown</secondary></indexterm>
+<para><computeroutput>Game.Logic.Cooldown.Cooldown.Cooldown (int cooldown, <link linkend="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable">Cooldownable</link> caller, <link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">CooldownType</link> type)</computeroutput></para>
+<para>Initializes a Cooldown object.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>cooldown</entry><entry>
+<para>The duration of the cooldown. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>caller</entry><entry>
+<para>The Cooldownable entity associated with this cooldown. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>type</entry><entry>
+<para>The type of cooldown. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a4caf0db5fe5b02749ffec6ad46f11fc0"/><section>
+    <title>getType()</title>
+<indexterm><primary>getType</primary><secondary>Game.Logic.Cooldown.Cooldown</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.Cooldown</primary><secondary>getType</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">CooldownType</link> Game.Logic.Cooldown.Cooldown.getType ( )</computeroutput></para>
+<para>Retrieves the type of cooldown.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The type of cooldown. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Logic.Cooldown.Cooldown</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.Cooldown</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Logic.Cooldown.Cooldown.run ( )</computeroutput></para>
+<para>Initiates the cooldown process. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Logic/Cooldown/<link linkend="__cooldown_8java">Cooldown.java</link></section>
+</section>

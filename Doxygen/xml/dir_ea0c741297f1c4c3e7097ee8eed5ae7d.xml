@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_ea0c741297f1c4c3e7097ee8eed5ae7d" kind="dir">
+    <compoundname>Application/src/Game/Corral</compoundname>
+    <innerdir refid="dir_1dffbbff7d841c085d56f299d68b4b86">Application/src/Game/Corral/Caracteristic</innerdir>
+    <innerfile refid="_aquarium_8java">Aquarium.java</innerfile>
+    <innerfile refid="_aviary_8java">Aviary.java</innerfile>
+    <innerfile refid="_corral_8java">Corral.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Corral/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_laying_8java" kind="file" language="Java">
+    <compoundname>Laying.java</compoundname>
+    <includes local="no">Game.Creature.Creature</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Creature/Behavior/Laying.java</label>
+        <link refid="_laying_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Creature</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_game_1_1_creature_1_1_behavior_1_1_laying" prot="public">Game::Creature::Behavior::Laying</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_behavior">Game::Creature::Behavior</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Behavior;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Creature;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Egg;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespace_player" kindref="compound">Player</ref>.<ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_game_1_1_creature_1_1_behavior_1_1_laying" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_1_1_creature_1_1_behavior_1_1_laying" kindref="compound">Laying</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" kindref="compound">BirthBehavior</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_egg" kindref="compound">Egg</ref><sp/>lay(<ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref><sp/>creature)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_egg" kindref="compound">Egg</ref>.<ref refid="class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908" kindref="member">lay</ref>(creature,<sp/>Controler.getInstance().zoo.corralOf(creature));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="22" refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1" kindref="member">makeBaby</ref>(<ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref><sp/>baby,<sp/><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref><sp/>parent)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.lay(parent);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Behavior/Laying.java"/>
+  </compounddef>
+</doxygen>

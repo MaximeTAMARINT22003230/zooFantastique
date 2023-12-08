@@ -1,0 +1,172 @@
+.TH "Game.Creature.Bestiary.Nymph" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Creature.Bestiary.Nymph
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBGame\&.Creature\&.Viviparian\fP, Run, and Revive\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBGame\&.Creature\&.Viviparian\fP
+.in +1c
+.ti -1c
+.RI "\fBViviparian\fP (String \fBname\fP, Sex \fBsex\fP, Weight \fBweight\fP, Height \fBheight\fP, Age \fBage\fP, Hunger \fBhunger\fP, Fatigue \fBfatigue\fP, Health \fBhealth\fP)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBGame\&.Creature\&.Creature\fP
+.in +1c
+.ti -1c
+.RI "void \fBeat\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "Sex \fBgetSex\fP ()"
+.br
+.ti -1c
+.RI "Hunger \fBgetHunger\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object o)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBNymph\fP \fBnewBorn\fP (String \fBname\fP, Sex \fBsex\fP)"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+
+
+Public Attributes inherited from \fBGame\&.Creature\&.Creature\fP
+.in +1c
+.ti -1c
+.RI "BirthBehavior \fBbirthingBehavior\fP"
+.br
+.in -1c
+
+Protected Member Functions inherited from \fBGame\&.Creature\&.Creature\fP
+.in +1c
+.ti -1c
+.RI "\fBCreature\fP (String \fBname\fP, Sex \fBsex\fP, Weight \fBweight\fP, Height \fBheight\fP, Age \fBage\fP, Hunger \fBhunger\fP, Fatigue \fBfatigue\fP, Health \fBhealth\fP)"
+.br
+.ti -1c
+.RI "void \fBtoFly\fP ()"
+.br
+.RI "Behavior\&. "
+.ti -1c
+.RI "void \fBtoRun\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoSwim\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoBeHungry\fP ()"
+.br
+.ti -1c
+.RI "void \fBshout\fP ()"
+.br
+.ti -1c
+.RI "void \fBloseHealth\fP ()"
+.br
+.ti -1c
+.RI "void \fBheal\fP ()"
+.br
+.ti -1c
+.RI "void \fBgettingFatigue\fP ()"
+.br
+.ti -1c
+.RI "void \fBsleep\fP ()"
+.br
+.ti -1c
+.RI "void \fBage\fP ()"
+.br
+.ti -1c
+.RI "void \fBgrowUp\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoSwell\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoLoseWeight\fP ()"
+.br
+.ti -1c
+.RI "void \fBreproduce\fP ()"
+.br
+.in -1c
+
+Protected Attributes inherited from \fBGame\&.Creature\&.Creature\fP
+.in +1c
+.ti -1c
+.RI "String \fBname\fP"
+.br
+.ti -1c
+.RI "Sex \fBsex\fP"
+.br
+.ti -1c
+.RI "Weight \fBweight\fP"
+.br
+.ti -1c
+.RI "Height \fBheight\fP"
+.br
+.ti -1c
+.RI "Age \fBage\fP"
+.br
+.ti -1c
+.RI "Hunger \fBhunger\fP"
+.br
+.ti -1c
+.RI "Fatigue \fBfatigue\fP"
+.br
+.ti -1c
+.RI "Health \fBhealth\fP"
+.br
+.ti -1c
+.RI "boolean \fBisAlive\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents a Nymph Inherits from the Viviparian class and implements Run and Revive behaviors\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "static \fBNymph\fP Game\&.Creature\&.Bestiary\&.Nymph\&.newBorn (String name, Sex sex)\fC [static]\fP"
+Creates and returns a newborn Nymph with default attributes\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name of the newborn Nymph\&. 
+.br
+\fIsex\fP The sex of the newborn Nymph\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A new Nymph instance\&. 
+.RE
+.PP
+
+.SS "void Game\&.Creature\&.Bestiary\&.Nymph\&.run ()"
+
+.PP
+Reimplemented from \fBGame\&.Creature\&.Creature\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

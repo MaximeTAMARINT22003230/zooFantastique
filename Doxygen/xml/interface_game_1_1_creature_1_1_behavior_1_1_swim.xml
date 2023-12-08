@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_game_1_1_creature_1_1_behavior_1_1_swim" kind="interface" language="Java" prot="public">
+    <compoundname>Game::Creature::Behavior::Swim</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Swim interface, implemented by any flying creature Used to give a common type </para>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Behavior/Swim.java" line="6" column="18" bodyfile="Application/src/Game/Creature/Behavior/Swim.java" bodystart="6" bodyend="7"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

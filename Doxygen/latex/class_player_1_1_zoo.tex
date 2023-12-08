@@ -1,0 +1,223 @@
+\doxysection{Player.\+Zoo Class Reference}
+\hypertarget{class_player_1_1_zoo}{}\label{class_player_1_1_zoo}\index{Player.Zoo@{Player.Zoo}}
+Inheritance diagram for Player.\+Zoo\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_player_1_1_zoo}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{class_player_1_1_zoo_a337d1f48bf46aa25459db9e85a8cb703}{show\+Creatures}} ()
+\item 
+int \mbox{\hyperlink{class_player_1_1_zoo_a652181903ef7fae670026374366689d9}{count\+Creatures}} ()
+\item 
+int \mbox{\hyperlink{class_player_1_1_zoo_a2896307f87b47dfd3c672f1914e88fe1}{count\+Corrals}} ()
+\item 
+String \mbox{\hyperlink{class_player_1_1_zoo_afbd3e5247984a0645c764179a4d4e503}{to\+String}} ()
+\item 
+boolean \mbox{\hyperlink{class_player_1_1_zoo_ac1e2cf110df4a9f0715fd9bc1ed91313}{exists}} (Creature creature)
+\item 
+Corral \mbox{\hyperlink{class_player_1_1_zoo_a3ab04dacb8b59b5d788bdaf3eed7af8e}{corral\+Of}} (Creature creature)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_a56698aa33d22280d97e7d4d42db55919}{add\+Corral}} (Corral \mbox{\hyperlink{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e}{corral}})
+\item 
+String \mbox{\hyperlink{class_player_1_1_zoo_a168e6582d26de8dcc9de2f028d1215b6}{corrals}} ()
+\item 
+Corral \mbox{\hyperlink{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e}{corral}} (String string)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_ac12de829cfa1057594d371fc0ad55d30}{remove\+Corral}} (Corral \mbox{\hyperlink{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e}{corral}})
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_a1a425c32c2db16ebabd4eaaea202f952}{extend}} (int size)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_a649bb8622f8561e76d07f0d1463280f2}{add\+Creature}} (Corral \mbox{\hyperlink{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e}{corral}}, Creature creature)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_ae8e999e0fee9e50b19825451bd5dc176}{remove\+Creature}} (Creature creature)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_a445f2ad111ed88795f3cb782474d9e34}{kill}} (Creature creature)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_abf74102276ee3bc9a6fda7e5ec87c6b2}{revive\+Creature}} (Creature creature)
+\item 
+List$<$ Corral $>$ \mbox{\hyperlink{class_player_1_1_zoo_a69fb515c765541812ecb6387dd297c1d}{get\+Corrals}} ()
+\item 
+List$<$ Creature $>$ \mbox{\hyperlink{class_player_1_1_zoo_a1028d502db5be3e1f6cebeb348df7fd0}{get\+Creatures}} ()
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_a4d748751e406644b67c12d46a7dd4d2b}{cooldown}} (Cooldown cooldown)
+\item 
+void \mbox{\hyperlink{class_player_1_1_zoo_af0fc6c835f01eb3bc59aeaf36e0da8b8}{spread}} (Howl howl)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_player_1_1_zoo_a05b6dd28b66cef313715d81b99230bd4}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static \mbox{\hyperlink{class_player_1_1_zoo}{Zoo}} \mbox{\hyperlink{class_player_1_1_zoo_a22157036bdd2207d26eca0cb7e1e2444}{opening}} (String name, \mbox{\hyperlink{class_player_1_1_zoo_master}{Zoo\+Master}} \mbox{\hyperlink{class_player_1_1_zoo_a9d57e9381e14c1626b42fa1347291fc1}{zoo\+Master}})
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_1_1_zoo_master}{Zoo\+Master}} \mbox{\hyperlink{class_player_1_1_zoo_a9d57e9381e14c1626b42fa1347291fc1}{zoo\+Master}}
+\item 
+List$<$ Pack $>$ \mbox{\hyperlink{class_player_1_1_zoo_a8e2c45d12acae151b4c3a7d8c3bcee3d}{colony}}
+\item 
+boolean \mbox{\hyperlink{class_player_1_1_zoo_a40857a4576781c9c27e483f75c5f809d}{love\+Season}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a Zoo that manages various corrals and creatures. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_player_1_1_zoo_a56698aa33d22280d97e7d4d42db55919}\label{class_player_1_1_zoo_a56698aa33d22280d97e7d4d42db55919} 
+\index{Player.Zoo@{Player.Zoo}!addCorral@{addCorral}}
+\index{addCorral@{addCorral}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{addCorral()}{addCorral()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+add\+Corral (\begin{DoxyParamCaption}\item[{Corral}]{corral }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a649bb8622f8561e76d07f0d1463280f2}\label{class_player_1_1_zoo_a649bb8622f8561e76d07f0d1463280f2} 
+\index{Player.Zoo@{Player.Zoo}!addCreature@{addCreature}}
+\index{addCreature@{addCreature}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{addCreature()}{addCreature()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+add\+Creature (\begin{DoxyParamCaption}\item[{Corral}]{corral,  }\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a4d748751e406644b67c12d46a7dd4d2b}\label{class_player_1_1_zoo_a4d748751e406644b67c12d46a7dd4d2b} 
+\index{Player.Zoo@{Player.Zoo}!cooldown@{cooldown}}
+\index{cooldown@{cooldown}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{cooldown()}{cooldown()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+cooldown (\begin{DoxyParamCaption}\item[{Cooldown}]{cooldown }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e}\label{class_player_1_1_zoo_a4f99f054b8224f22a81929f718ed6c2e} 
+\index{Player.Zoo@{Player.Zoo}!corral@{corral}}
+\index{corral@{corral}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{corral()}{corral()}}
+{\footnotesize\ttfamily Corral Player.\+Zoo.\+corral (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a3ab04dacb8b59b5d788bdaf3eed7af8e}\label{class_player_1_1_zoo_a3ab04dacb8b59b5d788bdaf3eed7af8e} 
+\index{Player.Zoo@{Player.Zoo}!corralOf@{corralOf}}
+\index{corralOf@{corralOf}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{corralOf()}{corralOf()}}
+{\footnotesize\ttfamily Corral Player.\+Zoo.\+corral\+Of (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a168e6582d26de8dcc9de2f028d1215b6}\label{class_player_1_1_zoo_a168e6582d26de8dcc9de2f028d1215b6} 
+\index{Player.Zoo@{Player.Zoo}!corrals@{corrals}}
+\index{corrals@{corrals}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{corrals()}{corrals()}}
+{\footnotesize\ttfamily String Player.\+Zoo.\+corrals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a2896307f87b47dfd3c672f1914e88fe1}\label{class_player_1_1_zoo_a2896307f87b47dfd3c672f1914e88fe1} 
+\index{Player.Zoo@{Player.Zoo}!countCorrals@{countCorrals}}
+\index{countCorrals@{countCorrals}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{countCorrals()}{countCorrals()}}
+{\footnotesize\ttfamily int Player.\+Zoo.\+count\+Corrals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a652181903ef7fae670026374366689d9}\label{class_player_1_1_zoo_a652181903ef7fae670026374366689d9} 
+\index{Player.Zoo@{Player.Zoo}!countCreatures@{countCreatures}}
+\index{countCreatures@{countCreatures}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{countCreatures()}{countCreatures()}}
+{\footnotesize\ttfamily int Player.\+Zoo.\+count\+Creatures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_ac1e2cf110df4a9f0715fd9bc1ed91313}\label{class_player_1_1_zoo_ac1e2cf110df4a9f0715fd9bc1ed91313} 
+\index{Player.Zoo@{Player.Zoo}!exists@{exists}}
+\index{exists@{exists}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{exists()}{exists()}}
+{\footnotesize\ttfamily boolean Player.\+Zoo.\+exists (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a1a425c32c2db16ebabd4eaaea202f952}\label{class_player_1_1_zoo_a1a425c32c2db16ebabd4eaaea202f952} 
+\index{Player.Zoo@{Player.Zoo}!extend@{extend}}
+\index{extend@{extend}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{extend()}{extend()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+extend (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a69fb515c765541812ecb6387dd297c1d}\label{class_player_1_1_zoo_a69fb515c765541812ecb6387dd297c1d} 
+\index{Player.Zoo@{Player.Zoo}!getCorrals@{getCorrals}}
+\index{getCorrals@{getCorrals}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{getCorrals()}{getCorrals()}}
+{\footnotesize\ttfamily List$<$ Corral $>$ Player.\+Zoo.\+get\+Corrals (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a1028d502db5be3e1f6cebeb348df7fd0}\label{class_player_1_1_zoo_a1028d502db5be3e1f6cebeb348df7fd0} 
+\index{Player.Zoo@{Player.Zoo}!getCreatures@{getCreatures}}
+\index{getCreatures@{getCreatures}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{getCreatures()}{getCreatures()}}
+{\footnotesize\ttfamily List$<$ Creature $>$ Player.\+Zoo.\+get\+Creatures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a445f2ad111ed88795f3cb782474d9e34}\label{class_player_1_1_zoo_a445f2ad111ed88795f3cb782474d9e34} 
+\index{Player.Zoo@{Player.Zoo}!kill@{kill}}
+\index{kill@{kill}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{kill()}{kill()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+kill (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a05b6dd28b66cef313715d81b99230bd4}\label{class_player_1_1_zoo_a05b6dd28b66cef313715d81b99230bd4} 
+\index{Player.Zoo@{Player.Zoo}!main@{main}}
+\index{main@{main}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void Player.\+Zoo.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_player_1_1_zoo_a22157036bdd2207d26eca0cb7e1e2444}\label{class_player_1_1_zoo_a22157036bdd2207d26eca0cb7e1e2444} 
+\index{Player.Zoo@{Player.Zoo}!opening@{opening}}
+\index{opening@{opening}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{opening()}{opening()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_player_1_1_zoo}{Zoo}} Player.\+Zoo.\+opening (\begin{DoxyParamCaption}\item[{String}]{name,  }\item[{\mbox{\hyperlink{class_player_1_1_zoo_master}{Zoo\+Master}}}]{zoo\+Master }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_player_1_1_zoo_ac12de829cfa1057594d371fc0ad55d30}\label{class_player_1_1_zoo_ac12de829cfa1057594d371fc0ad55d30} 
+\index{Player.Zoo@{Player.Zoo}!removeCorral@{removeCorral}}
+\index{removeCorral@{removeCorral}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{removeCorral()}{removeCorral()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+remove\+Corral (\begin{DoxyParamCaption}\item[{Corral}]{corral }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_ae8e999e0fee9e50b19825451bd5dc176}\label{class_player_1_1_zoo_ae8e999e0fee9e50b19825451bd5dc176} 
+\index{Player.Zoo@{Player.Zoo}!removeCreature@{removeCreature}}
+\index{removeCreature@{removeCreature}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{removeCreature()}{removeCreature()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+remove\+Creature (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_abf74102276ee3bc9a6fda7e5ec87c6b2}\label{class_player_1_1_zoo_abf74102276ee3bc9a6fda7e5ec87c6b2} 
+\index{Player.Zoo@{Player.Zoo}!reviveCreature@{reviveCreature}}
+\index{reviveCreature@{reviveCreature}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{reviveCreature()}{reviveCreature()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+revive\+Creature (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_a337d1f48bf46aa25459db9e85a8cb703}\label{class_player_1_1_zoo_a337d1f48bf46aa25459db9e85a8cb703} 
+\index{Player.Zoo@{Player.Zoo}!showCreatures@{showCreatures}}
+\index{showCreatures@{showCreatures}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{showCreatures()}{showCreatures()}}
+{\footnotesize\ttfamily String Player.\+Zoo.\+show\+Creatures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_af0fc6c835f01eb3bc59aeaf36e0da8b8}\label{class_player_1_1_zoo_af0fc6c835f01eb3bc59aeaf36e0da8b8} 
+\index{Player.Zoo@{Player.Zoo}!spread@{spread}}
+\index{spread@{spread}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{spread()}{spread()}}
+{\footnotesize\ttfamily void Player.\+Zoo.\+spread (\begin{DoxyParamCaption}\item[{Howl}]{howl }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_zoo_afbd3e5247984a0645c764179a4d4e503}\label{class_player_1_1_zoo_afbd3e5247984a0645c764179a4d4e503} 
+\index{Player.Zoo@{Player.Zoo}!toString@{toString}}
+\index{toString@{toString}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily String Player.\+Zoo.\+to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_player_1_1_zoo_a8e2c45d12acae151b4c3a7d8c3bcee3d}\label{class_player_1_1_zoo_a8e2c45d12acae151b4c3a7d8c3bcee3d} 
+\index{Player.Zoo@{Player.Zoo}!colony@{colony}}
+\index{colony@{colony}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{colony}{colony}}
+{\footnotesize\ttfamily List$<$Pack$>$ Player.\+Zoo.\+colony}
+
+\Hypertarget{class_player_1_1_zoo_a40857a4576781c9c27e483f75c5f809d}\label{class_player_1_1_zoo_a40857a4576781c9c27e483f75c5f809d} 
+\index{Player.Zoo@{Player.Zoo}!loveSeason@{loveSeason}}
+\index{loveSeason@{loveSeason}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{loveSeason}{loveSeason}}
+{\footnotesize\ttfamily boolean Player.\+Zoo.\+love\+Season}
+
+\Hypertarget{class_player_1_1_zoo_a9d57e9381e14c1626b42fa1347291fc1}\label{class_player_1_1_zoo_a9d57e9381e14c1626b42fa1347291fc1} 
+\index{Player.Zoo@{Player.Zoo}!zooMaster@{zooMaster}}
+\index{zooMaster@{zooMaster}!Player.Zoo@{Player.Zoo}}
+\doxysubsubsection{\texorpdfstring{zooMaster}{zooMaster}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player_1_1_zoo_master}{Zoo\+Master}} Player.\+Zoo.\+zoo\+Master}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Application/src/\+Player/\mbox{\hyperlink{_zoo_8java}{Zoo.\+java}}\end{DoxyCompactItemize}

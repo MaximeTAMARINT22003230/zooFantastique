@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" xml:lang="en-US">
+<title>Game.Logic.Cooldown.CooldownType Enum Reference</title>
+<indexterm><primary>Game.Logic.Cooldown.CooldownType</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1afe62c59700b68a8883ca8de13e9578e5">REFRESH</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a06a140307bd09862d6bf56ba826cb13d">INCUBATION</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a13b32680814f35f1a6c56704f597f990">END_LOVE_SEASON</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a0dafd9a39ec44aabd6efd021d35dbc10">START_LOVE_SEASON</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a13b32680814f35f1a6c56704f597f990"/><section>
+    <title>END_LOVE_SEASON</title>
+<indexterm><primary>END_LOVE_SEASON</primary><secondary>Game.Logic.Cooldown.CooldownType</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.CooldownType</primary><secondary>END_LOVE_SEASON</secondary></indexterm>
+<para><computeroutput>Game.Logic.Cooldown.CooldownType.END_LOVE_SEASON</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a06a140307bd09862d6bf56ba826cb13d"/><section>
+    <title>INCUBATION</title>
+<indexterm><primary>INCUBATION</primary><secondary>Game.Logic.Cooldown.CooldownType</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.CooldownType</primary><secondary>INCUBATION</secondary></indexterm>
+<para><computeroutput>Game.Logic.Cooldown.CooldownType.INCUBATION</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1afe62c59700b68a8883ca8de13e9578e5"/><section>
+    <title>REFRESH</title>
+<indexterm><primary>REFRESH</primary><secondary>Game.Logic.Cooldown.CooldownType</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.CooldownType</primary><secondary>REFRESH</secondary></indexterm>
+<para><computeroutput>Game.Logic.Cooldown.CooldownType.REFRESH</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a0dafd9a39ec44aabd6efd021d35dbc10"/><section>
+    <title>START_LOVE_SEASON</title>
+<indexterm><primary>START_LOVE_SEASON</primary><secondary>Game.Logic.Cooldown.CooldownType</secondary></indexterm>
+<indexterm><primary>Game.Logic.Cooldown.CooldownType</primary><secondary>START_LOVE_SEASON</secondary></indexterm>
+<para><computeroutput>Game.Logic.Cooldown.CooldownType.START_LOVE_SEASON</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Logic/Cooldown/<link linkend="__cooldown_type_8java">CooldownType.java</link></section>
+</section>

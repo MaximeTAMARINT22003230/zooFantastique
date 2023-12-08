@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Weight Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight">Weight</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e">toSwell</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight">Weight</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2">toLoseWeight</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a862c88cc7ffd98d9152c25f032f2216f">LIGHT</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058">AVERAGE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1ad4dce31fd094d8a661431448211de0e7">HEAVY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a37d2352f146648cda9704418afb7b89a">MASSIVE</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2"/><section>
+    <title>toLoseWeight()</title>
+<indexterm><primary>toLoseWeight</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>toLoseWeight</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight">Weight</link> Game.Creature.Caracteristic.Weight.toLoseWeight ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the previous width level if it is not already at its lowest </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e"/><section>
+    <title>toSwell()</title>
+<indexterm><primary>toSwell</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>toSwell</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight">Weight</link> Game.Creature.Caracteristic.Weight.toSwell ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the next width level if not already at the top </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058"/><section>
+    <title>AVERAGE</title>
+<indexterm><primary>AVERAGE</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>AVERAGE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Weight.AVERAGE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1ad4dce31fd094d8a661431448211de0e7"/><section>
+    <title>HEAVY</title>
+<indexterm><primary>HEAVY</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>HEAVY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Weight.HEAVY</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a862c88cc7ffd98d9152c25f032f2216f"/><section>
+    <title>LIGHT</title>
+<indexterm><primary>LIGHT</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>LIGHT</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Weight.LIGHT</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a37d2352f146648cda9704418afb7b89a"/><section>
+    <title>MASSIVE</title>
+<indexterm><primary>MASSIVE</primary><secondary>Game.Creature.Caracteristic.Weight</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Weight</primary><secondary>MASSIVE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Weight.MASSIVE</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__weight_8java">Weight.java</link></section>
+</section>

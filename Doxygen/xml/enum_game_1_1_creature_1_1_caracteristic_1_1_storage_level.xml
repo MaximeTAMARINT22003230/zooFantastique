@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::StorageLevel</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8bbb192e8207590bd393cebd7fd32e0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.StorageLevel.EMPTY</definition>
+        <argsstring></argsstring>
+        <name>EMPTY</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.EMPTY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="7" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ae4cf14b1bddc75ebb2a594a392768fc7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.StorageLevel.LITTLE</definition>
+        <argsstring></argsstring>
+        <name>LITTLE</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.LITTLE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="7" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a5a8a92ebb740a2a359d2bbce40521da7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.StorageLevel.AVERAGE</definition>
+        <argsstring></argsstring>
+        <name>AVERAGE</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.AVERAGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="7" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a4702a231f7a1608e5cdadf19f88aae84" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.StorageLevel.MANY</definition>
+        <argsstring></argsstring>
+        <name>MANY</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.MANY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="7" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1aea00fa387856a19b8ffc4bafce52edca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" kindref="compound">StorageLevel</ref></type>
+        <definition>StorageLevel Game.Creature.Caracteristic.StorageLevel.levelDown</definition>
+        <argsstring>()</argsstring>
+        <name>levelDown</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.levelDown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gives the lower food storage level, if it exists. <simplesect kind="return"><para>the lower storage level, otherwise the same level. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="13" column="25" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8f318a4b78a41704c1a27ece34b1c77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" kindref="compound">StorageLevel</ref></type>
+        <definition>StorageLevel Game.Creature.Caracteristic.StorageLevel.fillStorage</definition>
+        <argsstring>()</argsstring>
+        <name>fillStorage</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.fillStorage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fills the food storage to the highest level. <simplesect kind="return"><para>the highest storage level. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="25" column="25" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ad923a740bff68bce63f2e57ab2a5a595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Creature.Caracteristic.StorageLevel.isEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>isEmpty</name>
+        <qualifiedname>Game.Creature.Caracteristic.StorageLevel.isEmpty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the food storage is empty. <simplesect kind="return"><para>true if the level is empty, otherwise false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="33" column="20" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Enumeration representing the food storage levels of a creature. </para>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/StorageLevel.java" line="6" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/StorageLevel.java" bodystart="6" bodyend="36"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a5a8a92ebb740a2a359d2bbce40521da7" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>AVERAGE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8bbb192e8207590bd393cebd7fd32e0" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>EMPTY</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8f318a4b78a41704c1a27ece34b1c77" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>fillStorage</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ad923a740bff68bce63f2e57ab2a5a595" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>isEmpty</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1aea00fa387856a19b8ffc4bafce52edca" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>levelDown</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ae4cf14b1bddc75ebb2a594a392768fc7" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>LITTLE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a4702a231f7a1608e5cdadf19f88aae84" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::StorageLevel</scope><name>MANY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

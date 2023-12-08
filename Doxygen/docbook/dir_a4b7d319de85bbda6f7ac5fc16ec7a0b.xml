@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a4b7d319de85bbda6f7ac5fc16ec7a0b" xml:lang="en-US">
+<title>Application/src/Game Directory Reference</title>
+<indexterm><primary>Application/src/Game Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_ea0c741297f1c4c3e7097ee8eed5ae7d">Corral</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_c1700732fddcde8eb5519c2d8f8ddc29">Creature</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_e8310936e633ec25440b40342c1b75f2">Logic</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_90321a73786280b7ce821e58d1903fb0">Lycantropus</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

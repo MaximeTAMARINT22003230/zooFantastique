@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_lycantropus_1_1_lycantropus" kind="class" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Lycantropus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Viviparian</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Run</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_lycantropus_1ac4a8a0b41ac7d18a6ea8012083a72ba2" prot="private" static="no" mutable="no">
+        <type>Strength</type>
+        <definition>Strength Game.Lycantropus.Lycantropus.strength</definition>
+        <argsstring></argsstring>
+        <name>strength</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.strength</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The actual strength of the lycan </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="17" column="22" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_lycantropus_1a0dafffd30658c2527950d831cb38cea4" prot="private" static="no" mutable="no">
+        <type>Rank</type>
+        <definition>Rank Game.Lycantropus.Lycantropus.rank</definition>
+        <argsstring></argsstring>
+        <name>rank</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.rank</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Its rank in the pack </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="21" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_lycantropus_1ab654cdbe474dbefce738ec7e5f3be8cb" prot="private" static="no" mutable="no">
+        <type>Level</type>
+        <definition>Level Game.Lycantropus.Lycantropus.level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.level</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A sort of quality criteria </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="25" column="19" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_lycantropus_1a1f1770783f74bdde302e20426ca691b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_pack" kindref="compound">Pack</ref></type>
+        <definition>Pack Game.Lycantropus.Lycantropus.pack</definition>
+        <argsstring></argsstring>
+        <name>pack</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.pack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Its pack. Null if its a lone wolf </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="29" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_lycantropus_1a5e4373b78f49a6db9602269bde1abc57" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Game.Lycantropus.Lycantropus.impetuosity</definition>
+        <argsstring></argsstring>
+        <name>impetuosity</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.impetuosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A float between 0 and 1 wich represent its probabilty to resist a domination </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="33" column="19" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a9f703aab6db14a62257c9ef22fdba476" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Lycantropus.Lycantropus.Lycantropus</definition>
+        <argsstring>(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)</argsstring>
+        <name>Lycantropus</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.Lycantropus</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Weight</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>Height</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type>Hunger</type>
+          <declname>hunger</declname>
+        </param>
+        <param>
+          <type>Fatigue</type>
+          <declname>fatigue</declname>
+        </param>
+        <param>
+          <type>Health</type>
+          <declname>health</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="34" column="13" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1ad7719c50b90e3effa5ac50311e6effcc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.dominate</definition>
+        <argsstring>(Lycantropus target)</argsstring>
+        <name>dominate</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.dominate</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="45" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="45" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a4379901e8900e4b1a51d6c3a57581464" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.howl</definition>
+        <argsstring>(Howl howl)</argsstring>
+        <name>howl</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.howl</qualifiedname>
+        <param>
+          <type><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref></type>
+          <declname>howl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="56" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a66d90deb8304dd73e94754e709e9b2e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.humanize</definition>
+        <argsstring>()</argsstring>
+        <name>humanize</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.humanize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="99" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a0598bab10a9bdf19b7c83ccfc6737f24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.escape</definition>
+        <argsstring>()</argsstring>
+        <name>escape</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.escape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Escape from its pack and become a lone wolf </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="120" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="120" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a86c8bb971395fadf0d1c41b8f5aafb98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Game.Lycantropus.Lycantropus.getDomination</definition>
+        <argsstring>()</argsstring>
+        <name>getDomination</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.getDomination</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="37" column="16" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="37" bodyend="40"/>
+        <references refid="class_game_1_1_lycantropus_1_1_pack_1a07a2bd05e4a90275485f50dfa24ebece" compoundref="_pack_8java" startline="75" endline="82">Game.Lycantropus.Pack.dominationOf</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.hear</definition>
+        <argsstring>(Howl howl)</argsstring>
+        <name>hear</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.hear</qualifiedname>
+        <param>
+          <type><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref></type>
+          <declname>howl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="61" column="17" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="61" bodyend="93"/>
+        <references refid="enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87" compoundref="_howl_8java" startline="5">Game.Lycantropus.Howl.ANSWER</references>
+        <references refid="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" compoundref="_howl_8java" startline="12" endline="15">Game.Lycantropus.Howl.getHowler</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1ad56adfc2a5ab180b9ed9e3f23af5124a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Lycantropus.Lycantropus.equals</definition>
+        <argsstring>(Object o)</argsstring>
+        <name>equals</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.equals</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="95" column="20" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a9794e68d5a274af9d97610a44b2063c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Lycantropus.Lycantropus.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="104" column="19" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a121592b8de35b9ad08f11a66bf4de4f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Lycantropus.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="109" column="17" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="109" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1ab316b5b832b9b097ddad734e75da13db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Level</type>
+        <definition>Level Game.Lycantropus.Lycantropus.getLevel</definition>
+        <argsstring>()</argsstring>
+        <name>getLevel</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.getLevel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="112" column="18" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="112" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>static Lycantropus Game.Lycantropus.Lycantropus.newBorn</definition>
+        <argsstring>(String name, Sex sex)</argsstring>
+        <name>newBorn</name>
+        <qualifiedname>Game.Lycantropus.Lycantropus.newBorn</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="41" column="31" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="41" bodyend="44"/>
+        <referencedby refid="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" compoundref="_couple_8java" startline="15" endline="18">Game.Lycantropus.Couple.reproduce</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Lycantropus.Lycantropus</label>
+        <link refid="class_game_1_1_lycantropus_1_1_lycantropus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Run</label>
+      </node>
+      <node id="4">
+        <label>Runnable</label>
+      </node>
+      <node id="2">
+        <label>Viviparian</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Lycantropus.Lycantropus</label>
+        <link refid="class_game_1_1_lycantropus_1_1_lycantropus"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Run</label>
+      </node>
+      <node id="4">
+        <label>Runnable</label>
+      </node>
+      <node id="2">
+        <label>Viviparian</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Lycantropus/Lycantropus.java" line="13" column="13" bodyfile="Application/src/Game/Lycantropus/Lycantropus.java" bodystart="13" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ad7719c50b90e3effa5ac50311e6effcc" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>dominate</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ad56adfc2a5ab180b9ed9e3f23af5124a" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>equals</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a0598bab10a9bdf19b7c83ccfc6737f24" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>escape</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a86c8bb971395fadf0d1c41b8f5aafb98" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>getDomination</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ab316b5b832b9b097ddad734e75da13db" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>getLevel</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>hear</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a4379901e8900e4b1a51d6c3a57581464" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>howl</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a66d90deb8304dd73e94754e709e9b2e7" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>humanize</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a5e4373b78f49a6db9602269bde1abc57" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>impetuosity</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ab654cdbe474dbefce738ec7e5f3be8cb" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>level</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a9f703aab6db14a62257c9ef22fdba476" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>Lycantropus</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>newBorn</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a1f1770783f74bdde302e20426ca691b4" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>pack</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a0dafffd30658c2527950d831cb38cea4" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>rank</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a121592b8de35b9ad08f11a66bf4de4f7" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>run</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ac4a8a0b41ac7d18a6ea8012083a72ba2" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>strength</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a9794e68d5a274af9d97610a44b2063c7" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Lycantropus</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

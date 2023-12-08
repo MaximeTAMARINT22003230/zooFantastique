@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_game_1_1_creature_1_1_behavior_1_1_run" xml:lang="en-US">
+<title>Game.Creature.Behavior.Run Interface Reference</title>
+<indexterm><primary>Game.Creature.Behavior.Run</primary></indexterm>
+<section>
+<title>Detailed Description</title>
+
+<para>The Run interface, implemented by any flying creature Used to give a common type </para>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Application/src/Game/Creature/Behavior/<link linkend="__run_8java">Run.java</link></section>
+</section>

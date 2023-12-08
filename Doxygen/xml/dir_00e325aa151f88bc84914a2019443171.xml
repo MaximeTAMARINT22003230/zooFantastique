@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_00e325aa151f88bc84914a2019443171" kind="dir">
+    <compoundname>Application/src</compoundname>
+    <innerdir refid="dir_a4b7d319de85bbda6f7ac5fc16ec7a0b">Application/src/Game</innerdir>
+    <innerdir refid="dir_43c5d4307e7b345555f12b84fe173e06">Application/src/Player</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/"/>
+  </compounddef>
+</doxygen>

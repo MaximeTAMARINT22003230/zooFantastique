@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_lycantropus_1_1_couple" xml:lang="en-US">
+<title>Game.Lycantropus.Couple Class Reference</title>
+<indexterm><primary>Game.Lycantropus.Couple</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25">Couple</link> (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> female, <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> male)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df">reproduce</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25"/><section>
+    <title>Couple()</title>
+<indexterm><primary>Couple</primary><secondary>Game.Lycantropus.Couple</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Couple</primary><secondary>Couple</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Couple.Couple (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> female, <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> male)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df"/><section>
+    <title>reproduce()</title>
+<indexterm><primary>reproduce</primary><secondary>Game.Lycantropus.Couple</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Couple</primary><secondary>reproduce</secondary></indexterm>
+<para><computeroutput>void Game.Lycantropus.Couple.reproduce ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Lycantropus.Couple</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Couple</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Lycantropus.Couple.toString ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Lycantropus/<link linkend="__couple_8java">Couple.java</link></section>
+</section>

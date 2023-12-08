@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__couple_8java" xml:lang="en-US">
+<title>Application/src/Game/Lycantropus/Couple.java File Reference</title>
+<indexterm><primary>Application/src/Game/Lycantropus/Couple.java</primary></indexterm>
+<programlisting linenumbering="unnumbered">import Game.Creature.Caracteristic.Sex;<?linebreak?></programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_lycantropus_1_1_couple">Game.Lycantropus.Couple</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_lycantropus">Game.Lycantropus</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_creature_1_1_bestiary" xml:lang="en-US">
+<title>Package Game.Creature.Bestiary</title>
+<indexterm><primary>Game.Creature.Bestiary</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_dragon">Dragon</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_kraken">Kraken</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_megalodon">Megalodon</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_mermaid">Mermaid</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_nymph">Nymph</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix">Phenix</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_unicorn">Unicorn</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

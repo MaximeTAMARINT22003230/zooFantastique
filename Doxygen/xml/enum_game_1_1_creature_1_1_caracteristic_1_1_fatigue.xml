@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Fatigue</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a70fef8b5c1ceb5bf91e915aac2427fc2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Fatigue.SLEEP</definition>
+        <argsstring></argsstring>
+        <name>SLEEP</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.SLEEP</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ad6e72d0a7f57cbd3633f6db62b4a096b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Fatigue.EXHAUSTED</definition>
+        <argsstring></argsstring>
+        <name>EXHAUSTED</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.EXHAUSTED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a73909d803807e2a4758426d8a1b9ec90" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Fatigue.SLEEPY</definition>
+        <argsstring></argsstring>
+        <name>SLEEPY</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.SLEEPY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ab4a7a09e504d1deec9e283d540ad1045" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Fatigue.GOOD</definition>
+        <argsstring></argsstring>
+        <name>GOOD</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.GOOD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Fatigue.EXCITED</definition>
+        <argsstring></argsstring>
+        <name>EXCITED</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.EXCITED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kindref="compound">Fatigue</ref></type>
+        <definition>Fatigue Game.Creature.Caracteristic.Fatigue.gettingFatigue</definition>
+        <argsstring>()</argsstring>
+        <name>gettingFatigue</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.gettingFatigue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the lower fatigue stage if not already at its lowest </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="8" column="20" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="8" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kindref="compound">Fatigue</ref></type>
+        <definition>Fatigue Game.Creature.Caracteristic.Fatigue.sleep</definition>
+        <argsstring>()</argsstring>
+        <name>sleep</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.sleep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the lowest fatigue stage </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="20" column="20" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Creature.Caracteristic.Fatigue.isSleeping</definition>
+        <argsstring>()</argsstring>
+        <name>isSleeping</name>
+        <qualifiedname>Game.Creature.Caracteristic.Fatigue.isSleeping</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the current state is sleeping.</para>
+<para><simplesect kind="return"><para>true if the ordinal value is 0 (indicating a sleeping state), otherwise returns false. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="29" column="20" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Fatigue.java" bodystart="3" bodyend="32"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>EXCITED</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ad6e72d0a7f57cbd3633f6db62b4a096b" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>EXHAUSTED</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>gettingFatigue</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ab4a7a09e504d1deec9e283d540ad1045" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>GOOD</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>isSleeping</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a70fef8b5c1ceb5bf91e915aac2427fc2" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>SLEEP</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>sleep</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a73909d803807e2a4758426d8a1b9ec90" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Fatigue</scope><name>SLEEPY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

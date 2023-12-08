@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_creature_1_1_caracteristic" kind="namespace" language="Java">
+    <compoundname>Game::Creature::Caracteristic</compoundname>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" prot="public">Game::Creature::Caracteristic::Age</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" prot="public">Game::Creature::Caracteristic::Fatigue</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health" prot="public">Game::Creature::Caracteristic::Health</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height" prot="public">Game::Creature::Caracteristic::Height</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" prot="public">Game::Creature::Caracteristic::Hunger</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex" prot="public">Game::Creature::Caracteristic::Sex</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" prot="public">Game::Creature::Caracteristic::StorageLevel</innerclass>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" prot="public">Game::Creature::Caracteristic::Weight</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Age.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

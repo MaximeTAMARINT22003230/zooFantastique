@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9b30e57ca1f62c21d737ebe39c022df9" kind="dir">
+    <compoundname>Application/src/Game/Creature/Behavior</compoundname>
+    <innerfile refid="_birth_behavior_8java">BirthBehavior.java</innerfile>
+    <innerfile refid="_fly_8java">Fly.java</innerfile>
+    <innerfile refid="_laying_8java">Laying.java</innerfile>
+    <innerfile refid="_pregnancy_8java">Pregnancy.java</innerfile>
+    <innerfile refid="_revive_8java">Revive.java</innerfile>
+    <innerfile refid="_run_8java">Run.java</innerfile>
+    <innerfile refid="_swim_8java">Swim.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Behavior/"/>
+  </compounddef>
+</doxygen>

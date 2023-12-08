@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__cooldown_type_8java" xml:lang="en-US">
+<title>Application/src/Game/Logic/Cooldown/CooldownType.java File Reference</title>
+<indexterm><primary>Application/src/Game/Logic/Cooldown/CooldownType.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">Game.Logic.Cooldown.CooldownType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_logic_1_1_cooldown">Game.Logic.Cooldown</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

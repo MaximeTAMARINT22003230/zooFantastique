@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_dragon_8java" kind="file" language="Java">
+    <compoundname>Dragon.java</compoundname>
+    <includes local="no">Game.Creature.Behavior.Fly</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Creature/Bestiary/Dragon.java</label>
+        <link refid="_dragon_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.Fly</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" prot="public">Game::Creature::Bestiary::Dragon</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_bestiary">Game::Creature::Bestiary</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_game_1_1_creature_1_1_bestiary" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Bestiary;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Fly;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Revive;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Run;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Swim;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.*;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Oviparian;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Logic.DiceRoll;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" kindref="compound">Dragon</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_oviparian" kindref="compound">Oviparian</ref><sp/>implements<sp/>Fly,<sp/>Run,<sp/>Swim,<sp/>Revive<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" kindref="compound">Dragon</ref>(String<sp/><ref refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" kindref="member">name</ref>,<sp/>Sex<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" kindref="member">sex</ref>,<sp/>Weight<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" kindref="member">weight</ref>,<sp/>Height<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" kindref="member">height</ref>,<sp/>Age<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>,<sp/>Hunger<sp/><ref refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" kindref="member">hunger</ref>,<sp/>Fatigue<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" kindref="member">fatigue</ref>,<sp/>Health<sp/><ref refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" kindref="member">health</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" kindref="member">name</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" kindref="member">sex</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" kindref="member">weight</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" kindref="member">height</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" kindref="member">hunger</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" kindref="member">fatigue</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" kindref="member">health</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25" refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1adac592bf9ef1fa0bf9a1d4d3fc88fa6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" kindref="compound">Dragon</ref><sp/><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1adac592bf9ef1fa0bf9a1d4d3fc88fa6b" kindref="member">newBorn</ref>(String<sp/><ref refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" kindref="member">name</ref>,<sp/>Sex<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" kindref="member">sex</ref>)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" kindref="compound">Dragon</ref>(<ref refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" kindref="member">name</ref>,<sp/><ref refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" kindref="member">sex</ref>,<sp/>Weight.LIGHT,<sp/>Height.SMALL,<sp/>Age.BABY,<sp/>Hunger.GOOD,<sp/>Fatigue.GOOD,<sp/>Health.GOOD);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="31" refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada" kindref="member">run</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">true</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>randomAction<sp/>=<sp/>DiceRoll.d100();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>20)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" kindref="member">shout</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>60<sp/>&amp;&amp;<sp/>randomAction<sp/>&gt;=<sp/>15)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>70<sp/>&amp;&amp;<sp/>randomAction<sp/>&gt;=<sp/>35)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>80<sp/>&amp;&amp;<sp/>randomAction<sp/>&gt;=<sp/>55)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>90<sp/>&amp;&amp;<sp/>randomAction<sp/>&gt;=<sp/>75)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(randomAction<sp/>&lt;=<sp/>100<sp/>&amp;&amp;<sp/>randomAction<sp/>&gt;=<sp/>85)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kindref="member">age</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.sleep(2000);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(InterruptedException<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>RuntimeException(e);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Bestiary/Dragon.java"/>
+  </compounddef>
+</doxygen>

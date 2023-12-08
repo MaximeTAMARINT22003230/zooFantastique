@@ -1,0 +1,86 @@
+.TH "Player.Asker" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Player.Asker
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static Sex \fBsex\fP ()"
+.br
+.ti -1c
+.RI "static Age \fBage\fP ()"
+.br
+.ti -1c
+.RI "static Creature \fBcreature\fP ()"
+.br
+.ti -1c
+.RI "static Creature \fBcreature\fP (Corral \fBcorral\fP)"
+.br
+.ti -1c
+.RI "static Corral \fBcorral\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The Askes is used to ask specific input to the player Contains only static methods 
+.SH "Member Function Documentation"
+.PP 
+.SS "static Age Player\&.Asker\&.age ()\fC [static]\fP"
+Ask the player to input a correct Age
+.PP
+\fBReturns\fP
+.RS 4
+The Age input 
+.RE
+.PP
+
+.SS "static Corral Player\&.Asker\&.corral ()\fC [static]\fP"
+Ask the player to chose a corral depending on the existing ones 
+.PP
+\fBReturns\fP
+.RS 4
+The chosen corral 
+.RE
+.PP
+
+.SS "static Creature Player\&.Asker\&.creature ()\fC [static]\fP"
+Ask the player to choose a creature with an input 
+.PP
+\fBReturns\fP
+.RS 4
+The chosen creature 
+.RE
+.PP
+
+.SS "static Creature Player\&.Asker\&.creature (Corral corral)\fC [static]\fP"
+Ask the player to chose a creature with an input 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcorral\fP A specific corral for the choice to be made 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+The chosen creature 
+.RE
+.PP
+
+.SS "static Sex Player\&.Asker\&.sex ()\fC [static]\fP"
+Ask the player to input a sex either MALE or FEMALE 
+.PP
+\fBReturns\fP
+.RS 4
+The input Sex 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

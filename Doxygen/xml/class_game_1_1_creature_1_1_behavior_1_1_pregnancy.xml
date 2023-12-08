@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy" kind="class" language="Java" prot="public">
+    <compoundname>Game::Creature::Behavior::Pregnancy</compoundname>
+    <basecompoundref refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" prot="public" virt="non-virtual">Game.Creature.Behavior.BirthBehavior</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Cooldownable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a5f23efe6695f7182f44b9da2faf589b7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+        <definition>Creature Game.Creature.Behavior.Pregnancy.baby</definition>
+        <argsstring></argsstring>
+        <name>baby</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.baby</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The carried baby Is null until inseminated </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="18" column="22" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a722c22395ffd5d9f670026b2ec8e314b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+        <definition>Creature Game.Creature.Behavior.Pregnancy.parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.parent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The creature carrying the child </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="20" column="22" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a4b0ba1637af8de3e733433b9538c6d2f" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int Game.Creature.Behavior.Pregnancy.PREGNANCY_COOLDOWN</definition>
+        <argsstring></argsstring>
+        <name>PREGNANCY_COOLDOWN</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.PREGNANCY_COOLDOWN</qualifiedname>
+        <initializer>= 49999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The basic pregnancy time </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="22" column="30" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1ab10d2b416564016944674dce650946b3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Pregnancy.inseminate</definition>
+        <argsstring>(Creature baby, Creature parent)</argsstring>
+        <name>inseminate</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.inseminate</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>baby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inseminate the parent with a new baby</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>baby</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the future newborn </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the baby&apos;s parent </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="29" column="18" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a736a30eb90bc72aab51101e27200d9ca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Pregnancy.giveBirth</definition>
+        <argsstring>()</argsstring>
+        <name>giveBirth</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.giveBirth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Give birth to the handled baby Adds it to the parent&apos;s corral </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="39" column="18" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="39" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a79ed4c5e36e97de93b83727502831dd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Pregnancy.pregnancyCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>pregnancyCooldown</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.pregnancyCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Start a pregnancy </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="63" column="18" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="63" bodyend="66"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1aebc878da3af7068a707111c0b084d312" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Pregnancy.cooldown</definition>
+        <argsstring>(Cooldown cooldown)</argsstring>
+        <name>cooldown</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.cooldown</qualifiedname>
+        <param>
+          <type>Cooldown</type>
+          <declname>cooldown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Implementation from the Cooldownable interface Handled cooldowns :<itemizedlist>
+<listitem><para>INCUBATION : Give birth to the carried baby <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cooldown</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="51" column="17" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="51" bodyend="60"/>
+        <references refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1aebc878da3af7068a707111c0b084d312" compoundref="_pregnancy_8java" startline="51" endline="60">Game.Creature.Behavior.Pregnancy.cooldown</references>
+        <referencedby refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1aebc878da3af7068a707111c0b084d312" compoundref="_pregnancy_8java" startline="51" endline="60">Game.Creature.Behavior.Pregnancy.cooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1afa44a57d1f92da5110766a442c996cd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Pregnancy.makeBaby</definition>
+        <argsstring>(Creature baby, Creature parent)</argsstring>
+        <name>makeBaby</name>
+        <qualifiedname>Game.Creature.Behavior.Pregnancy.makeBaby</qualifiedname>
+        <reimplements refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7">makeBaby</reimplements>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>baby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="69" column="17" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Pregnancy behavior, used by Viviparians Allows a creature to make a baby (usually female) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Game.Creature.Behavior.Pregnancy</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.BirthBehavior</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Game.Creature.Behavior.Pregnancy</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.BirthBehavior</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior"/>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Behavior/Pregnancy.java" line="14" column="7" bodyfile="Application/src/Game/Creature/Behavior/Pregnancy.java" bodystart="14" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a5f23efe6695f7182f44b9da2faf589b7" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>baby</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1aebc878da3af7068a707111c0b084d312" prot="public" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>cooldown</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a736a30eb90bc72aab51101e27200d9ca" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>giveBirth</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1ab10d2b416564016944674dce650946b3" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>inseminate</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1afa44a57d1f92da5110766a442c996cd3" prot="public" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>makeBaby</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a722c22395ffd5d9f670026b2ec8e314b" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>parent</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a4b0ba1637af8de3e733433b9538c6d2f" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>PREGNANCY_COOLDOWN</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a79ed4c5e36e97de93b83727502831dd9" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Pregnancy</scope><name>pregnancyCooldown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

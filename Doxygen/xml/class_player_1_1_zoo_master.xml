@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_player_1_1_zoo_master" kind="class" language="Java" prot="public">
+    <compoundname>Player::ZooMaster</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cooldownable</basecompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a173d25dda0232388a66555996eef706b" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int Player.ZooMaster.REFRESH_COOLDOWN</definition>
+        <argsstring></argsstring>
+        <name>REFRESH_COOLDOWN</name>
+        <qualifiedname>Player.ZooMaster.REFRESH_COOLDOWN</qualifiedname>
+        <initializer>= 9999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="16" column="30" bodyfile="Application/src/Player/ZooMaster.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a4c5f71ceb5b6c54b69c2cfddc8932a13" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int Player.ZooMaster.MAX</definition>
+        <argsstring></argsstring>
+        <name>MAX</name>
+        <qualifiedname>Player.ZooMaster.MAX</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="17" column="30" bodyfile="Application/src/Player/ZooMaster.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a5642e5161ca3fb4dbe904c33f4eea129" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Player.ZooMaster.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Player.ZooMaster.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="18" column="20" bodyfile="Application/src/Player/ZooMaster.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a08dd2c4fb5e001752225906ef860d805" prot="private" static="no" mutable="no">
+        <type>Sex</type>
+        <definition>Sex Player.ZooMaster.sex</definition>
+        <argsstring></argsstring>
+        <name>sex</name>
+        <qualifiedname>Player.ZooMaster.sex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="19" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a4abe9b4b5758b173001178fbfa3c7e11" prot="private" static="no" mutable="no">
+        <type>Age</type>
+        <definition>Age Player.ZooMaster.age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <qualifiedname>Player.ZooMaster.age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="20" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a680bc6b2c17ef3891ee2084a69afae2e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player.ZooMaster.actions</definition>
+        <argsstring></argsstring>
+        <name>actions</name>
+        <qualifiedname>Player.ZooMaster.actions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="21" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a4fea77352d13f4419e29a52cce15feed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player.ZooMaster.maxActions</definition>
+        <argsstring></argsstring>
+        <name>maxActions</name>
+        <qualifiedname>Player.ZooMaster.maxActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="22" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_master_1a8f074bddd55276d5c05ed203649f5a45" prot="private" static="no" mutable="no">
+        <type>Corral</type>
+        <definition>Corral Player.ZooMaster.scope</definition>
+        <argsstring></argsstring>
+        <name>scope</name>
+        <qualifiedname>Player.ZooMaster.scope</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="23" column="20" bodyfile="Application/src/Player/ZooMaster.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1ad8d47e7d89588ef5ae0917b727fa5a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Player.ZooMaster.ZooMaster</definition>
+        <argsstring>(String name, Sex sex, Age age)</argsstring>
+        <name>ZooMaster</name>
+        <qualifiedname>Player.ZooMaster.ZooMaster</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="24" column="12" bodyfile="Application/src/Player/ZooMaster.java" bodystart="24" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1aff52fb6f9f7213124a322596f74fa2c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.ZooMaster.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Player.ZooMaster.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="60" column="19" bodyfile="Application/src/Player/ZooMaster.java" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a481971989f4251beefabf15baaa70261" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.cooldown</definition>
+        <argsstring>(Cooldown cooldown)</argsstring>
+        <name>cooldown</name>
+        <qualifiedname>Player.ZooMaster.cooldown</qualifiedname>
+        <param>
+          <type>Cooldown</type>
+          <declname>cooldown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="68" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="68" bodyend="78"/>
+        <references refid="class_player_1_1_zoo_master_1a481971989f4251beefabf15baaa70261" compoundref="_zoo_master_8java" startline="68" endline="78">Player.ZooMaster.cooldown</references>
+        <referencedby refid="class_player_1_1_zoo_master_1a481971989f4251beefabf15baaa70261" compoundref="_zoo_master_8java" startline="68" endline="78">Player.ZooMaster.cooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.options</definition>
+        <argsstring>()</argsstring>
+        <name>options</name>
+        <qualifiedname>Player.ZooMaster.options</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="79" column="17" bodyfile="Application/src/Player/ZooMaster.java" bodystart="79" bodyend="146"/>
+        <references refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" compoundref="_interface_8java" startline="22" endline="27">Player.Interface.input</references>
+        <references refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" compoundref="_zoo_master_8java" startline="79" endline="146">Player.ZooMaster.options</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+        <referencedby refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" compoundref="_zoo_8java" startline="36" endline="42">Player.Zoo.main</referencedby>
+        <referencedby refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" compoundref="_zoo_master_8java" startline="79" endline="146">Player.ZooMaster.options</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a4bcba8012debfba90f12ca3028bc4f63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.refreshCooldown</definition>
+        <argsstring>()</argsstring>
+        <name>refreshCooldown</name>
+        <qualifiedname>Player.ZooMaster.refreshCooldown</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="34" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a3549cde4755e72ecdf5d3f6f6c7197fd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.check</definition>
+        <argsstring>()</argsstring>
+        <name>check</name>
+        <qualifiedname>Player.ZooMaster.check</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="38" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a4a757f62ef697d81804420e196f8d55d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.clean</definition>
+        <argsstring>()</argsstring>
+        <name>clean</name>
+        <qualifiedname>Player.ZooMaster.clean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="51" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a772807b2ca8dc793f9e281d1a0113c23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.feed</definition>
+        <argsstring>()</argsstring>
+        <name>feed</name>
+        <qualifiedname>Player.ZooMaster.feed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="55" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a7c2f98341da2e117941161cc56f22f1f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.move</definition>
+        <argsstring>()</argsstring>
+        <name>move</name>
+        <qualifiedname>Player.ZooMaster.move</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="147" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="147" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1aa8971e526d0150604a0cfbde9d77bf14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.zoom</definition>
+        <argsstring>()</argsstring>
+        <name>zoom</name>
+        <qualifiedname>Player.ZooMaster.zoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="161" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a74a73c40cc184925399dd2fc8065cae3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.add</definition>
+        <argsstring>()</argsstring>
+        <name>add</name>
+        <qualifiedname>Player.ZooMaster.add</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="165" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="165" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_master_1a5d1a30f54c0d7f8abbfa168c5678796b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.ZooMaster.remove</definition>
+        <argsstring>()</argsstring>
+        <name>remove</name>
+        <qualifiedname>Player.ZooMaster.remove</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/ZooMaster.java" line="180" column="18" bodyfile="Application/src/Player/ZooMaster.java" bodystart="180" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents the ZooMaster, controlling actions in the zoo. Implements Cooldownable interface for managing cooldowns. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Player.ZooMaster</label>
+        <link refid="class_player_1_1_zoo_master"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Player.ZooMaster</label>
+        <link refid="class_player_1_1_zoo_master"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Player/ZooMaster.java" line="15" column="7" bodyfile="Application/src/Player/ZooMaster.java" bodystart="15" bodyend="200"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_zoo_master_1a680bc6b2c17ef3891ee2084a69afae2e" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>actions</name></member>
+      <member refid="class_player_1_1_zoo_master_1a74a73c40cc184925399dd2fc8065cae3" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>add</name></member>
+      <member refid="class_player_1_1_zoo_master_1a4abe9b4b5758b173001178fbfa3c7e11" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>age</name></member>
+      <member refid="class_player_1_1_zoo_master_1a3549cde4755e72ecdf5d3f6f6c7197fd" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>check</name></member>
+      <member refid="class_player_1_1_zoo_master_1a4a757f62ef697d81804420e196f8d55d" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>clean</name></member>
+      <member refid="class_player_1_1_zoo_master_1a481971989f4251beefabf15baaa70261" prot="public" virt="non-virtual"><scope>Player::ZooMaster</scope><name>cooldown</name></member>
+      <member refid="class_player_1_1_zoo_master_1a772807b2ca8dc793f9e281d1a0113c23" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>feed</name></member>
+      <member refid="class_player_1_1_zoo_master_1a4c5f71ceb5b6c54b69c2cfddc8932a13" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>MAX</name></member>
+      <member refid="class_player_1_1_zoo_master_1a4fea77352d13f4419e29a52cce15feed" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>maxActions</name></member>
+      <member refid="class_player_1_1_zoo_master_1a7c2f98341da2e117941161cc56f22f1f" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>move</name></member>
+      <member refid="class_player_1_1_zoo_master_1a5642e5161ca3fb4dbe904c33f4eea129" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>name</name></member>
+      <member refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" prot="public" virt="non-virtual"><scope>Player::ZooMaster</scope><name>options</name></member>
+      <member refid="class_player_1_1_zoo_master_1a173d25dda0232388a66555996eef706b" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>REFRESH_COOLDOWN</name></member>
+      <member refid="class_player_1_1_zoo_master_1a4bcba8012debfba90f12ca3028bc4f63" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>refreshCooldown</name></member>
+      <member refid="class_player_1_1_zoo_master_1a5d1a30f54c0d7f8abbfa168c5678796b" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>remove</name></member>
+      <member refid="class_player_1_1_zoo_master_1a8f074bddd55276d5c05ed203649f5a45" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>scope</name></member>
+      <member refid="class_player_1_1_zoo_master_1a08dd2c4fb5e001752225906ef860d805" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>sex</name></member>
+      <member refid="class_player_1_1_zoo_master_1aff52fb6f9f7213124a322596f74fa2c4" prot="public" virt="non-virtual"><scope>Player::ZooMaster</scope><name>toString</name></member>
+      <member refid="class_player_1_1_zoo_master_1aa8971e526d0150604a0cfbde9d77bf14" prot="private" virt="non-virtual"><scope>Player::ZooMaster</scope><name>zoom</name></member>
+      <member refid="class_player_1_1_zoo_master_1ad8d47e7d89588ef5ae0917b727fa5a99" prot="public" virt="non-virtual"><scope>Player::ZooMaster</scope><name>ZooMaster</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

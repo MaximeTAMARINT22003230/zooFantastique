@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_lycantropus_1_1_pack" xml:lang="en-US">
+<title>Game.Lycantropus.Pack Class Reference</title>
+<indexterm><primary>Game.Lycantropus.Pack</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_game_1_1_lycantropus_1_1_pack_1a090549a4e90bc3402bcae675c29f2f00">toString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_lycantropus_1_1_pack_1ac152f4fca7247a91faeaba2cd84886bc">spread</link> (<link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> howl)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_lycantropus_1_1_pack_1ac13b992f901323ab141b24b47f50840e">contains</link> (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> lycan)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_game_1_1_lycantropus_1_1_pack_1a07a2bd05e4a90275485f50dfa24ebece">dominationOf</link> (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> lycan)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_pack_1ac13b992f901323ab141b24b47f50840e"/><section>
+    <title>contains()</title>
+<indexterm><primary>contains</primary><secondary>Game.Lycantropus.Pack</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Pack</primary><secondary>contains</secondary></indexterm>
+<para><computeroutput>boolean Game.Lycantropus.Pack.contains (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> lycan)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_pack_1a07a2bd05e4a90275485f50dfa24ebece"/><section>
+    <title>dominationOf()</title>
+<indexterm><primary>dominationOf</primary><secondary>Game.Lycantropus.Pack</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Pack</primary><secondary>dominationOf</secondary></indexterm>
+<para><computeroutput>int Game.Lycantropus.Pack.dominationOf (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> lycan)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_pack_1ac152f4fca7247a91faeaba2cd84886bc"/><section>
+    <title>spread()</title>
+<indexterm><primary>spread</primary><secondary>Game.Lycantropus.Pack</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Pack</primary><secondary>spread</secondary></indexterm>
+<para><computeroutput>void Game.Lycantropus.Pack.spread (<link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> howl)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_pack_1a090549a4e90bc3402bcae675c29f2f00"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Lycantropus.Pack</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Pack</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Lycantropus.Pack.toString ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Lycantropus/<link linkend="__pack_8java">Pack.java</link></section>
+</section>

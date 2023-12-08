@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_player_1_1_interface" kind="class" language="Java" prot="public">
+    <compoundname>Player::Interface</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Player.Interface.show</definition>
+        <argsstring>(String string)</argsstring>
+        <name>show</name>
+        <qualifiedname>Player.Interface.show</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Displays the provided string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string to display. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Interface.java" line="13" column="24" bodyfile="Application/src/Player/Interface.java" bodystart="13" bodyend="16"/>
+        <referencedby refid="class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543" compoundref="_controler_8java" startline="75" endline="79">Player.Controler.addCorral</referencedby>
+        <referencedby refid="class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280" compoundref="_controler_8java" startline="66" endline="70">Player.Controler.addCreature</referencedby>
+        <referencedby refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" compoundref="_interface_8java" startline="22" endline="27">Player.Interface.input</referencedby>
+        <referencedby refid="class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795" compoundref="_controler_8java" startline="97" endline="101">Player.Controler.kill</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" compoundref="_zoo_8java" startline="176" endline="186">Player.Zoo.kill</referencedby>
+        <referencedby refid="class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30" compoundref="_controler_8java" startline="57" endline="60">Player.Controler.notification</referencedby>
+        <referencedby refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" compoundref="_controler_8java" startline="49" endline="52">Player.Controler.notification</referencedby>
+        <referencedby refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" compoundref="_zoo_master_8java" startline="79" endline="146">Player.ZooMaster.options</referencedby>
+        <referencedby refid="class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052" compoundref="_controler_8java" startline="92" endline="96">Player.Controler.removeCorral</referencedby>
+        <referencedby refid="class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f" compoundref="_controler_8java" startline="83" endline="87">Player.Controler.removeCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" compoundref="_zoo_8java" startline="164" endline="174">Player.Zoo.removeCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" compoundref="_zoo_8java" startline="188" endline="198">Player.Zoo.reviveCreature</referencedby>
+        <referencedby refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" compoundref="_asker_8java" startline="18" endline="38">Player.Asker.sex</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String Player.Interface.input</definition>
+        <argsstring>(String string)</argsstring>
+        <name>input</name>
+        <qualifiedname>Player.Interface.input</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes user input after displaying the provided string. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string prompt for user input. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The user input as a string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Interface.java" line="22" column="26" bodyfile="Application/src/Player/Interface.java" bodystart="22" bodyend="27"/>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+        <referencedby refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" compoundref="_asker_8java" startline="87" endline="98">Player.Asker.corral</referencedby>
+        <referencedby refid="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" compoundref="_creator_8java" startline="83" endline="91">Player.Creator.createYourCorral</referencedby>
+        <referencedby refid="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" compoundref="_creator_8java" startline="29" endline="82">Player.Creator.createYourCreature</referencedby>
+        <referencedby refid="class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b" compoundref="_creator_8java" startline="25" endline="28">Player.Creator.createYourZoo</referencedby>
+        <referencedby refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" compoundref="_asker_8java" startline="53" endline="64">Player.Asker.creature</referencedby>
+        <referencedby refid="class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843" compoundref="_asker_8java" startline="70" endline="81">Player.Asker.creature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" compoundref="_zoo_master_8java" startline="79" endline="146">Player.ZooMaster.options</referencedby>
+        <referencedby refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" compoundref="_asker_8java" startline="18" endline="38">Player.Asker.sex</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Provides basic interaction methods for input and output. </para>
+    </detaileddescription>
+    <location file="Application/src/Player/Interface.java" line="8" column="7" bodyfile="Application/src/Player/Interface.java" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" prot="public" virt="non-virtual"><scope>Player::Interface</scope><name>input</name></member>
+      <member refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" prot="public" virt="non-virtual"><scope>Player::Interface</scope><name>show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

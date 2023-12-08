@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_creature_1_1_creature" xml:lang="en-US">
+<title>Game.Creature.Creature Class Reference</title>
+<indexterm><primary>Game.Creature.Creature</primary></indexterm>
+<para>Inheritance diagram for Game.Creature.Creature:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_creature_1_1_creature.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6">run</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d">eat</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db">getName</link> ()</para>
+</listitem>
+            <listitem><para>Sex <link linkend="_class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7">getSex</link> ()</para>
+</listitem>
+            <listitem><para>Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e">getHunger</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420">toString</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6">equals</link> (Object o)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>BirthBehavior <link linkend="_class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de">birthingBehavior</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d">Creature</link> (String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link>, Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link>, Weight <link linkend="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17">weight</link>, Height <link linkend="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb">height</link>, Age <link linkend="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd">age</link>, Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3">hunger</link>, Fatigue <link linkend="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688">fatigue</link>, Health <link linkend="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26">health</link>)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd">toFly</link> ()</para>
+
+<para>Behavior. </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3">toRun</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448">toSwim</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92">toBeHungry</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31">shout</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912">loseHealth</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29">heal</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8">gettingFatigue</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d">sleep</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18">age</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca">growUp</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa">toSwell</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671">toLoseWeight</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c">reproduce</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365">name</link></para>
+</listitem>
+            <listitem><para>Sex <link linkend="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870">sex</link></para>
+</listitem>
+            <listitem><para>Weight <link linkend="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17">weight</link></para>
+</listitem>
+            <listitem><para>Height <link linkend="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb">height</link></para>
+</listitem>
+            <listitem><para>Age <link linkend="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd">age</link></para>
+</listitem>
+            <listitem><para>Hunger <link linkend="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3">hunger</link></para>
+</listitem>
+            <listitem><para>Fatigue <link linkend="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688">fatigue</link></para>
+</listitem>
+            <listitem><para>Health <link linkend="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26">health</link></para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331">isAlive</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The creature abstract class. Contain anything common to all creatures. Notify the controler when any change occures. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d"/><section>
+    <title>Creature()</title>
+<indexterm><primary>Creature</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>Creature</secondary></indexterm>
+<para><computeroutput>Game.Creature.Creature.Creature (String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18"/><section>
+    <title>age()</title>
+<indexterm><primary>age</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>age</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.age ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d"/><section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.eat ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6"/><section>
+    <title>equals()</title>
+<indexterm><primary>equals</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>equals</secondary></indexterm>
+<para><computeroutput>boolean Game.Creature.Creature.equals (Object o)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e"/><section>
+    <title>getHunger()</title>
+<indexterm><primary>getHunger</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>getHunger</secondary></indexterm>
+<para><computeroutput>Hunger Game.Creature.Creature.getHunger ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db"/><section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String Game.Creature.Creature.getName ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7"/><section>
+    <title>getSex()</title>
+<indexterm><primary>getSex</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>getSex</secondary></indexterm>
+<para><computeroutput>Sex Game.Creature.Creature.getSex ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8"/><section>
+    <title>gettingFatigue()</title>
+<indexterm><primary>gettingFatigue</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>gettingFatigue</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.gettingFatigue ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca"/><section>
+    <title>growUp()</title>
+<indexterm><primary>growUp</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>growUp</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.growUp ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29"/><section>
+    <title>heal()</title>
+<indexterm><primary>heal</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>heal</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.heal ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912"/><section>
+    <title>loseHealth()</title>
+<indexterm><primary>loseHealth</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>loseHealth</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.loseHealth ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c"/><section>
+    <title>reproduce()</title>
+<indexterm><primary>reproduce</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>reproduce</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.reproduce ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.run ( )</computeroutput></para><para>
+Reimplemented in <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada">Game.Creature.Bestiary.Dragon</link>, <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_kraken_1a199839c2934ff74c4585fe82f9299618">Game.Creature.Bestiary.Kraken</link>, <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1af4dfb84fd1b5f900f47ff8791fa9492e">Game.Creature.Bestiary.Megalodon</link>, <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1a1f44938d190d6720cae96095557cfacc">Game.Creature.Bestiary.Mermaid</link>, <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_nymph_1aa39b8e277bf67dcc3a38ea71e8c025d7">Game.Creature.Bestiary.Nymph</link>, <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a245f53f965c4fe730b89cd86f0a2bf76">Game.Creature.Bestiary.Phenix</link>, and <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a1eaf67517c680f7ce252ed5df1bd6375">Game.Creature.Bestiary.Unicorn</link>.</para>
+</section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31"/><section>
+    <title>shout()</title>
+<indexterm><primary>shout</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>shout</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.shout ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d"/><section>
+    <title>sleep()</title>
+<indexterm><primary>sleep</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>sleep</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.sleep ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92"/><section>
+    <title>toBeHungry()</title>
+<indexterm><primary>toBeHungry</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toBeHungry</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toBeHungry ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd"/><section>
+    <title>toFly()</title>
+<indexterm><primary>toFly</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toFly</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toFly ( )<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>Behavior. </para>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671"/><section>
+    <title>toLoseWeight()</title>
+<indexterm><primary>toLoseWeight</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toLoseWeight</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toLoseWeight ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3"/><section>
+    <title>toRun()</title>
+<indexterm><primary>toRun</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toRun</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toRun ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Creature.Creature.toString ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa"/><section>
+    <title>toSwell()</title>
+<indexterm><primary>toSwell</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toSwell</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toSwell ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448"/><section>
+    <title>toSwim()</title>
+<indexterm><primary>toSwim</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>toSwim</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Creature.toSwim ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd"/><section>
+    <title>age</title>
+<indexterm><primary>age</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>age</secondary></indexterm>
+<para><computeroutput>Age Game.Creature.Creature.age<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de"/><section>
+    <title>birthingBehavior</title>
+<indexterm><primary>birthingBehavior</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>birthingBehavior</secondary></indexterm>
+<para><computeroutput>BirthBehavior Game.Creature.Creature.birthingBehavior</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688"/><section>
+    <title>fatigue</title>
+<indexterm><primary>fatigue</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>fatigue</secondary></indexterm>
+<para><computeroutput>Fatigue Game.Creature.Creature.fatigue<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26"/><section>
+    <title>health</title>
+<indexterm><primary>health</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>health</secondary></indexterm>
+<para><computeroutput>Health Game.Creature.Creature.health<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb"/><section>
+    <title>height</title>
+<indexterm><primary>height</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>height</secondary></indexterm>
+<para><computeroutput>Height Game.Creature.Creature.height<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3"/><section>
+    <title>hunger</title>
+<indexterm><primary>hunger</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>hunger</secondary></indexterm>
+<para><computeroutput>Hunger Game.Creature.Creature.hunger<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331"/><section>
+    <title>isAlive</title>
+<indexterm><primary>isAlive</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>isAlive</secondary></indexterm>
+<para><computeroutput>boolean Game.Creature.Creature.isAlive<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String Game.Creature.Creature.name<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870"/><section>
+    <title>sex</title>
+<indexterm><primary>sex</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>sex</secondary></indexterm>
+<para><computeroutput>Sex Game.Creature.Creature.sex<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17"/><section>
+    <title>weight</title>
+<indexterm><primary>weight</primary><secondary>Game.Creature.Creature</secondary></indexterm>
+<indexterm><primary>Game.Creature.Creature</primary><secondary>weight</secondary></indexterm>
+<para><computeroutput>Weight Game.Creature.Creature.weight<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Creature/<link linkend="__creature_8java">Creature.java</link></section>
+</section>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable" kind="interface" language="Java" prot="public">
+    <compoundname>Game::Logic::Cooldown::Cooldownable</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Logic.Cooldown.Cooldownable.cooldown</definition>
+        <argsstring>(Cooldown cooldown)</argsstring>
+        <name>cooldown</name>
+        <qualifiedname>Game.Logic.Cooldown.Cooldownable.cooldown</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown" kindref="compound">Cooldown</ref></type>
+          <declname>cooldown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initiates a cooldown for the implementing entity.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cooldown</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The cooldown duration to be applied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Logic/Cooldown/Cooldownable.java" line="13" column="17"/>
+        <referencedby refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a" compoundref="_cooldown_8java" startline="29" endline="36">Game.Logic.Cooldown.Cooldown.run</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Cooldownable interface, implemented by entities that can undergo cooldown. Specifies a method to handle cooldown behavior. </para>
+    </detaileddescription>
+    <location file="Application/src/Game/Logic/Cooldown/Cooldownable.java" line="7" column="18" bodyfile="Application/src/Game/Logic/Cooldown/Cooldownable.java" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9" prot="public" virt="non-virtual"><scope>Game::Logic::Cooldown::Cooldownable</scope><name>cooldown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

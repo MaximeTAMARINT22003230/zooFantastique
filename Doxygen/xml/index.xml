@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" kind="enum"><name>Game::Creature::Caracteristic::Age</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1ab4d74b5f13a9ff078a20c7736da9d104" kind="variable"><name>BABY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a625ba5f1998386a437626ed4d9396844" kind="variable"><name>CHILD</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1aeaa14bce03ec9b944d09bce268f096f4" kind="variable"><name>TEEN</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a9a2e90a74f078038fc635079b54384fc" kind="variable"><name>ADULT</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1adfb6672614489f032a17a238edf31008" kind="variable"><name>ELDER</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a2220a6ced24060d90e47d1e88104022b" kind="function"><name>gettingOder</name></member>
+  </compound>
+  <compound refid="class_game_1_1_corral_1_1_aquarium" kind="class"><name>Game::Corral::Aquarium</name>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1ad5d47e4353eb6c03bac0677ba256ecd0" kind="variable"><name>creatures</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a2fd014816d66c916e49726e74adae97f" kind="variable"><name>depth</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a93208ac3aeee1ba59de13c1a41ef77ad" kind="function"><name>Aquarium</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c" kind="function"><name>inaugurate</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a7e006c7fef7c4e001e41580dfdd46ace" kind="function"><name>completeTable</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a73ba81df326177002d30865cb46a783c" kind="function"><name>addCreature</name></member>
+    <member refid="class_game_1_1_corral_1_1_aquarium_1a56489b96cf457f612e13b3fc1c7c3148" kind="function"><name>removeCreature</name></member>
+  </compound>
+  <compound refid="class_player_1_1_asker" kind="class"><name>Player::Asker</name>
+    <member refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kind="function"><name>sex</name></member>
+    <member refid="class_player_1_1_asker_1a3d2d356941452a85edf090b2d6932fb5" kind="function"><name>age</name></member>
+    <member refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kind="function"><name>creature</name></member>
+    <member refid="class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843" kind="function"><name>creature</name></member>
+    <member refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kind="function"><name>corral</name></member>
+  </compound>
+  <compound refid="class_game_1_1_corral_1_1_aviary" kind="class"><name>Game::Corral::Aviary</name>
+    <member refid="class_game_1_1_corral_1_1_aviary_1aae5f4e2d0e9ddb0f8160796e17c177eb" kind="variable"><name>creatures</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1aa4a783220b0f34ca5afe110238d16ddf" kind="variable"><name>height</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1a006f1d522b01b82340e2447c7cfb7cfc" kind="function"><name>Aviary</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003" kind="function"><name>inaugurate</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1a0272e0e0b6b5c5fcdb18d640c4af722b" kind="function"><name>completeTable</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1a619a25c7796d1ad46c0e7b6de11b5536" kind="function"><name>addCreature</name></member>
+    <member refid="class_game_1_1_corral_1_1_aviary_1a565ade6035db5982ec86e4e000f55b0e" kind="function"><name>removeCreature</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" kind="class"><name>Game::Creature::Behavior::BirthBehavior</name>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7" kind="function"><name>makeBaby</name></member>
+  </compound>
+  <compound refid="class_player_1_1_controler" kind="class"><name>Player::Controler</name>
+    <member refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" kind="variable"><name>zoo</name></member>
+    <member refid="class_player_1_1_controler_1a34a6d5d0987f62febab14ac6d0363856" kind="variable"><name>instance</name></member>
+    <member refid="class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079" kind="variable"><name>game</name></member>
+    <member refid="class_player_1_1_controler_1a6b5be5e1a393a3d54e320c947ae97b0e" kind="function"><name>Controler</name></member>
+    <member refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" kind="function"><name>getInstance</name></member>
+    <member refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" kind="function"><name>notification</name></member>
+    <member refid="class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30" kind="function"><name>notification</name></member>
+    <member refid="class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280" kind="function"><name>addCreature</name></member>
+    <member refid="class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543" kind="function"><name>addCorral</name></member>
+    <member refid="class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f" kind="function"><name>removeCreature</name></member>
+    <member refid="class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052" kind="function"><name>removeCorral</name></member>
+    <member refid="class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795" kind="function"><name>kill</name></member>
+  </compound>
+  <compound refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown" kind="class"><name>Game::Logic::Cooldown::Cooldown</name>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1afcb11dc84a14e989d3360cf9b24d9300" kind="variable"><name>cooldown</name></member>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a599eaf3cd7aa8237233ba9742fe1c426" kind="variable"><name>caller</name></member>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1aece8dd2bdd8e3c5839d5d64966fc013a" kind="variable"><name>type</name></member>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a5db6dc2c689ac999afc596ade9b97859" kind="function"><name>Cooldown</name></member>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a" kind="function"><name>run</name></member>
+    <member refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a4caf0db5fe5b02749ffec6ad46f11fc0" kind="function"><name>getType</name></member>
+  </compound>
+  <compound refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable" kind="interface"><name>Game::Logic::Cooldown::Cooldownable</name>
+    <member refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9" kind="function"><name>cooldown</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" kind="enum"><name>Game::Logic::Cooldown::CooldownType</name>
+    <member refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1afe62c59700b68a8883ca8de13e9578e5" kind="variable"><name>REFRESH</name></member>
+    <member refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a06a140307bd09862d6bf56ba826cb13d" kind="variable"><name>INCUBATION</name></member>
+    <member refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a13b32680814f35f1a6c56704f597f990" kind="variable"><name>END_LOVE_SEASON</name></member>
+    <member refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a0dafd9a39ec44aabd6efd021d35dbc10" kind="variable"><name>START_LOVE_SEASON</name></member>
+  </compound>
+  <compound refid="class_game_1_1_corral_1_1_corral" kind="class"><name>Game::Corral::Corral</name>
+    <member refid="class_game_1_1_corral_1_1_corral_1a420af6856a97318e25e0842e0e3b2c73" kind="variable"><name>MAX</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" kind="variable"><name>name</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" kind="variable"><name>size</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656" kind="variable"><name>max</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c" kind="variable"><name>hygiene</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e" kind="variable"><name>food</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a6e35bd70677e534fac6f15dd6f25abfd" kind="variable"><name>creatures</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a55e4167969d90b9efffce2c40c01004f" kind="variable"><name>isDestroyed</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" kind="function"><name>Corral</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118" kind="function"><name>completeTable</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" kind="function"><name>givesFoodToCreature</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92" kind="function"><name>inaugurate</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36" kind="function"><name>toString</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb" kind="function"><name>addCreature</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842" kind="function"><name>removeCreature</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f" kind="function"><name>clean</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e" kind="function"><name>getHygiene</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" kind="function"><name>kill</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb" kind="function"><name>count</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324" kind="function"><name>feed</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887" kind="function"><name>hasFreeSpace</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950" kind="function"><name>contains</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884" kind="function"><name>empty</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9" kind="function"><name>getName</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa" kind="function"><name>getCreatures</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f" kind="function"><name>run</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428" kind="function"><name>destroy</name></member>
+    <member refid="class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d" kind="function"><name>checkCreature</name></member>
+  </compound>
+  <compound refid="class_game_1_1_lycantropus_1_1_couple" kind="class"><name>Game::Lycantropus::Couple</name>
+    <member refid="class_game_1_1_lycantropus_1_1_couple_1a2352b35f6b7ab6a81cdee651f0eaa0a0" kind="variable"><name>female</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_couple_1a373887aa2954bc0c6cc3cc76619e1980" kind="variable"><name>male</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25" kind="function"><name>Couple</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" kind="function"><name>reproduce</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="class_player_1_1_creator" kind="class"><name>Player::Creator</name>
+    <member refid="class_player_1_1_creator_1a4ae02b640822c6caa23aebea6f645b10" kind="function"><name>createYourZooMaster</name></member>
+    <member refid="class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b" kind="function"><name>createYourZoo</name></member>
+    <member refid="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" kind="function"><name>createYourCreature</name></member>
+    <member refid="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" kind="function"><name>createYourCorral</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_creature" kind="class"><name>Game::Creature::Creature</name>
+    <member refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" kind="variable"><name>name</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" kind="variable"><name>sex</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" kind="variable"><name>weight</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" kind="variable"><name>height</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" kind="variable"><name>age</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" kind="variable"><name>hunger</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" kind="variable"><name>fatigue</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" kind="variable"><name>health</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331" kind="variable"><name>isAlive</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de" kind="variable"><name>birthingBehavior</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" kind="function"><name>Creature</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" kind="function"><name>toFly</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" kind="function"><name>toRun</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" kind="function"><name>toSwim</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" kind="function"><name>toBeHungry</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" kind="function"><name>shout</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" kind="function"><name>loseHealth</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" kind="function"><name>heal</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" kind="function"><name>gettingFatigue</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" kind="function"><name>sleep</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" kind="function"><name>age</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" kind="function"><name>growUp</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" kind="function"><name>toSwell</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" kind="function"><name>toLoseWeight</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" kind="function"><name>reproduce</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" kind="function"><name>run</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" kind="function"><name>eat</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" kind="function"><name>getName</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" kind="function"><name>getSex</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" kind="function"><name>getHunger</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" kind="function"><name>toString</name></member>
+    <member refid="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" kind="function"><name>equals</name></member>
+  </compound>
+  <compound refid="class_game_1_1_logic_1_1_dice_roll" kind="class"><name>Game::Logic::DiceRoll</name>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1a4424e912b10e099d13e48f094aa0ede9" kind="function"><name>d4</name></member>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1a72860c0ddd9458376f474260640edc7e" kind="function"><name>d6</name></member>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1aeafc55414d8be3172f5e69bf172ab78a" kind="function"><name>d8</name></member>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1ad5f369b893752c1bfb82012e1fab0156" kind="function"><name>d12</name></member>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1a1aaa49c810d64a502f7eddf7c3dede04" kind="function"><name>d20</name></member>
+    <member refid="class_game_1_1_logic_1_1_dice_roll_1a6f7692d43a90b4e05e3a013c79df9301" kind="function"><name>d100</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" kind="class"><name>Game::Creature::Bestiary::Dragon</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a64c830032175e240f611dd49e6080a54" kind="function"><name>Dragon</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1adac592bf9ef1fa0bf9a1d4d3fc88fa6b" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_egg" kind="class"><name>Game::Creature::Egg</name>
+    <member refid="class_game_1_1_creature_1_1_egg_1a847226d6a33d3564fef6e3b3dccf855a" kind="variable"><name>creature</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1a97572a024fac08aae971e04a6b7b7a83" kind="variable"><name>hatchTime</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1a28953cf39f3556491b8f77b5073e8f0b" kind="variable"><name>corral</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1a390f6c8dacf460426eb586a6203f10a9" kind="function"><name>Egg</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908" kind="function"><name>lay</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83" kind="function"><name>hatch</name></member>
+    <member refid="class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kind="enum"><name>Game::Creature::Caracteristic::Fatigue</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a70fef8b5c1ceb5bf91e915aac2427fc2" kind="variable"><name>SLEEP</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ad6e72d0a7f57cbd3633f6db62b4a096b" kind="variable"><name>EXHAUSTED</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a73909d803807e2a4758426d8a1b9ec90" kind="variable"><name>SLEEPY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ab4a7a09e504d1deec9e283d540ad1045" kind="variable"><name>GOOD</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d" kind="variable"><name>EXCITED</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588" kind="function"><name>gettingFatigue</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0" kind="function"><name>sleep</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6" kind="function"><name>isSleeping</name></member>
+  </compound>
+  <compound refid="interface_game_1_1_creature_1_1_behavior_1_1_fly" kind="interface"><name>Game::Creature::Behavior::Fly</name>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health" kind="enum"><name>Game::Creature::Caracteristic::Health</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a2e82ab7be7fdfb403e76afadfdd8942c" kind="variable"><name>SUFFERING</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a91ffe7ddec6909b920bd877ec6e794e1" kind="variable"><name>ILL</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa8f9453cf0288ff0ae8f8a69929b7312" kind="variable"><name>SKATE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a1a36578f8252c42a17c9fff9e1f2885c" kind="variable"><name>GOOD</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa7e83613595e7d998c93afdf33c26159" kind="variable"><name>VIGOROUS</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a4de7dee81e557bbe3ac011ac8d0730e6" kind="function"><name>heal</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1af247fa20f8bbb5012c02f15e5977e333" kind="function"><name>loseHealth</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height" kind="enum"><name>Game::Creature::Caracteristic::Height</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af4cc12cb91f1bc486b1fa3cd0be34dde" kind="variable"><name>SMALL</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af11ea108b2a87b7d57dea6b019088363" kind="variable"><name>AVERAGE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a9843fcc14e020304f9a50d0e90aa6b74" kind="variable"><name>BIG</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a3643992998830ebf5a4167d0da75f931" kind="variable"><name>HUMONGOUS</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1aedac457c498de89159eedfd27f908b22" kind="function"><name>growUp</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_lycantropus_1_1_howl" kind="enum"><name>Game::Lycantropus::Howl</name>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa" kind="variable"><name>AGGRESSIVE</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1aa99752ad5b83fbe763d57ff4f9b524cc" kind="variable"><name>BELONGING</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a1b2a0839a317ec9d86c76ec5ddbbd11c" kind="variable"><name>SUBMISSION</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a9a736598fb0ec949d03b37e15d6a83fe" kind="variable"><name>DOMINATION</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87" kind="variable"><name>ANSWER</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1af781b38a2b41d986e8bda741755cea09" kind="variable"><name>howler</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a6a5e4e51a21d279e6650b2c2595709ae" kind="variable"><name>target</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482" kind="function"><name>setHowler</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" kind="function"><name>getHowler</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21" kind="function"><name>setTarget</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444" kind="function"><name>getTarget</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" kind="enum"><name>Game::Creature::Caracteristic::Hunger</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a3efe563a6875f5e9fcffb0ace893bc0f" kind="variable"><name>STARVING</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af212f228effdac3a6487a82412b884b9" kind="variable"><name>HUNGRY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a16c3b0ad81c0683bf27c661680a63fcd" kind="variable"><name>GOOD</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ab544b116cd2307d6a6ecc1f9d44c7393" kind="variable"><name>MEALS</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af0aa9145d5e02f824673180278fa71f2" kind="function"><name>eat</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ae4ff18aae40b92bda02af9986588b347" kind="function"><name>toBeHungry</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a94b6175475bc776158f0aea535233120" kind="function"><name>isHungry</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene" kind="enum"><name>Game::Corral::Caracteristic::Hygiene</name>
+    <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5c5c6ca66ffdc25a69181c87efd0f331" kind="variable"><name>BAD</name></member>
+    <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1acc2a48b99d1086f2900e0e3b99df8a5b" kind="variable"><name>CORRECTLY</name></member>
+    <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5acf95390e5e634e9630711a5a5a08e9" kind="variable"><name>GOOD</name></member>
+    <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a0ce884f96c1648bab78d89a3c260fe78" kind="function"><name>clean</name></member>
+  </compound>
+  <compound refid="class_player_1_1_interface" kind="class"><name>Player::Interface</name>
+    <member refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" kind="function"><name>show</name></member>
+    <member refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kind="function"><name>input</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken" kind="class"><name>Game::Creature::Bestiary::Kraken</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1a3e7e6fa4c763bdafbe105ff1939c974d" kind="function"><name>Kraken</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1ab2b4a914411719ad27cba060f132de17" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1a199839c2934ff74c4585fe82f9299618" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_behavior_1_1_laying" kind="class"><name>Game::Creature::Behavior::Laying</name>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a5e5bb1bda65dc4c68e25fa0b81f7ba6c" kind="function"><name>lay</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1" kind="function"><name>makeBaby</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kind="enum"><name>Game::Lycantropus::Caracteristics::Level</name>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a8a5d01414eb734a95d70dfd8ab1ee7ca" kind="variable"><name>STRONG</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86" kind="variable"><name>FRAGILE</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278" kind="function"><name>beat</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71" kind="function"><name>set</name></member>
+  </compound>
+  <compound refid="class_game_1_1_lycantropus_1_1_lycantropus" kind="class"><name>Game::Lycantropus::Lycantropus</name>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ac4a8a0b41ac7d18a6ea8012083a72ba2" kind="variable"><name>strength</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a0dafffd30658c2527950d831cb38cea4" kind="variable"><name>rank</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ab654cdbe474dbefce738ec7e5f3be8cb" kind="variable"><name>level</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a1f1770783f74bdde302e20426ca691b4" kind="variable"><name>pack</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a5e4373b78f49a6db9602269bde1abc57" kind="variable"><name>impetuosity</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a9f703aab6db14a62257c9ef22fdba476" kind="function"><name>Lycantropus</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ad7719c50b90e3effa5ac50311e6effcc" kind="function"><name>dominate</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a4379901e8900e4b1a51d6c3a57581464" kind="function"><name>howl</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a66d90deb8304dd73e94754e709e9b2e7" kind="function"><name>humanize</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a0598bab10a9bdf19b7c83ccfc6737f24" kind="function"><name>escape</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a86c8bb971395fadf0d1c41b8f5aafb98" kind="function"><name>getDomination</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519" kind="function"><name>hear</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ad56adfc2a5ab180b9ed9e3f23af5124a" kind="function"><name>equals</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a9794e68d5a274af9d97610a44b2063c7" kind="function"><name>toString</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a121592b8de35b9ad08f11a66bf4de4f7" kind="function"><name>run</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1ab316b5b832b9b097ddad734e75da13db" kind="function"><name>getLevel</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841" kind="function"><name>newBorn</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon" kind="class"><name>Game::Creature::Bestiary::Megalodon</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1ac0d40775dc471349c6a67ab0e99937fe" kind="function"><name>Megalodon</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1ab0d1cdb863daf478a81ce3e895d4bcfc" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1af4dfb84fd1b5f900f47ff8791fa9492e" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid" kind="class"><name>Game::Creature::Bestiary::Mermaid</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1a8982d8a1ff9b05582969f0ee4b3e9d97" kind="function"><name>Mermaid</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1ae190d5655738f9ed93dc8ab3f12f2822" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1a1f44938d190d6720cae96095557cfacc" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph" kind="class"><name>Game::Creature::Bestiary::Nymph</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1a8f20dcd7e6f8cdb16cffecd630907471" kind="function"><name>Nymph</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1ac63164a217e76ea7053591e02bb1a734" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1aa39b8e277bf67dcc3a38ea71e8c025d7" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_oviparian" kind="class"><name>Game::Creature::Oviparian</name>
+    <member refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" kind="function"><name>Oviparian</name></member>
+  </compound>
+  <compound refid="class_game_1_1_lycantropus_1_1_pack" kind="class"><name>Game::Lycantropus::Pack</name>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a33ba3de2a281ba376ca54bedecab3867" kind="variable"><name>alpha</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1ae06e6628a85de7a0e9afd566a9439be9" kind="variable"><name>lycans</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a090549a4e90bc3402bcae675c29f2f00" kind="function"><name>toString</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1ac152f4fca7247a91faeaba2cd84886bc" kind="function"><name>spread</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1ac13b992f901323ab141b24b47f50840e" kind="function"><name>contains</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a07a2bd05e4a90275485f50dfa24ebece" kind="function"><name>dominationOf</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1aed3b09c21fe0e7735c4a5824cbeafa33" kind="function"><name>packCaracteristics</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1aab4731669af63166ad58ce7e092716d2" kind="function"><name>lycansCaracteristics</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a5b26702906ae7b6e915f8610057a32a2" kind="function"><name>rank</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a27de36a0047b82a629e61a6cef9e5d8c" kind="function"><name>couple</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a815bdf6825cf3c3ddbaf4cf53ba3f00c" kind="function"><name>reproduce</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1afd075ed3990fa806a136310f80d8b3cd" kind="function"><name>unrank</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a1b279862808a542b1bc4112c43d783a0" kind="function"><name>omega</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1ac1095a14aad26af034b25b19261addb6" kind="function"><name>addLycan</name></member>
+    <member refid="class_game_1_1_lycantropus_1_1_pack_1a52f57475306d45ad34f064131dac7645" kind="function"><name>removeLycan</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix" kind="class"><name>Game::Creature::Bestiary::Phenix</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a755fa8da2fa734ec558f53d3308a5ab4" kind="function"><name>Phenix</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1aaea0bfc67cc8f72079ac29cc250a49ea" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a245f53f965c4fe730b89cd86f0a2bf76" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy" kind="class"><name>Game::Creature::Behavior::Pregnancy</name>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a5f23efe6695f7182f44b9da2faf589b7" kind="variable"><name>baby</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a722c22395ffd5d9f670026b2ec8e314b" kind="variable"><name>parent</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a4b0ba1637af8de3e733433b9538c6d2f" kind="variable"><name>PREGNANCY_COOLDOWN</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1ab10d2b416564016944674dce650946b3" kind="function"><name>inseminate</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a736a30eb90bc72aab51101e27200d9ca" kind="function"><name>giveBirth</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1a79ed4c5e36e97de93b83727502831dd9" kind="function"><name>pregnancyCooldown</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1aebc878da3af7068a707111c0b084d312" kind="function"><name>cooldown</name></member>
+    <member refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1afa44a57d1f92da5110766a442c996cd3" kind="function"><name>makeBaby</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kind="enum"><name>Game::Lycantropus::Caracteristics::Rank</name>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1af582bc316b0388e6447c97ba5d7566f9" kind="variable"><name>ALPHA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aeaa9f148fa6a52a6c19f3d7ead863f1b" kind="variable"><name>BETA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a954a05be2b793ad5b9e88be006897c1f" kind="variable"><name>GAMMA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a6fdffe6669d7ef258346fa96a126abe2" kind="variable"><name>DELTA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2f9346a85dc8516c770151b162eef9a9" kind="variable"><name>EPSILON</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a05b8e28d597614b44f9ed74725cfff74" kind="variable"><name>ZETA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2344a51adc9bad355da774565c02f8b4" kind="variable"><name>ETA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a0befb7e53d4e0ecc58fde370cd1a5c44" kind="variable"><name>THETA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ae8512ee00356b5e67952bcae82009400" kind="variable"><name>IOTA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aaaf59d0ba592d4f2515252672870d69b" kind="variable"><name>KAPPA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ab42989030272c58a58532b6f2157a6b0" kind="variable"><name>LAMBDA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a1941a72be781171c3ce1312ae602562e" kind="variable"><name>MU</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1add334370ff8c27a06b46079846694eba" kind="variable"><name>NU</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a71fc35bbd50b03f70ec1bef19d5877cf" kind="variable"><name>XI</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aacef013cf3ac8f78961c8b072a0d7e78" kind="variable"><name>OMICRON</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4ac435fb51e2b77be6beae63c9829de0" kind="variable"><name>PI</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a83ee4be57629f7e3f147ba50ea51dc64" kind="variable"><name>RHO</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ad325179c666c282f8ca22f9fe59572e5" kind="variable"><name>SIGMA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a24192754ffbbb30adcaf19858307a70f" kind="variable"><name>TAU</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08a21b0944289f6b2092a8e3ae1b0f40" kind="variable"><name>UPSILON</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4e656ac0e871f8e81010733fdae01b68" kind="variable"><name>PHI</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a75e08e7a81e3ce46ac1d57eb89cd611c" kind="variable"><name>CHI</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aee393357f1a66668e0c5da63f7b85a05" kind="variable"><name>PSI</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ac69c68d2ba92c06d3a0d0ea3b4155a96" kind="variable"><name>OMEGA</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1abc46645d821bc18d39976e502144bc37" kind="function"><name>downgrade</name></member>
+    <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08d6b876dace571e8d78c56b86cc652f" kind="function"><name>upgrade</name></member>
+  </compound>
+  <compound refid="interface_game_1_1_creature_1_1_behavior_1_1_revive" kind="interface"><name>Game::Creature::Behavior::Revive</name>
+  </compound>
+  <compound refid="interface_game_1_1_creature_1_1_behavior_1_1_run" kind="interface"><name>Game::Creature::Behavior::Run</name>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex" kind="enum"><name>Game::Creature::Caracteristic::Sex</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1a4b215b1fc46a96fd85ae46bd3e9f20c4" kind="variable"><name>MALE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1ab23191263d3e175de75ff17ea1ff31cb" kind="variable"><name>FEMALE</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" kind="enum"><name>Game::Creature::Caracteristic::StorageLevel</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8bbb192e8207590bd393cebd7fd32e0" kind="variable"><name>EMPTY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ae4cf14b1bddc75ebb2a594a392768fc7" kind="variable"><name>LITTLE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a5a8a92ebb740a2a359d2bbce40521da7" kind="variable"><name>AVERAGE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a4702a231f7a1608e5cdadf19f88aae84" kind="variable"><name>MANY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1aea00fa387856a19b8ffc4bafce52edca" kind="function"><name>levelDown</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8f318a4b78a41704c1a27ece34b1c77" kind="function"><name>fillStorage</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ad923a740bff68bce63f2e57ab2a5a595" kind="function"><name>isEmpty</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" kind="enum"><name>Game::Lycantropus::Caracteristics::Strength</name>
+  </compound>
+  <compound refid="interface_game_1_1_creature_1_1_behavior_1_1_swim" kind="interface"><name>Game::Creature::Behavior::Swim</name>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn" kind="class"><name>Game::Creature::Bestiary::Unicorn</name>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a4fa53587c84f1b11737f110ec20d84d1" kind="function"><name>Unicorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a12d00536f437874574cd38ca54f6d96a" kind="function"><name>newBorn</name></member>
+    <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a1eaf67517c680f7ce252ed5df1bd6375" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="class_game_1_1_creature_1_1_viviparian" kind="class"><name>Game::Creature::Viviparian</name>
+    <member refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" kind="function"><name>Viviparian</name></member>
+  </compound>
+  <compound refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kind="enum"><name>Game::Creature::Caracteristic::Weight</name>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a862c88cc7ffd98d9152c25f032f2216f" kind="variable"><name>LIGHT</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058" kind="variable"><name>AVERAGE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1ad4dce31fd094d8a661431448211de0e7" kind="variable"><name>HEAVY</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a37d2352f146648cda9704418afb7b89a" kind="variable"><name>MASSIVE</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e" kind="function"><name>toSwell</name></member>
+    <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2" kind="function"><name>toLoseWeight</name></member>
+  </compound>
+  <compound refid="class_player_1_1_zoo" kind="class"><name>Player::Zoo</name>
+    <member refid="class_player_1_1_zoo_1a6bc1c7861a1301e5c4e31996a5136610" kind="variable"><name>MAX</name></member>
+    <member refid="class_player_1_1_zoo_1a6411a038203541fbd417d639b33c455a" kind="variable"><name>LOVE_SEASON_DURATION</name></member>
+    <member refid="class_player_1_1_zoo_1aedd9cda16f69cb681855f625816e3c93" kind="variable"><name>name</name></member>
+    <member refid="class_player_1_1_zoo_1a34df4204453c93ab30cece2c468dfe7c" kind="variable"><name>maxCorral</name></member>
+    <member refid="class_player_1_1_zoo_1a606a6cb792be05a223343f8ac105fc3f" kind="variable"><name>corrals</name></member>
+    <member refid="class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1" kind="variable"><name>zooMaster</name></member>
+    <member refid="class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d" kind="variable"><name>colony</name></member>
+    <member refid="class_player_1_1_zoo_1a40857a4576781c9c27e483f75c5f809d" kind="variable"><name>loveSeason</name></member>
+    <member refid="class_player_1_1_zoo_1a91c9fb2e6fb9b74f2df2e6e67b0b3d8d" kind="function"><name>Zoo</name></member>
+    <member refid="class_player_1_1_zoo_1a244b0ad217c77faa5f9dbe88ffa28fd4" kind="function"><name>showOnlyCorrals</name></member>
+    <member refid="class_player_1_1_zoo_1a73bc5787395c5df55ce32d7a012910a8" kind="function"><name>showCorrals</name></member>
+    <member refid="class_player_1_1_zoo_1aa98cffbe75a902a12916e1c3d3650d9a" kind="function"><name>exists</name></member>
+    <member refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" kind="function"><name>main</name></member>
+    <member refid="class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444" kind="function"><name>opening</name></member>
+    <member refid="class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703" kind="function"><name>showCreatures</name></member>
+    <member refid="class_player_1_1_zoo_1a652181903ef7fae670026374366689d9" kind="function"><name>countCreatures</name></member>
+    <member refid="class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1" kind="function"><name>countCorrals</name></member>
+    <member refid="class_player_1_1_zoo_1afbd3e5247984a0645c764179a4d4e503" kind="function"><name>toString</name></member>
+    <member refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" kind="function"><name>exists</name></member>
+    <member refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" kind="function"><name>corralOf</name></member>
+    <member refid="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" kind="function"><name>addCorral</name></member>
+    <member refid="class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6" kind="function"><name>corrals</name></member>
+    <member refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" kind="function"><name>corral</name></member>
+    <member refid="class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30" kind="function"><name>removeCorral</name></member>
+    <member refid="class_player_1_1_zoo_1a1a425c32c2db16ebabd4eaaea202f952" kind="function"><name>extend</name></member>
+    <member refid="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" kind="function"><name>addCreature</name></member>
+    <member refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" kind="function"><name>removeCreature</name></member>
+    <member refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" kind="function"><name>kill</name></member>
+    <member refid="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" kind="function"><name>reviveCreature</name></member>
+    <member refid="class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d" kind="function"><name>getCorrals</name></member>
+    <member refid="class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0" kind="function"><name>getCreatures</name></member>
+    <member refid="class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b" kind="function"><name>cooldown</name></member>
+    <member refid="class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8" kind="function"><name>spread</name></member>
+  </compound>
+  <compound refid="class_player_1_1_zoo_master" kind="class"><name>Player::ZooMaster</name>
+    <member refid="class_player_1_1_zoo_master_1a173d25dda0232388a66555996eef706b" kind="variable"><name>REFRESH_COOLDOWN</name></member>
+    <member refid="class_player_1_1_zoo_master_1a4c5f71ceb5b6c54b69c2cfddc8932a13" kind="variable"><name>MAX</name></member>
+    <member refid="class_player_1_1_zoo_master_1a5642e5161ca3fb4dbe904c33f4eea129" kind="variable"><name>name</name></member>
+    <member refid="class_player_1_1_zoo_master_1a08dd2c4fb5e001752225906ef860d805" kind="variable"><name>sex</name></member>
+    <member refid="class_player_1_1_zoo_master_1a4abe9b4b5758b173001178fbfa3c7e11" kind="variable"><name>age</name></member>
+    <member refid="class_player_1_1_zoo_master_1a680bc6b2c17ef3891ee2084a69afae2e" kind="variable"><name>actions</name></member>
+    <member refid="class_player_1_1_zoo_master_1a4fea77352d13f4419e29a52cce15feed" kind="variable"><name>maxActions</name></member>
+    <member refid="class_player_1_1_zoo_master_1a8f074bddd55276d5c05ed203649f5a45" kind="variable"><name>scope</name></member>
+    <member refid="class_player_1_1_zoo_master_1ad8d47e7d89588ef5ae0917b727fa5a99" kind="function"><name>ZooMaster</name></member>
+    <member refid="class_player_1_1_zoo_master_1aff52fb6f9f7213124a322596f74fa2c4" kind="function"><name>toString</name></member>
+    <member refid="class_player_1_1_zoo_master_1a481971989f4251beefabf15baaa70261" kind="function"><name>cooldown</name></member>
+    <member refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" kind="function"><name>options</name></member>
+    <member refid="class_player_1_1_zoo_master_1a4bcba8012debfba90f12ca3028bc4f63" kind="function"><name>refreshCooldown</name></member>
+    <member refid="class_player_1_1_zoo_master_1a3549cde4755e72ecdf5d3f6f6c7197fd" kind="function"><name>check</name></member>
+    <member refid="class_player_1_1_zoo_master_1a4a757f62ef697d81804420e196f8d55d" kind="function"><name>clean</name></member>
+    <member refid="class_player_1_1_zoo_master_1a772807b2ca8dc793f9e281d1a0113c23" kind="function"><name>feed</name></member>
+    <member refid="class_player_1_1_zoo_master_1a7c2f98341da2e117941161cc56f22f1f" kind="function"><name>move</name></member>
+    <member refid="class_player_1_1_zoo_master_1aa8971e526d0150604a0cfbde9d77bf14" kind="function"><name>zoom</name></member>
+    <member refid="class_player_1_1_zoo_master_1a74a73c40cc184925399dd2fc8065cae3" kind="function"><name>add</name></member>
+    <member refid="class_player_1_1_zoo_master_1a5d1a30f54c0d7f8abbfa168c5678796b" kind="function"><name>remove</name></member>
+  </compound>
+  <compound refid="namespace_game" kind="namespace"><name>Game</name>
+  </compound>
+  <compound refid="namespace_game_1_1_corral" kind="namespace"><name>Game::Corral</name>
+  </compound>
+  <compound refid="namespace_game_1_1_corral_1_1_caracteristic" kind="namespace"><name>Game::Corral::Caracteristic</name>
+  </compound>
+  <compound refid="namespace_game_1_1_creature" kind="namespace"><name>Game::Creature</name>
+  </compound>
+  <compound refid="namespace_game_1_1_creature_1_1_behavior" kind="namespace"><name>Game::Creature::Behavior</name>
+  </compound>
+  <compound refid="namespace_game_1_1_creature_1_1_bestiary" kind="namespace"><name>Game::Creature::Bestiary</name>
+  </compound>
+  <compound refid="namespace_game_1_1_creature_1_1_caracteristic" kind="namespace"><name>Game::Creature::Caracteristic</name>
+  </compound>
+  <compound refid="namespace_game_1_1_logic" kind="namespace"><name>Game::Logic</name>
+  </compound>
+  <compound refid="namespace_game_1_1_logic_1_1_cooldown" kind="namespace"><name>Game::Logic::Cooldown</name>
+  </compound>
+  <compound refid="namespace_game_1_1_lycantropus" kind="namespace"><name>Game::Lycantropus</name>
+  </compound>
+  <compound refid="namespace_game_1_1_lycantropus_1_1_caracteristics" kind="namespace"><name>Game::Lycantropus::Caracteristics</name>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespace_player" kind="namespace"><name>Player</name>
+  </compound>
+  <compound refid="_aquarium_8java" kind="file"><name>Aquarium.java</name>
+  </compound>
+  <compound refid="_aviary_8java" kind="file"><name>Aviary.java</name>
+  </compound>
+  <compound refid="_hygiene_8java" kind="file"><name>Hygiene.java</name>
+  </compound>
+  <compound refid="_corral_8java" kind="file"><name>Corral.java</name>
+  </compound>
+  <compound refid="_birth_behavior_8java" kind="file"><name>BirthBehavior.java</name>
+  </compound>
+  <compound refid="_fly_8java" kind="file"><name>Fly.java</name>
+  </compound>
+  <compound refid="_laying_8java" kind="file"><name>Laying.java</name>
+  </compound>
+  <compound refid="_pregnancy_8java" kind="file"><name>Pregnancy.java</name>
+  </compound>
+  <compound refid="_revive_8java" kind="file"><name>Revive.java</name>
+  </compound>
+  <compound refid="_run_8java" kind="file"><name>Run.java</name>
+  </compound>
+  <compound refid="_swim_8java" kind="file"><name>Swim.java</name>
+  </compound>
+  <compound refid="_dragon_8java" kind="file"><name>Dragon.java</name>
+  </compound>
+  <compound refid="_kraken_8java" kind="file"><name>Kraken.java</name>
+  </compound>
+  <compound refid="_megalodon_8java" kind="file"><name>Megalodon.java</name>
+  </compound>
+  <compound refid="_mermaid_8java" kind="file"><name>Mermaid.java</name>
+  </compound>
+  <compound refid="_nymph_8java" kind="file"><name>Nymph.java</name>
+  </compound>
+  <compound refid="_phenix_8java" kind="file"><name>Phenix.java</name>
+  </compound>
+  <compound refid="_unicorn_8java" kind="file"><name>Unicorn.java</name>
+  </compound>
+  <compound refid="_age_8java" kind="file"><name>Age.java</name>
+  </compound>
+  <compound refid="_fatigue_8java" kind="file"><name>Fatigue.java</name>
+  </compound>
+  <compound refid="_health_8java" kind="file"><name>Health.java</name>
+  </compound>
+  <compound refid="_height_8java" kind="file"><name>Height.java</name>
+  </compound>
+  <compound refid="_hunger_8java" kind="file"><name>Hunger.java</name>
+  </compound>
+  <compound refid="_sex_8java" kind="file"><name>Sex.java</name>
+  </compound>
+  <compound refid="_storage_level_8java" kind="file"><name>StorageLevel.java</name>
+  </compound>
+  <compound refid="_weight_8java" kind="file"><name>Weight.java</name>
+  </compound>
+  <compound refid="_creature_8java" kind="file"><name>Creature.java</name>
+  </compound>
+  <compound refid="_egg_8java" kind="file"><name>Egg.java</name>
+  </compound>
+  <compound refid="_oviparian_8java" kind="file"><name>Oviparian.java</name>
+  </compound>
+  <compound refid="_viviparian_8java" kind="file"><name>Viviparian.java</name>
+  </compound>
+  <compound refid="_cooldown_8java" kind="file"><name>Cooldown.java</name>
+  </compound>
+  <compound refid="_cooldownable_8java" kind="file"><name>Cooldownable.java</name>
+  </compound>
+  <compound refid="_cooldown_type_8java" kind="file"><name>CooldownType.java</name>
+  </compound>
+  <compound refid="_dice_roll_8java" kind="file"><name>DiceRoll.java</name>
+  </compound>
+  <compound refid="_level_8java" kind="file"><name>Level.java</name>
+  </compound>
+  <compound refid="_rank_8java" kind="file"><name>Rank.java</name>
+  </compound>
+  <compound refid="_strength_8java" kind="file"><name>Strength.java</name>
+  </compound>
+  <compound refid="_couple_8java" kind="file"><name>Couple.java</name>
+  </compound>
+  <compound refid="_howl_8java" kind="file"><name>Howl.java</name>
+  </compound>
+  <compound refid="_lycantropus_8java" kind="file"><name>Lycantropus.java</name>
+  </compound>
+  <compound refid="_pack_8java" kind="file"><name>Pack.java</name>
+  </compound>
+  <compound refid="_asker_8java" kind="file"><name>Asker.java</name>
+  </compound>
+  <compound refid="_controler_8java" kind="file"><name>Controler.java</name>
+  </compound>
+  <compound refid="_creator_8java" kind="file"><name>Creator.java</name>
+  </compound>
+  <compound refid="_interface_8java" kind="file"><name>Interface.java</name>
+  </compound>
+  <compound refid="_zoo_8java" kind="file"><name>Zoo.java</name>
+  </compound>
+  <compound refid="_zoo_master_8java" kind="file"><name>ZooMaster.java</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md__r_e_a_d_m_e</name>
+  </compound>
+  <compound refid="dir_eb1463819d84903762eb6f59cc0c4383" kind="dir"><name>Application</name>
+  </compound>
+  <compound refid="dir_9b30e57ca1f62c21d737ebe39c022df9" kind="dir"><name>Application/src/Game/Creature/Behavior</name>
+  </compound>
+  <compound refid="dir_8293f5905212068ccabf0c1907c358b7" kind="dir"><name>Application/src/Game/Creature/Bestiary</name>
+  </compound>
+  <compound refid="dir_1dffbbff7d841c085d56f299d68b4b86" kind="dir"><name>Application/src/Game/Corral/Caracteristic</name>
+  </compound>
+  <compound refid="dir_ac494b7c61ebabcdbf451d19a49471a8" kind="dir"><name>Application/src/Game/Creature/Caracteristic</name>
+  </compound>
+  <compound refid="dir_e1602748efe4e6468d77518452deea5b" kind="dir"><name>Application/src/Game/Lycantropus/Caracteristics</name>
+  </compound>
+  <compound refid="dir_e97e5ab47b413c357177f23c789f66fd" kind="dir"><name>Application/src/Game/Logic/Cooldown</name>
+  </compound>
+  <compound refid="dir_ea0c741297f1c4c3e7097ee8eed5ae7d" kind="dir"><name>Application/src/Game/Corral</name>
+  </compound>
+  <compound refid="dir_c1700732fddcde8eb5519c2d8f8ddc29" kind="dir"><name>Application/src/Game/Creature</name>
+  </compound>
+  <compound refid="dir_a4b7d319de85bbda6f7ac5fc16ec7a0b" kind="dir"><name>Application/src/Game</name>
+  </compound>
+  <compound refid="dir_e8310936e633ec25440b40342c1b75f2" kind="dir"><name>Application/src/Game/Logic</name>
+  </compound>
+  <compound refid="dir_90321a73786280b7ce821e58d1903fb0" kind="dir"><name>Application/src/Game/Lycantropus</name>
+  </compound>
+  <compound refid="dir_43c5d4307e7b345555f12b84fe173e06" kind="dir"><name>Application/src/Player</name>
+  </compound>
+  <compound refid="dir_00e325aa151f88bc84914a2019443171" kind="dir"><name>Application/src</name>
+  </compound>
+</doxygenindex>

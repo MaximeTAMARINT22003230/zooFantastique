@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_1_1_controler" xml:lang="en-US">
+<title>Player.Controler Class Reference</title>
+<indexterm><primary>Player.Controler</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14">notification</link> (String notification)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30">notification</link> (Object notification)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280">addCreature</link> (Creature creature, Corral corral)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543">addCorral</link> (Corral corral)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f">removeCreature</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052">removeCorral</link> (Corral corral)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795">kill</link> (Creature creature)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_player_1_1_controler">Controler</link> <link linkend="_class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9">getInstance</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_player_1_1_zoo">Zoo</link> <link linkend="_class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2">zoo</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>static boolean <link linkend="_class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079">game</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The main controler of the app. <?linebreak?> Is a Singleton that contain the Zoo and a bunch of usefull static methods. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543"/><section>
+    <title>addCorral()</title>
+<indexterm><primary>addCorral</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>addCorral</secondary></indexterm>
+<para><computeroutput>void Player.Controler.addCorral (Corral corral)</computeroutput></para>
+<para>Add a new Corral to the Zoo 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>corral</entry><entry>
+<para>The corral to be added </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280"/><section>
+    <title>addCreature()</title>
+<indexterm><primary>addCreature</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>addCreature</secondary></indexterm>
+<para><computeroutput>void Player.Controler.addCreature (Creature creature, Corral corral)</computeroutput></para>
+<para>Add a new creature to the Zoo 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>creature</entry><entry>
+<para>The creature to add </para>
+</entry>
+                            </row>
+                            <row>
+<entry>corral</entry><entry>
+<para>The targeted corral </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9"/><section>
+    <title>getInstance()</title>
+<indexterm><primary>getInstance</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>getInstance</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_player_1_1_controler">Controler</link> Player.Controler.getInstance ( )<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Give the instance of the Controler or create one if needed <formalpara><title>Returns</title>
+
+<para>The instance of the Controler </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795"/><section>
+    <title>kill()</title>
+<indexterm><primary>kill</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>kill</secondary></indexterm>
+<para><computeroutput>void Player.Controler.kill (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30"/><section>
+    <title>notification()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>notification</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>notification</secondary></indexterm>
+<para><computeroutput>void Player.Controler.notification (Object notification)</computeroutput></para>
+<para>Send a notification to the user (usually used when a Crature has something to say) <?linebreak?> Allows a separation between the Model and the Interface 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>notification</entry><entry>
+<para>What it has to say </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14"/><section>
+    <title>notification()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>notification</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>notification</secondary></indexterm>
+<para><computeroutput>void Player.Controler.notification (String notification)</computeroutput></para>
+<para>Send a notification to the user (usually used when a Crature has something to say) <?linebreak?> Allows a separation between the Model and the Interface 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>notification</entry><entry>
+<para>What it has to say </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052"/><section>
+    <title>removeCorral()</title>
+<indexterm><primary>removeCorral</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>removeCorral</secondary></indexterm>
+<para><computeroutput>void Player.Controler.removeCorral (Corral corral)</computeroutput></para>
+<para>Remove a Corral from the Zoo 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>corral</entry><entry>
+<para>The corral to remove </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f"/><section>
+    <title>removeCreature()</title>
+<indexterm><primary>removeCreature</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>removeCreature</secondary></indexterm>
+<para><computeroutput>void Player.Controler.removeCreature (Creature creature)</computeroutput></para>
+<para>Remove a creature from the zoo 
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>creature</entry><entry>
+<para>The creature to remove </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079"/><section>
+    <title>game</title>
+<indexterm><primary>game</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>game</secondary></indexterm>
+<para><computeroutput>boolean Player.Controler.game<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>True while the game is running, become False when the players ends it. </para>
+</section>
+<anchor xml:id="_class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2"/><section>
+    <title>zoo</title>
+<indexterm><primary>zoo</primary><secondary>Player.Controler</secondary></indexterm>
+<indexterm><primary>Player.Controler</primary><secondary>zoo</secondary></indexterm>
+<para><computeroutput><link linkend="_class_player_1_1_zoo">Zoo</link> Player.Controler.zoo</computeroutput></para>
+<para>The zoo </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Player/<link linkend="__controler_8java">Controler.java</link></section>
+</section>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" xml:lang="en-US">
+<title>Game.Lycantropus.Caracteristics.Level Enum Reference</title>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Level</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>boolean <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278">beat</link> (<link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level">Level</link> foe)</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level">Level</link> <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71">set</link> (Sex sex, Age age, <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength">Strength</link> strength, <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> rank)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a8a5d01414eb734a95d70dfd8ab1ee7ca">STRONG</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86">FRAGILE</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278"/><section>
+    <title>beat()</title>
+<indexterm><primary>beat</primary><secondary>Game.Lycantropus.Caracteristics.Level</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Level</primary><secondary>beat</secondary></indexterm>
+<para><computeroutput>boolean Game.Lycantropus.Caracteristics.Level.beat (<link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level">Level</link> foe)</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71"/><section>
+    <title>set()</title>
+<indexterm><primary>set</primary><secondary>Game.Lycantropus.Caracteristics.Level</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Level</primary><secondary>set</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level">Level</link> Game.Lycantropus.Caracteristics.Level.set (Sex sex, Age age, <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength">Strength</link> strength, <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link> rank)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86"/><section>
+    <title>FRAGILE</title>
+<indexterm><primary>FRAGILE</primary><secondary>Game.Lycantropus.Caracteristics.Level</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Level</primary><secondary>FRAGILE</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Level.FRAGILE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a8a5d01414eb734a95d70dfd8ab1ee7ca"/><section>
+    <title>STRONG</title>
+<indexterm><primary>STRONG</primary><secondary>Game.Lycantropus.Caracteristics.Level</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Caracteristics.Level</primary><secondary>STRONG</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Caracteristics.Level.STRONG</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Lycantropus/Caracteristics/<link linkend="__level_8java">Level.java</link></section>
+</section>

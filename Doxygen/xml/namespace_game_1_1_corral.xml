@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_corral" kind="namespace" language="Java">
+    <compoundname>Game::Corral</compoundname>
+    <innerclass refid="class_game_1_1_corral_1_1_aquarium" prot="public">Game::Corral::Aquarium</innerclass>
+    <innerclass refid="class_game_1_1_corral_1_1_aviary" prot="public">Game::Corral::Aviary</innerclass>
+    <innerclass refid="class_game_1_1_corral_1_1_corral" prot="public">Game::Corral::Corral</innerclass>
+    <innernamespace refid="namespace_game_1_1_corral_1_1_caracteristic">Game::Corral::Caracteristic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Corral/Aquarium.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

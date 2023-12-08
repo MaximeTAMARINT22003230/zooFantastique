@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Health Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health">Health</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a4de7dee81e557bbe3ac011ac8d0730e6">heal</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health">Health</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1af247fa20f8bbb5012c02f15e5977e333">loseHealth</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a2e82ab7be7fdfb403e76afadfdd8942c">SUFFERING</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a91ffe7ddec6909b920bd877ec6e794e1">ILL</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa8f9453cf0288ff0ae8f8a69929b7312">SKATE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a1a36578f8252c42a17c9fff9e1f2885c">GOOD</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa7e83613595e7d998c93afdf33c26159">VIGOROUS</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a4de7dee81e557bbe3ac011ac8d0730e6"/><section>
+    <title>heal()</title>
+<indexterm><primary>heal</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>heal</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health">Health</link> Game.Creature.Caracteristic.Health.heal ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the next level of care if not already at the top </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1af247fa20f8bbb5012c02f15e5977e333"/><section>
+    <title>loseHealth()</title>
+<indexterm><primary>loseHealth</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>loseHealth</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_health">Health</link> Game.Creature.Caracteristic.Health.loseHealth ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the lower care stage if not already at the lowest level </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a1a36578f8252c42a17c9fff9e1f2885c"/><section>
+    <title>GOOD</title>
+<indexterm><primary>GOOD</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>GOOD</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Health.GOOD</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a91ffe7ddec6909b920bd877ec6e794e1"/><section>
+    <title>ILL</title>
+<indexterm><primary>ILL</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>ILL</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Health.ILL</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa8f9453cf0288ff0ae8f8a69929b7312"/><section>
+    <title>SKATE</title>
+<indexterm><primary>SKATE</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>SKATE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Health.SKATE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a2e82ab7be7fdfb403e76afadfdd8942c"/><section>
+    <title>SUFFERING</title>
+<indexterm><primary>SUFFERING</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>SUFFERING</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Health.SUFFERING</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa7e83613595e7d998c93afdf33c26159"/><section>
+    <title>VIGOROUS</title>
+<indexterm><primary>VIGOROUS</primary><secondary>Game.Creature.Caracteristic.Health</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Health</primary><secondary>VIGOROUS</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Health.VIGOROUS</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__health_8java">Health.java</link></section>
+</section>

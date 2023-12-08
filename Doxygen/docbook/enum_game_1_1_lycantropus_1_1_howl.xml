@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_lycantropus_1_1_howl" xml:lang="en-US">
+<title>Game.Lycantropus.Howl Enum Reference</title>
+<indexterm><primary>Game.Lycantropus.Howl</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> <link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482">setHowler</link> (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> howler)</para>
+</listitem>
+            <listitem><para><link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> <link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f">getHowler</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> <link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21">setTarget</link> (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> target)</para>
+</listitem>
+            <listitem><para><link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> <link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444">getTarget</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717">toString</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa">AGGRESSIVE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl_1aa99752ad5b83fbe763d57ff4f9b524cc">BELONGING</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a1b2a0839a317ec9d86c76ec5ddbbd11c">SUBMISSION</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl_1a9a736598fb0ec949d03b37e15d6a83fe">DOMINATION</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87">ANSWER</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f"/><section>
+    <title>getHowler()</title>
+<indexterm><primary>getHowler</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>getHowler</secondary></indexterm>
+<para><computeroutput><link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> Game.Lycantropus.Howl.getHowler ( )</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444"/><section>
+    <title>getTarget()</title>
+<indexterm><primary>getTarget</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>getTarget</secondary></indexterm>
+<para><computeroutput><link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> Game.Lycantropus.Howl.getTarget ( )</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482"/><section>
+    <title>setHowler()</title>
+<indexterm><primary>setHowler</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>setHowler</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> Game.Lycantropus.Howl.setHowler (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> howler)</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21"/><section>
+    <title>setTarget()</title>
+<indexterm><primary>setTarget</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>setTarget</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> Game.Lycantropus.Howl.setTarget (<link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> target)</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Lycantropus.Howl.toString ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa"/><section>
+    <title>AGGRESSIVE</title>
+<indexterm><primary>AGGRESSIVE</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>AGGRESSIVE</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Howl.AGGRESSIVE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87"/><section>
+    <title>ANSWER</title>
+<indexterm><primary>ANSWER</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>ANSWER</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Howl.ANSWER</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1aa99752ad5b83fbe763d57ff4f9b524cc"/><section>
+    <title>BELONGING</title>
+<indexterm><primary>BELONGING</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>BELONGING</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Howl.BELONGING</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a9a736598fb0ec949d03b37e15d6a83fe"/><section>
+    <title>DOMINATION</title>
+<indexterm><primary>DOMINATION</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>DOMINATION</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Howl.DOMINATION</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_lycantropus_1_1_howl_1a1b2a0839a317ec9d86c76ec5ddbbd11c"/><section>
+    <title>SUBMISSION</title>
+<indexterm><primary>SUBMISSION</primary><secondary>Game.Lycantropus.Howl</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Howl</primary><secondary>SUBMISSION</secondary></indexterm>
+<para><computeroutput>Game.Lycantropus.Howl.SUBMISSION</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Lycantropus/<link linkend="__howl_8java">Howl.java</link></section>
+</section>

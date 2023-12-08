@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_corral_1_1_corral" xml:lang="en-US">
+<title>Game.Corral.Corral Class Reference</title>
+<indexterm><primary>Game.Corral.Corral</primary></indexterm>
+<para>Inheritance diagram for Game.Corral.Corral:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_corral_1_1_corral.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36">toString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb">addCreature</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>Creature <link linkend="_class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842">removeCreature</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f">clean</link> ()</para>
+</listitem>
+            <listitem><para>Hygiene <link linkend="_class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e">getHygiene</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0">kill</link> (Creature creature)</para>
+</listitem>
+            <listitem><para>int <link linkend="_class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb">count</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324">feed</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887">hasFreeSpace</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950">contains</link> (Creature searched)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884">empty</link> ()</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9">getName</link> ()</para>
+</listitem>
+            <listitem><para>List&lt; Creature &gt; <link linkend="_class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa">getCreatures</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f">run</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428">destroy</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d">checkCreature</link> (Creature creature)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_game_1_1_corral_1_1_corral">Corral</link> <link linkend="_class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92">inaugurate</link> (String <link linkend="_class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06">name</link>, String <link linkend="_class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46">size</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142">Corral</link> (String <link linkend="_class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06">name</link>, String <link linkend="_class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46">size</link>)</para>
+</listitem>
+            <listitem><para>ArrayList&lt; Creature &gt; <link linkend="_class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118">completeTable</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41">givesFoodToCreature</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Attributes    </title>
+        <itemizedlist>
+            <listitem><para>String <link linkend="_class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06">name</link></para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46">size</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656">max</link></para>
+</listitem>
+            <listitem><para>Hygiene <link linkend="_class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c">hygiene</link></para>
+</listitem>
+            <listitem><para>StorageLevel <link linkend="_class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e">food</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents an enclosure to house creatures with the ability to run. </para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142"/><section>
+    <title>Corral()</title>
+<indexterm><primary>Corral</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>Corral</secondary></indexterm>
+<para><computeroutput>Game.Corral.Corral.Corral (String name, String size)<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb"/><section>
+    <title>addCreature()</title>
+<indexterm><primary>addCreature</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>addCreature</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.addCreature (Creature creature)</computeroutput></para><para>
+Reimplemented in <link linkend="_class_game_1_1_corral_1_1_aquarium_1a73ba81df326177002d30865cb46a783c">Game.Corral.Aquarium</link>, and <link linkend="_class_game_1_1_corral_1_1_aviary_1a619a25c7796d1ad46c0e7b6de11b5536">Game.Corral.Aviary</link>.</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d"/><section>
+    <title>checkCreature()</title>
+<indexterm><primary>checkCreature</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>checkCreature</secondary></indexterm>
+<para><computeroutput>boolean Game.Corral.Corral.checkCreature (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f"/><section>
+    <title>clean()</title>
+<indexterm><primary>clean</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>clean</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.clean ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118"/><section>
+    <title>completeTable()</title>
+<indexterm><primary>completeTable</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>completeTable</secondary></indexterm>
+<para><computeroutput>ArrayList&lt; Creature &gt; Game.Corral.Corral.completeTable ( )<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+Reimplemented in <link linkend="_class_game_1_1_corral_1_1_aquarium_1a7e006c7fef7c4e001e41580dfdd46ace">Game.Corral.Aquarium</link>, and <link linkend="_class_game_1_1_corral_1_1_aviary_1a0272e0e0b6b5c5fcdb18d640c4af722b">Game.Corral.Aviary</link>.</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950"/><section>
+    <title>contains()</title>
+<indexterm><primary>contains</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>contains</secondary></indexterm>
+<para><computeroutput>boolean Game.Corral.Corral.contains (Creature searched)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb"/><section>
+    <title>count()</title>
+<indexterm><primary>count</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>count</secondary></indexterm>
+<para><computeroutput>int Game.Corral.Corral.count ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428"/><section>
+    <title>destroy()</title>
+<indexterm><primary>destroy</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>destroy</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.destroy ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884"/><section>
+    <title>empty()</title>
+<indexterm><primary>empty</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>empty</secondary></indexterm>
+<para><computeroutput>boolean Game.Corral.Corral.empty ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324"/><section>
+    <title>feed()</title>
+<indexterm><primary>feed</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>feed</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.feed ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa"/><section>
+    <title>getCreatures()</title>
+<indexterm><primary>getCreatures</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>getCreatures</secondary></indexterm>
+<para><computeroutput>List&lt; Creature &gt; Game.Corral.Corral.getCreatures ( )</computeroutput></para>
+<para>Retrieves a list of creatures in the corral.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>A list of creatures. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e"/><section>
+    <title>getHygiene()</title>
+<indexterm><primary>getHygiene</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>getHygiene</secondary></indexterm>
+<para><computeroutput>Hygiene Game.Corral.Corral.getHygiene ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9"/><section>
+    <title>getName()</title>
+<indexterm><primary>getName</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>getName</secondary></indexterm>
+<para><computeroutput>String Game.Corral.Corral.getName ( )</computeroutput></para>
+<para>Retrieves the name of the corral.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>The name of the corral. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41"/><section>
+    <title>givesFoodToCreature()</title>
+<indexterm><primary>givesFoodToCreature</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>givesFoodToCreature</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.givesFoodToCreature ( )<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887"/><section>
+    <title>hasFreeSpace()</title>
+<indexterm><primary>hasFreeSpace</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>hasFreeSpace</secondary></indexterm>
+<para><computeroutput>boolean Game.Corral.Corral.hasFreeSpace ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92"/><section>
+    <title>inaugurate()</title>
+<indexterm><primary>inaugurate</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>inaugurate</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_game_1_1_corral_1_1_corral">Corral</link> Game.Corral.Corral.inaugurate (String name, String size)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Creates and returns a new instance of Corral.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>The name of the corral. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>size</entry><entry>
+<para>The size of the corral. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A new Corral instance. </para>
+</formalpara>
+</para>
+<para>
+Reimplemented in <link linkend="_class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c">Game.Corral.Aquarium</link>, and <link linkend="_class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003">Game.Corral.Aviary</link>.</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0"/><section>
+    <title>kill()</title>
+<indexterm><primary>kill</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>kill</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.kill (Creature creature)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842"/><section>
+    <title>removeCreature()</title>
+<indexterm><primary>removeCreature</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>removeCreature</secondary></indexterm>
+<para><computeroutput>Creature Game.Corral.Corral.removeCreature (Creature creature)</computeroutput></para><para>
+Reimplemented in <link linkend="_class_game_1_1_corral_1_1_aquarium_1a56489b96cf457f612e13b3fc1c7c3148">Game.Corral.Aquarium</link>, and <link linkend="_class_game_1_1_corral_1_1_aviary_1a565ade6035db5982ec86e4e000f55b0e">Game.Corral.Aviary</link>.</para>
+</section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Corral.Corral.run ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Corral.Corral.toString ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e"/><section>
+    <title>food</title>
+<indexterm><primary>food</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>food</secondary></indexterm>
+<para><computeroutput>StorageLevel Game.Corral.Corral.food<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c"/><section>
+    <title>hygiene</title>
+<indexterm><primary>hygiene</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>hygiene</secondary></indexterm>
+<para><computeroutput>Hygiene Game.Corral.Corral.hygiene<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656"/><section>
+    <title>max</title>
+<indexterm><primary>max</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>max</secondary></indexterm>
+<para><computeroutput>int Game.Corral.Corral.max<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>String Game.Corral.Corral.name<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46"/><section>
+    <title>size</title>
+<indexterm><primary>size</primary><secondary>Game.Corral.Corral</secondary></indexterm>
+<indexterm><primary>Game.Corral.Corral</primary><secondary>size</secondary></indexterm>
+<para><computeroutput>String Game.Corral.Corral.size<computeroutput>[protected]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Corral/<link linkend="__corral_8java">Corral.java</link></section>
+</section>

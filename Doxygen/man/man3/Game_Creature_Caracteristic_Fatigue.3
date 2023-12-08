@@ -1,0 +1,85 @@
+.TH "Game.Creature.Caracteristic.Fatigue" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Creature.Caracteristic.Fatigue
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBFatigue\fP \fBgettingFatigue\fP ()"
+.br
+.ti -1c
+.RI "\fBFatigue\fP \fBsleep\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisSleeping\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBSLEEP\fP"
+.br
+.ti -1c
+.RI "\fBEXHAUSTED\fP"
+.br
+.ti -1c
+.RI "\fBSLEEPY\fP"
+.br
+.ti -1c
+.RI "\fBGOOD\fP"
+.br
+.ti -1c
+.RI "\fBEXCITED\fP"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBFatigue\fP Game\&.Creature\&.Caracteristic\&.Fatigue\&.gettingFatigue ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+to the lower fatigue stage if not already at its lowest 
+.RE
+.PP
+
+.SS "boolean Game\&.Creature\&.Caracteristic\&.Fatigue\&.isSleeping ()"
+Checks if the current state is sleeping\&.
+.PP
+\fBReturns\fP
+.RS 4
+true if the ordinal value is 0 (indicating a sleeping state), otherwise returns false\&. 
+.RE
+.PP
+
+.SS "\fBFatigue\fP Game\&.Creature\&.Caracteristic\&.Fatigue\&.sleep ()"
+
+.PP
+\fBReturns\fP
+.RS 4
+the lowest fatigue stage 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "Game\&.Creature\&.Caracteristic\&.Fatigue\&.EXCITED"
+
+.SS "Game\&.Creature\&.Caracteristic\&.Fatigue\&.EXHAUSTED"
+
+.SS "Game\&.Creature\&.Caracteristic\&.Fatigue\&.GOOD"
+
+.SS "Game\&.Creature\&.Caracteristic\&.Fatigue\&.SLEEP"
+
+.SS "Game\&.Creature\&.Caracteristic\&.Fatigue\&.SLEEPY"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

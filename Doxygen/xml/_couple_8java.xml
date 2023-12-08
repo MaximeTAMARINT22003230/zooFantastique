@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_couple_8java" kind="file" language="Java">
+    <compoundname>Couple.java</compoundname>
+    <includes local="no">Game.Creature.Caracteristic.Sex</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Lycantropus/Couple.java</label>
+        <link refid="_couple_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Caracteristic.Sex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_game_1_1_lycantropus_1_1_couple" prot="public">Game::Lycantropus::Couple</innerclass>
+    <innernamespace refid="namespace_game_1_1_lycantropus">Game::Lycantropus</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Lycantropus;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.Sex;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="class_game_1_1_lycantropus_1_1_couple" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_1_1_lycantropus_1_1_couple" kindref="compound">Couple</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>female;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>male;</highlight></codeline>
+<codeline lineno="10" refid="class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25" kindref="member">Couple</ref>(<ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>female,<sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>male)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.female<sp/>=<sp/>female;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.male<sp/>=<sp/>male;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15" refid="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" kindref="member">reproduce</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>female.birthingBehavior.makeBaby(<ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref>.<ref refid="class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841" kindref="member">newBorn</ref>(</highlight><highlight class="stringliteral">&quot;LilLycan&quot;</highlight><highlight class="normal">,<sp/>Sex.FEMALE),<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">.female);<sp/></highlight><highlight class="comment">//TODO<sp/>Make<sp/>it<sp/>random</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19" refid="class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941" kindref="member">toString</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>IMPLEMENTEr&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Lycantropus/Couple.java"/>
+  </compounddef>
+</doxygen>

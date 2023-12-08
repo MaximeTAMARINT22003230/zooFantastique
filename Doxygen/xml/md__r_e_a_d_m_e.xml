@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="md__r_e_a_d_m_e" kind="page">
+    <compoundname>md__r_e_a_d_m_e</compoundname>
+    <title>zooFantastique</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="md__r_e_a_d_m_e_1autotoc_md0"/>Ceci est un projet étudiant réalisé en groupe de 3 dans le cadre de la ressource R3.04.</para>
+<para><emphasis><bold>Zoo Fantastique</bold></emphasis> est un jeu de gestion de créatures fantastiques. <linebreak/>
+</para>
+<para>Lancez l&apos;application depuis <ref refid="class_player_1_1_zoo" kindref="compound">Player.Zoo</ref> et testez dans votre terminal cette version de la simulation de Zoo ! L&apos;interface vous guidera sur les commandes à entrer. <linebreak/>
+</para>
+<para>A venir : La gestion de meutes de loups-garoux ... </para>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.StorageLevel Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level">StorageLevel</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1aea00fa387856a19b8ffc4bafce52edca">levelDown</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level">StorageLevel</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8f318a4b78a41704c1a27ece34b1c77">fillStorage</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ad923a740bff68bce63f2e57ab2a5a595">isEmpty</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8bbb192e8207590bd393cebd7fd32e0">EMPTY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ae4cf14b1bddc75ebb2a594a392768fc7">LITTLE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a5a8a92ebb740a2a359d2bbce40521da7">AVERAGE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a4702a231f7a1608e5cdadf19f88aae84">MANY</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Enumeration representing the food storage levels of a creature. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8f318a4b78a41704c1a27ece34b1c77"/><section>
+    <title>fillStorage()</title>
+<indexterm><primary>fillStorage</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>fillStorage</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level">StorageLevel</link> Game.Creature.Caracteristic.StorageLevel.fillStorage ( )</computeroutput></para>
+<para>Fills the food storage to the highest level. <formalpara><title>Returns</title>
+
+<para>the highest storage level. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ad923a740bff68bce63f2e57ab2a5a595"/><section>
+    <title>isEmpty()</title>
+<indexterm><primary>isEmpty</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>isEmpty</secondary></indexterm>
+<para><computeroutput>boolean Game.Creature.Caracteristic.StorageLevel.isEmpty ( )</computeroutput></para>
+<para>Checks if the food storage is empty. <formalpara><title>Returns</title>
+
+<para>true if the level is empty, otherwise false. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1aea00fa387856a19b8ffc4bafce52edca"/><section>
+    <title>levelDown()</title>
+<indexterm><primary>levelDown</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>levelDown</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level">StorageLevel</link> Game.Creature.Caracteristic.StorageLevel.levelDown ( )</computeroutput></para>
+<para>Gives the lower food storage level, if it exists. <formalpara><title>Returns</title>
+
+<para>the lower storage level, otherwise the same level. </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a5a8a92ebb740a2a359d2bbce40521da7"/><section>
+    <title>AVERAGE</title>
+<indexterm><primary>AVERAGE</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>AVERAGE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.StorageLevel.AVERAGE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ab8bbb192e8207590bd393cebd7fd32e0"/><section>
+    <title>EMPTY</title>
+<indexterm><primary>EMPTY</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>EMPTY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.StorageLevel.EMPTY</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1ae4cf14b1bddc75ebb2a594a392768fc7"/><section>
+    <title>LITTLE</title>
+<indexterm><primary>LITTLE</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>LITTLE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.StorageLevel.LITTLE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level_1a4702a231f7a1608e5cdadf19f88aae84"/><section>
+    <title>MANY</title>
+<indexterm><primary>MANY</primary><secondary>Game.Creature.Caracteristic.StorageLevel</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.StorageLevel</primary><secondary>MANY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.StorageLevel.MANY</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__storage_level_8java">StorageLevel.java</link></section>
+</section>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_a4b7d319de85bbda6f7ac5fc16ec7a0b" kind="dir">
+    <compoundname>Application/src/Game</compoundname>
+    <innerdir refid="dir_ea0c741297f1c4c3e7097ee8eed5ae7d">Application/src/Game/Corral</innerdir>
+    <innerdir refid="dir_c1700732fddcde8eb5519c2d8f8ddc29">Application/src/Game/Creature</innerdir>
+    <innerdir refid="dir_e8310936e633ec25440b40342c1b75f2">Application/src/Game/Logic</innerdir>
+    <innerdir refid="dir_90321a73786280b7ce821e58d1903fb0">Application/src/Game/Lycantropus</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/"/>
+  </compounddef>
+</doxygen>

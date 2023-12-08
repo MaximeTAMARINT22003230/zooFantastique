@@ -1,0 +1,58 @@
+.TH "Game.Logic.Cooldown.Cooldown" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Logic.Cooldown.Cooldown
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCooldown\fP (int cooldown, \fBCooldownable\fP caller, \fBCooldownType\fP type)"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "\fBCooldownType\fP \fBgetType\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents a cooldown that triggers an action after a specified duration\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Game\&.Logic\&.Cooldown\&.Cooldown\&.Cooldown (int cooldown, \fBCooldownable\fP caller, \fBCooldownType\fP type)"
+Initializes a Cooldown object\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIcooldown\fP The duration of the cooldown\&. 
+.br
+\fIcaller\fP The Cooldownable entity associated with this cooldown\&. 
+.br
+\fItype\fP The type of cooldown\&. 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBCooldownType\fP Game\&.Logic\&.Cooldown\&.Cooldown\&.getType ()"
+Retrieves the type of cooldown\&.
+.PP
+\fBReturns\fP
+.RS 4
+The type of cooldown\&. 
+.RE
+.PP
+
+.SS "void Game\&.Logic\&.Cooldown\&.Cooldown\&.run ()"
+Initiates the cooldown process\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_creature_1_1_bestiary" kind="namespace" language="Java">
+    <compoundname>Game::Creature::Bestiary</compoundname>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon" prot="public">Game::Creature::Bestiary::Dragon</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken" prot="public">Game::Creature::Bestiary::Kraken</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon" prot="public">Game::Creature::Bestiary::Megalodon</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid" prot="public">Game::Creature::Bestiary::Mermaid</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph" prot="public">Game::Creature::Bestiary::Nymph</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix" prot="public">Game::Creature::Bestiary::Phenix</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn" prot="public">Game::Creature::Bestiary::Unicorn</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Bestiary/Dragon.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

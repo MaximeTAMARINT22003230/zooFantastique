@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_aviary_8java" kind="file" language="Java">
+    <compoundname>Aviary.java</compoundname>
+    <includes local="no">Game.Creature.Behavior.Fly</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Corral/Aviary.java</label>
+        <link refid="_aviary_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.Fly</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_game_1_1_corral_1_1_aviary" prot="public">Game::Corral::Aviary</innerclass>
+    <innernamespace refid="namespace_game_1_1_corral">Game::Corral</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Corral;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Fly;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Behavior.Swim;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Creature;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.ArrayList;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.List;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_game_1_1_corral_1_1_aviary" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_1_1_corral_1_1_aviary" kindref="compound">Aviary</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_corral_1_1_corral" kindref="compound">Corral</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Fly&gt;<sp/>creatures;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>height;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_corral_1_1_aviary" kindref="compound">Aviary</ref>(String<sp/><ref refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" kindref="member">name</ref>,<sp/>String<sp/><ref refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" kindref="member">size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super(<ref refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" kindref="member">name</ref>,<ref refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.creatures<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;Fly&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_corral_1_1_aviary" kindref="compound">Aviary</ref><sp/><ref refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003" kindref="member">inaugurate</ref>(String<sp/><ref refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" kindref="member">name</ref>,<sp/>String<sp/><ref refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" kindref="member">size</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_corral_1_1_aviary" kindref="compound">Aviary</ref>(<ref refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" kindref="member">name</ref>,<sp/><ref refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" kindref="member">size</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="33" refid="class_game_1_1_corral_1_1_aviary_1a0272e0e0b6b5c5fcdb18d640c4af722b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>ArrayList&lt;Creature&gt;<sp/><ref refid="class_game_1_1_corral_1_1_aviary_1a0272e0e0b6b5c5fcdb18d640c4af722b" kindref="member">completeTable</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ArrayList&lt;Creature&gt;<sp/>creatures<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ArrayList&lt;&gt;();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(Fly<sp/>creature<sp/>:<sp/>this.creatures)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>creatures.add((Creature)<sp/>creature);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>creatures;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="41" refid="class_game_1_1_corral_1_1_aviary_1a619a25c7796d1ad46c0e7b6de11b5536" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_corral_1_1_aviary_1a619a25c7796d1ad46c0e7b6de11b5536" kindref="member">addCreature</ref>(Creature<sp/>creature)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(creature<sp/>instanceof<sp/>Fly))</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>IllegalArgumentException(</highlight><highlight class="stringliteral">&quot;Cette<sp/>créature<sp/>ne<sp/>peut<sp/>pas<sp/>voler&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert<sp/>creature<sp/>instanceof<sp/>Fly;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.creatures.add((Fly)<sp/>creature);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread<sp/>thread<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Thread(creature);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread.start();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="54" refid="class_game_1_1_corral_1_1_aviary_1a565ade6035db5982ec86e4e000f55b0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Creature<sp/><ref refid="class_game_1_1_corral_1_1_aviary_1a565ade6035db5982ec86e4e000f55b0e" kindref="member">removeCreature</ref>(Creature<sp/>creature)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(Creature)<sp/>this.creatures.remove(this.creatures.indexOf((Fly)<sp/>creature));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Corral/Aviary.java"/>
+  </compounddef>
+</doxygen>

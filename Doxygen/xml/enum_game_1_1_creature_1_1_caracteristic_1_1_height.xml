@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_height" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Height</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af4cc12cb91f1bc486b1fa3cd0be34dde" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Height.SMALL</definition>
+        <argsstring></argsstring>
+        <name>SMALL</name>
+        <qualifiedname>Game.Creature.Caracteristic.Height.SMALL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af11ea108b2a87b7d57dea6b019088363" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Height.AVERAGE</definition>
+        <argsstring></argsstring>
+        <name>AVERAGE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Height.AVERAGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a9843fcc14e020304f9a50d0e90aa6b74" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Height.BIG</definition>
+        <argsstring></argsstring>
+        <name>BIG</name>
+        <qualifiedname>Game.Creature.Caracteristic.Height.BIG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a3643992998830ebf5a4167d0da75f931" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Height.HUMONGOUS</definition>
+        <argsstring></argsstring>
+        <name>HUMONGOUS</name>
+        <qualifiedname>Game.Creature.Caracteristic.Height.HUMONGOUS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1aedac457c498de89159eedfd27f908b22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height" kindref="compound">Height</ref></type>
+        <definition>Height Game.Creature.Caracteristic.Height.growUp</definition>
+        <argsstring>()</argsstring>
+        <name>growUp</name>
+        <qualifiedname>Game.Creature.Caracteristic.Height.growUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the highest stage if not already at the top </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="9" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="9" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Height.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Height.java" bodystart="3" bodyend="17"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af11ea108b2a87b7d57dea6b019088363" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Height</scope><name>AVERAGE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a9843fcc14e020304f9a50d0e90aa6b74" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Height</scope><name>BIG</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1aedac457c498de89159eedfd27f908b22" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Height</scope><name>growUp</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a3643992998830ebf5a4167d0da75f931" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Height</scope><name>HUMONGOUS</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af4cc12cb91f1bc486b1fa3cd0be34dde" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Height</scope><name>SMALL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

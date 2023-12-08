@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_player_1_1_creator" kind="class" language="Java" prot="public">
+    <compoundname>Player::Creator</compoundname>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_player_1_1_creator_1a4ae02b640822c6caa23aebea6f645b10" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_1_1_zoo_master" kindref="compound">ZooMaster</ref></type>
+        <definition>static ZooMaster Player.Creator.createYourZooMaster</definition>
+        <argsstring>()</argsstring>
+        <name>createYourZooMaster</name>
+        <qualifiedname>Player.Creator.createYourZooMaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a Zoo Master <linebreak/>
+ Ask to input a name, a sex and an age <simplesect kind="return"><para>The new Zoo Master </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Creator.java" line="21" column="30" bodyfile="Application/src/Player/Creator.java" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_1_1_zoo" kindref="compound">Zoo</ref></type>
+        <definition>static Zoo Player.Creator.createYourZoo</definition>
+        <argsstring>()</argsstring>
+        <name>createYourZoo</name>
+        <qualifiedname>Player.Creator.createYourZoo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Creator.java" line="25" column="23" bodyfile="Application/src/Player/Creator.java" bodystart="25" bodyend="28"/>
+        <references refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" compoundref="_interface_8java" startline="22" endline="27">Player.Interface.input</references>
+        <references refid="class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444" compoundref="_zoo_8java" startline="43" endline="46">Player.Zoo.opening</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Creature</type>
+        <definition>static Creature Player.Creator.createYourCreature</definition>
+        <argsstring>(Corral corral)</argsstring>
+        <name>createYourCreature</name>
+        <qualifiedname>Player.Creator.createYourCreature</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Creator.java" line="29" column="28" bodyfile="Application/src/Player/Creator.java" bodystart="29" bodyend="82"/>
+        <references refid="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" compoundref="_creator_8java" startline="29" endline="82">Player.Creator.createYourCreature</references>
+        <references refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" compoundref="_interface_8java" startline="22" endline="27">Player.Interface.input</references>
+        <references refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" compoundref="_asker_8java" startline="18" endline="38">Player.Asker.sex</references>
+        <referencedby refid="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" compoundref="_creator_8java" startline="29" endline="82">Player.Creator.createYourCreature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Corral</type>
+        <definition>static Corral Player.Creator.createYourCorral</definition>
+        <argsstring>()</argsstring>
+        <name>createYourCorral</name>
+        <qualifiedname>Player.Creator.createYourCorral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Creator.java" line="83" column="26" bodyfile="Application/src/Player/Creator.java" bodystart="83" bodyend="91"/>
+        <references refid="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" compoundref="_creator_8java" startline="83" endline="91">Player.Creator.createYourCorral</references>
+        <references refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" compoundref="_interface_8java" startline="22" endline="27">Player.Interface.input</references>
+        <referencedby refid="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" compoundref="_creator_8java" startline="83" endline="91">Player.Creator.createYourCorral</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Creator interact with the player to create anything. <linebreak/>
+ Has only a bunch of usefulle static methods. </para>
+    </detaileddescription>
+    <location file="Application/src/Player/Creator.java" line="16" column="7" bodyfile="Application/src/Player/Creator.java" bodystart="16" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b" prot="public" virt="non-virtual"><scope>Player::Creator</scope><name>createYourCorral</name></member>
+      <member refid="class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5" prot="public" virt="non-virtual"><scope>Player::Creator</scope><name>createYourCreature</name></member>
+      <member refid="class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b" prot="public" virt="non-virtual"><scope>Player::Creator</scope><name>createYourZoo</name></member>
+      <member refid="class_player_1_1_creator_1a4ae02b640822c6caa23aebea6f645b10" prot="private" virt="non-virtual"><scope>Player::Creator</scope><name>createYourZooMaster</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

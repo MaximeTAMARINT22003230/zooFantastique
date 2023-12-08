@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_fatigue_8java" kind="file" language="Java">
+    <compoundname>Fatigue.java</compoundname>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" prot="public">Game::Creature::Caracteristic::Fatigue</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_caracteristic">Game::Creature::Caracteristic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Caracteristic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kindref="compound">Fatigue</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SLEEP,<sp/>EXHAUSTED,<sp/>SLEEPY,<sp/>GOOD,<sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d" kindref="member">EXCITED</ref>;</highlight></codeline>
+<codeline lineno="8" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kindref="compound">Fatigue</ref><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588" kindref="member">gettingFatigue</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ordinal()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()-1];</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()];</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" kindref="compound">Fatigue</ref><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0" kindref="member">sleep</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[values().length-1];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6" kindref="member">isSleeping</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ordinal()<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Caracteristic/Fatigue.java"/>
+  </compounddef>
+</doxygen>

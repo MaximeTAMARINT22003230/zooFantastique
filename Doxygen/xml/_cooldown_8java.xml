@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_cooldown_8java" kind="file" language="Java">
+    <compoundname>Cooldown.java</compoundname>
+    <innerclass refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown" prot="public">Game::Logic::Cooldown::Cooldown</innerclass>
+    <innernamespace refid="namespace_game_1_1_logic_1_1_cooldown">Game::Logic::Cooldown</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_game_1_1_logic_1_1_cooldown" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Logic.Cooldown;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown" kindref="compound">Cooldown</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>Runnable<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cooldown;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable" kindref="compound">Cooldownable</ref><sp/>caller;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" kindref="compound">CooldownType</ref><sp/>type;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a5db6dc2c689ac999afc596ade9b97859" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a5db6dc2c689ac999afc596ade9b97859" kindref="member">Cooldown</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cooldown,<sp/><ref refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable" kindref="compound">Cooldownable</ref><sp/>caller,<sp/><ref refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" kindref="compound">CooldownType</ref><sp/>type)<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.cooldown<sp/>=<sp/>cooldown;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.caller<sp/>=<sp/>caller;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.type<sp/>=<sp/>type;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Thread(</highlight><highlight class="keyword">this</highlight><highlight class="normal">).start();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="29" refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a7e109bad4a71c77cc14806406ce4aa9a" kindref="member">run</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.sleep(this.cooldown);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(InterruptedException<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>RuntimeException(e);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.caller.<ref refid="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable_1a484ee54b8068ed3c1418fd05683379d9" kindref="member">cooldown</ref>(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a4caf0db5fe5b02749ffec6ad46f11fc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" kindref="compound">CooldownType</ref><sp/><ref refid="class_game_1_1_logic_1_1_cooldown_1_1_cooldown_1a4caf0db5fe5b02749ffec6ad46f11fc0" kindref="member">getType</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>type;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Logic/Cooldown/Cooldown.java"/>
+  </compounddef>
+</doxygen>

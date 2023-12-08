@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_1dffbbff7d841c085d56f299d68b4b86" xml:lang="en-US">
+<title>Application/src/Game/Corral/Caracteristic Directory Reference</title>
+<indexterm><primary>Application/src/Game/Corral/Caracteristic Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__hygiene_8java">Hygiene.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

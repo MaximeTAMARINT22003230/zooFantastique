@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_lycantropus_1_1_howl" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Howl</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Howl.AGGRESSIVE</definition>
+        <argsstring></argsstring>
+        <name>AGGRESSIVE</name>
+        <qualifiedname>Game.Lycantropus.Howl.AGGRESSIVE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1aa99752ad5b83fbe763d57ff4f9b524cc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Howl.BELONGING</definition>
+        <argsstring></argsstring>
+        <name>BELONGING</name>
+        <qualifiedname>Game.Lycantropus.Howl.BELONGING</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_lycantropus_1_1_pack_1ac152f4fca7247a91faeaba2cd84886bc" compoundref="_pack_8java" startline="52" endline="70">Game.Lycantropus.Pack.spread</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1a1b2a0839a317ec9d86c76ec5ddbbd11c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Howl.SUBMISSION</definition>
+        <argsstring></argsstring>
+        <name>SUBMISSION</name>
+        <qualifiedname>Game.Lycantropus.Howl.SUBMISSION</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1a9a736598fb0ec949d03b37e15d6a83fe" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Howl.DOMINATION</definition>
+        <argsstring></argsstring>
+        <name>DOMINATION</name>
+        <qualifiedname>Game.Lycantropus.Howl.DOMINATION</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Howl.ANSWER</definition>
+        <argsstring></argsstring>
+        <name>ANSWER</name>
+        <qualifiedname>Game.Lycantropus.Howl.ANSWER</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519" compoundref="_lycantropus_8java" startline="61" endline="93">Game.Lycantropus.Lycantropus.hear</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1af781b38a2b41d986e8bda741755cea09" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Howl.howler</definition>
+        <argsstring></argsstring>
+        <name>howler</name>
+        <qualifiedname>Game.Lycantropus.Howl.howler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="6" column="25" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_howl_1a6a5e4e51a21d279e6650b2c2595709ae" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Howl.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <qualifiedname>Game.Lycantropus.Howl.target</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="16" column="25" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref></type>
+        <definition>Howl Game.Lycantropus.Howl.setHowler</definition>
+        <argsstring>(Lycantropus howler)</argsstring>
+        <name>setHowler</name>
+        <qualifiedname>Game.Lycantropus.Howl.setHowler</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+          <declname>howler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="7" column="17" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="7" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Howl.getHowler</definition>
+        <argsstring>()</argsstring>
+        <name>getHowler</name>
+        <qualifiedname>Game.Lycantropus.Howl.getHowler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="12" column="24" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="12" bodyend="15"/>
+        <referencedby refid="class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519" compoundref="_lycantropus_8java" startline="61" endline="93">Game.Lycantropus.Lycantropus.hear</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref></type>
+        <definition>Howl Game.Lycantropus.Howl.setTarget</definition>
+        <argsstring>(Lycantropus target)</argsstring>
+        <name>setTarget</name>
+        <qualifiedname>Game.Lycantropus.Howl.setTarget</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="17" column="17" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Howl.getTarget</definition>
+        <argsstring>()</argsstring>
+        <name>getTarget</name>
+        <qualifiedname>Game.Lycantropus.Howl.getTarget</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="22" column="24" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="22" bodyend="25"/>
+        <referencedby refid="class_game_1_1_lycantropus_1_1_pack_1ac152f4fca7247a91faeaba2cd84886bc" compoundref="_pack_8java" startline="52" endline="70">Game.Lycantropus.Pack.spread</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Lycantropus.Howl.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Game.Lycantropus.Howl.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Howl.java" line="27" column="19" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="27" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Howl.java" line="3" column="7" bodyfile="Application/src/Game/Lycantropus/Howl.java" bodystart="4" bodyend="31"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>AGGRESSIVE</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1afb08a0751176a5823fb66b4a981efc87" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>ANSWER</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1aa99752ad5b83fbe763d57ff4f9b524cc" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>BELONGING</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a9a736598fb0ec949d03b37e15d6a83fe" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>DOMINATION</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>getHowler</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>getTarget</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1af781b38a2b41d986e8bda741755cea09" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>howler</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>setHowler</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>setTarget</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a1b2a0839a317ec9d86c76ec5ddbbd11c" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>SUBMISSION</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a6a5e4e51a21d279e6650b2c2595709ae" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>target</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Howl</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

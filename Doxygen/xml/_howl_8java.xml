@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_howl_8java" kind="file" language="Java">
+    <compoundname>Howl.java</compoundname>
+    <innerclass refid="enum_game_1_1_lycantropus_1_1_howl" prot="public">Game::Lycantropus::Howl</innerclass>
+    <innernamespace refid="namespace_game_1_1_lycantropus">Game::Lycantropus</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Lycantropus;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="enum_game_1_1_lycantropus_1_1_howl" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a547319be253756eab425b795e0c4b2fa" kindref="member">AGGRESSIVE</ref>,<sp/>BELONGING,<sp/>SUBMISSION,<sp/>DOMINATION,<sp/>ANSWER;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>howler;</highlight></codeline>
+<codeline lineno="7" refid="enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a85bde2ce1999c8f313642a792be04482" kindref="member">setHowler</ref>(<ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>howler)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.howler<sp/>=<sp/>howler;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12" refid="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a5db2cf78c4447859620d00b09149a29f" kindref="member">getHowler</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.howler;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>target;</highlight></codeline>
+<codeline lineno="17" refid="enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl" kindref="compound">Howl</ref><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a46481c28b9ab68379c103203a23abe21" kindref="member">setTarget</ref>(<ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/>target)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.target<sp/>=<sp/>target;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22" refid="enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref><sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a3571c5038f1d18bf7589d8c8b5358444" kindref="member">getTarget</ref>()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.target;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="27" refid="enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="enum_game_1_1_lycantropus_1_1_howl_1a5382fefc9b1b25ef5889cd0e235b9717" kindref="member">toString</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>IMPLEMENTER&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Lycantropus/Howl.java"/>
+  </compounddef>
+</doxygen>

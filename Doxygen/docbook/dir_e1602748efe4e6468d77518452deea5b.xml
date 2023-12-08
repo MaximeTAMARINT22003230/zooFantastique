@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e1602748efe4e6468d77518452deea5b" xml:lang="en-US">
+<title>Application/src/Game/Lycantropus/Caracteristics Directory Reference</title>
+<indexterm><primary>Application/src/Game/Lycantropus/Caracteristics Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__level_8java">Level.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__rank_8java">Rank.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__strength_8java">Strength.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,739 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_creature" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>Game::Creature::Creature</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_oviparian" prot="public" virt="non-virtual">Game.Creature.Oviparian</derivedcompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_viviparian" prot="public" virt="non-virtual">Game.Creature.Viviparian</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Game.Creature.Creature.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Game.Creature.Creature.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="14" column="22" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" compoundref="_creature_8java" startline="171" endline="174">Game.Creature.Creature.getName</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1adac592bf9ef1fa0bf9a1d4d3fc88fa6b" compoundref="_dragon_8java" startline="25" endline="28">Game.Creature.Bestiary.Dragon.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1ab2b4a914411719ad27cba060f132de17" compoundref="_kraken_8java" startline="21" endline="24">Game.Creature.Bestiary.Kraken.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1ab0d1cdb863daf478a81ce3e895d4bcfc" compoundref="_megalodon_8java" startline="23" endline="25">Game.Creature.Bestiary.Megalodon.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1ae190d5655738f9ed93dc8ab3f12f2822" compoundref="_mermaid_8java" startline="22" endline="24">Game.Creature.Bestiary.Mermaid.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1ac63164a217e76ea7053591e02bb1a734" compoundref="_nymph_8java" startline="23" endline="25">Game.Creature.Bestiary.Nymph.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1aaea0bfc67cc8f72079ac29cc250a49ea" compoundref="_phenix_8java" startline="23" endline="25">Game.Creature.Bestiary.Phenix.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a12d00536f437874574cd38ca54f6d96a" compoundref="_unicorn_8java" startline="21" endline="24">Game.Creature.Bestiary.Unicorn.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" prot="protected" static="no" mutable="no">
+        <type>Sex</type>
+        <definition>Sex Game.Creature.Creature.sex</definition>
+        <argsstring></argsstring>
+        <name>sex</name>
+        <qualifiedname>Game.Creature.Creature.sex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="15" column="19" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" compoundref="_creature_8java" startline="175" endline="177">Game.Creature.Creature.getSex</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1adac592bf9ef1fa0bf9a1d4d3fc88fa6b" compoundref="_dragon_8java" startline="25" endline="28">Game.Creature.Bestiary.Dragon.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1ab2b4a914411719ad27cba060f132de17" compoundref="_kraken_8java" startline="21" endline="24">Game.Creature.Bestiary.Kraken.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1ab0d1cdb863daf478a81ce3e895d4bcfc" compoundref="_megalodon_8java" startline="23" endline="25">Game.Creature.Bestiary.Megalodon.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1ae190d5655738f9ed93dc8ab3f12f2822" compoundref="_mermaid_8java" startline="22" endline="24">Game.Creature.Bestiary.Mermaid.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1ac63164a217e76ea7053591e02bb1a734" compoundref="_nymph_8java" startline="23" endline="25">Game.Creature.Bestiary.Nymph.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1aaea0bfc67cc8f72079ac29cc250a49ea" compoundref="_phenix_8java" startline="23" endline="25">Game.Creature.Bestiary.Phenix.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a12d00536f437874574cd38ca54f6d96a" compoundref="_unicorn_8java" startline="21" endline="24">Game.Creature.Bestiary.Unicorn.newBorn</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" prot="protected" static="no" mutable="no">
+        <type>Weight</type>
+        <definition>Weight Game.Creature.Creature.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>Game.Creature.Creature.weight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="16" column="22" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" compoundref="_creature_8java" startline="162" endline="167">Game.Creature.Creature.toLoseWeight</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" compoundref="_creature_8java" startline="156" endline="161">Game.Creature.Creature.toSwell</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" prot="protected" static="no" mutable="no">
+        <type>Height</type>
+        <definition>Height Game.Creature.Creature.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>Game.Creature.Creature.height</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="17" column="22" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" compoundref="_creature_8java" startline="153" endline="155">Game.Creature.Creature.growUp</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" prot="protected" static="no" mutable="no">
+        <type>Age</type>
+        <definition>Age Game.Creature.Creature.age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <qualifiedname>Game.Creature.Creature.age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="18" column="19" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" compoundref="_creature_8java" startline="145" endline="152">Game.Creature.Creature.age</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada" compoundref="_dragon_8java" startline="31" endline="54">Game.Creature.Bestiary.Dragon.run</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" prot="protected" static="no" mutable="no">
+        <type>Hunger</type>
+        <definition>Hunger Game.Creature.Creature.hunger</definition>
+        <argsstring></argsstring>
+        <name>hunger</name>
+        <qualifiedname>Game.Creature.Creature.hunger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="19" column="22" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" compoundref="_creature_8java" startline="109" endline="113">Game.Creature.Creature.eat</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" compoundref="_creature_8java" startline="178" endline="178">Game.Creature.Creature.getHunger</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" compoundref="_creature_8java" startline="114" endline="119">Game.Creature.Creature.toBeHungry</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" prot="protected" static="no" mutable="no">
+        <type>Fatigue</type>
+        <definition>Fatigue Game.Creature.Creature.fatigue</definition>
+        <argsstring></argsstring>
+        <name>fatigue</name>
+        <qualifiedname>Game.Creature.Creature.fatigue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="20" column="23" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" compoundref="_creature_8java" startline="134" endline="141">Game.Creature.Creature.gettingFatigue</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" compoundref="_creature_8java" startline="142" endline="144">Game.Creature.Creature.sleep</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" prot="protected" static="no" mutable="no">
+        <type>Health</type>
+        <definition>Health Game.Creature.Creature.health</definition>
+        <argsstring></argsstring>
+        <name>health</name>
+        <qualifiedname>Game.Creature.Creature.health</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="21" column="22" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" compoundref="_creature_8java" startline="24" endline="35">Game.Creature.Creature.Creature</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" compoundref="_creature_8java" startline="131" endline="133">Game.Creature.Creature.heal</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" compoundref="_creature_8java" startline="123" endline="130">Game.Creature.Creature.loseHealth</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_oviparian_1a25a5113f0ad704072e872996d711ee22" compoundref="_oviparian_8java" startline="11" endline="17">Game.Creature.Oviparian.Oviparian</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" compoundref="_creature_8java" startline="180" endline="191">Game.Creature.Creature.toString</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" compoundref="_viviparian_8java" startline="11" endline="17">Game.Creature.Viviparian.Viviparian</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331" prot="protected" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Game.Creature.Creature.isAlive</definition>
+        <argsstring></argsstring>
+        <name>isAlive</name>
+        <qualifiedname>Game.Creature.Creature.isAlive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="22" column="23" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de" prot="public" static="no" mutable="no">
+        <type>BirthBehavior</type>
+        <definition>BirthBehavior Game.Creature.Creature.birthingBehavior</definition>
+        <argsstring></argsstring>
+        <name>birthingBehavior</name>
+        <qualifiedname>Game.Creature.Creature.birthingBehavior</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="23" column="26" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Creature.Creature.Creature</definition>
+        <argsstring>(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)</argsstring>
+        <name>Creature</name>
+        <qualifiedname>Game.Creature.Creature.Creature</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Weight</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>Height</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type>Hunger</type>
+          <declname>hunger</declname>
+        </param>
+        <param>
+          <type>Fatigue</type>
+          <declname>fatigue</declname>
+        </param>
+        <param>
+          <type>Health</type>
+          <declname>health</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="24" column="15" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="24" bodyend="35"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" compoundref="_creature_8java" startline="18">Game.Creature.Creature.age</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" compoundref="_creature_8java" startline="20">Game.Creature.Creature.fatigue</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" compoundref="_creature_8java" startline="21">Game.Creature.Creature.health</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" compoundref="_creature_8java" startline="17">Game.Creature.Creature.height</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" compoundref="_creature_8java" startline="19">Game.Creature.Creature.hunger</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" compoundref="_creature_8java" startline="14">Game.Creature.Creature.name</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" compoundref="_creature_8java" startline="15">Game.Creature.Creature.sex</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" compoundref="_creature_8java" startline="16">Game.Creature.Creature.weight</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toFly</definition>
+        <argsstring>()</argsstring>
+        <name>toFly</name>
+        <qualifiedname>Game.Creature.Creature.toFly</qualifiedname>
+        <briefdescription>
+<para>Behavior. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="99" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="99" bodyend="101"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toRun</definition>
+        <argsstring>()</argsstring>
+        <name>toRun</name>
+        <qualifiedname>Game.Creature.Creature.toRun</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="102" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="102" bodyend="104"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toSwim</definition>
+        <argsstring>()</argsstring>
+        <name>toSwim</name>
+        <qualifiedname>Game.Creature.Creature.toSwim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="105" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="105" bodyend="107"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toBeHungry</definition>
+        <argsstring>()</argsstring>
+        <name>toBeHungry</name>
+        <qualifiedname>Game.Creature.Creature.toBeHungry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="114" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="114" bodyend="119"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" compoundref="_creature_8java" startline="19">Game.Creature.Creature.hunger</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" compoundref="_creature_8java" startline="123" endline="130">Game.Creature.Creature.loseHealth</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.shout</definition>
+        <argsstring>()</argsstring>
+        <name>shout</name>
+        <qualifiedname>Game.Creature.Creature.shout</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="120" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="120" bodyend="122"/>
+        <referencedby refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada" compoundref="_dragon_8java" startline="31" endline="54">Game.Creature.Bestiary.Dragon.run</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.loseHealth</definition>
+        <argsstring>()</argsstring>
+        <name>loseHealth</name>
+        <qualifiedname>Game.Creature.Creature.loseHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="123" column="21" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="123" bodyend="130"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" compoundref="_creature_8java" startline="21">Game.Creature.Creature.health</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" compoundref="_creature_8java" startline="145" endline="152">Game.Creature.Creature.age</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" compoundref="_creature_8java" startline="114" endline="119">Game.Creature.Creature.toBeHungry</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" compoundref="_creature_8java" startline="162" endline="167">Game.Creature.Creature.toLoseWeight</referencedby>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" compoundref="_creature_8java" startline="156" endline="161">Game.Creature.Creature.toSwell</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.heal</definition>
+        <argsstring>()</argsstring>
+        <name>heal</name>
+        <qualifiedname>Game.Creature.Creature.heal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="131" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="131" bodyend="133"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" compoundref="_creature_8java" startline="21">Game.Creature.Creature.health</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.gettingFatigue</definition>
+        <argsstring>()</argsstring>
+        <name>gettingFatigue</name>
+        <qualifiedname>Game.Creature.Creature.gettingFatigue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="134" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="134" bodyend="141"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" compoundref="_creature_8java" startline="20">Game.Creature.Creature.fatigue</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.sleep</definition>
+        <argsstring>()</argsstring>
+        <name>sleep</name>
+        <qualifiedname>Game.Creature.Creature.sleep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="142" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="142" bodyend="144"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" compoundref="_creature_8java" startline="20">Game.Creature.Creature.fatigue</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.age</definition>
+        <argsstring>()</argsstring>
+        <name>age</name>
+        <qualifiedname>Game.Creature.Creature.age</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="145" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="145" bodyend="152"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" compoundref="_creature_8java" startline="18">Game.Creature.Creature.age</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" compoundref="_creature_8java" startline="123" endline="130">Game.Creature.Creature.loseHealth</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.growUp</definition>
+        <argsstring>()</argsstring>
+        <name>growUp</name>
+        <qualifiedname>Game.Creature.Creature.growUp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="153" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="153" bodyend="155"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" compoundref="_creature_8java" startline="17">Game.Creature.Creature.height</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toSwell</definition>
+        <argsstring>()</argsstring>
+        <name>toSwell</name>
+        <qualifiedname>Game.Creature.Creature.toSwell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="156" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="156" bodyend="161"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" compoundref="_creature_8java" startline="123" endline="130">Game.Creature.Creature.loseHealth</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" compoundref="_creature_8java" startline="16">Game.Creature.Creature.weight</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" compoundref="_creature_8java" startline="109" endline="113">Game.Creature.Creature.eat</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.toLoseWeight</definition>
+        <argsstring>()</argsstring>
+        <name>toLoseWeight</name>
+        <qualifiedname>Game.Creature.Creature.toLoseWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="162" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="162" bodyend="167"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" compoundref="_creature_8java" startline="123" endline="130">Game.Creature.Creature.loseHealth</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" compoundref="_creature_8java" startline="16">Game.Creature.Creature.weight</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.reproduce</definition>
+        <argsstring>()</argsstring>
+        <name>reproduce</name>
+        <qualifiedname>Game.Creature.Creature.reproduce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="168" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="168" bodyend="170"/>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" compoundref="_creature_8java" startline="38" endline="97">Game.Creature.Creature.run</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Game.Creature.Creature.run</qualifiedname>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon_1a25933c1f78f5c3f743665ebf084eeada">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken_1a199839c2934ff74c4585fe82f9299618">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon_1af4dfb84fd1b5f900f47ff8791fa9492e">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid_1a1f44938d190d6720cae96095557cfacc">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph_1aa39b8e277bf67dcc3a38ea71e8c025d7">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix_1a245f53f965c4fe730b89cd86f0a2bf76">run</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a1eaf67517c680f7ce252ed5df1bd6375">run</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="38" column="17" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="38" bodyend="97"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" compoundref="_creature_8java" startline="18">Game.Creature.Creature.age</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" compoundref="_creature_8java" startline="20">Game.Creature.Creature.fatigue</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" compoundref="_creature_8java" startline="134" endline="141">Game.Creature.Creature.gettingFatigue</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" compoundref="_creature_8java" startline="153" endline="155">Game.Creature.Creature.growUp</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" compoundref="_creature_8java" startline="131" endline="133">Game.Creature.Creature.heal</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" compoundref="_creature_8java" startline="168" endline="170">Game.Creature.Creature.reproduce</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" compoundref="_creature_8java" startline="120" endline="122">Game.Creature.Creature.shout</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" compoundref="_creature_8java" startline="142" endline="144">Game.Creature.Creature.sleep</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" compoundref="_creature_8java" startline="114" endline="119">Game.Creature.Creature.toBeHungry</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" compoundref="_creature_8java" startline="99" endline="101">Game.Creature.Creature.toFly</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" compoundref="_creature_8java" startline="162" endline="167">Game.Creature.Creature.toLoseWeight</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" compoundref="_creature_8java" startline="102" endline="104">Game.Creature.Creature.toRun</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" compoundref="_creature_8java" startline="105" endline="107">Game.Creature.Creature.toSwim</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Creature.eat</definition>
+        <argsstring>()</argsstring>
+        <name>eat</name>
+        <qualifiedname>Game.Creature.Creature.eat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="109" column="17" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="109" bodyend="113"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" compoundref="_creature_8java" startline="19">Game.Creature.Creature.hunger</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" compoundref="_creature_8java" startline="156" endline="161">Game.Creature.Creature.toSwell</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Creature.Creature.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>Game.Creature.Creature.getName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="171" column="19" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="171" bodyend="174"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" compoundref="_creature_8java" startline="14">Game.Creature.Creature.name</references>
+        <referencedby refid="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" compoundref="_creature_8java" startline="193" endline="214">Game.Creature.Creature.equals</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sex</type>
+        <definition>Sex Game.Creature.Creature.getSex</definition>
+        <argsstring>()</argsstring>
+        <name>getSex</name>
+        <qualifiedname>Game.Creature.Creature.getSex</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="175" column="16" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="175" bodyend="177"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" compoundref="_creature_8java" startline="15">Game.Creature.Creature.sex</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Hunger</type>
+        <definition>Hunger Game.Creature.Creature.getHunger</definition>
+        <argsstring>()</argsstring>
+        <name>getHunger</name>
+        <qualifiedname>Game.Creature.Creature.getHunger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="178" column="19" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="178" bodyend="178"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" compoundref="_creature_8java" startline="19">Game.Creature.Creature.hunger</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Creature.Creature.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Game.Creature.Creature.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="180" column="19" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="180" bodyend="191"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" compoundref="_creature_8java" startline="21">Game.Creature.Creature.health</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Creature.Creature.equals</definition>
+        <argsstring>(Object o)</argsstring>
+        <name>equals</name>
+        <qualifiedname>Game.Creature.Creature.equals</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Creature.java" line="193" column="20" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="193" bodyend="214"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" compoundref="_creature_8java" startline="171" endline="174">Game.Creature.Creature.getName</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The creature abstract class. Contain anything common to all creatures. Notify the controler when any change occures. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Game.Creature.Bestiary.Dragon</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_dragon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Game.Creature.Bestiary.Kraken</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_kraken"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Game.Creature.Bestiary.Megalodon</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_megalodon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Game.Creature.Bestiary.Mermaid</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Game.Creature.Bestiary.Nymph</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Game.Creature.Bestiary.Phenix</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_phenix"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Game.Creature.Bestiary.Unicorn</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Game.Creature.Oviparian</label>
+        <link refid="class_game_1_1_creature_1_1_oviparian"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Game.Creature.Viviparian</label>
+        <link refid="class_game_1_1_creature_1_1_viviparian"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Creature.java" line="13" column="17" bodyfile="Application/src/Game/Creature/Creature.java" bodystart="13" bodyend="215"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>birthingBehavior</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>Creature</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>eat</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>equals</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>fatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>getHunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>getName</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>getSex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>gettingFatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>growUp</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>heal</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>health</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>height</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>hunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>isAlive</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>loseHealth</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>name</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>reproduce</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>run</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>sex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>shout</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>sleep</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toBeHungry</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toFly</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toLoseWeight</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toRun</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" prot="public" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toString</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toSwell</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>toSwim</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" prot="protected" virt="non-virtual"><scope>Game::Creature::Creature</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

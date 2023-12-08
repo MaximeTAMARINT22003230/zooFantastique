@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_logic" kind="namespace" language="Java">
+    <compoundname>Game::Logic</compoundname>
+    <innerclass refid="class_game_1_1_logic_1_1_dice_roll" prot="public">Game::Logic::DiceRoll</innerclass>
+    <innernamespace refid="namespace_game_1_1_logic_1_1_cooldown">Game::Logic::Cooldown</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Logic/DiceRoll.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_lycantropus_1_1_couple" kind="class" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Couple</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_couple_1a2352b35f6b7ab6a81cdee651f0eaa0a0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Couple.female</definition>
+        <argsstring></argsstring>
+        <name>female</name>
+        <qualifiedname>Game.Lycantropus.Couple.female</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Couple.java" line="8" column="25" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_lycantropus_1_1_couple_1a373887aa2954bc0c6cc3cc76619e1980" prot="private" static="no" mutable="no">
+        <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+        <definition>Lycantropus Game.Lycantropus.Couple.male</definition>
+        <argsstring></argsstring>
+        <name>male</name>
+        <qualifiedname>Game.Lycantropus.Couple.male</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Couple.java" line="9" column="25" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Lycantropus.Couple.Couple</definition>
+        <argsstring>(Lycantropus female, Lycantropus male)</argsstring>
+        <name>Couple</name>
+        <qualifiedname>Game.Lycantropus.Couple.Couple</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+          <declname>female</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_1_1_lycantropus_1_1_lycantropus" kindref="compound">Lycantropus</ref></type>
+          <declname>male</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Couple.java" line="10" column="12" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="10" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Lycantropus.Couple.reproduce</definition>
+        <argsstring>()</argsstring>
+        <name>reproduce</name>
+        <qualifiedname>Game.Lycantropus.Couple.reproduce</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Couple.java" line="15" column="17" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="15" bodyend="18"/>
+        <references refid="class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841" compoundref="_lycantropus_8java" startline="41" endline="44">Game.Lycantropus.Lycantropus.newBorn</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Lycantropus.Couple.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Game.Lycantropus.Couple.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Couple.java" line="19" column="19" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Couple.java" line="7" column="7" bodyfile="Application/src/Game/Lycantropus/Couple.java" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_lycantropus_1_1_couple_1a708f2f73a6e30f946983cfc3759c2c25" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Couple</scope><name>Couple</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_couple_1a2352b35f6b7ab6a81cdee651f0eaa0a0" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Couple</scope><name>female</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_couple_1a373887aa2954bc0c6cc3cc76619e1980" prot="private" virt="non-virtual"><scope>Game::Lycantropus::Couple</scope><name>male</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_couple_1a552530b74eb18fcf105e8b32bd4578df" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Couple</scope><name>reproduce</name></member>
+      <member refid="class_game_1_1_lycantropus_1_1_couple_1a6d7f7aab797a4eaa59e2219bbeee0941" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Couple</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

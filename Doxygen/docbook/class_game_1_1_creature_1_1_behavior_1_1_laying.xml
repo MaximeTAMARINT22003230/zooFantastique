@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_creature_1_1_behavior_1_1_laying" xml:lang="en-US">
+<title>Game.Creature.Behavior.Laying Class Reference</title>
+<indexterm><primary>Game.Creature.Behavior.Laying</primary></indexterm>
+<para>Inheritance diagram for Game.Creature.Behavior.Laying:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_creature_1_1_behavior_1_1_laying.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1">makeBaby</link> (<link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> baby, <link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> parent)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The Laying behavior, used by Oviparrian Allows a creature to lay eggs </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1"/><section>
+    <title>makeBaby()</title>
+<indexterm><primary>makeBaby</primary><secondary>Game.Creature.Behavior.Laying</secondary></indexterm>
+<indexterm><primary>Game.Creature.Behavior.Laying</primary><secondary>makeBaby</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Behavior.Laying.makeBaby (<link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> baby, <link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> parent)</computeroutput></para><para>
+Reimplemented from <link linkend="_class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7">Game.Creature.Behavior.BirthBehavior</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Creature/Behavior/<link linkend="__laying_8java">Laying.java</link></section>
+</section>

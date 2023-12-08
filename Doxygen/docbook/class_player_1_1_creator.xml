@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_player_1_1_creator" xml:lang="en-US">
+<title>Player.Creator Class Reference</title>
+<indexterm><primary>Player.Creator</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_player_1_1_zoo">Zoo</link> <link linkend="_class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b">createYourZoo</link> ()</para>
+</listitem>
+            <listitem><para>static Creature <link linkend="_class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5">createYourCreature</link> (Corral corral)</para>
+</listitem>
+            <listitem><para>static Corral <link linkend="_class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b">createYourCorral</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The Creator interact with the player to create anything. <?linebreak?> Has only a bunch of usefulle static methods. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_player_1_1_creator_1a65b339e06fa90ae620b948c70785388b"/><section>
+    <title>createYourCorral()</title>
+<indexterm><primary>createYourCorral</primary><secondary>Player.Creator</secondary></indexterm>
+<indexterm><primary>Player.Creator</primary><secondary>createYourCorral</secondary></indexterm>
+<para><computeroutput>static Corral Player.Creator.createYourCorral ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_creator_1abf4e193ba6c9fa8e949f73c46c0c6ee5"/><section>
+    <title>createYourCreature()</title>
+<indexterm><primary>createYourCreature</primary><secondary>Player.Creator</secondary></indexterm>
+<indexterm><primary>Player.Creator</primary><secondary>createYourCreature</secondary></indexterm>
+<para><computeroutput>static Creature Player.Creator.createYourCreature (Corral corral)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b"/><section>
+    <title>createYourZoo()</title>
+<indexterm><primary>createYourZoo</primary><secondary>Player.Creator</secondary></indexterm>
+<indexterm><primary>Player.Creator</primary><secondary>createYourZoo</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_player_1_1_zoo">Zoo</link> Player.Creator.createYourZoo ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Player/<link linkend="__creator_8java">Creator.java</link></section>
+</section>

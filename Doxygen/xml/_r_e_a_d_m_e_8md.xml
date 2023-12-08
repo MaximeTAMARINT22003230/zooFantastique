@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>zooFantastique</highlight></codeline>
+<codeline><highlight class="normal">Ceci<sp/>est<sp/>un<sp/>projet<sp/>étudiant<sp/>réalisé<sp/>en<sp/>groupe<sp/>de<sp/>3<sp/>dans<sp/>le<sp/>cadre<sp/>de<sp/>la<sp/>ressource<sp/>R3.04.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">***Zoo<sp/>Fantastique***<sp/>est<sp/>un<sp/>jeu<sp/>de<sp/>gestion<sp/>de<sp/>créatures<sp/>fantastiques.<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">Lancez<sp/>l&apos;application<sp/>depuis<sp/>Player.Zoo<sp/>et<sp/>testez<sp/>dans<sp/>votre<sp/>terminal<sp/>cette<sp/>version<sp/>de<sp/>la<sp/>simulation<sp/>de<sp/>Zoo<sp/>!<sp/>L&apos;interface<sp/>vous<sp/>guidera<sp/>sur<sp/>les<sp/>commandes<sp/>à<sp/>entrer.<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">A<sp/>venir<sp/>:<sp/>La<sp/>gestion<sp/>de<sp/>meutes<sp/>de<sp/>loups-garoux<sp/>...<sp/></highlight></codeline>
+    </programlisting>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

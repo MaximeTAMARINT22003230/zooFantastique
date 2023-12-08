@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_lycantropus_1_1_caracteristics" xml:lang="en-US">
+<title>Package Game.Lycantropus.Caracteristics</title>
+<indexterm><primary>Game.Lycantropus.Caracteristics</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level">Level</link></para>
+</listitem>
+            <listitem><para>enum <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank">Rank</link></para>
+</listitem>
+            <listitem><para>enum <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength">Strength</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

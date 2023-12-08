@@ -1,0 +1,142 @@
+.TH "Player.Controler" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Player.Controler
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBnotification\fP (String notification)"
+.br
+.ti -1c
+.RI "void \fBnotification\fP (Object notification)"
+.br
+.ti -1c
+.RI "void \fBaddCreature\fP (Creature creature, Corral corral)"
+.br
+.ti -1c
+.RI "void \fBaddCorral\fP (Corral corral)"
+.br
+.ti -1c
+.RI "void \fBremoveCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "void \fBremoveCorral\fP (Corral corral)"
+.br
+.ti -1c
+.RI "void \fBkill\fP (Creature creature)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBControler\fP \fBgetInstance\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBZoo\fP \fBzoo\fP"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static boolean \fBgame\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The main controler of the app\&. 
+.br
+ Is a Singleton that contain the Zoo and a bunch of usefull static methods\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Player\&.Controler\&.addCorral (Corral corral)"
+Add a new Corral to the Zoo 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcorral\fP The corral to be added 
+.RE
+.PP
+
+.SS "void Player\&.Controler\&.addCreature (Creature creature, Corral corral)"
+Add a new creature to the Zoo 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcreature\fP The creature to add 
+.br
+\fIcorral\fP The targeted corral 
+.RE
+.PP
+
+.SS "static \fBControler\fP Player\&.Controler\&.getInstance ()\fC [static]\fP"
+Give the instance of the Controler or create one if needed 
+.PP
+\fBReturns\fP
+.RS 4
+The instance of the Controler 
+.RE
+.PP
+
+.SS "void Player\&.Controler\&.kill (Creature creature)"
+
+.SS "void Player\&.Controler\&.notification (Object notification)"
+Send a notification to the user (usually used when a Crature has something to say) 
+.br
+ Allows a separation between the Model and the Interface 
+.PP
+\fBParameters\fP
+.RS 4
+\fInotification\fP What it has to say 
+.RE
+.PP
+
+.SS "void Player\&.Controler\&.notification (String notification)"
+Send a notification to the user (usually used when a Crature has something to say) 
+.br
+ Allows a separation between the Model and the Interface 
+.PP
+\fBParameters\fP
+.RS 4
+\fInotification\fP What it has to say 
+.RE
+.PP
+
+.SS "void Player\&.Controler\&.removeCorral (Corral corral)"
+Remove a Corral from the Zoo 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcorral\fP The corral to remove 
+.RE
+.PP
+
+.SS "void Player\&.Controler\&.removeCreature (Creature creature)"
+Remove a creature from the zoo 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcreature\fP The creature to remove 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "boolean Player\&.Controler\&.game\fC [static]\fP"
+True while the game is running, become False when the players ends it\&. 
+.SS "\fBZoo\fP Player\&.Controler\&.zoo"
+The zoo 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

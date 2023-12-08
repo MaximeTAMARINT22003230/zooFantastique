@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Hunger Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger">Hunger</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af0aa9145d5e02f824673180278fa71f2">eat</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger">Hunger</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ae4ff18aae40b92bda02af9986588b347">toBeHungry</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a94b6175475bc776158f0aea535233120">isHungry</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a3efe563a6875f5e9fcffb0ace893bc0f">STARVING</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af212f228effdac3a6487a82412b884b9">HUNGRY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a16c3b0ad81c0683bf27c661680a63fcd">GOOD</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ab544b116cd2307d6a6ecc1f9d44c7393">MEALS</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af0aa9145d5e02f824673180278fa71f2"/><section>
+    <title>eat()</title>
+<indexterm><primary>eat</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>eat</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger">Hunger</link> Game.Creature.Caracteristic.Hunger.eat ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>renvoie le stade de faim inférieur </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a94b6175475bc776158f0aea535233120"/><section>
+    <title>isHungry()</title>
+<indexterm><primary>isHungry</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>isHungry</secondary></indexterm>
+<para><computeroutput>boolean Game.Creature.Caracteristic.Hunger.isHungry ( )</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ae4ff18aae40b92bda02af9986588b347"/><section>
+    <title>toBeHungry()</title>
+<indexterm><primary>toBeHungry</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>toBeHungry</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger">Hunger</link> Game.Creature.Caracteristic.Hunger.toBeHungry ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>renvoie le stade de faim supérieur </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a16c3b0ad81c0683bf27c661680a63fcd"/><section>
+    <title>GOOD</title>
+<indexterm><primary>GOOD</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>GOOD</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Hunger.GOOD</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af212f228effdac3a6487a82412b884b9"/><section>
+    <title>HUNGRY</title>
+<indexterm><primary>HUNGRY</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>HUNGRY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Hunger.HUNGRY</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ab544b116cd2307d6a6ecc1f9d44c7393"/><section>
+    <title>MEALS</title>
+<indexterm><primary>MEALS</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>MEALS</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Hunger.MEALS</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a3efe563a6875f5e9fcffb0ace893bc0f"/><section>
+    <title>STARVING</title>
+<indexterm><primary>STARVING</primary><secondary>Game.Creature.Caracteristic.Hunger</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Hunger</primary><secondary>STARVING</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Hunger.STARVING</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__hunger_8java">Hunger.java</link></section>
+</section>

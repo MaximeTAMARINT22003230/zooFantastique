@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['hasfreespace_0',['hasFreeSpace',['../class_game_1_1_corral_1_1_corral.html#abfe1dca7aaa21cf3a5791a04776ef887',1,'Game::Corral::Corral']]],
+  ['hatch_1',['hatch',['../class_game_1_1_creature_1_1_egg.html#ade97a2141dd2eefecd995793840a0e83',1,'Game::Creature::Egg']]],
+  ['heal_2',['heal',['../enum_game_1_1_creature_1_1_caracteristic_1_1_health.html#a4de7dee81e557bbe3ac011ac8d0730e6',1,'Game.Creature.Caracteristic.Health.heal()'],['../class_game_1_1_creature_1_1_creature.html#a4fe878efdeb24bc3e1d098f880fa6b29',1,'Game.Creature.Creature.heal()']]],
+  ['health_3',['health',['../enum_game_1_1_creature_1_1_caracteristic_1_1_health.html',1,'Game.Creature.Caracteristic.Health'],['../class_game_1_1_creature_1_1_creature.html#abe9c7c10ee7ecb24c9e8f92cdeec9a26',1,'Game.Creature.Creature.health']]],
+  ['health_2ejava_4',['Health.java',['../_health_8java.html',1,'']]],
+  ['hear_5',['hear',['../class_game_1_1_lycantropus_1_1_lycantropus.html#a88745b3bf41a0d2d119d1cdc592c5519',1,'Game::Lycantropus::Lycantropus']]],
+  ['heavy_6',['HEAVY',['../enum_game_1_1_creature_1_1_caracteristic_1_1_weight.html#ad4dce31fd094d8a661431448211de0e7',1,'Game::Creature::Caracteristic::Weight']]],
+  ['height_7',['height',['../enum_game_1_1_creature_1_1_caracteristic_1_1_height.html',1,'Game.Creature.Caracteristic.Height'],['../class_game_1_1_creature_1_1_creature.html#a71213263a71444e87a313eaa943a41fb',1,'Game.Creature.Creature.height']]],
+  ['height_2ejava_8',['Height.java',['../_height_8java.html',1,'']]],
+  ['howl_9',['Howl',['../enum_game_1_1_lycantropus_1_1_howl.html',1,'Game::Lycantropus']]],
+  ['howl_2ejava_10',['Howl.java',['../_howl_8java.html',1,'']]],
+  ['humongous_11',['HUMONGOUS',['../enum_game_1_1_creature_1_1_caracteristic_1_1_height.html#a3643992998830ebf5a4167d0da75f931',1,'Game::Creature::Caracteristic::Height']]],
+  ['hunger_12',['hunger',['../enum_game_1_1_creature_1_1_caracteristic_1_1_hunger.html',1,'Game.Creature.Caracteristic.Hunger'],['../class_game_1_1_creature_1_1_creature.html#afdfa72bbe58b0789d4201824f2e348f3',1,'Game.Creature.Creature.hunger']]],
+  ['hunger_2ejava_13',['Hunger.java',['../_hunger_8java.html',1,'']]],
+  ['hungry_14',['HUNGRY',['../enum_game_1_1_creature_1_1_caracteristic_1_1_hunger.html#af212f228effdac3a6487a82412b884b9',1,'Game::Creature::Caracteristic::Hunger']]],
+  ['hygiene_15',['hygiene',['../enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene.html',1,'Game.Corral.Caracteristic.Hygiene'],['../class_game_1_1_corral_1_1_corral.html#afc1cb1c5142247394b871d2863366b8c',1,'Game.Corral.Corral.hygiene']]],
+  ['hygiene_2ejava_16',['Hygiene.java',['../_hygiene_8java.html',1,'']]]
+];

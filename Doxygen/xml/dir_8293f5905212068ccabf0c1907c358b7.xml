@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_8293f5905212068ccabf0c1907c358b7" kind="dir">
+    <compoundname>Application/src/Game/Creature/Bestiary</compoundname>
+    <innerfile refid="_dragon_8java">Dragon.java</innerfile>
+    <innerfile refid="_kraken_8java">Kraken.java</innerfile>
+    <innerfile refid="_megalodon_8java">Megalodon.java</innerfile>
+    <innerfile refid="_mermaid_8java">Mermaid.java</innerfile>
+    <innerfile refid="_nymph_8java">Nymph.java</innerfile>
+    <innerfile refid="_phenix_8java">Phenix.java</innerfile>
+    <innerfile refid="_unicorn_8java">Unicorn.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Bestiary/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Caracteristics::Level</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a8a5d01414eb734a95d70dfd8ab1ee7ca" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Level.STRONG</definition>
+        <argsstring></argsstring>
+        <name>STRONG</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Level.STRONG</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java" line="8" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Level.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Level.FRAGILE</definition>
+        <argsstring></argsstring>
+        <name>FRAGILE</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Level.FRAGILE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java" line="8" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Level.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Lycantropus.Caracteristics.Level.beat</definition>
+        <argsstring>(Level foe)</argsstring>
+        <name>beat</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Level.beat</qualifiedname>
+        <param>
+          <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kindref="compound">Level</ref></type>
+          <declname>foe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java" line="9" column="20" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Level.java" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kindref="compound">Level</ref></type>
+        <definition>Level Game.Lycantropus.Caracteristics.Level.set</definition>
+        <argsstring>(Sex sex, Age age, Strength strength, Rank rank)</argsstring>
+        <name>set</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Level.set</qualifiedname>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" kindref="compound">Strength</ref></type>
+          <declname>strength</declname>
+        </param>
+        <param>
+          <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kindref="compound">Rank</ref></type>
+          <declname>rank</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java" line="13" column="18" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Level.java" bodystart="13" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java" line="6" column="7" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Level.java" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Level</scope><name>beat</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Level</scope><name>FRAGILE</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Level</scope><name>set</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a8a5d01414eb734a95d70dfd8ab1ee7ca" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Level</scope><name>STRONG</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

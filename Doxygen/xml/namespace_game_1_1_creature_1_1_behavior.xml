@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_creature_1_1_behavior" kind="namespace" language="Java">
+    <compoundname>Game::Creature::Behavior</compoundname>
+    <innerclass refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" prot="public">Game::Creature::Behavior::BirthBehavior</innerclass>
+    <innerclass refid="interface_game_1_1_creature_1_1_behavior_1_1_fly" prot="public">Game::Creature::Behavior::Fly</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_behavior_1_1_laying" prot="public">Game::Creature::Behavior::Laying</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy" prot="public">Game::Creature::Behavior::Pregnancy</innerclass>
+    <innerclass refid="interface_game_1_1_creature_1_1_behavior_1_1_revive" prot="public">Game::Creature::Behavior::Revive</innerclass>
+    <innerclass refid="interface_game_1_1_creature_1_1_behavior_1_1_run" prot="public">Game::Creature::Behavior::Run</innerclass>
+    <innerclass refid="interface_game_1_1_creature_1_1_behavior_1_1_swim" prot="public">Game::Creature::Behavior::Swim</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Behavior/BirthBehavior.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

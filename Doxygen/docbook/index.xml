@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>Zoo Fantastique</title>
+    </info>
+    <xi:include href="md__r_e_a_d_m_e.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_game_1_1_corral.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_corral_1_1_caracteristic.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_creature.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_creature_1_1_behavior.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_creature_1_1_bestiary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_creature_1_1_caracteristic.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_logic.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_logic_1_1_cooldown.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_lycantropus.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_game_1_1_lycantropus_1_1_caracteristics.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_player.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_age.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_corral_1_1_aquarium.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_asker.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_corral_1_1_aviary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_controler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_logic_1_1_cooldown_1_1_cooldown.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_corral_1_1_corral.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_lycantropus_1_1_couple.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_creator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_creature.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_logic_1_1_dice_roll.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_dragon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_egg.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_game_1_1_creature_1_1_behavior_1_1_fly.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_health.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_height.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_lycantropus_1_1_howl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_interface.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_kraken.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_behavior_1_1_laying.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_lycantropus_1_1_lycantropus.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_megalodon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_mermaid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_nymph.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_oviparian.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_lycantropus_1_1_pack.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_phenix.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_behavior_1_1_pregnancy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_game_1_1_creature_1_1_behavior_1_1_revive.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_game_1_1_creature_1_1_behavior_1_1_run.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_sex.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_storage_level.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_game_1_1_creature_1_1_behavior_1_1_swim.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_bestiary_1_1_unicorn.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_game_1_1_creature_1_1_viviparian.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="enum_game_1_1_creature_1_1_caracteristic_1_1_weight.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_zoo.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_player_1_1_zoo_master.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_aquarium_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_aviary_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_hygiene_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_corral_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_birth_behavior_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_fly_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_laying_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_pregnancy_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_revive_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_run_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_swim_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_dragon_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_kraken_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_megalodon_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_mermaid_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_nymph_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_phenix_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_unicorn_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_age_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_fatigue_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_health_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_height_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_hunger_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_sex_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_storage_level_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_weight_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_creature_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_egg_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_oviparian_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_viviparian_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_cooldown_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_cooldownable_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_cooldown_type_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_dice_roll_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_level_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_rank_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_strength_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_couple_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_howl_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_lycantropus_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_pack_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_asker_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_controler_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_creator_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_interface_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_zoo_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_zoo_master_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_r_e_a_d_m_e_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

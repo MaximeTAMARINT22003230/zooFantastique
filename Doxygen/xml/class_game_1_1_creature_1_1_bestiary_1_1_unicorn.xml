@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_bestiary_1_1_unicorn" kind="class" language="Java" prot="public">
+    <compoundname>Game::Creature::Bestiary::Unicorn</compoundname>
+    <basecompoundref refid="class_game_1_1_creature_1_1_viviparian" prot="public" virt="non-virtual">Game.Creature.Viviparian</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Run</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a4fa53587c84f1b11737f110ec20d84d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Creature.Bestiary.Unicorn.Unicorn</definition>
+        <argsstring>(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)</argsstring>
+        <name>Unicorn</name>
+        <qualifiedname>Game.Creature.Bestiary.Unicorn.Unicorn</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Weight</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>Height</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type>Hunger</type>
+          <declname>hunger</declname>
+        </param>
+        <param>
+          <type>Fatigue</type>
+          <declname>fatigue</declname>
+        </param>
+        <param>
+          <type>Health</type>
+          <declname>health</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Bestiary/Unicorn.java" line="11" column="13" bodyfile="Application/src/Game/Creature/Bestiary/Unicorn.java" bodystart="11" bodyend="13"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a12d00536f437874574cd38ca54f6d96a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn" kindref="compound">Unicorn</ref></type>
+        <definition>static Unicorn Game.Creature.Bestiary.Unicorn.newBorn</definition>
+        <argsstring>(String name, Sex sex)</argsstring>
+        <name>newBorn</name>
+        <qualifiedname>Game.Creature.Bestiary.Unicorn.newBorn</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a newborn Unicorn with default attributes.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the newborn Unicorn. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The sex of the newborn Unicorn. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new unicorn instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Bestiary/Unicorn.java" line="21" column="27" bodyfile="Application/src/Game/Creature/Bestiary/Unicorn.java" bodystart="21" bodyend="24"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" compoundref="_creature_8java" startline="14">Game.Creature.Creature.name</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" compoundref="_creature_8java" startline="15">Game.Creature.Creature.sex</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a1eaf67517c680f7ce252ed5df1bd6375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Bestiary.Unicorn.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Game.Creature.Bestiary.Unicorn.run</qualifiedname>
+        <reimplements refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6">run</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Bestiary/Unicorn.java" line="27" column="17" bodyfile="Application/src/Game/Creature/Bestiary/Unicorn.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a Unicorn Inherits from the Viviparian class and implements the Run behavior. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Bestiary.Unicorn</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Viviparian</label>
+        <link refid="class_game_1_1_creature_1_1_viviparian"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Run</label>
+      </node>
+      <node id="4">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Creature.Bestiary.Unicorn</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Viviparian</label>
+        <link refid="class_game_1_1_creature_1_1_viviparian"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Run</label>
+      </node>
+      <node id="4">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Bestiary/Unicorn.java" line="10" column="13" bodyfile="Application/src/Game/Creature/Bestiary/Unicorn.java" bodystart="10" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>birthingBehavior</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>Creature</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>eat</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>equals</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>fatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>getHunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>getName</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>getSex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>gettingFatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>growUp</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>heal</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>health</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>height</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>hunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>isAlive</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>loseHealth</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>name</name></member>
+      <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a12d00536f437874574cd38ca54f6d96a" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>newBorn</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>reproduce</name></member>
+      <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a1eaf67517c680f7ce252ed5df1bd6375" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>run</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>sex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>shout</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>sleep</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toBeHungry</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toFly</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toLoseWeight</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toRun</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toString</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toSwell</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>toSwim</name></member>
+      <member refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn_1a4fa53587c84f1b11737f110ec20d84d1" prot="private" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>Unicorn</name></member>
+      <member refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" prot="public" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>Viviparian</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" prot="protected" virt="non-virtual"><scope>Game::Creature::Bestiary::Unicorn</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

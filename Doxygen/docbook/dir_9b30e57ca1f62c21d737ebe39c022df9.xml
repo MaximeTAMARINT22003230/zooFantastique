@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_9b30e57ca1f62c21d737ebe39c022df9" xml:lang="en-US">
+<title>Application/src/Game/Creature/Behavior Directory Reference</title>
+<indexterm><primary>Application/src/Game/Creature/Behavior Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__birth_behavior_8java">BirthBehavior.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__fly_8java">Fly.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__laying_8java">Laying.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__pregnancy_8java">Pregnancy.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__revive_8java">Revive.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__run_8java">Run.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__swim_8java">Swim.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

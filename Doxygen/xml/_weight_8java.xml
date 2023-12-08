@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_weight_8java" kind="file" language="Java">
+    <compoundname>Weight.java</compoundname>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" prot="public">Game::Creature::Caracteristic::Weight</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_caracteristic">Game::Creature::Caracteristic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Caracteristic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kindref="compound">Weight</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>LIGHT,<sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058" kindref="member">AVERAGE</ref>,<sp/>HEAVY,<sp/>MASSIVE;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kindref="compound">Weight</ref><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e" kindref="member">toSwell</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ordinal()<sp/>&lt;<sp/>values().length-1)<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()+1];</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kindref="compound">Weight</ref><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2" kindref="member">toLoseWeight</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ordinal()<sp/>&gt;<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()-1];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Caracteristic/Weight.java"/>
+  </compounddef>
+</doxygen>

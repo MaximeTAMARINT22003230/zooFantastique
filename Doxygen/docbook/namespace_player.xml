@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_player" xml:lang="en-US">
+<title>Package Player</title>
+<indexterm><primary>Player</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_player_1_1_asker">Asker</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_player_1_1_controler">Controler</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_player_1_1_creator">Creator</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_player_1_1_interface">Interface</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_player_1_1_zoo">Zoo</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_player_1_1_zoo_master">ZooMaster</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

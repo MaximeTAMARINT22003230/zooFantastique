@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_level_8java" kind="file" language="Java">
+    <compoundname>Level.java</compoundname>
+    <includes local="no">Game.Creature.Caracteristic.Age</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Lycantropus/Caracteristics/Level.java</label>
+        <link refid="_level_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Caracteristic.Age</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" prot="public">Game::Lycantropus::Caracteristics::Level</innerclass>
+    <innernamespace refid="namespace_game_1_1_lycantropus_1_1_caracteristics">Game::Lycantropus::Caracteristics</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_game_1_1_lycantropus_1_1_caracteristics" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Lycantropus.Caracteristics;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.Age;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.Sex;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kindref="compound">Level</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>STRONG,<sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a3ac5ad4ccf8fc7976b201f7a48a3cd86" kindref="member">FRAGILE</ref>;<sp/></highlight><highlight class="comment">//TODO<sp/>:<sp/>THIS<sp/>ENUM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a5456f86e7a6e01b77139ffb0cbf71278" kindref="member">beat</ref>(<ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kindref="compound">Level</ref><sp/>foe)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ordinal()<sp/>&gt;<sp/>foe.ordinal();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13" refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level_1a7ad6c47d3b8b6eec72ab0d5f0ba71a71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_level" kindref="compound">Level</ref><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">(Sex<sp/>sex,<sp/>Age<sp/>age,<sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" kindref="compound">Strength</ref><sp/>strength,<sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kindref="compound">Rank</ref><sp/>rank)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO<sp/>THIS<sp/>METHOD;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Lycantropus/Caracteristics/Level.java"/>
+  </compounddef>
+</doxygen>

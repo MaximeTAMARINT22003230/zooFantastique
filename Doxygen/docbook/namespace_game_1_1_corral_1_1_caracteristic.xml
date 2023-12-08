@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_corral_1_1_caracteristic" xml:lang="en-US">
+<title>Package Game.Corral.Caracteristic</title>
+<indexterm><primary>Game.Corral.Caracteristic</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene">Hygiene</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_corral_1_1_aquarium" kind="class" language="Java" prot="public">
+    <compoundname>Game::Corral::Aquarium</compoundname>
+    <basecompoundref refid="class_game_1_1_corral_1_1_corral" prot="public" virt="non-virtual">Game.Corral.Corral</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_aquarium_1ad5d47e4353eb6c03bac0677ba256ecd0" prot="private" static="no" mutable="no">
+        <type>List&lt; Swim &gt;</type>
+        <definition>List&lt;Swim&gt; Game.Corral.Aquarium.creatures</definition>
+        <argsstring></argsstring>
+        <name>creatures</name>
+        <qualifiedname>Game.Corral.Aquarium.creatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="13" column="18" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_aquarium_1a2fd014816d66c916e49726e74adae97f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game.Corral.Aquarium.depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <qualifiedname>Game.Corral.Aquarium.depth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="14" column="17" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_aquarium_1a93208ac3aeee1ba59de13c1a41ef77ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Corral.Aquarium.Aquarium</definition>
+        <argsstring>(String name, String size)</argsstring>
+        <name>Aquarium</name>
+        <qualifiedname>Game.Corral.Aquarium.Aquarium</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="15" column="13" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_corral_1_1_aquarium" kindref="compound">Aquarium</ref></type>
+        <definition>static Aquarium Game.Corral.Aquarium.inaugurate</definition>
+        <argsstring>(String name, String size)</argsstring>
+        <name>inaugurate</name>
+        <qualifiedname>Game.Corral.Aquarium.inaugurate</qualifiedname>
+        <reimplements refid="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92">inaugurate</reimplements>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new instance of Aquarium.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the aquarium. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the aquarium. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new Aquarium instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="27" column="28" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="27" bodyend="29"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" compoundref="_corral_8java" startline="21">Game.Corral.Corral.name</references>
+        <references refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" compoundref="_corral_8java" startline="22">Game.Corral.Corral.size</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_aquarium_1a7e006c7fef7c4e001e41580dfdd46ace" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Creature &gt;</type>
+        <definition>ArrayList&lt; Creature &gt; Game.Corral.Aquarium.completeTable</definition>
+        <argsstring>()</argsstring>
+        <name>completeTable</name>
+        <qualifiedname>Game.Corral.Aquarium.completeTable</qualifiedname>
+        <reimplements refid="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118">completeTable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="32" column="25" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="32" bodyend="38"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_aquarium_1a73ba81df326177002d30865cb46a783c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Aquarium.addCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>addCreature</name>
+        <qualifiedname>Game.Corral.Aquarium.addCreature</qualifiedname>
+        <reimplements refid="class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb">addCreature</reimplements>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="40" column="17" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="40" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_aquarium_1a56489b96cf457f612e13b3fc1c7c3148" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Creature</type>
+        <definition>Creature Game.Corral.Aquarium.removeCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>removeCreature</name>
+        <qualifiedname>Game.Corral.Aquarium.removeCreature</qualifiedname>
+        <reimplements refid="class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842">removeCreature</reimplements>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Aquarium.java" line="53" column="21" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="53" bodyend="56"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an aquarium </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Corral.Aquarium</label>
+        <link refid="class_game_1_1_corral_1_1_aquarium"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Corral.Corral</label>
+        <link refid="class_game_1_1_corral_1_1_corral"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Corral.Aquarium</label>
+        <link refid="class_game_1_1_corral_1_1_aquarium"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Corral.Corral</label>
+        <link refid="class_game_1_1_corral_1_1_corral"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Corral/Aquarium.java" line="12" column="7" bodyfile="Application/src/Game/Corral/Aquarium.java" bodystart="12" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a73ba81df326177002d30865cb46a783c" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>addCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a93208ac3aeee1ba59de13c1a41ef77ad" prot="private" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>Aquarium</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>checkCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>clean</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a7e006c7fef7c4e001e41580dfdd46ace" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>completeTable</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>contains</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>Corral</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>count</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1ad5d47e4353eb6c03bac0677ba256ecd0" prot="private" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>creatures</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a2fd014816d66c916e49726e74adae97f" prot="private" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>depth</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>destroy</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>empty</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>feed</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>food</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>getCreatures</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>getHygiene</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>getName</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>givesFoodToCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>hasFreeSpace</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>hygiene</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>inaugurate</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>kill</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>max</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>name</name></member>
+      <member refid="class_game_1_1_corral_1_1_aquarium_1a56489b96cf457f612e13b3fc1c7c3148" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>removeCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>run</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" prot="protected" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>size</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36" prot="public" virt="non-virtual"><scope>Game::Corral::Aquarium</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

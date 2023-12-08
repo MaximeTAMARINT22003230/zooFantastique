@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_interface_8java" kind="file" language="Java">
+    <compoundname>Interface.java</compoundname>
+    <includes local="no">java.util.Scanner</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Player/Interface.java</label>
+        <link refid="_interface_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>java.util.Scanner</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_player_1_1_interface" prot="public">Player::Interface</innerclass>
+    <innernamespace refid="namespace_player">Player</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Player;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Scanner;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_player_1_1_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref><sp/>{</highlight></codeline>
+<codeline lineno="13" refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" kindref="member">show</ref>(String<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System.out.print(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>+<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22" refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>String<sp/><ref refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kindref="member">input</ref>(String<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" kindref="member">show</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Scanner<sp/>scanner<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Scanner(System.in);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scanner.next();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Player/Interface.java"/>
+  </compounddef>
+</doxygen>

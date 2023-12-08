@@ -1,0 +1,56 @@
+.TH "Game.Creature.Egg" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Creature.Egg
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBhatch\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBEgg\fP \fBlay\fP (\fBCreature\fP creature, Corral corral)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents an egg that can hatch into a creature\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Game\&.Creature\&.Egg\&.hatch ()"
+Hatches the egg, adding the creature to the corral after the hatching time\&. 
+.SS "static \fBEgg\fP Game\&.Creature\&.Egg\&.lay (\fBCreature\fP creature, Corral corral)\fC [static]\fP"
+Creates and returns a new Egg laid by a creature in a specific corral\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIcreature\fP The creature laying the egg\&. 
+.br
+\fIcorral\fP The corral where the egg is laid\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A new Egg instance\&. 
+.RE
+.PP
+
+.SS "void Game\&.Creature\&.Egg\&.run ()"
+Runs a thread to simulate the hatching process after the specified hatch time\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

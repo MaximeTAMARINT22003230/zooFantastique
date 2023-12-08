@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_logic_1_1_dice_roll" xml:lang="en-US">
+<title>Game.Logic.DiceRoll Class Reference</title>
+<indexterm><primary>Game.Logic.DiceRoll</primary></indexterm>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1a4424e912b10e099d13e48f094aa0ede9">d4</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1a72860c0ddd9458376f474260640edc7e">d6</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1aeafc55414d8be3172f5e69bf172ab78a">d8</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1ad5f369b893752c1bfb82012e1fab0156">d12</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1a1aaa49c810d64a502f7eddf7c3dede04">d20</link> ()</para>
+</listitem>
+            <listitem><para>static int <link linkend="_class_game_1_1_logic_1_1_dice_roll_1a6f7692d43a90b4e05e3a013c79df9301">d100</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1a6f7692d43a90b4e05e3a013c79df9301"/><section>
+    <title>d100()</title>
+<indexterm><primary>d100</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d100</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d100 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1ad5f369b893752c1bfb82012e1fab0156"/><section>
+    <title>d12()</title>
+<indexterm><primary>d12</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d12</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d12 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1a1aaa49c810d64a502f7eddf7c3dede04"/><section>
+    <title>d20()</title>
+<indexterm><primary>d20</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d20</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d20 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1a4424e912b10e099d13e48f094aa0ede9"/><section>
+    <title>d4()</title>
+<indexterm><primary>d4</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d4</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d4 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1a72860c0ddd9458376f474260640edc7e"/><section>
+    <title>d6()</title>
+<indexterm><primary>d6</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d6</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d6 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_logic_1_1_dice_roll_1aeafc55414d8be3172f5e69bf172ab78a"/><section>
+    <title>d8()</title>
+<indexterm><primary>d8</primary><secondary>Game.Logic.DiceRoll</secondary></indexterm>
+<indexterm><primary>Game.Logic.DiceRoll</primary><secondary>d8</secondary></indexterm>
+<para><computeroutput>static int Game.Logic.DiceRoll.d8 ( )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Logic/<link linkend="__dice_roll_8java">DiceRoll.java</link></section>
+</section>

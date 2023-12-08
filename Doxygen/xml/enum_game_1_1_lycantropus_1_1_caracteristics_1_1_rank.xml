@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Caracteristics::Rank</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1af582bc316b0388e6447c97ba5d7566f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.ALPHA</definition>
+        <argsstring></argsstring>
+        <name>ALPHA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.ALPHA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aeaa9f148fa6a52a6c19f3d7ead863f1b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.BETA</definition>
+        <argsstring></argsstring>
+        <name>BETA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.BETA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a954a05be2b793ad5b9e88be006897c1f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.GAMMA</definition>
+        <argsstring></argsstring>
+        <name>GAMMA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.GAMMA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a6fdffe6669d7ef258346fa96a126abe2" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.DELTA</definition>
+        <argsstring></argsstring>
+        <name>DELTA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.DELTA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2f9346a85dc8516c770151b162eef9a9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.EPSILON</definition>
+        <argsstring></argsstring>
+        <name>EPSILON</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.EPSILON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a05b8e28d597614b44f9ed74725cfff74" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.ZETA</definition>
+        <argsstring></argsstring>
+        <name>ZETA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.ZETA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2344a51adc9bad355da774565c02f8b4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.ETA</definition>
+        <argsstring></argsstring>
+        <name>ETA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.ETA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a0befb7e53d4e0ecc58fde370cd1a5c44" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.THETA</definition>
+        <argsstring></argsstring>
+        <name>THETA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.THETA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ae8512ee00356b5e67952bcae82009400" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.IOTA</definition>
+        <argsstring></argsstring>
+        <name>IOTA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.IOTA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aaaf59d0ba592d4f2515252672870d69b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.KAPPA</definition>
+        <argsstring></argsstring>
+        <name>KAPPA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.KAPPA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ab42989030272c58a58532b6f2157a6b0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.LAMBDA</definition>
+        <argsstring></argsstring>
+        <name>LAMBDA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.LAMBDA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="4" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a1941a72be781171c3ce1312ae602562e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.MU</definition>
+        <argsstring></argsstring>
+        <name>MU</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.MU</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1add334370ff8c27a06b46079846694eba" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.NU</definition>
+        <argsstring></argsstring>
+        <name>NU</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.NU</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a71fc35bbd50b03f70ec1bef19d5877cf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.XI</definition>
+        <argsstring></argsstring>
+        <name>XI</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.XI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aacef013cf3ac8f78961c8b072a0d7e78" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.OMICRON</definition>
+        <argsstring></argsstring>
+        <name>OMICRON</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.OMICRON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4ac435fb51e2b77be6beae63c9829de0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.PI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a83ee4be57629f7e3f147ba50ea51dc64" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.RHO</definition>
+        <argsstring></argsstring>
+        <name>RHO</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.RHO</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ad325179c666c282f8ca22f9fe59572e5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.SIGMA</definition>
+        <argsstring></argsstring>
+        <name>SIGMA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.SIGMA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a24192754ffbbb30adcaf19858307a70f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.TAU</definition>
+        <argsstring></argsstring>
+        <name>TAU</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.TAU</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08a21b0944289f6b2092a8e3ae1b0f40" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.UPSILON</definition>
+        <argsstring></argsstring>
+        <name>UPSILON</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.UPSILON</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4e656ac0e871f8e81010733fdae01b68" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.PHI</definition>
+        <argsstring></argsstring>
+        <name>PHI</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.PHI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a75e08e7a81e3ce46ac1d57eb89cd611c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.CHI</definition>
+        <argsstring></argsstring>
+        <name>CHI</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.CHI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aee393357f1a66668e0c5da63f7b85a05" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.PSI</definition>
+        <argsstring></argsstring>
+        <name>PSI</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.PSI</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ac69c68d2ba92c06d3a0d0ea3b4155a96" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Lycantropus.Caracteristics.Rank.OMEGA</definition>
+        <argsstring></argsstring>
+        <name>OMEGA</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.OMEGA</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="5" column="1" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1abc46645d821bc18d39976e502144bc37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kindref="compound">Rank</ref></type>
+        <definition>Rank Game.Lycantropus.Caracteristics.Rank.downgrade</definition>
+        <argsstring>()</argsstring>
+        <name>downgrade</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.downgrade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="6" column="17" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="6" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08d6b876dace571e8d78c56b86cc652f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank" kindref="compound">Rank</ref></type>
+        <definition>Rank Game.Lycantropus.Caracteristics.Rank.upgrade</definition>
+        <argsstring>()</argsstring>
+        <name>upgrade</name>
+        <qualifiedname>Game.Lycantropus.Caracteristics.Rank.upgrade</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="15" column="17" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="15" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Caracteristics/Rank.java" line="3" column="7" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Rank.java" bodystart="3" bodyend="24"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1af582bc316b0388e6447c97ba5d7566f9" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>ALPHA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aeaa9f148fa6a52a6c19f3d7ead863f1b" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>BETA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a75e08e7a81e3ce46ac1d57eb89cd611c" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>CHI</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a6fdffe6669d7ef258346fa96a126abe2" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>DELTA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1abc46645d821bc18d39976e502144bc37" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>downgrade</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2f9346a85dc8516c770151b162eef9a9" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>EPSILON</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a2344a51adc9bad355da774565c02f8b4" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>ETA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a954a05be2b793ad5b9e88be006897c1f" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>GAMMA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ae8512ee00356b5e67952bcae82009400" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>IOTA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aaaf59d0ba592d4f2515252672870d69b" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>KAPPA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ab42989030272c58a58532b6f2157a6b0" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>LAMBDA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a1941a72be781171c3ce1312ae602562e" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>MU</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1add334370ff8c27a06b46079846694eba" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>NU</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ac69c68d2ba92c06d3a0d0ea3b4155a96" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>OMEGA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aacef013cf3ac8f78961c8b072a0d7e78" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>OMICRON</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4e656ac0e871f8e81010733fdae01b68" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>PHI</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a4ac435fb51e2b77be6beae63c9829de0" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>PI</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1aee393357f1a66668e0c5da63f7b85a05" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>PSI</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a83ee4be57629f7e3f147ba50ea51dc64" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>RHO</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1ad325179c666c282f8ca22f9fe59572e5" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>SIGMA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a24192754ffbbb30adcaf19858307a70f" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>TAU</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a0befb7e53d4e0ecc58fde370cd1a5c44" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>THETA</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08d6b876dace571e8d78c56b86cc652f" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>upgrade</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a08a21b0944289f6b2092a8e3ae1b0f40" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>UPSILON</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a71fc35bbd50b03f70ec1bef19d5877cf" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>XI</name></member>
+      <member refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_rank_1a05b8e28d597614b44f9ed74725cfff74" prot="public" virt="non-virtual"><scope>Game::Lycantropus::Caracteristics::Rank</scope><name>ZETA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

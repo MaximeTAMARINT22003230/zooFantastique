@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Corral::Caracteristic::Hygiene</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5c5c6ca66ffdc25a69181c87efd0f331" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Corral.Caracteristic.Hygiene.BAD</definition>
+        <argsstring></argsstring>
+        <name>BAD</name>
+        <qualifiedname>Game.Corral.Caracteristic.Hygiene.BAD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="6" column="1" bodyfile="Application/src/Game/Corral/Caracteristic/Hygiene.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1acc2a48b99d1086f2900e0e3b99df8a5b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Corral.Caracteristic.Hygiene.CORRECTLY</definition>
+        <argsstring></argsstring>
+        <name>CORRECTLY</name>
+        <qualifiedname>Game.Corral.Caracteristic.Hygiene.CORRECTLY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="6" column="1" bodyfile="Application/src/Game/Corral/Caracteristic/Hygiene.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5acf95390e5e634e9630711a5a5a08e9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Corral.Caracteristic.Hygiene.GOOD</definition>
+        <argsstring></argsstring>
+        <name>GOOD</name>
+        <qualifiedname>Game.Corral.Caracteristic.Hygiene.GOOD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="6" column="1" bodyfile="Application/src/Game/Corral/Caracteristic/Hygiene.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a0ce884f96c1648bab78d89a3c260fe78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene" kindref="compound">Hygiene</ref></type>
+        <definition>Hygiene Game.Corral.Caracteristic.Hygiene.clean</definition>
+        <argsstring>()</argsstring>
+        <name>clean</name>
+        <qualifiedname>Game.Corral.Caracteristic.Hygiene.clean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="8" column="20" bodyfile="Application/src/Game/Corral/Caracteristic/Hygiene.java" bodystart="8" bodyend="15"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="5" column="7" bodyfile="Application/src/Game/Corral/Caracteristic/Hygiene.java" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5c5c6ca66ffdc25a69181c87efd0f331" prot="public" virt="non-virtual"><scope>Game::Corral::Caracteristic::Hygiene</scope><name>BAD</name></member>
+      <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a0ce884f96c1648bab78d89a3c260fe78" prot="public" virt="non-virtual"><scope>Game::Corral::Caracteristic::Hygiene</scope><name>clean</name></member>
+      <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1acc2a48b99d1086f2900e0e3b99df8a5b" prot="public" virt="non-virtual"><scope>Game::Corral::Caracteristic::Hygiene</scope><name>CORRECTLY</name></member>
+      <member refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5acf95390e5e634e9630711a5a5a08e9" prot="public" virt="non-virtual"><scope>Game::Corral::Caracteristic::Hygiene</scope><name>GOOD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

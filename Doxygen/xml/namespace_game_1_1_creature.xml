@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_creature" kind="namespace" language="Java">
+    <compoundname>Game::Creature</compoundname>
+    <innerclass refid="class_game_1_1_creature_1_1_creature" prot="public">Game::Creature::Creature</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_egg" prot="public">Game::Creature::Egg</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_oviparian" prot="public">Game::Creature::Oviparian</innerclass>
+    <innerclass refid="class_game_1_1_creature_1_1_viviparian" prot="public">Game::Creature::Viviparian</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_behavior">Game::Creature::Behavior</innernamespace>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_bestiary">Game::Creature::Bestiary</innernamespace>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_caracteristic">Game::Creature::Caracteristic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Creature.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

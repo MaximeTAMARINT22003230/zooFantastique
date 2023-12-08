@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__nymph_8java" xml:lang="en-US">
+<title>Application/src/Game/Creature/Bestiary/Nymph.java File Reference</title>
+<indexterm><primary>Application/src/Game/Creature/Bestiary/Nymph.java</primary></indexterm>
+<programlisting linenumbering="unnumbered">import Game.Creature.Behavior.Revive;<?linebreak?></programlisting><simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_bestiary_1_1_nymph">Game.Creature.Bestiary.Nymph</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_creature_1_1_bestiary">Game.Creature.Bestiary</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

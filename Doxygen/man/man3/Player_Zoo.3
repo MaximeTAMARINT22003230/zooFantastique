@@ -1,0 +1,153 @@
+.TH "Player.Zoo" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Player.Zoo
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Cooldownable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBshowCreatures\fP ()"
+.br
+.ti -1c
+.RI "int \fBcountCreatures\fP ()"
+.br
+.ti -1c
+.RI "int \fBcountCorrals\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBexists\fP (Creature creature)"
+.br
+.ti -1c
+.RI "Corral \fBcorralOf\fP (Creature creature)"
+.br
+.ti -1c
+.RI "void \fBaddCorral\fP (Corral \fBcorral\fP)"
+.br
+.ti -1c
+.RI "String \fBcorrals\fP ()"
+.br
+.ti -1c
+.RI "Corral \fBcorral\fP (String string)"
+.br
+.ti -1c
+.RI "void \fBremoveCorral\fP (Corral \fBcorral\fP)"
+.br
+.ti -1c
+.RI "void \fBextend\fP (int size)"
+.br
+.ti -1c
+.RI "void \fBaddCreature\fP (Corral \fBcorral\fP, Creature creature)"
+.br
+.ti -1c
+.RI "void \fBremoveCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "void \fBkill\fP (Creature creature)"
+.br
+.ti -1c
+.RI "void \fBreviveCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "List< Corral > \fBgetCorrals\fP ()"
+.br
+.ti -1c
+.RI "List< Creature > \fBgetCreatures\fP ()"
+.br
+.ti -1c
+.RI "void \fBcooldown\fP (Cooldown cooldown)"
+.br
+.ti -1c
+.RI "void \fBspread\fP (Howl howl)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)"
+.br
+.ti -1c
+.RI "static \fBZoo\fP \fBopening\fP (String name, \fBZooMaster\fP \fBzooMaster\fP)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBZooMaster\fP \fBzooMaster\fP"
+.br
+.ti -1c
+.RI "List< Pack > \fBcolony\fP"
+.br
+.ti -1c
+.RI "boolean \fBloveSeason\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents a Zoo that manages various corrals and creatures\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Player\&.Zoo\&.addCorral (Corral corral)"
+
+.SS "void Player\&.Zoo\&.addCreature (Corral corral, Creature creature)"
+
+.SS "void Player\&.Zoo\&.cooldown (Cooldown cooldown)"
+
+.SS "Corral Player\&.Zoo\&.corral (String string)"
+
+.SS "Corral Player\&.Zoo\&.corralOf (Creature creature)"
+
+.SS "String Player\&.Zoo\&.corrals ()"
+
+.SS "int Player\&.Zoo\&.countCorrals ()"
+
+.SS "int Player\&.Zoo\&.countCreatures ()"
+
+.SS "boolean Player\&.Zoo\&.exists (Creature creature)"
+
+.SS "void Player\&.Zoo\&.extend (int size)"
+
+.SS "List< Corral > Player\&.Zoo\&.getCorrals ()"
+
+.SS "List< Creature > Player\&.Zoo\&.getCreatures ()"
+
+.SS "void Player\&.Zoo\&.kill (Creature creature)"
+
+.SS "static void Player\&.Zoo\&.main (String[] args)\fC [static]\fP"
+
+.SS "static \fBZoo\fP Player\&.Zoo\&.opening (String name, \fBZooMaster\fP zooMaster)\fC [static]\fP"
+
+.SS "void Player\&.Zoo\&.removeCorral (Corral corral)"
+
+.SS "void Player\&.Zoo\&.removeCreature (Creature creature)"
+
+.SS "void Player\&.Zoo\&.reviveCreature (Creature creature)"
+
+.SS "String Player\&.Zoo\&.showCreatures ()"
+
+.SS "void Player\&.Zoo\&.spread (Howl howl)"
+
+.SS "String Player\&.Zoo\&.toString ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "List<Pack> Player\&.Zoo\&.colony"
+
+.SS "boolean Player\&.Zoo\&.loveSeason"
+
+.SS "\fBZooMaster\fP Player\&.Zoo\&.zooMaster"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

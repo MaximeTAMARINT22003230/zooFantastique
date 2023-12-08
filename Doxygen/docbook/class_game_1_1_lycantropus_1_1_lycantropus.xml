@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_lycantropus_1_1_lycantropus" xml:lang="en-US">
+<title>Game.Lycantropus.Lycantropus Class Reference</title>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary></indexterm>
+<para>Inheritance diagram for Game.Lycantropus.Lycantropus:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_lycantropus_1_1_lycantropus.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1a86c8bb971395fadf0d1c41b8f5aafb98">getDomination</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519">hear</link> (<link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> howl)</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1ad56adfc2a5ab180b9ed9e3f23af5124a">equals</link> (Object o)</para>
+</listitem>
+            <listitem><para>String <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1a9794e68d5a274af9d97610a44b2063c7">toString</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1a121592b8de35b9ad08f11a66bf4de4f7">run</link> ()</para>
+</listitem>
+            <listitem><para>Level <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1ab316b5b832b9b097ddad734e75da13db">getLevel</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841">newBorn</link> (String name, Sex sex)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1ad56adfc2a5ab180b9ed9e3f23af5124a"/><section>
+    <title>equals()</title>
+<indexterm><primary>equals</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>equals</secondary></indexterm>
+<para><computeroutput>boolean Game.Lycantropus.Lycantropus.equals (Object o)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1a86c8bb971395fadf0d1c41b8f5aafb98"/><section>
+    <title>getDomination()</title>
+<indexterm><primary>getDomination</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>getDomination</secondary></indexterm>
+<para><computeroutput>int Game.Lycantropus.Lycantropus.getDomination ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1ab316b5b832b9b097ddad734e75da13db"/><section>
+    <title>getLevel()</title>
+<indexterm><primary>getLevel</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>getLevel</secondary></indexterm>
+<para><computeroutput>Level Game.Lycantropus.Lycantropus.getLevel ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1a88745b3bf41a0d2d119d1cdc592c5519"/><section>
+    <title>hear()</title>
+<indexterm><primary>hear</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>hear</secondary></indexterm>
+<para><computeroutput>void Game.Lycantropus.Lycantropus.hear (<link linkend="_enum_game_1_1_lycantropus_1_1_howl">Howl</link> howl)</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1a63bb6e280fe9e7a69b9604067d819841"/><section>
+    <title>newBorn()</title>
+<indexterm><primary>newBorn</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>newBorn</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_game_1_1_lycantropus_1_1_lycantropus">Lycantropus</link> Game.Lycantropus.Lycantropus.newBorn (String name, Sex sex)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1a121592b8de35b9ad08f11a66bf4de4f7"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Lycantropus.Lycantropus.run ( )</computeroutput></para></section>
+<anchor xml:id="_class_game_1_1_lycantropus_1_1_lycantropus_1a9794e68d5a274af9d97610a44b2063c7"/><section>
+    <title>toString()</title>
+<indexterm><primary>toString</primary><secondary>Game.Lycantropus.Lycantropus</secondary></indexterm>
+<indexterm><primary>Game.Lycantropus.Lycantropus</primary><secondary>toString</secondary></indexterm>
+<para><computeroutput>String Game.Lycantropus.Lycantropus.toString ( )</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Lycantropus/<link linkend="__lycantropus_8java">Lycantropus.java</link></section>
+</section>

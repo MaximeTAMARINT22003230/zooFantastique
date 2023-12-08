@@ -1,0 +1,146 @@
+\doxysection{Player.\+Controler Class Reference}
+\hypertarget{class_player_1_1_controler}{}\label{class_player_1_1_controler}\index{Player.Controler@{Player.Controler}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_afbc7da5aa899feb72d30d4937bca8a14}{notification}} (String notification)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_a7f88327c0c68df28cb8db5b0d34d5c30}{notification}} (Object notification)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_af4a832bd08aa44dd5ef0e77e22113280}{add\+Creature}} (Creature creature, Corral corral)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_ad688fa3a04326bc602c3807f477e3543}{add\+Corral}} (Corral corral)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_a04722cdedff89915286f77b4ec1cac5f}{remove\+Creature}} (Creature creature)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_accc93cd7a959c490badcc84122f2f052}{remove\+Corral}} (Corral corral)
+\item 
+void \mbox{\hyperlink{class_player_1_1_controler_a5c8ed18390083f536037a434ef0fe795}{kill}} (Creature creature)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_player_1_1_controler}{Controler}} \mbox{\hyperlink{class_player_1_1_controler_af296e1f079d1e5ae562a23ce69c2d3e9}{get\+Instance}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_player_1_1_zoo}{Zoo}} \mbox{\hyperlink{class_player_1_1_controler_a5ae131512b020d1ec15829acf0605bc2}{zoo}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static boolean \mbox{\hyperlink{class_player_1_1_controler_ac347b4f34eaefd9290a535f698caa079}{game}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The main controler of the app. ~\newline
+ Is a Singleton that contain the Zoo and a bunch of usefull static methods. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_player_1_1_controler_ad688fa3a04326bc602c3807f477e3543}\label{class_player_1_1_controler_ad688fa3a04326bc602c3807f477e3543} 
+\index{Player.Controler@{Player.Controler}!addCorral@{addCorral}}
+\index{addCorral@{addCorral}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{addCorral()}{addCorral()}}
+{\footnotesize\ttfamily void Player.\+Controler.\+add\+Corral (\begin{DoxyParamCaption}\item[{Corral}]{corral }\end{DoxyParamCaption})}
+
+Add a new Corral to the Zoo 
+\begin{DoxyParams}{Parameters}
+{\em corral} & The corral to be added \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_1_1_controler_af4a832bd08aa44dd5ef0e77e22113280}\label{class_player_1_1_controler_af4a832bd08aa44dd5ef0e77e22113280} 
+\index{Player.Controler@{Player.Controler}!addCreature@{addCreature}}
+\index{addCreature@{addCreature}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{addCreature()}{addCreature()}}
+{\footnotesize\ttfamily void Player.\+Controler.\+add\+Creature (\begin{DoxyParamCaption}\item[{Creature}]{creature,  }\item[{Corral}]{corral }\end{DoxyParamCaption})}
+
+Add a new creature to the Zoo 
+\begin{DoxyParams}{Parameters}
+{\em creature} & The creature to add \\
+\hline
+{\em corral} & The targeted corral \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_1_1_controler_af296e1f079d1e5ae562a23ce69c2d3e9}\label{class_player_1_1_controler_af296e1f079d1e5ae562a23ce69c2d3e9} 
+\index{Player.Controler@{Player.Controler}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_player_1_1_controler}{Controler}} Player.\+Controler.\+get\+Instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Give the instance of the Controler or create one if needed \begin{DoxyReturn}{Returns}
+The instance of the Controler 
+\end{DoxyReturn}
+\Hypertarget{class_player_1_1_controler_a5c8ed18390083f536037a434ef0fe795}\label{class_player_1_1_controler_a5c8ed18390083f536037a434ef0fe795} 
+\index{Player.Controler@{Player.Controler}!kill@{kill}}
+\index{kill@{kill}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{kill()}{kill()}}
+{\footnotesize\ttfamily void Player.\+Controler.\+kill (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+\Hypertarget{class_player_1_1_controler_a7f88327c0c68df28cb8db5b0d34d5c30}\label{class_player_1_1_controler_a7f88327c0c68df28cb8db5b0d34d5c30} 
+\index{Player.Controler@{Player.Controler}!notification@{notification}}
+\index{notification@{notification}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{notification()}{notification()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Player.\+Controler.\+notification (\begin{DoxyParamCaption}\item[{Object}]{notification }\end{DoxyParamCaption})}
+
+Send a notification to the user (usually used when a Crature has something to say) ~\newline
+ Allows a separation between the Model and the Interface 
+\begin{DoxyParams}{Parameters}
+{\em notification} & What it has to say \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_1_1_controler_afbc7da5aa899feb72d30d4937bca8a14}\label{class_player_1_1_controler_afbc7da5aa899feb72d30d4937bca8a14} 
+\index{Player.Controler@{Player.Controler}!notification@{notification}}
+\index{notification@{notification}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{notification()}{notification()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Player.\+Controler.\+notification (\begin{DoxyParamCaption}\item[{String}]{notification }\end{DoxyParamCaption})}
+
+Send a notification to the user (usually used when a Crature has something to say) ~\newline
+ Allows a separation between the Model and the Interface 
+\begin{DoxyParams}{Parameters}
+{\em notification} & What it has to say \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_1_1_controler_accc93cd7a959c490badcc84122f2f052}\label{class_player_1_1_controler_accc93cd7a959c490badcc84122f2f052} 
+\index{Player.Controler@{Player.Controler}!removeCorral@{removeCorral}}
+\index{removeCorral@{removeCorral}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{removeCorral()}{removeCorral()}}
+{\footnotesize\ttfamily void Player.\+Controler.\+remove\+Corral (\begin{DoxyParamCaption}\item[{Corral}]{corral }\end{DoxyParamCaption})}
+
+Remove a Corral from the Zoo 
+\begin{DoxyParams}{Parameters}
+{\em corral} & The corral to remove \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_player_1_1_controler_a04722cdedff89915286f77b4ec1cac5f}\label{class_player_1_1_controler_a04722cdedff89915286f77b4ec1cac5f} 
+\index{Player.Controler@{Player.Controler}!removeCreature@{removeCreature}}
+\index{removeCreature@{removeCreature}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{removeCreature()}{removeCreature()}}
+{\footnotesize\ttfamily void Player.\+Controler.\+remove\+Creature (\begin{DoxyParamCaption}\item[{Creature}]{creature }\end{DoxyParamCaption})}
+
+Remove a creature from the zoo 
+\begin{DoxyParams}{Parameters}
+{\em creature} & The creature to remove \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_player_1_1_controler_ac347b4f34eaefd9290a535f698caa079}\label{class_player_1_1_controler_ac347b4f34eaefd9290a535f698caa079} 
+\index{Player.Controler@{Player.Controler}!game@{game}}
+\index{game@{game}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{game}{game}}
+{\footnotesize\ttfamily boolean Player.\+Controler.\+game\hspace{0.3cm}{\ttfamily [static]}}
+
+True while the game is running, become False when the players ends it. \Hypertarget{class_player_1_1_controler_a5ae131512b020d1ec15829acf0605bc2}\label{class_player_1_1_controler_a5ae131512b020d1ec15829acf0605bc2} 
+\index{Player.Controler@{Player.Controler}!zoo@{zoo}}
+\index{zoo@{zoo}!Player.Controler@{Player.Controler}}
+\doxysubsubsection{\texorpdfstring{zoo}{zoo}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_player_1_1_zoo}{Zoo}} Player.\+Controler.\+zoo}
+
+The zoo 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Application/src/\+Player/\mbox{\hyperlink{_controler_8java}{Controler.\+java}}\end{DoxyCompactItemize}

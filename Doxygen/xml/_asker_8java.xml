@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_asker_8java" kind="file" language="Java">
+    <compoundname>Asker.java</compoundname>
+    <includes local="no">Game.Corral.Corral</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Player/Asker.java</label>
+        <link refid="_asker_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Corral.Corral</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_player_1_1_asker" prot="public">Player::Asker</innerclass>
+    <innernamespace refid="namespace_player">Player</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_player" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Player;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Corral.Corral;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.Age;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Caracteristic.Sex;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Game.Creature.Creature;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>java.util.Objects;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_player_1_1_asker" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_player_1_1_asker" kindref="compound">Asker</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Sex<sp/><ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sex<sp/><ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref><sp/>=<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref><sp/>==<sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>inputSex<sp/>=<sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kindref="member">input</ref>(</highlight><highlight class="stringliteral">&quot;Sexe<sp/>:<sp/>Male<sp/>ou<sp/>Female<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Objects.equals(inputSex,<sp/></highlight><highlight class="stringliteral">&quot;Male&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref><sp/>=<sp/>Sex.MALE;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(Objects.equals(inputSex,<sp/></highlight><highlight class="stringliteral">&quot;Female&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref><sp/>=<sp/>Sex.FEMALE;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" kindref="member">show</ref>(</highlight><highlight class="stringliteral">&quot;Mauvais<sp/>input&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1_1_asker_1a1b2fd986534bf4aa4b22c44c88d01972" kindref="member">sex</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_player_1_1_asker_1a3d2d356941452a85edf090b2d6932fb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Age<sp/><ref refid="class_player_1_1_asker_1a3d2d356941452a85edf090b2d6932fb5" kindref="member">age</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>:<sp/>This<sp/>method</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Creature<sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>()</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>input<sp/>=<sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kindref="member">input</ref>(</highlight><highlight class="stringliteral">&quot;Sélectionner<sp/>nom<sp/>de<sp/>la<sp/>créature<sp/>:\n&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>.<ref refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" kindref="member">getInstance</ref>().<ref refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" kindref="member">zoo</ref>.<ref refid="class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703" kindref="member">showCreatures</ref>());</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(Creature<sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>:<sp/><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>.<ref refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" kindref="member">getInstance</ref>().<ref refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" kindref="member">zoo</ref>.<ref refid="class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0" kindref="member">getCreatures</ref>())</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Objects.equals(input,<sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>.getName()))</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Creature<sp/><ref refid="class_player_1_1_asker_1abaf8671020d2cf96645375505cb5d843" kindref="member">creature</ref>(Corral<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>)</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>input<sp/>=<sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kindref="member">input</ref>(</highlight><highlight class="stringliteral">&quot;Sélectionner<sp/>nom<sp/>de<sp/>la<sp/>créature<sp/>:\n&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(Creature<sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>:<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>.getCreatures())</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(input.equals(<ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>.getName()))</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" kindref="member">creature</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Corral<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>input<sp/>=<sp/><ref refid="class_player_1_1_interface" kindref="compound">Interface</ref>.<ref refid="class_player_1_1_interface_1a4976b8112e4b6752fd1e17f77ca0bdc9" kindref="member">input</ref>(</highlight><highlight class="stringliteral">&quot;Sélectionner<sp/>nom<sp/>de<sp/>l&apos;enclos<sp/>:\n&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>.<ref refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" kindref="member">getInstance</ref>().<ref refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" kindref="member">zoo</ref>.corrals());</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(Corral<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>:<sp/><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>.<ref refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" kindref="member">getInstance</ref>().<ref refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" kindref="member">zoo</ref>.<ref refid="class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d" kindref="member">getCorrals</ref>())</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Objects.equals(input,<sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>.getName()))</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" kindref="member">corral</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">null</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Player/Asker.java"/>
+  </compounddef>
+</doxygen>

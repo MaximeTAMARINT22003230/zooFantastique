@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_90321a73786280b7ce821e58d1903fb0" kind="dir">
+    <compoundname>Application/src/Game/Lycantropus</compoundname>
+    <innerdir refid="dir_e1602748efe4e6468d77518452deea5b">Application/src/Game/Lycantropus/Caracteristics</innerdir>
+    <innerfile refid="_couple_8java">Couple.java</innerfile>
+    <innerfile refid="_howl_8java">Howl.java</innerfile>
+    <innerfile refid="_lycantropus_8java">Lycantropus.java</innerfile>
+    <innerfile refid="_pack_8java">Pack.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/"/>
+  </compounddef>
+</doxygen>

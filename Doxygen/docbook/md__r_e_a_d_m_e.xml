@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__r_e_a_d_m_e" xml:lang="en-US">
+<title>zooFantastique</title>
+<indexterm><primary>zooFantastique</primary></indexterm>
+
+<para><anchor xml:id="_md__r_e_a_d_m_e_1autotoc_md0"/>Ceci est un projet étudiant réalisé en groupe de 3 dans le cadre de la ressource R3.04.</para>
+
+<para><emphasis><emphasis role="bold">Zoo Fantastique</emphasis></emphasis> est un jeu de gestion de créatures fantastiques. <?linebreak?></para>
+
+<para>Lancez l&apos;application depuis <link linkend="_class_player_1_1_zoo">Player.Zoo</link> et testez dans votre terminal cette version de la simulation de Zoo ! L&apos;interface vous guidera sur les commandes à entrer. <?linebreak?></para>
+
+<para>A venir : La gestion de meutes de loups-garoux ... </para>
+</section>

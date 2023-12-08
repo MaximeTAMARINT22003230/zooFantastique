@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__run_8java" xml:lang="en-US">
+<title>Application/src/Game/Creature/Behavior/Run.java File Reference</title>
+<indexterm><primary>Application/src/Game/Creature/Behavior/Run.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interface_game_1_1_creature_1_1_behavior_1_1_run">Game.Creature.Behavior.Run</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_creature_1_1_behavior">Game.Creature.Behavior</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

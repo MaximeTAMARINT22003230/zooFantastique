@@ -1,0 +1,83 @@
+.TH "Game.Creature.Caracteristic.StorageLevel" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Creature.Caracteristic.StorageLevel
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStorageLevel\fP \fBlevelDown\fP ()"
+.br
+.ti -1c
+.RI "\fBStorageLevel\fP \fBfillStorage\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisEmpty\fP ()"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fBEMPTY\fP"
+.br
+.ti -1c
+.RI "\fBLITTLE\fP"
+.br
+.ti -1c
+.RI "\fBAVERAGE\fP"
+.br
+.ti -1c
+.RI "\fBMANY\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Enumeration representing the food storage levels of a creature\&. 
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBStorageLevel\fP Game\&.Creature\&.Caracteristic\&.StorageLevel\&.fillStorage ()"
+Fills the food storage to the highest level\&. 
+.PP
+\fBReturns\fP
+.RS 4
+the highest storage level\&. 
+.RE
+.PP
+
+.SS "boolean Game\&.Creature\&.Caracteristic\&.StorageLevel\&.isEmpty ()"
+Checks if the food storage is empty\&. 
+.PP
+\fBReturns\fP
+.RS 4
+true if the level is empty, otherwise false\&. 
+.RE
+.PP
+
+.SS "\fBStorageLevel\fP Game\&.Creature\&.Caracteristic\&.StorageLevel\&.levelDown ()"
+Gives the lower food storage level, if it exists\&. 
+.PP
+\fBReturns\fP
+.RS 4
+the lower storage level, otherwise the same level\&. 
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "Game\&.Creature\&.Caracteristic\&.StorageLevel\&.AVERAGE"
+
+.SS "Game\&.Creature\&.Caracteristic\&.StorageLevel\&.EMPTY"
+
+.SS "Game\&.Creature\&.Caracteristic\&.StorageLevel\&.LITTLE"
+
+.SS "Game\&.Creature\&.Caracteristic\&.StorageLevel\&.MANY"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

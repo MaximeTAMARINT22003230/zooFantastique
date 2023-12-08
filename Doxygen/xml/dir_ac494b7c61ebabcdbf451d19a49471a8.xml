@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_ac494b7c61ebabcdbf451d19a49471a8" kind="dir">
+    <compoundname>Application/src/Game/Creature/Caracteristic</compoundname>
+    <innerfile refid="_age_8java">Age.java</innerfile>
+    <innerfile refid="_fatigue_8java">Fatigue.java</innerfile>
+    <innerfile refid="_health_8java">Health.java</innerfile>
+    <innerfile refid="_height_8java">Height.java</innerfile>
+    <innerfile refid="_hunger_8java">Hunger.java</innerfile>
+    <innerfile refid="_sex_8java">Sex.java</innerfile>
+    <innerfile refid="_storage_level_8java">StorageLevel.java</innerfile>
+    <innerfile refid="_weight_8java">Weight.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/"/>
+  </compounddef>
+</doxygen>

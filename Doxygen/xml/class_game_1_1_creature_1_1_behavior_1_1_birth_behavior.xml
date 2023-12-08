@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>Game::Creature::Behavior::BirthBehavior</compoundname>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_behavior_1_1_laying" prot="public" virt="non-virtual">Game.Creature.Behavior.Laying</derivedcompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy" prot="public" virt="non-virtual">Game.Creature.Behavior.Pregnancy</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Game.Creature.Behavior.BirthBehavior.makeBaby</definition>
+        <argsstring>(Creature baby, Creature parent)</argsstring>
+        <name>makeBaby</name>
+        <qualifiedname>Game.Creature.Behavior.BirthBehavior.makeBaby</qualifiedname>
+        <reimplementedby refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1">makeBaby</reimplementedby>
+        <reimplementedby refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy_1afa44a57d1f92da5110766a442c996cd3">makeBaby</reimplementedby>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>baby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/BirthBehavior.java" line="9" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class used to give a comon type (and in the future, common properties) to the birthing behaviors </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Behavior.BirthBehavior</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior"/>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.Laying</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_laying"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Game.Creature.Behavior.Pregnancy</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_pregnancy"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Application/src/Game/Creature/Behavior/BirthBehavior.java" line="7" column="17" bodyfile="Application/src/Game/Creature/Behavior/BirthBehavior.java" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7" prot="public" virt="non-virtual"><scope>Game::Creature::Behavior::BirthBehavior</scope><name>makeBaby</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

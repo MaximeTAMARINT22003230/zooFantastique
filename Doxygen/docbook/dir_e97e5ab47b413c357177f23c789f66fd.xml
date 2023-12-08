@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_e97e5ab47b413c357177f23c789f66fd" xml:lang="en-US">
+<title>Application/src/Game/Logic/Cooldown Directory Reference</title>
+<indexterm><primary>Application/src/Game/Logic/Cooldown Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__cooldown_8java">Cooldown.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cooldownable_8java">Cooldownable.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cooldown_type_8java">CooldownType.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

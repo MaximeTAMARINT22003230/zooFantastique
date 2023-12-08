@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Fatigue Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue">Fatigue</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588">gettingFatigue</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue">Fatigue</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0">sleep</link> ()</para>
+</listitem>
+            <listitem><para>boolean <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6">isSleeping</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a70fef8b5c1ceb5bf91e915aac2427fc2">SLEEP</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ad6e72d0a7f57cbd3633f6db62b4a096b">EXHAUSTED</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a73909d803807e2a4758426d8a1b9ec90">SLEEPY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ab4a7a09e504d1deec9e283d540ad1045">GOOD</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d">EXCITED</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a3df47b8e5c822b3db8bf8c0eab6b6588"/><section>
+    <title>gettingFatigue()</title>
+<indexterm><primary>gettingFatigue</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>gettingFatigue</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue">Fatigue</link> Game.Creature.Caracteristic.Fatigue.gettingFatigue ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the lower fatigue stage if not already at its lowest </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a19e8bc93b75161ff7480cd92008ddcb6"/><section>
+    <title>isSleeping()</title>
+<indexterm><primary>isSleeping</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>isSleeping</secondary></indexterm>
+<para><computeroutput>boolean Game.Creature.Caracteristic.Fatigue.isSleeping ( )</computeroutput></para>
+<para>Checks if the current state is sleeping.</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>true if the ordinal value is 0 (indicating a sleeping state), otherwise returns false. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a59a2c6d68b42c5647821f50300f1dfe0"/><section>
+    <title>sleep()</title>
+<indexterm><primary>sleep</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>sleep</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue">Fatigue</link> Game.Creature.Caracteristic.Fatigue.sleep ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>the lowest fatigue stage </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a10db4793e414e1b28372953a53b9480d"/><section>
+    <title>EXCITED</title>
+<indexterm><primary>EXCITED</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>EXCITED</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Fatigue.EXCITED</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ad6e72d0a7f57cbd3633f6db62b4a096b"/><section>
+    <title>EXHAUSTED</title>
+<indexterm><primary>EXHAUSTED</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>EXHAUSTED</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Fatigue.EXHAUSTED</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1ab4a7a09e504d1deec9e283d540ad1045"/><section>
+    <title>GOOD</title>
+<indexterm><primary>GOOD</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>GOOD</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Fatigue.GOOD</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a70fef8b5c1ceb5bf91e915aac2427fc2"/><section>
+    <title>SLEEP</title>
+<indexterm><primary>SLEEP</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>SLEEP</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Fatigue.SLEEP</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_fatigue_1a73909d803807e2a4758426d8a1b9ec90"/><section>
+    <title>SLEEPY</title>
+<indexterm><primary>SLEEPY</primary><secondary>Game.Creature.Caracteristic.Fatigue</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Fatigue</primary><secondary>SLEEPY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Fatigue.SLEEPY</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__fatigue_8java">Fatigue.java</link></section>
+</section>

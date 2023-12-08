@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_cooldown_type_8java" kind="file" language="Java">
+    <compoundname>CooldownType.java</compoundname>
+    <innerclass refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" prot="public">Game::Logic::Cooldown::CooldownType</innerclass>
+    <innernamespace refid="namespace_game_1_1_logic_1_1_cooldown">Game::Logic::Cooldown</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Logic.Cooldown;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type" kindref="compound">CooldownType</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a13b32680814f35f1a6c56704f597f990" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>REFRESH,<sp/>INCUBATION,<sp/><ref refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a13b32680814f35f1a6c56704f597f990" kindref="member">END_LOVE_SEASON</ref>,<sp/>START_LOVE_SEASON</highlight></codeline>
+<codeline lineno="5" refid="enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type_1a0dafd9a39ec44aabd6efd021d35dbc10" refkind="member"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Logic/Cooldown/CooldownType.java"/>
+  </compounddef>
+</doxygen>

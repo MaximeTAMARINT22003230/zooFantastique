@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Height Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height">Height</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1aedac457c498de89159eedfd27f908b22">growUp</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af4cc12cb91f1bc486b1fa3cd0be34dde">SMALL</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af11ea108b2a87b7d57dea6b019088363">AVERAGE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a9843fcc14e020304f9a50d0e90aa6b74">BIG</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a3643992998830ebf5a4167d0da75f931">HUMONGOUS</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1aedac457c498de89159eedfd27f908b22"/><section>
+    <title>growUp()</title>
+<indexterm><primary>growUp</primary><secondary>Game.Creature.Caracteristic.Height</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary><secondary>growUp</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_height">Height</link> Game.Creature.Caracteristic.Height.growUp ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>to the highest stage if not already at the top </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af11ea108b2a87b7d57dea6b019088363"/><section>
+    <title>AVERAGE</title>
+<indexterm><primary>AVERAGE</primary><secondary>Game.Creature.Caracteristic.Height</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary><secondary>AVERAGE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Height.AVERAGE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a9843fcc14e020304f9a50d0e90aa6b74"/><section>
+    <title>BIG</title>
+<indexterm><primary>BIG</primary><secondary>Game.Creature.Caracteristic.Height</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary><secondary>BIG</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Height.BIG</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1a3643992998830ebf5a4167d0da75f931"/><section>
+    <title>HUMONGOUS</title>
+<indexterm><primary>HUMONGOUS</primary><secondary>Game.Creature.Caracteristic.Height</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary><secondary>HUMONGOUS</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Height.HUMONGOUS</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_height_1af4cc12cb91f1bc486b1fa3cd0be34dde"/><section>
+    <title>SMALL</title>
+<indexterm><primary>SMALL</primary><secondary>Game.Creature.Caracteristic.Height</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Height</primary><secondary>SMALL</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Height.SMALL</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__height_8java">Height.java</link></section>
+</section>

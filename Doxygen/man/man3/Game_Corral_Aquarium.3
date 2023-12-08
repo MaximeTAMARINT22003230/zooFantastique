@@ -1,0 +1,150 @@
+.TH "Game.Corral.Aquarium" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Corral.Aquarium
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBGame\&.Corral\&.Corral\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBaddCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "Creature \fBremoveCreature\fP (Creature creature)"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBGame\&.Corral\&.Corral\fP
+.in +1c
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "void \fBclean\fP ()"
+.br
+.ti -1c
+.RI "Hygiene \fBgetHygiene\fP ()"
+.br
+.ti -1c
+.RI "void \fBkill\fP (Creature creature)"
+.br
+.ti -1c
+.RI "int \fBcount\fP ()"
+.br
+.ti -1c
+.RI "void \fBfeed\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhasFreeSpace\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (Creature searched)"
+.br
+.ti -1c
+.RI "boolean \fBempty\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "List< Creature > \fBgetCreatures\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBdestroy\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcheckCreature\fP (Creature creature)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBAquarium\fP \fBinaugurate\fP (String \fBname\fP, String \fBsize\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "ArrayList< Creature > \fBcompleteTable\fP ()"
+.br
+.in -1c
+
+Protected Member Functions inherited from \fBGame\&.Corral\&.Corral\fP
+.in +1c
+.ti -1c
+.RI "\fBCorral\fP (String \fBname\fP, String \fBsize\fP)"
+.br
+.ti -1c
+.RI "void \fBgivesFoodToCreature\fP ()"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+
+
+Protected Attributes inherited from \fBGame\&.Corral\&.Corral\fP
+.in +1c
+.ti -1c
+.RI "String \fBname\fP"
+.br
+.ti -1c
+.RI "String \fBsize\fP"
+.br
+.ti -1c
+.RI "int \fBmax\fP"
+.br
+.ti -1c
+.RI "Hygiene \fBhygiene\fP"
+.br
+.ti -1c
+.RI "StorageLevel \fBfood\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents an aquarium 
+.SH "Member Function Documentation"
+.PP 
+.SS "void Game\&.Corral\&.Aquarium\&.addCreature (Creature creature)"
+
+.PP
+Reimplemented from \fBGame\&.Corral\&.Corral\fP\&.
+.SS "ArrayList< Creature > Game\&.Corral\&.Aquarium\&.completeTable ()\fC [protected]\fP"
+
+.PP
+Reimplemented from \fBGame\&.Corral\&.Corral\fP\&.
+.SS "static \fBAquarium\fP Game\&.Corral\&.Aquarium\&.inaugurate (String name, String size)\fC [static]\fP"
+Creates and returns a new instance of Aquarium\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name of the aquarium\&. 
+.br
+\fIsize\fP The size of the aquarium\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A new Aquarium instance\&. 
+.RE
+.PP
+
+.PP
+Reimplemented from \fBGame\&.Corral\&.Corral\fP\&.
+.SS "Creature Game\&.Corral\&.Aquarium\&.removeCreature (Creature creature)"
+
+.PP
+Reimplemented from \fBGame\&.Corral\&.Corral\fP\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

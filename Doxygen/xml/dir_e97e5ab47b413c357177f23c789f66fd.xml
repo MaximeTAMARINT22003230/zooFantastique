@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_e97e5ab47b413c357177f23c789f66fd" kind="dir">
+    <compoundname>Application/src/Game/Logic/Cooldown</compoundname>
+    <innerfile refid="_cooldown_8java">Cooldown.java</innerfile>
+    <innerfile refid="_cooldownable_8java">Cooldownable.java</innerfile>
+    <innerfile refid="_cooldown_type_8java">CooldownType.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Logic/Cooldown/"/>
+  </compounddef>
+</doxygen>

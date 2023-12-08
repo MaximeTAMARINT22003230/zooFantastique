@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_corral_1_1_corral" kind="class" language="Java" prot="public">
+    <compoundname>Game::Corral::Corral</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+    <derivedcompoundref refid="class_game_1_1_corral_1_1_aquarium" prot="public" virt="non-virtual">Game.Corral.Aquarium</derivedcompoundref>
+    <derivedcompoundref refid="class_game_1_1_corral_1_1_aviary" prot="public" virt="non-virtual">Game.Corral.Aviary</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1a420af6856a97318e25e0842e0e3b2c73" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int Game.Corral.Corral.MAX</definition>
+        <argsstring></argsstring>
+        <name>MAX</name>
+        <qualifiedname>Game.Corral.Corral.MAX</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="20" column="30" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Game.Corral.Corral.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Game.Corral.Corral.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="21" column="22" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" compoundref="_corral_8java" startline="29" endline="38">Game.Corral.Corral.Corral</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9" compoundref="_corral_8java" startline="175" endline="177">Game.Corral.Corral.getName</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c" compoundref="_aquarium_8java" startline="27" endline="29">Game.Corral.Aquarium.inaugurate</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003" compoundref="_aviary_8java" startline="28" endline="30">Game.Corral.Aviary.inaugurate</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92" compoundref="_corral_8java" startline="46" endline="49">Game.Corral.Corral.inaugurate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Game.Corral.Corral.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>Game.Corral.Corral.size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="22" column="22" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" compoundref="_corral_8java" startline="29" endline="38">Game.Corral.Corral.Corral</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c" compoundref="_aquarium_8java" startline="27" endline="29">Game.Corral.Aquarium.inaugurate</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003" compoundref="_aviary_8java" startline="28" endline="30">Game.Corral.Aviary.inaugurate</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92" compoundref="_corral_8java" startline="46" endline="49">Game.Corral.Corral.inaugurate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Game.Corral.Corral.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>Game.Corral.Corral.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="23" column="19" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c" prot="protected" static="no" mutable="no">
+        <type>Hygiene</type>
+        <definition>Hygiene Game.Corral.Corral.hygiene</definition>
+        <argsstring></argsstring>
+        <name>hygiene</name>
+        <qualifiedname>Game.Corral.Corral.hygiene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="25" column="23" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e" compoundref="_corral_8java" startline="89" endline="91">Game.Corral.Corral.getHygiene</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e" prot="protected" static="no" mutable="no">
+        <type>StorageLevel</type>
+        <definition>StorageLevel Game.Corral.Corral.food</definition>
+        <argsstring></argsstring>
+        <name>food</name>
+        <qualifiedname>Game.Corral.Corral.food</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="27" column="28" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324" compoundref="_corral_8java" startline="132" endline="135">Game.Corral.Corral.feed</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1a6e35bd70677e534fac6f15dd6f25abfd" prot="private" static="no" mutable="no">
+        <type>List&lt; Run &gt;</type>
+        <definition>List&lt;Run&gt; Game.Corral.Corral.creatures</definition>
+        <argsstring></argsstring>
+        <name>creatures</name>
+        <qualifiedname>Game.Corral.Corral.creatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="24" column="18" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_game_1_1_corral_1_1_corral_1a55e4167969d90b9efffce2c40c01004f" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Game.Corral.Corral.isDestroyed</definition>
+        <argsstring></argsstring>
+        <name>isDestroyed</name>
+        <qualifiedname>Game.Corral.Corral.isDestroyed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="26" column="21" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Corral.Corral.Corral</definition>
+        <argsstring>(String name, String size)</argsstring>
+        <name>Corral</name>
+        <qualifiedname>Game.Corral.Corral.Corral</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="29" column="15" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="29" bodyend="38"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" compoundref="_corral_8java" startline="21">Game.Corral.Corral.name</references>
+        <references refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" compoundref="_corral_8java" startline="22">Game.Corral.Corral.size</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Creature &gt;</type>
+        <definition>ArrayList&lt; Creature &gt; Game.Corral.Corral.completeTable</definition>
+        <argsstring>()</argsstring>
+        <name>completeTable</name>
+        <qualifiedname>Game.Corral.Corral.completeTable</qualifiedname>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aquarium_1a7e006c7fef7c4e001e41580dfdd46ace">completeTable</reimplementedby>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aviary_1a0272e0e0b6b5c5fcdb18d640c4af722b">completeTable</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="51" column="25" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="51" bodyend="57"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" compoundref="_corral_8java" startline="136" endline="148">Game.Corral.Corral.givesFoodToCreature</referencedby>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36" compoundref="_corral_8java" startline="59" endline="67">Game.Corral.Corral.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.givesFoodToCreature</definition>
+        <argsstring>()</argsstring>
+        <name>givesFoodToCreature</name>
+        <qualifiedname>Game.Corral.Corral.givesFoodToCreature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="136" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="136" bodyend="148"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118" compoundref="_corral_8java" startline="51" endline="57">Game.Corral.Corral.completeTable</references>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f" compoundref="_corral_8java" startline="193" endline="204">Game.Corral.Corral.run</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_corral_1_1_corral" kindref="compound">Corral</ref></type>
+        <definition>static Corral Game.Corral.Corral.inaugurate</definition>
+        <argsstring>(String name, String size)</argsstring>
+        <name>inaugurate</name>
+        <qualifiedname>Game.Corral.Corral.inaugurate</qualifiedname>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aquarium_1a135d2c45c0fab31f707486d96f3e4f2c">inaugurate</reimplementedby>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aviary_1ad37019b879f265c123e48a328e43b003">inaugurate</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates and returns a new instance of Corral.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the corral. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The size of the corral. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A new Corral instance. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="46" column="26" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="46" bodyend="49"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" compoundref="_corral_8java" startline="21">Game.Corral.Corral.name</references>
+        <references refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" compoundref="_corral_8java" startline="22">Game.Corral.Corral.size</references>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Corral.Corral.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Game.Corral.Corral.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="59" column="19" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="59" bodyend="67"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118" compoundref="_corral_8java" startline="51" endline="57">Game.Corral.Corral.completeTable</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.addCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>addCreature</name>
+        <qualifiedname>Game.Corral.Corral.addCreature</qualifiedname>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aquarium_1a73ba81df326177002d30865cb46a783c">addCreature</reimplementedby>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aviary_1a619a25c7796d1ad46c0e7b6de11b5536">addCreature</reimplementedby>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="68" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="68" bodyend="78"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" compoundref="_corral_8java" startline="92" endline="127">Game.Corral.Corral.kill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Creature</type>
+        <definition>Creature Game.Corral.Corral.removeCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>removeCreature</name>
+        <qualifiedname>Game.Corral.Corral.removeCreature</qualifiedname>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aquarium_1a56489b96cf457f612e13b3fc1c7c3148">removeCreature</reimplementedby>
+        <reimplementedby refid="class_game_1_1_corral_1_1_aviary_1a565ade6035db5982ec86e4e000f55b0e">removeCreature</reimplementedby>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="80" column="21" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="80" bodyend="83"/>
+        <referencedby refid="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" compoundref="_corral_8java" startline="92" endline="127">Game.Corral.Corral.kill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.clean</definition>
+        <argsstring>()</argsstring>
+        <name>clean</name>
+        <qualifiedname>Game.Corral.Corral.clean</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="84" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Hygiene</type>
+        <definition>Hygiene Game.Corral.Corral.getHygiene</definition>
+        <argsstring>()</argsstring>
+        <name>getHygiene</name>
+        <qualifiedname>Game.Corral.Corral.getHygiene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="89" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="89" bodyend="91"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c" compoundref="_corral_8java" startline="25">Game.Corral.Corral.hygiene</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.kill</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>kill</name>
+        <qualifiedname>Game.Corral.Corral.kill</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="92" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="92" bodyend="127"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb" compoundref="_corral_8java" startline="68" endline="78">Game.Corral.Corral.addCreature</references>
+        <references refid="class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842" compoundref="_corral_8java" startline="80" endline="83">Game.Corral.Corral.removeCreature</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Game.Corral.Corral.count</definition>
+        <argsstring>()</argsstring>
+        <name>count</name>
+        <qualifiedname>Game.Corral.Corral.count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="128" column="16" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.feed</definition>
+        <argsstring>()</argsstring>
+        <name>feed</name>
+        <qualifiedname>Game.Corral.Corral.feed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="132" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="132" bodyend="135"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e" compoundref="_corral_8java" startline="27">Game.Corral.Corral.food</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Corral.Corral.hasFreeSpace</definition>
+        <argsstring>()</argsstring>
+        <name>hasFreeSpace</name>
+        <qualifiedname>Game.Corral.Corral.hasFreeSpace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="149" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="149" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Corral.Corral.contains</definition>
+        <argsstring>(Creature searched)</argsstring>
+        <name>contains</name>
+        <qualifiedname>Game.Corral.Corral.contains</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>searched</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="154" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="154" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Corral.Corral.empty</definition>
+        <argsstring>()</argsstring>
+        <name>empty</name>
+        <qualifiedname>Game.Corral.Corral.empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="165" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="165" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Game.Corral.Corral.getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <qualifiedname>Game.Corral.Corral.getName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the name of the corral.</para>
+<para><simplesect kind="return"><para>The name of the corral. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="175" column="19" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="175" bodyend="177"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" compoundref="_corral_8java" startline="21">Game.Corral.Corral.name</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Creature &gt;</type>
+        <definition>List&lt; Creature &gt; Game.Corral.Corral.getCreatures</definition>
+        <argsstring>()</argsstring>
+        <name>getCreatures</name>
+        <qualifiedname>Game.Corral.Corral.getCreatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves a list of creatures in the corral.</para>
+<para><simplesect kind="return"><para>A list of creatures. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="183" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="183" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <qualifiedname>Game.Corral.Corral.run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="193" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="193" bodyend="204"/>
+        <references refid="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" compoundref="_corral_8java" startline="136" endline="148">Game.Corral.Corral.givesFoodToCreature</references>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Corral.Corral.destroy</definition>
+        <argsstring>()</argsstring>
+        <name>destroy</name>
+        <qualifiedname>Game.Corral.Corral.destroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="205" column="17" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Corral.Corral.checkCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>checkCreature</name>
+        <qualifiedname>Game.Corral.Corral.checkCreature</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Corral/Corral.java" line="209" column="20" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="209" bodyend="225"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an enclosure to house creatures with the ability to run. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Corral.Corral</label>
+        <link refid="class_game_1_1_corral_1_1_corral"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Game.Corral.Aquarium</label>
+        <link refid="class_game_1_1_corral_1_1_aquarium"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Game.Corral.Aviary</label>
+        <link refid="class_game_1_1_corral_1_1_aviary"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Corral.Corral</label>
+        <link refid="class_game_1_1_corral_1_1_corral"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Corral/Corral.java" line="19" column="7" bodyfile="Application/src/Game/Corral/Corral.java" bodystart="19" bodyend="227"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_corral_1_1_corral_1a4eb96484fccc68b956db17850da323cb" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>addCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1aa89a04aab444808c1f652192c956d21d" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>checkCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a6d69da37f88ade3db3fe24421c6e764f" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>clean</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ac53a59aa723f605d20917cf8ab9dc118" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>completeTable</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a49409c79135b5931d39b4065cfcee950" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>contains</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a469d39dab29a288d55d2cf00c16c2142" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>Corral</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a71d14e406f760496ad6415eec5a2eddb" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>count</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a6e35bd70677e534fac6f15dd6f25abfd" prot="private" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>creatures</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a8410c7cf2d4bf77048268c86f6ee9428" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>destroy</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a831ec39876e9b24c7055fc16bb143884" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>empty</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a654e7fb9c184546579b41b8824f13324" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>feed</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a02712e060018d61d47ebc2f041fe061e" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>food</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a711fee17bb7630a2cf3fe558a92a45fa" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>getCreatures</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ad3c3e61af4565e8703956f5d88d7934e" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>getHygiene</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a0796131ec6bca52d831571b25dfd52b9" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>getName</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a596224927d09419149c4fb8cd9ec9d41" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>givesFoodToCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1abfe1dca7aaa21cf3a5791a04776ef887" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>hasFreeSpace</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1afc1cb1c5142247394b871d2863366b8c" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>hygiene</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a62177fbdeb12a9591efcf5a355a3dc92" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>inaugurate</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a55e4167969d90b9efffce2c40c01004f" prot="private" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>isDestroyed</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1abbaa9280544ee83386f1e2de2ba571e0" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>kill</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a420af6856a97318e25e0842e0e3b2c73" prot="private" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>MAX</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a2814835a3d9680a61cf2013b27fae656" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>max</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ad75d0df6197ef59cef15d1d253dabc06" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>name</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a2331a78b22b2f194aa8acbf352621842" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>removeCreature</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a0b93ef3ab5a22c6b9b39a3ff6e43122f" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>run</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1ac97d65ddebea904b51ad4e0f42e25e46" prot="protected" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>size</name></member>
+      <member refid="class_game_1_1_corral_1_1_corral_1a7bad467a21048d48671e1775b2fb5d36" prot="public" virt="non-virtual"><scope>Game::Corral::Corral</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_player" kind="namespace" language="Java">
+    <compoundname>Player</compoundname>
+    <innerclass refid="class_player_1_1_asker" prot="public">Player::Asker</innerclass>
+    <innerclass refid="class_player_1_1_controler" prot="public">Player::Controler</innerclass>
+    <innerclass refid="class_player_1_1_creator" prot="public">Player::Creator</innerclass>
+    <innerclass refid="class_player_1_1_interface" prot="public">Player::Interface</innerclass>
+    <innerclass refid="class_player_1_1_zoo" prot="public">Player::Zoo</innerclass>
+    <innerclass refid="class_player_1_1_zoo_master" prot="public">Player::ZooMaster</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Player/Asker.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

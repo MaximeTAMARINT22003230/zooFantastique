@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_strength_8java" kind="file" language="Java">
+    <compoundname>Strength.java</compoundname>
+    <innerclass refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" prot="public">Game::Lycantropus::Caracteristics::Strength</innerclass>
+    <innernamespace refid="namespace_game_1_1_lycantropus_1_1_caracteristics">Game::Lycantropus::Caracteristics</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Lycantropus.Caracteristics;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" kindref="compound">Strength</ref><sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Lycantropus/Caracteristics/Strength.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__strength_8java" xml:lang="en-US">
+<title>Application/src/Game/Lycantropus/Caracteristics/Strength.java File Reference</title>
+<indexterm><primary>Application/src/Game/Lycantropus/Caracteristics/Strength.java</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>enum <link linkend="_enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength">Game.Lycantropus.Caracteristics.Strength</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_lycantropus_1_1_caracteristics">Game.Lycantropus.Caracteristics</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

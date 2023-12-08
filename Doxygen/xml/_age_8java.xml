@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_age_8java" kind="file" language="Java">
+    <compoundname>Age.java</compoundname>
+    <includes local="no">Player.Controler</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Application/src/Game/Creature/Caracteristic/Age.java</label>
+        <link refid="_age_8java"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Player.Controler</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" prot="public">Game::Creature::Caracteristic::Age</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_caracteristic">Game::Creature::Caracteristic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_game_1_1_creature_1_1_caracteristic" refkind="compound"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Caracteristic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespace_player" kindref="compound">Player</ref>.<ref refid="class_player_1_1_controler" kindref="compound">Controler</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" kindref="compound">Age</ref><sp/>{</highlight></codeline>
+<codeline lineno="6" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a9a2e90a74f078038fc635079b54384fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>BABY,<sp/>CHILD,<sp/>TEEN,<sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a9a2e90a74f078038fc635079b54384fc" kindref="member">ADULT</ref>,<sp/>ELDER;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a2220a6ced24060d90e47d1e88104022b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age" kindref="compound">Age</ref><sp/><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a2220a6ced24060d90e47d1e88104022b" kindref="member">gettingOder</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(ordinal()<sp/>&lt;<sp/>values().length-1)<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Controler.getInstance().notification(</highlight><highlight class="stringliteral">&quot;prend<sp/>de<sp/>l&apos;age&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()+1];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>values()[ordinal()];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Caracteristic/Age.java"/>
+  </compounddef>
+</doxygen>

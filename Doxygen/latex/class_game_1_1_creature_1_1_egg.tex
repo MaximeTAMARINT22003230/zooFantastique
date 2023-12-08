@@ -1,0 +1,61 @@
+\doxysection{Game.\+Creature.\+Egg Class Reference}
+\hypertarget{class_game_1_1_creature_1_1_egg}{}\label{class_game_1_1_creature_1_1_egg}\index{Game.Creature.Egg@{Game.Creature.Egg}}
+Inheritance diagram for Game.\+Creature.\+Egg\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_1_1_creature_1_1_egg}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_1_1_creature_1_1_egg_ade97a2141dd2eefecd995793840a0e83}{hatch}} ()
+\item 
+void \mbox{\hyperlink{class_game_1_1_creature_1_1_egg_a4d6ddd1fd0b294d724f5ccd0bd4ede50}{run}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_game_1_1_creature_1_1_egg}{Egg}} \mbox{\hyperlink{class_game_1_1_creature_1_1_egg_a6b8e8f942d989b5f76513ee28890d908}{lay}} (\mbox{\hyperlink{class_game_1_1_creature_1_1_creature}{Creature}} creature, Corral corral)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents an egg that can hatch into a creature. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game_1_1_creature_1_1_egg_ade97a2141dd2eefecd995793840a0e83}\label{class_game_1_1_creature_1_1_egg_ade97a2141dd2eefecd995793840a0e83} 
+\index{Game.Creature.Egg@{Game.Creature.Egg}!hatch@{hatch}}
+\index{hatch@{hatch}!Game.Creature.Egg@{Game.Creature.Egg}}
+\doxysubsubsection{\texorpdfstring{hatch()}{hatch()}}
+{\footnotesize\ttfamily void Game.\+Creature.\+Egg.\+hatch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Hatches the egg, adding the creature to the corral after the hatching time. \Hypertarget{class_game_1_1_creature_1_1_egg_a6b8e8f942d989b5f76513ee28890d908}\label{class_game_1_1_creature_1_1_egg_a6b8e8f942d989b5f76513ee28890d908} 
+\index{Game.Creature.Egg@{Game.Creature.Egg}!lay@{lay}}
+\index{lay@{lay}!Game.Creature.Egg@{Game.Creature.Egg}}
+\doxysubsubsection{\texorpdfstring{lay()}{lay()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_game_1_1_creature_1_1_egg}{Egg}} Game.\+Creature.\+Egg.\+lay (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_1_1_creature_1_1_creature}{Creature}}}]{creature,  }\item[{Corral}]{corral }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Creates and returns a new Egg laid by a creature in a specific corral.
+
+
+\begin{DoxyParams}{Parameters}
+{\em creature} & The creature laying the egg. \\
+\hline
+{\em corral} & The corral where the egg is laid. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A new Egg instance. 
+\end{DoxyReturn}
+\Hypertarget{class_game_1_1_creature_1_1_egg_a4d6ddd1fd0b294d724f5ccd0bd4ede50}\label{class_game_1_1_creature_1_1_egg_a4d6ddd1fd0b294d724f5ccd0bd4ede50} 
+\index{Game.Creature.Egg@{Game.Creature.Egg}!run@{run}}
+\index{run@{run}!Game.Creature.Egg@{Game.Creature.Egg}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Game.\+Creature.\+Egg.\+run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Runs a thread to simulate the hatching process after the specified hatch time. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Application/src/\+Game/\+Creature/\mbox{\hyperlink{_egg_8java}{Egg.\+java}}\end{DoxyCompactItemize}

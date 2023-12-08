@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_creature" xml:lang="en-US">
+<title>Package Game.Creature</title>
+<indexterm><primary>Game.Creature</primary></indexterm>
+<simplesect>
+    <title>Packages    </title>
+        <itemizedlist>
+            <listitem><para>package <link linkend="_namespace_game_1_1_creature_1_1_behavior">Behavior</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespace_game_1_1_creature_1_1_bestiary">Bestiary</link></para>
+</listitem>
+            <listitem><para>package <link linkend="_namespace_game_1_1_creature_1_1_caracteristic">Caracteristic</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_creature">Creature</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_egg">Egg</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_oviparian">Oviparian</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_viviparian">Viviparian</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

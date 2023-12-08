@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Weight</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a862c88cc7ffd98d9152c25f032f2216f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Weight.LIGHT</definition>
+        <argsstring></argsstring>
+        <name>LIGHT</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.LIGHT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Weight.AVERAGE</definition>
+        <argsstring></argsstring>
+        <name>AVERAGE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.AVERAGE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1ad4dce31fd094d8a661431448211de0e7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Weight.HEAVY</definition>
+        <argsstring></argsstring>
+        <name>HEAVY</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.HEAVY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a37d2352f146648cda9704418afb7b89a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Weight.MASSIVE</definition>
+        <argsstring></argsstring>
+        <name>MASSIVE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.MASSIVE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kindref="compound">Weight</ref></type>
+        <definition>Weight Game.Creature.Caracteristic.Weight.toSwell</definition>
+        <argsstring>()</argsstring>
+        <name>toSwell</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.toSwell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the next width level if not already at the top </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="9" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight" kindref="compound">Weight</ref></type>
+        <definition>Weight Game.Creature.Caracteristic.Weight.toLoseWeight</definition>
+        <argsstring>()</argsstring>
+        <name>toLoseWeight</name>
+        <qualifiedname>Game.Creature.Caracteristic.Weight.toLoseWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the previous width level if it is not already at its lowest </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="21" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="21" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Weight.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Weight.java" bodystart="3" bodyend="29"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a120ddf56c3284dc6b6e75f51f2403058" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>AVERAGE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1ad4dce31fd094d8a661431448211de0e7" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>HEAVY</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a862c88cc7ffd98d9152c25f032f2216f" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>LIGHT</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a37d2352f146648cda9704418afb7b89a" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>MASSIVE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1af04564d0a5d283b9cb627bd31cb428f2" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>toLoseWeight</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_weight_1a7df26d90efa12a94c710cb8dff616a6e" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Weight</scope><name>toSwell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

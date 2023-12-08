@@ -1,0 +1,689 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_player_1_1_zoo" kind="class" language="Java" prot="public">
+    <compoundname>Player::Zoo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Cooldownable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a6bc1c7861a1301e5c4e31996a5136610" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int Player.Zoo.MAX</definition>
+        <argsstring></argsstring>
+        <name>MAX</name>
+        <qualifiedname>Player.Zoo.MAX</qualifiedname>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="20" column="23" bodyfile="Application/src/Player/Zoo.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a6411a038203541fbd417d639b33c455a" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int Player.Zoo.LOVE_SEASON_DURATION</definition>
+        <argsstring></argsstring>
+        <name>LOVE_SEASON_DURATION</name>
+        <qualifiedname>Player.Zoo.LOVE_SEASON_DURATION</qualifiedname>
+        <initializer>= 40000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="21" column="23" bodyfile="Application/src/Player/Zoo.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1aedd9cda16f69cb681855f625816e3c93" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Player.Zoo.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>Player.Zoo.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="22" column="20" bodyfile="Application/src/Player/Zoo.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a34df4204453c93ab30cece2c468dfe7c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Player.Zoo.maxCorral</definition>
+        <argsstring></argsstring>
+        <name>maxCorral</name>
+        <qualifiedname>Player.Zoo.maxCorral</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="24" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a606a6cb792be05a223343f8ac105fc3f" prot="private" static="no" mutable="no">
+        <type>List&lt; Corral &gt;</type>
+        <definition>List&lt;Corral&gt; Player.Zoo.corrals</definition>
+        <argsstring></argsstring>
+        <name>corrals</name>
+        <qualifiedname>Player.Zoo.corrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="25" column="18" bodyfile="Application/src/Player/Zoo.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_1_1_zoo_master" kindref="compound">ZooMaster</ref></type>
+        <definition>ZooMaster Player.Zoo.zooMaster</definition>
+        <argsstring></argsstring>
+        <name>zooMaster</name>
+        <qualifiedname>Player.Zoo.zooMaster</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="23" column="22" bodyfile="Application/src/Player/Zoo.java" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" compoundref="_zoo_8java" startline="36" endline="42">Player.Zoo.main</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444" compoundref="_zoo_8java" startline="43" endline="46">Player.Zoo.opening</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d" prot="public" static="no" mutable="no">
+        <type>List&lt; Pack &gt;</type>
+        <definition>List&lt;Pack&gt; Player.Zoo.colony</definition>
+        <argsstring></argsstring>
+        <name>colony</name>
+        <qualifiedname>Player.Zoo.colony</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="26" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8" compoundref="_zoo_8java" startline="233" endline="242">Player.Zoo.spread</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_1_1_zoo_1a40857a4576781c9c27e483f75c5f809d" prot="public" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Player.Zoo.loveSeason</definition>
+        <argsstring></argsstring>
+        <name>loveSeason</name>
+        <qualifiedname>Player.Zoo.loveSeason</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="27" column="20" bodyfile="Application/src/Player/Zoo.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1_1_zoo_1a91c9fb2e6fb9b74f2df2e6e67b0b3d8d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Player.Zoo.Zoo</definition>
+        <argsstring>(String name, ZooMaster zooMaster)</argsstring>
+        <name>Zoo</name>
+        <qualifiedname>Player.Zoo.Zoo</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_1_1_zoo_master" kindref="compound">ZooMaster</ref></type>
+          <declname>zooMaster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="28" column="13" bodyfile="Application/src/Player/Zoo.java" bodystart="28" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a244b0ad217c77faa5f9dbe88ffa28fd4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.Zoo.showOnlyCorrals</definition>
+        <argsstring>()</argsstring>
+        <name>showOnlyCorrals</name>
+        <qualifiedname>Player.Zoo.showOnlyCorrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="74" column="20" bodyfile="Application/src/Player/Zoo.java" bodystart="74" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a73bc5787395c5df55ce32d7a012910a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.Zoo.showCorrals</definition>
+        <argsstring>()</argsstring>
+        <name>showCorrals</name>
+        <qualifiedname>Player.Zoo.showCorrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="82" column="20" bodyfile="Application/src/Player/Zoo.java" bodystart="82" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1aa98cffbe75a902a12916e1c3d3650d9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Player.Zoo.exists</definition>
+        <argsstring>(Corral check)</argsstring>
+        <name>exists</name>
+        <qualifiedname>Player.Zoo.exists</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>check</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="146" column="21" bodyfile="Application/src/Player/Zoo.java" bodystart="146" bodyend="155"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Player.Zoo.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>Player.Zoo.main</qualifiedname>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="36" column="24" bodyfile="Application/src/Player/Zoo.java" bodystart="36" bodyend="42"/>
+        <references refid="class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079" compoundref="_controler_8java" startline="22">Player.Controler.game</references>
+        <references refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" compoundref="_controler_8java" startline="35" endline="43">Player.Controler.getInstance</references>
+        <references refid="class_player_1_1_zoo_master_1a0b556d416cbaa136f810f568180a1312" compoundref="_zoo_master_8java" startline="79" endline="146">Player.ZooMaster.options</references>
+        <references refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" compoundref="_controler_8java" startline="15">Player.Controler.zoo</references>
+        <references refid="class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1" compoundref="_zoo_8java" startline="23">Player.Zoo.zooMaster</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_1_1_zoo" kindref="compound">Zoo</ref></type>
+        <definition>static Zoo Player.Zoo.opening</definition>
+        <argsstring>(String name, ZooMaster zooMaster)</argsstring>
+        <name>opening</name>
+        <qualifiedname>Player.Zoo.opening</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_player_1_1_zoo_master" kindref="compound">ZooMaster</ref></type>
+          <declname>zooMaster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="43" column="23" bodyfile="Application/src/Player/Zoo.java" bodystart="43" bodyend="46"/>
+        <references refid="class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1" compoundref="_zoo_8java" startline="23">Player.Zoo.zooMaster</references>
+        <referencedby refid="class_player_1_1_creator_1ab11c1e3690a008f674ca1962e6255e6b" compoundref="_creator_8java" startline="25" endline="28">Player.Creator.createYourZoo</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.Zoo.showCreatures</definition>
+        <argsstring>()</argsstring>
+        <name>showCreatures</name>
+        <qualifiedname>Player.Zoo.showCreatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="47" column="19" bodyfile="Application/src/Player/Zoo.java" bodystart="47" bodyend="54"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" compoundref="_asker_8java" startline="53" endline="64">Player.Asker.creature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a652181903ef7fae670026374366689d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Player.Zoo.countCreatures</definition>
+        <argsstring>()</argsstring>
+        <name>countCreatures</name>
+        <qualifiedname>Player.Zoo.countCreatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="55" column="16" bodyfile="Application/src/Player/Zoo.java" bodystart="55" bodyend="62"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Player.Zoo.countCorrals</definition>
+        <argsstring>()</argsstring>
+        <name>countCorrals</name>
+        <qualifiedname>Player.Zoo.countCorrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="63" column="16" bodyfile="Application/src/Player/Zoo.java" bodystart="63" bodyend="66"/>
+        <referencedby refid="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" compoundref="_zoo_8java" startline="110" endline="118">Player.Zoo.addCorral</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1afbd3e5247984a0645c764179a4d4e503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.Zoo.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>Player.Zoo.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="67" column="19" bodyfile="Application/src/Player/Zoo.java" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Player.Zoo.exists</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>exists</name>
+        <qualifiedname>Player.Zoo.exists</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="90" column="20" bodyfile="Application/src/Player/Zoo.java" bodystart="90" bodyend="99"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" compoundref="_zoo_8java" startline="156" endline="163">Player.Zoo.addCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" compoundref="_zoo_8java" startline="176" endline="186">Player.Zoo.kill</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" compoundref="_zoo_8java" startline="164" endline="174">Player.Zoo.removeCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" compoundref="_zoo_8java" startline="188" endline="198">Player.Zoo.reviveCreature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Corral</type>
+        <definition>Corral Player.Zoo.corralOf</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>corralOf</name>
+        <qualifiedname>Player.Zoo.corralOf</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="100" column="19" bodyfile="Application/src/Player/Zoo.java" bodystart="100" bodyend="109"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" compoundref="_zoo_8java" startline="176" endline="186">Player.Zoo.kill</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" compoundref="_zoo_8java" startline="164" endline="174">Player.Zoo.removeCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" compoundref="_zoo_8java" startline="188" endline="198">Player.Zoo.reviveCreature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.addCorral</definition>
+        <argsstring>(Corral corral)</argsstring>
+        <name>addCorral</name>
+        <qualifiedname>Player.Zoo.addCorral</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="110" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="110" bodyend="118"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <references refid="class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1" compoundref="_zoo_8java" startline="63" endline="66">Player.Zoo.countCorrals</references>
+        <referencedby refid="class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543" compoundref="_controler_8java" startline="75" endline="79">Player.Controler.addCorral</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String Player.Zoo.corrals</definition>
+        <argsstring>()</argsstring>
+        <name>corrals</name>
+        <qualifiedname>Player.Zoo.corrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="119" column="19" bodyfile="Application/src/Player/Zoo.java" bodystart="119" bodyend="126"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Corral</type>
+        <definition>Corral Player.Zoo.corral</definition>
+        <argsstring>(String string)</argsstring>
+        <name>corral</name>
+        <qualifiedname>Player.Zoo.corral</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="127" column="19" bodyfile="Application/src/Player/Zoo.java" bodystart="127" bodyend="136"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" compoundref="_zoo_8java" startline="110" endline="118">Player.Zoo.addCorral</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" compoundref="_zoo_8java" startline="156" endline="163">Player.Zoo.addCreature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" compoundref="_zoo_8java" startline="100" endline="109">Player.Zoo.corralOf</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6" compoundref="_zoo_8java" startline="119" endline="126">Player.Zoo.corrals</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a652181903ef7fae670026374366689d9" compoundref="_zoo_8java" startline="55" endline="62">Player.Zoo.countCreatures</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" compoundref="_zoo_8java" startline="90" endline="99">Player.Zoo.exists</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0" compoundref="_zoo_8java" startline="204" endline="215">Player.Zoo.getCreatures</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30" compoundref="_zoo_8java" startline="137" endline="141">Player.Zoo.removeCorral</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703" compoundref="_zoo_8java" startline="47" endline="54">Player.Zoo.showCreatures</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.removeCorral</definition>
+        <argsstring>(Corral corral)</argsstring>
+        <name>removeCorral</name>
+        <qualifiedname>Player.Zoo.removeCorral</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="137" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="137" bodyend="141"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052" compoundref="_controler_8java" startline="92" endline="96">Player.Controler.removeCorral</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a1a425c32c2db16ebabd4eaaea202f952" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.extend</definition>
+        <argsstring>(int size)</argsstring>
+        <name>extend</name>
+        <qualifiedname>Player.Zoo.extend</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="142" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.addCreature</definition>
+        <argsstring>(Corral corral, Creature creature)</argsstring>
+        <name>addCreature</name>
+        <qualifiedname>Player.Zoo.addCreature</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="156" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="156" bodyend="163"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <references refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" compoundref="_zoo_8java" startline="90" endline="99">Player.Zoo.exists</references>
+        <referencedby refid="class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280" compoundref="_controler_8java" startline="66" endline="70">Player.Controler.addCreature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.removeCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>removeCreature</name>
+        <qualifiedname>Player.Zoo.removeCreature</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="164" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="164" bodyend="174"/>
+        <references refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" compoundref="_zoo_8java" startline="100" endline="109">Player.Zoo.corralOf</references>
+        <references refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" compoundref="_zoo_8java" startline="90" endline="99">Player.Zoo.exists</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+        <referencedby refid="class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f" compoundref="_controler_8java" startline="83" endline="87">Player.Controler.removeCreature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.kill</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>kill</name>
+        <qualifiedname>Player.Zoo.kill</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="176" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="176" bodyend="186"/>
+        <references refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" compoundref="_zoo_8java" startline="100" endline="109">Player.Zoo.corralOf</references>
+        <references refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" compoundref="_zoo_8java" startline="90" endline="99">Player.Zoo.exists</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+        <referencedby refid="class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795" compoundref="_controler_8java" startline="97" endline="101">Player.Controler.kill</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.reviveCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>reviveCreature</name>
+        <qualifiedname>Player.Zoo.reviveCreature</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="188" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="188" bodyend="198"/>
+        <references refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" compoundref="_zoo_8java" startline="100" endline="109">Player.Zoo.corralOf</references>
+        <references refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" compoundref="_zoo_8java" startline="90" endline="99">Player.Zoo.exists</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Corral &gt;</type>
+        <definition>List&lt; Corral &gt; Player.Zoo.getCorrals</definition>
+        <argsstring>()</argsstring>
+        <name>getCorrals</name>
+        <qualifiedname>Player.Zoo.getCorrals</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="200" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="200" bodyend="203"/>
+        <referencedby refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" compoundref="_asker_8java" startline="87" endline="98">Player.Asker.corral</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Creature &gt;</type>
+        <definition>List&lt; Creature &gt; Player.Zoo.getCreatures</definition>
+        <argsstring>()</argsstring>
+        <name>getCreatures</name>
+        <qualifiedname>Player.Zoo.getCreatures</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="204" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="204" bodyend="215"/>
+        <references refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" compoundref="_zoo_8java" startline="127" endline="136">Player.Zoo.corral</references>
+        <referencedby refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" compoundref="_asker_8java" startline="53" endline="64">Player.Asker.creature</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.cooldown</definition>
+        <argsstring>(Cooldown cooldown)</argsstring>
+        <name>cooldown</name>
+        <qualifiedname>Player.Zoo.cooldown</qualifiedname>
+        <param>
+          <type>Cooldown</type>
+          <declname>cooldown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="218" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="218" bodyend="232"/>
+        <references refid="class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b" compoundref="_zoo_8java" startline="218" endline="232">Player.Zoo.cooldown</references>
+        <referencedby refid="class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b" compoundref="_zoo_8java" startline="218" endline="232">Player.Zoo.cooldown</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Zoo.spread</definition>
+        <argsstring>(Howl howl)</argsstring>
+        <name>spread</name>
+        <qualifiedname>Player.Zoo.spread</qualifiedname>
+        <param>
+          <type>Howl</type>
+          <declname>howl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Zoo.java" line="233" column="17" bodyfile="Application/src/Player/Zoo.java" bodystart="233" bodyend="242"/>
+        <references refid="class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d" compoundref="_zoo_8java" startline="26">Player.Zoo.colony</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a Zoo that manages various corrals and creatures. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Player.Zoo</label>
+        <link refid="class_player_1_1_zoo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Player.Zoo</label>
+        <link refid="class_player_1_1_zoo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>zooMaster</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Player.ZooMaster</label>
+        <link refid="class_player_1_1_zoo_master"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Player/Zoo.java" line="19" column="7" bodyfile="Application/src/Player/Zoo.java" bodystart="19" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>addCorral</name></member>
+      <member refid="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>addCreature</name></member>
+      <member refid="class_player_1_1_zoo_1a8e2c45d12acae151b4c3a7d8c3bcee3d" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>colony</name></member>
+      <member refid="class_player_1_1_zoo_1a4d748751e406644b67c12d46a7dd4d2b" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>cooldown</name></member>
+      <member refid="class_player_1_1_zoo_1a4f99f054b8224f22a81929f718ed6c2e" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>corral</name></member>
+      <member refid="class_player_1_1_zoo_1a3ab04dacb8b59b5d788bdaf3eed7af8e" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>corralOf</name></member>
+      <member refid="class_player_1_1_zoo_1a606a6cb792be05a223343f8ac105fc3f" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>corrals</name></member>
+      <member refid="class_player_1_1_zoo_1a168e6582d26de8dcc9de2f028d1215b6" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>corrals</name></member>
+      <member refid="class_player_1_1_zoo_1a2896307f87b47dfd3c672f1914e88fe1" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>countCorrals</name></member>
+      <member refid="class_player_1_1_zoo_1a652181903ef7fae670026374366689d9" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>countCreatures</name></member>
+      <member refid="class_player_1_1_zoo_1ac1e2cf110df4a9f0715fd9bc1ed91313" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>exists</name></member>
+      <member refid="class_player_1_1_zoo_1aa98cffbe75a902a12916e1c3d3650d9a" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>exists</name></member>
+      <member refid="class_player_1_1_zoo_1a1a425c32c2db16ebabd4eaaea202f952" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>extend</name></member>
+      <member refid="class_player_1_1_zoo_1a69fb515c765541812ecb6387dd297c1d" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>getCorrals</name></member>
+      <member refid="class_player_1_1_zoo_1a1028d502db5be3e1f6cebeb348df7fd0" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>getCreatures</name></member>
+      <member refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>kill</name></member>
+      <member refid="class_player_1_1_zoo_1a6411a038203541fbd417d639b33c455a" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>LOVE_SEASON_DURATION</name></member>
+      <member refid="class_player_1_1_zoo_1a40857a4576781c9c27e483f75c5f809d" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>loveSeason</name></member>
+      <member refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>main</name></member>
+      <member refid="class_player_1_1_zoo_1a6bc1c7861a1301e5c4e31996a5136610" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>MAX</name></member>
+      <member refid="class_player_1_1_zoo_1a34df4204453c93ab30cece2c468dfe7c" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>maxCorral</name></member>
+      <member refid="class_player_1_1_zoo_1aedd9cda16f69cb681855f625816e3c93" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>name</name></member>
+      <member refid="class_player_1_1_zoo_1a22157036bdd2207d26eca0cb7e1e2444" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>opening</name></member>
+      <member refid="class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>removeCorral</name></member>
+      <member refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>removeCreature</name></member>
+      <member refid="class_player_1_1_zoo_1abf74102276ee3bc9a6fda7e5ec87c6b2" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>reviveCreature</name></member>
+      <member refid="class_player_1_1_zoo_1a73bc5787395c5df55ce32d7a012910a8" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>showCorrals</name></member>
+      <member refid="class_player_1_1_zoo_1a337d1f48bf46aa25459db9e85a8cb703" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>showCreatures</name></member>
+      <member refid="class_player_1_1_zoo_1a244b0ad217c77faa5f9dbe88ffa28fd4" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>showOnlyCorrals</name></member>
+      <member refid="class_player_1_1_zoo_1af0fc6c835f01eb3bc59aeaf36e0da8b8" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>spread</name></member>
+      <member refid="class_player_1_1_zoo_1afbd3e5247984a0645c764179a4d4e503" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>toString</name></member>
+      <member refid="class_player_1_1_zoo_1a91c9fb2e6fb9b74f2df2e6e67b0b3d8d" prot="private" virt="non-virtual"><scope>Player::Zoo</scope><name>Zoo</name></member>
+      <member refid="class_player_1_1_zoo_1a9d57e9381e14c1626b42fa1347291fc1" prot="public" virt="non-virtual"><scope>Player::Zoo</scope><name>zooMaster</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

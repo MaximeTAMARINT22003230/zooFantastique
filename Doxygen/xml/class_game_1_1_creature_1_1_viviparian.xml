@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_viviparian" kind="class" language="Java" prot="public" abstract="yes">
+    <compoundname>Game::Creature::Viviparian</compoundname>
+    <basecompoundref refid="class_game_1_1_creature_1_1_creature" prot="public" virt="non-virtual">Game.Creature.Creature</basecompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid" prot="public" virt="non-virtual">Game.Creature.Bestiary.Mermaid</derivedcompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph" prot="public" virt="non-virtual">Game.Creature.Bestiary.Nymph</derivedcompoundref>
+    <derivedcompoundref refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn" prot="public" virt="non-virtual">Game.Creature.Bestiary.Unicorn</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Game.Creature.Viviparian.Viviparian</definition>
+        <argsstring>(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)</argsstring>
+        <name>Viviparian</name>
+        <qualifiedname>Game.Creature.Viviparian.Viviparian</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>Sex</type>
+          <declname>sex</declname>
+        </param>
+        <param>
+          <type>Weight</type>
+          <declname>weight</declname>
+        </param>
+        <param>
+          <type>Height</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>Age</type>
+          <declname>age</declname>
+        </param>
+        <param>
+          <type>Hunger</type>
+          <declname>hunger</declname>
+        </param>
+        <param>
+          <type>Fatigue</type>
+          <declname>fatigue</declname>
+        </param>
+        <param>
+          <type>Health</type>
+          <declname>health</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Viviparian.java" line="11" column="12" bodyfile="Application/src/Game/Creature/Viviparian.java" bodystart="11" bodyend="17"/>
+        <references refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" compoundref="_creature_8java" startline="18">Game.Creature.Creature.age</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" compoundref="_creature_8java" startline="20">Game.Creature.Creature.fatigue</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" compoundref="_creature_8java" startline="21">Game.Creature.Creature.health</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" compoundref="_creature_8java" startline="17">Game.Creature.Creature.height</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" compoundref="_creature_8java" startline="19">Game.Creature.Creature.hunger</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" compoundref="_creature_8java" startline="14">Game.Creature.Creature.name</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" compoundref="_creature_8java" startline="15">Game.Creature.Creature.sex</references>
+        <references refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" compoundref="_creature_8java" startline="16">Game.Creature.Creature.weight</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents an Viviparian Extends the Creature class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Viviparian</label>
+        <link refid="class_game_1_1_creature_1_1_viviparian"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Game.Creature.Bestiary.Mermaid</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_mermaid"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Game.Creature.Bestiary.Nymph</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_nymph"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Game.Creature.Bestiary.Unicorn</label>
+        <link refid="class_game_1_1_creature_1_1_bestiary_1_1_unicorn"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Creature.Viviparian</label>
+        <link refid="class_game_1_1_creature_1_1_viviparian"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Creature</label>
+        <link refid="class_game_1_1_creature_1_1_creature"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Viviparian.java" line="10" column="17" bodyfile="Application/src/Game/Creature/Viviparian.java" bodystart="10" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_creature_1a84cd9d39f3800a6f7a7d866b4ef6bdcd" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a7812f895aa9820d16ef2d73b193cde18" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>age</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a8c5d92febf3e1355a2692e6ffd3d82de" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>birthingBehavior</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a55e6e0d5cb3ca97d28168e4191cefc2d" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>Creature</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a17719ba964aa57cd4e765253e2baa80d" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>eat</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a618fb5dec95ef6051cafde81258451f6" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>equals</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a9c8fff87d40b572acfc3da4a77faa688" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>fatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a59fea63e68ba059514775b4ac599bc1e" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>getHunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aa6cead9c6c804c0f8e792aa14dd824db" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>getName</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1aec675c9f6f10d94b19eaeb5f7ec0d6f7" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>getSex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad9f4b2408d296d0d79586fe2af8a13b8" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>gettingFatigue</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ad0e5e6c3ddd04725892d441fc2b023ca" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>growUp</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4fe878efdeb24bc3e1d098f880fa6b29" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>heal</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1abe9c7c10ee7ecb24c9e8f92cdeec9a26" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>health</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a71213263a71444e87a313eaa943a41fb" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>height</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1afdfa72bbe58b0789d4201824f2e348f3" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>hunger</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ab19308d090db2852ade882000b2ba331" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>isAlive</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a37da57ad2dcc6b7fc6e341b282337912" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>loseHealth</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1ac3aaa6a327e253bbd63497c81b046365" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>name</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4b6eaa36bf56bc83fce7ad45c848fc2c" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>reproduce</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a3f7674d9edb5d629f6409f8003c974d6" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>run</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0f23c80908ed3ce60196537d5203c870" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>sex</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a4241f1969a358e5c56dc61a394f08d31" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>shout</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a92c9b02d6d552ec3f53489ee9103c93d" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>sleep</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a2f029f7d1b342f978b48348bb4241f92" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toBeHungry</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a778cf18f9ea80d5faa6e71fc44e2dafd" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toFly</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a1494dbf7c29956a3367d0c8e40679671" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toLoseWeight</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a117efbec1eb722e0dfba70f76e79b5e3" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toRun</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a398b5be8e083b8dd1ccee2da2f804420" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toString</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1acc6a9af12e2f87235385690aeccc00fa" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toSwell</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a76c85032e30d9af538df664c6b006448" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>toSwim</name></member>
+      <member refid="class_game_1_1_creature_1_1_viviparian_1ad28088158c22beb205615bd0fc37a2b3" prot="public" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>Viviparian</name></member>
+      <member refid="class_game_1_1_creature_1_1_creature_1a0cfcb2b9a76d2f14650b7ac85b413b17" prot="protected" virt="non-virtual"><scope>Game::Creature::Viviparian</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

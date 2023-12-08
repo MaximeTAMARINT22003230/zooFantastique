@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_health" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Health</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a2e82ab7be7fdfb403e76afadfdd8942c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Health.SUFFERING</definition>
+        <argsstring></argsstring>
+        <name>SUFFERING</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.SUFFERING</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a91ffe7ddec6909b920bd877ec6e794e1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Health.ILL</definition>
+        <argsstring></argsstring>
+        <name>ILL</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.ILL</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa8f9453cf0288ff0ae8f8a69929b7312" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Health.SKATE</definition>
+        <argsstring></argsstring>
+        <name>SKATE</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.SKATE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a1a36578f8252c42a17c9fff9e1f2885c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Health.GOOD</definition>
+        <argsstring></argsstring>
+        <name>GOOD</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.GOOD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa7e83613595e7d998c93afdf33c26159" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Health.VIGOROUS</definition>
+        <argsstring></argsstring>
+        <name>VIGOROUS</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.VIGOROUS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a4de7dee81e557bbe3ac011ac8d0730e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health" kindref="compound">Health</ref></type>
+        <definition>Health Game.Creature.Caracteristic.Health.heal</definition>
+        <argsstring>()</argsstring>
+        <name>heal</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.heal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the next level of care if not already at the top </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="9" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1af247fa20f8bbb5012c02f15e5977e333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health" kindref="compound">Health</ref></type>
+        <definition>Health Game.Creature.Caracteristic.Health.loseHealth</definition>
+        <argsstring>()</argsstring>
+        <name>loseHealth</name>
+        <qualifiedname>Game.Creature.Caracteristic.Health.loseHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>to the lower care stage if not already at the lowest level </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="21" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="21" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Health.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Health.java" bodystart="3" bodyend="29"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a1a36578f8252c42a17c9fff9e1f2885c" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>GOOD</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a4de7dee81e557bbe3ac011ac8d0730e6" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>heal</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a91ffe7ddec6909b920bd877ec6e794e1" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>ILL</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1af247fa20f8bbb5012c02f15e5977e333" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>loseHealth</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa8f9453cf0288ff0ae8f8a69929b7312" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>SKATE</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1a2e82ab7be7fdfb403e76afadfdd8942c" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>SUFFERING</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_health_1aa7e83613595e7d998c93afdf33c26159" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Health</scope><name>VIGOROUS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

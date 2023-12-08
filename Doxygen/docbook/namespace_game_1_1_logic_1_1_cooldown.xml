@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_logic_1_1_cooldown" xml:lang="en-US">
+<title>Package Game.Logic.Cooldown</title>
+<indexterm><primary>Game.Logic.Cooldown</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_logic_1_1_cooldown_1_1_cooldown">Cooldown</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_game_1_1_logic_1_1_cooldown_1_1_cooldownable">Cooldownable</link></para>
+</listitem>
+            <listitem><para>enum <link linkend="_enum_game_1_1_logic_1_1_cooldown_1_1_cooldown_type">CooldownType</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

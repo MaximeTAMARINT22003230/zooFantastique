@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespace_game_1_1_corral_1_1_caracteristic" kind="namespace" language="Java">
+    <compoundname>Game::Corral::Caracteristic</compoundname>
+    <innerclass refid="enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene" prot="public">Game::Corral::Caracteristic::Hygiene</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Corral/Caracteristic/Hygiene.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

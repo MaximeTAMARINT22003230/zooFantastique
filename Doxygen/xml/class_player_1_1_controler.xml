@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_player_1_1_controler" kind="class" language="Java" prot="public">
+    <compoundname>Player::Controler</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_player_1_1_zoo" kindref="compound">Zoo</ref></type>
+        <definition>Zoo Player.Controler.zoo</definition>
+        <argsstring></argsstring>
+        <name>zoo</name>
+        <qualifiedname>Player.Controler.zoo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The zoo </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="15" column="16" bodyfile="Application/src/Player/Controler.java" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" compoundref="_asker_8java" startline="87" endline="98">Player.Asker.corral</referencedby>
+        <referencedby refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" compoundref="_asker_8java" startline="53" endline="64">Player.Asker.creature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" compoundref="_zoo_8java" startline="36" endline="42">Player.Zoo.main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_player_1_1_controler_1a34a6d5d0987f62febab14ac6d0363856" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref></type>
+        <definition>Controler Player.Controler.instance</definition>
+        <argsstring></argsstring>
+        <name>instance</name>
+        <qualifiedname>Player.Controler.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contain the Contoler&apos;s instance. <linebreak/>
+ Is static to allow the use of the Singleton design pattern </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="19" column="30" bodyfile="Application/src/Player/Controler.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079" prot="public" static="yes" mutable="no">
+        <type>boolean</type>
+        <definition>boolean Player.Controler.game</definition>
+        <argsstring></argsstring>
+        <name>game</name>
+        <qualifiedname>Player.Controler.game</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True while the game is running, become False when the players ends it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="22" column="27" bodyfile="Application/src/Player/Controler.java" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" compoundref="_controler_8java" startline="35" endline="43">Player.Controler.getInstance</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" compoundref="_zoo_8java" startline="36" endline="42">Player.Zoo.main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_1_1_controler_1a6b5be5e1a393a3d54e320c947ae97b0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Player.Controler.Controler</definition>
+        <argsstring>()</argsstring>
+        <name>Controler</name>
+        <qualifiedname>Player.Controler.Controler</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new Controler <linebreak/>
+ Can only be used by its inner properties </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="27" column="13" bodyfile="Application/src/Player/Controler.java" bodystart="27" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_player_1_1_controler" kindref="compound">Controler</ref></type>
+        <definition>static Controler Player.Controler.getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <qualifiedname>Player.Controler.getInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Give the instance of the Controler or create one if needed <simplesect kind="return"><para>The instance of the Controler </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="35" column="29" bodyfile="Application/src/Player/Controler.java" bodystart="35" bodyend="43"/>
+        <references refid="class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079" compoundref="_controler_8java" startline="22">Player.Controler.game</references>
+        <referencedby refid="class_player_1_1_asker_1a622e9ce74785c3b313528740f40a021e" compoundref="_asker_8java" startline="87" endline="98">Player.Asker.corral</referencedby>
+        <referencedby refid="class_player_1_1_asker_1a86149f79d818dbdce2b32d814d40639f" compoundref="_asker_8java" startline="53" endline="64">Player.Asker.creature</referencedby>
+        <referencedby refid="class_player_1_1_zoo_1a05b6dd28b66cef313715d81b99230bd4" compoundref="_zoo_8java" startline="36" endline="42">Player.Zoo.main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.notification</definition>
+        <argsstring>(String notification)</argsstring>
+        <name>notification</name>
+        <qualifiedname>Player.Controler.notification</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send a notification to the user (usually used when a Crature has something to say) <linebreak/>
+ Allows a separation between the Model and the Interface <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>notification</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>What it has to say </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="49" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="49" bodyend="52"/>
+        <references refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" compoundref="_controler_8java" startline="49" endline="52">Player.Controler.notification</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+        <referencedby refid="class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30" compoundref="_controler_8java" startline="57" endline="60">Player.Controler.notification</referencedby>
+        <referencedby refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" compoundref="_controler_8java" startline="49" endline="52">Player.Controler.notification</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.notification</definition>
+        <argsstring>(Object notification)</argsstring>
+        <name>notification</name>
+        <qualifiedname>Player.Controler.notification</qualifiedname>
+        <param>
+          <type>Object</type>
+          <declname>notification</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Send a notification to the user (usually used when a Crature has something to say) <linebreak/>
+ Allows a separation between the Model and the Interface <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>notification</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>What it has to say </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="57" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="57" bodyend="60"/>
+        <references refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" compoundref="_controler_8java" startline="49" endline="52">Player.Controler.notification</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.addCreature</definition>
+        <argsstring>(Creature creature, Corral corral)</argsstring>
+        <name>addCreature</name>
+        <qualifiedname>Player.Controler.addCreature</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new creature to the Zoo <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The creature to add </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>corral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The targeted corral </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="66" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="66" bodyend="70"/>
+        <references refid="class_player_1_1_zoo_1a649bb8622f8561e76d07f0d1463280f2" compoundref="_zoo_8java" startline="156" endline="163">Player.Zoo.addCreature</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.addCorral</definition>
+        <argsstring>(Corral corral)</argsstring>
+        <name>addCorral</name>
+        <qualifiedname>Player.Controler.addCorral</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add a new Corral to the Zoo <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>corral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corral to be added </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="75" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="75" bodyend="79"/>
+        <references refid="class_player_1_1_zoo_1a56698aa33d22280d97e7d4d42db55919" compoundref="_zoo_8java" startline="110" endline="118">Player.Zoo.addCorral</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.removeCreature</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>removeCreature</name>
+        <qualifiedname>Player.Controler.removeCreature</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a creature from the zoo <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The creature to remove </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="83" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="83" bodyend="87"/>
+        <references refid="class_player_1_1_zoo_1ae8e999e0fee9e50b19825451bd5dc176" compoundref="_zoo_8java" startline="164" endline="174">Player.Zoo.removeCreature</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.removeCorral</definition>
+        <argsstring>(Corral corral)</argsstring>
+        <name>removeCorral</name>
+        <qualifiedname>Player.Controler.removeCorral</qualifiedname>
+        <param>
+          <type>Corral</type>
+          <declname>corral</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Remove a Corral from the Zoo <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>corral</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The corral to remove </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="92" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="92" bodyend="96"/>
+        <references refid="class_player_1_1_zoo_1ac12de829cfa1057594d371fc0ad55d30" compoundref="_zoo_8java" startline="137" endline="141">Player.Zoo.removeCorral</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Player.Controler.kill</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>kill</name>
+        <qualifiedname>Player.Controler.kill</qualifiedname>
+        <param>
+          <type>Creature</type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Player/Controler.java" line="97" column="17" bodyfile="Application/src/Player/Controler.java" bodystart="97" bodyend="101"/>
+        <references refid="class_player_1_1_zoo_1a445f2ad111ed88795f3cb782474d9e34" compoundref="_zoo_8java" startline="176" endline="186">Player.Zoo.kill</references>
+        <references refid="class_player_1_1_interface_1a542a7596242a5ca047ebfb05cf3cfdbb" compoundref="_interface_8java" startline="13" endline="16">Player.Interface.show</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The main controler of the app. <linebreak/>
+ Is a Singleton that contain the Zoo and a bunch of usefull static methods. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>Cooldownable</label>
+      </node>
+      <node id="1">
+        <label>Player.Controler</label>
+        <link refid="class_player_1_1_controler"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>zoo</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Player.Zoo</label>
+        <link refid="class_player_1_1_zoo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>zooMaster</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Player.ZooMaster</label>
+        <link refid="class_player_1_1_zoo_master"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Player/Controler.java" line="12" column="7" bodyfile="Application/src/Player/Controler.java" bodystart="13" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_player_1_1_controler_1ad688fa3a04326bc602c3807f477e3543" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>addCorral</name></member>
+      <member refid="class_player_1_1_controler_1af4a832bd08aa44dd5ef0e77e22113280" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>addCreature</name></member>
+      <member refid="class_player_1_1_controler_1a6b5be5e1a393a3d54e320c947ae97b0e" prot="private" virt="non-virtual"><scope>Player::Controler</scope><name>Controler</name></member>
+      <member refid="class_player_1_1_controler_1ac347b4f34eaefd9290a535f698caa079" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>game</name></member>
+      <member refid="class_player_1_1_controler_1af296e1f079d1e5ae562a23ce69c2d3e9" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>getInstance</name></member>
+      <member refid="class_player_1_1_controler_1a34a6d5d0987f62febab14ac6d0363856" prot="private" virt="non-virtual"><scope>Player::Controler</scope><name>instance</name></member>
+      <member refid="class_player_1_1_controler_1a5c8ed18390083f536037a434ef0fe795" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>kill</name></member>
+      <member refid="class_player_1_1_controler_1afbc7da5aa899feb72d30d4937bca8a14" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>notification</name></member>
+      <member refid="class_player_1_1_controler_1a7f88327c0c68df28cb8db5b0d34d5c30" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>notification</name></member>
+      <member refid="class_player_1_1_controler_1accc93cd7a959c490badcc84122f2f052" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>removeCorral</name></member>
+      <member refid="class_player_1_1_controler_1a04722cdedff89915286f77b4ec1cac5f" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>removeCreature</name></member>
+      <member refid="class_player_1_1_controler_1a5ae131512b020d1ec15829acf0605bc2" prot="public" virt="non-virtual"><scope>Player::Controler</scope><name>zoo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

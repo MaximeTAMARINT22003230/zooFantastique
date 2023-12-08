@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_lycantropus_1_1_caracteristics_1_1_strength" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Lycantropus::Caracteristics::Strength</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Lycantropus/Caracteristics/Strength.java" line="3" column="7" bodyfile="Application/src/Game/Lycantropus/Caracteristics/Strength.java" bodystart="3" bodyend="4"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

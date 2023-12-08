@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_game_1_1_creature_1_1_behavior" xml:lang="en-US">
+<title>Package Game.Creature.Behavior</title>
+<indexterm><primary>Game.Creature.Behavior</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_behavior_1_1_birth_behavior">BirthBehavior</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_game_1_1_creature_1_1_behavior_1_1_fly">Fly</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_behavior_1_1_laying">Laying</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_game_1_1_creature_1_1_behavior_1_1_pregnancy">Pregnancy</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_game_1_1_creature_1_1_behavior_1_1_revive">Revive</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_game_1_1_creature_1_1_behavior_1_1_run">Run</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_game_1_1_creature_1_1_behavior_1_1_swim">Swim</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

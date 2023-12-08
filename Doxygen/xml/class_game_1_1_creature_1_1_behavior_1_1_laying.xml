@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_game_1_1_creature_1_1_behavior_1_1_laying" kind="class" language="Java" prot="public">
+    <compoundname>Game::Creature::Behavior::Laying</compoundname>
+    <basecompoundref refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior" prot="public" virt="non-virtual">Game.Creature.Behavior.BirthBehavior</basecompoundref>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_laying_1a5e5bb1bda65dc4c68e25fa0b81f7ba6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_game_1_1_creature_1_1_egg" kindref="compound">Egg</ref></type>
+        <definition>Egg Game.Creature.Behavior.Laying.lay</definition>
+        <argsstring>(Creature creature)</argsstring>
+        <name>lay</name>
+        <qualifiedname>Game.Creature.Behavior.Laying.lay</qualifiedname>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>creature</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Lay a new egg in a given corral <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>creature</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The creature laying an egg </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the new egg </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Laying.java" line="16" column="17" bodyfile="Application/src/Game/Creature/Behavior/Laying.java" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Game.Creature.Behavior.Laying.makeBaby</definition>
+        <argsstring>(Creature baby, Creature parent)</argsstring>
+        <name>makeBaby</name>
+        <qualifiedname>Game.Creature.Behavior.Laying.makeBaby</qualifiedname>
+        <reimplements refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior_1a8e8e08482a1b401ed3459796d0b516b7">makeBaby</reimplements>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>baby</declname>
+        </param>
+        <param>
+          <type><ref refid="class_game_1_1_creature_1_1_creature" kindref="compound">Creature</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Behavior/Laying.java" line="22" column="17" bodyfile="Application/src/Game/Creature/Behavior/Laying.java" bodystart="22" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Laying behavior, used by Oviparrian Allows a creature to lay eggs </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Game.Creature.Behavior.Laying</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_laying"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.BirthBehavior</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Game.Creature.Behavior.Laying</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_laying"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Game.Creature.Behavior.BirthBehavior</label>
+        <link refid="class_game_1_1_creature_1_1_behavior_1_1_birth_behavior"/>
+      </node>
+    </collaborationgraph>
+    <location file="Application/src/Game/Creature/Behavior/Laying.java" line="10" column="7" bodyfile="Application/src/Game/Creature/Behavior/Laying.java" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a5e5bb1bda65dc4c68e25fa0b81f7ba6c" prot="private" virt="non-virtual"><scope>Game::Creature::Behavior::Laying</scope><name>lay</name></member>
+      <member refid="class_game_1_1_creature_1_1_behavior_1_1_laying_1a868b7b99d972103bafc65342f834bad1" prot="public" virt="non-virtual"><scope>Game::Creature::Behavior::Laying</scope><name>makeBaby</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

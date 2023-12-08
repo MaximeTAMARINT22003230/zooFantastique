@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_run_8java" kind="file" language="Java">
+    <compoundname>Run.java</compoundname>
+    <innerclass refid="interface_game_1_1_creature_1_1_behavior_1_1_run" prot="public">Game::Creature::Behavior::Run</innerclass>
+    <innernamespace refid="namespace_game_1_1_creature_1_1_behavior">Game::Creature::Behavior</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">Game.Creature.Behavior;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="interface_game_1_1_creature_1_1_behavior_1_1_run" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_game_1_1_creature_1_1_behavior_1_1_run" kindref="compound">Run</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Application/src/Game/Creature/Behavior/Run.java"/>
+  </compounddef>
+</doxygen>

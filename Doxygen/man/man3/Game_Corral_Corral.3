@@ -1,0 +1,202 @@
+.TH "Game.Corral.Corral" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Corral.Corral
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.PP
+Inherited by \fBGame\&.Corral\&.Aquarium\fP, and \fBGame\&.Corral\&.Aviary\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "Creature \fBremoveCreature\fP (Creature creature)"
+.br
+.ti -1c
+.RI "void \fBclean\fP ()"
+.br
+.ti -1c
+.RI "Hygiene \fBgetHygiene\fP ()"
+.br
+.ti -1c
+.RI "void \fBkill\fP (Creature creature)"
+.br
+.ti -1c
+.RI "int \fBcount\fP ()"
+.br
+.ti -1c
+.RI "void \fBfeed\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBhasFreeSpace\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcontains\fP (Creature searched)"
+.br
+.ti -1c
+.RI "boolean \fBempty\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "List< Creature > \fBgetCreatures\fP ()"
+.br
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBdestroy\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBcheckCreature\fP (Creature creature)"
+.br
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static \fBCorral\fP \fBinaugurate\fP (String \fBname\fP, String \fBsize\fP)"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCorral\fP (String \fBname\fP, String \fBsize\fP)"
+.br
+.ti -1c
+.RI "ArrayList< Creature > \fBcompleteTable\fP ()"
+.br
+.ti -1c
+.RI "void \fBgivesFoodToCreature\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "String \fBname\fP"
+.br
+.ti -1c
+.RI "String \fBsize\fP"
+.br
+.ti -1c
+.RI "int \fBmax\fP"
+.br
+.ti -1c
+.RI "Hygiene \fBhygiene\fP"
+.br
+.ti -1c
+.RI "StorageLevel \fBfood\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Represents an enclosure to house creatures with the ability to run\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Game\&.Corral\&.Corral\&.Corral (String name, String size)\fC [protected]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Game\&.Corral\&.Corral\&.addCreature (Creature creature)"
+
+.PP
+Reimplemented in \fBGame\&.Corral\&.Aquarium\fP, and \fBGame\&.Corral\&.Aviary\fP\&.
+.SS "boolean Game\&.Corral\&.Corral\&.checkCreature (Creature creature)"
+
+.SS "void Game\&.Corral\&.Corral\&.clean ()"
+
+.SS "ArrayList< Creature > Game\&.Corral\&.Corral\&.completeTable ()\fC [protected]\fP"
+
+.PP
+Reimplemented in \fBGame\&.Corral\&.Aquarium\fP, and \fBGame\&.Corral\&.Aviary\fP\&.
+.SS "boolean Game\&.Corral\&.Corral\&.contains (Creature searched)"
+
+.SS "int Game\&.Corral\&.Corral\&.count ()"
+
+.SS "void Game\&.Corral\&.Corral\&.destroy ()"
+
+.SS "boolean Game\&.Corral\&.Corral\&.empty ()"
+
+.SS "void Game\&.Corral\&.Corral\&.feed ()"
+
+.SS "List< Creature > Game\&.Corral\&.Corral\&.getCreatures ()"
+Retrieves a list of creatures in the corral\&.
+.PP
+\fBReturns\fP
+.RS 4
+A list of creatures\&. 
+.RE
+.PP
+
+.SS "Hygiene Game\&.Corral\&.Corral\&.getHygiene ()"
+
+.SS "String Game\&.Corral\&.Corral\&.getName ()"
+Retrieves the name of the corral\&.
+.PP
+\fBReturns\fP
+.RS 4
+The name of the corral\&. 
+.RE
+.PP
+
+.SS "void Game\&.Corral\&.Corral\&.givesFoodToCreature ()\fC [protected]\fP"
+
+.SS "boolean Game\&.Corral\&.Corral\&.hasFreeSpace ()"
+
+.SS "static \fBCorral\fP Game\&.Corral\&.Corral\&.inaugurate (String name, String size)\fC [static]\fP"
+Creates and returns a new instance of Corral\&.
+.PP
+\fBParameters\fP
+.RS 4
+\fIname\fP The name of the corral\&. 
+.br
+\fIsize\fP The size of the corral\&. 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A new Corral instance\&. 
+.RE
+.PP
+
+.PP
+Reimplemented in \fBGame\&.Corral\&.Aquarium\fP, and \fBGame\&.Corral\&.Aviary\fP\&.
+.SS "void Game\&.Corral\&.Corral\&.kill (Creature creature)"
+
+.SS "Creature Game\&.Corral\&.Corral\&.removeCreature (Creature creature)"
+
+.PP
+Reimplemented in \fBGame\&.Corral\&.Aquarium\fP, and \fBGame\&.Corral\&.Aviary\fP\&.
+.SS "void Game\&.Corral\&.Corral\&.run ()"
+
+.SS "String Game\&.Corral\&.Corral\&.toString ()"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "StorageLevel Game\&.Corral\&.Corral\&.food\fC [protected]\fP"
+
+.SS "Hygiene Game\&.Corral\&.Corral\&.hygiene\fC [protected]\fP"
+
+.SS "int Game\&.Corral\&.Corral\&.max\fC [protected]\fP"
+
+.SS "String Game\&.Corral\&.Corral\&.name\fC [protected]\fP"
+
+.SS "String Game\&.Corral\&.Corral\&.size\fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

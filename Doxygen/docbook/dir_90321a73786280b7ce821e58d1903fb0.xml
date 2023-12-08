@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_90321a73786280b7ce821e58d1903fb0" xml:lang="en-US">
+<title>Application/src/Game/Lycantropus Directory Reference</title>
+<indexterm><primary>Application/src/Game/Lycantropus Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_e1602748efe4e6468d77518452deea5b">Caracteristics</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__couple_8java">Couple.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__howl_8java">Howl.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__lycantropus_8java">Lycantropus.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__pack_8java">Pack.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" kind="enum" language="Java" prot="public">
+    <compoundname>Game::Creature::Caracteristic::Hunger</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a3efe563a6875f5e9fcffb0ace893bc0f" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Hunger.STARVING</definition>
+        <argsstring></argsstring>
+        <name>STARVING</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.STARVING</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af212f228effdac3a6487a82412b884b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Hunger.HUNGRY</definition>
+        <argsstring></argsstring>
+        <name>HUNGRY</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.HUNGRY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a16c3b0ad81c0683bf27c661680a63fcd" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Hunger.GOOD</definition>
+        <argsstring></argsstring>
+        <name>GOOD</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.GOOD</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ab544b116cd2307d6a6ecc1f9d44c7393" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Game.Creature.Caracteristic.Hunger.MEALS</definition>
+        <argsstring></argsstring>
+        <name>MEALS</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.MEALS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="4" column="1" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af0aa9145d5e02f824673180278fa71f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" kindref="compound">Hunger</ref></type>
+        <definition>Hunger Game.Creature.Caracteristic.Hunger.eat</definition>
+        <argsstring>()</argsstring>
+        <name>eat</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.eat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>renvoie le stade de faim inférieur </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="9" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ae4ff18aae40b92bda02af9986588b347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger" kindref="compound">Hunger</ref></type>
+        <definition>Hunger Game.Creature.Caracteristic.Hunger.toBeHungry</definition>
+        <argsstring>()</argsstring>
+        <name>toBeHungry</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.toBeHungry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>renvoie le stade de faim supérieur </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="21" column="19" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="21" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a94b6175475bc776158f0aea535233120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean Game.Creature.Caracteristic.Hunger.isHungry</definition>
+        <argsstring>()</argsstring>
+        <name>isHungry</name>
+        <qualifiedname>Game.Creature.Caracteristic.Hunger.isHungry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="30" column="20" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/Caracteristic/Hunger.java" line="3" column="7" bodyfile="Application/src/Game/Creature/Caracteristic/Hunger.java" bodystart="3" bodyend="33"/>
+    <listofallmembers>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af0aa9145d5e02f824673180278fa71f2" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>eat</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a16c3b0ad81c0683bf27c661680a63fcd" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>GOOD</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1af212f228effdac3a6487a82412b884b9" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>HUNGRY</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a94b6175475bc776158f0aea535233120" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>isHungry</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ab544b116cd2307d6a6ecc1f9d44c7393" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>MEALS</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1a3efe563a6875f5e9fcffb0ace893bc0f" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>STARVING</name></member>
+      <member refid="enum_game_1_1_creature_1_1_caracteristic_1_1_hunger_1ae4ff18aae40b92bda02af9986588b347" prot="public" virt="non-virtual"><scope>Game::Creature::Caracteristic::Hunger</scope><name>toBeHungry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

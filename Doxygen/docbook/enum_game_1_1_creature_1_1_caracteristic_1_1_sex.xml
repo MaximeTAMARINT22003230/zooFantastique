@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_sex" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Sex Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Sex</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1a4b215b1fc46a96fd85ae46bd3e9f20c4">MALE</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1ab23191263d3e175de75ff17ea1ff31cb">FEMALE</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1ab23191263d3e175de75ff17ea1ff31cb"/><section>
+    <title>FEMALE</title>
+<indexterm><primary>FEMALE</primary><secondary>Game.Creature.Caracteristic.Sex</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Sex</primary><secondary>FEMALE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Sex.FEMALE</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_sex_1a4b215b1fc46a96fd85ae46bd3e9f20c4"/><section>
+    <title>MALE</title>
+<indexterm><primary>MALE</primary><secondary>Game.Creature.Caracteristic.Sex</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Sex</primary><secondary>MALE</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Sex.MALE</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__sex_8java">Sex.java</link></section>
+</section>

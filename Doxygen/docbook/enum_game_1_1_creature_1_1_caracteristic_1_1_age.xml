@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age" xml:lang="en-US">
+<title>Game.Creature.Caracteristic.Age Enum Reference</title>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age">Age</link> <link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a2220a6ced24060d90e47d1e88104022b">gettingOder</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1ab4d74b5f13a9ff078a20c7736da9d104">BABY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a625ba5f1998386a437626ed4d9396844">CHILD</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1aeaa14bce03ec9b944d09bce268f096f4">TEEN</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a9a2e90a74f078038fc635079b54384fc">ADULT</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1adfb6672614489f032a17a238edf31008">ELDER</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a2220a6ced24060d90e47d1e88104022b"/><section>
+    <title>gettingOder()</title>
+<indexterm><primary>gettingOder</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>gettingOder</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_creature_1_1_caracteristic_1_1_age">Age</link> Game.Creature.Caracteristic.Age.gettingOder ( )</computeroutput></para>
+<para><formalpara><title>Returns</title>
+
+<para>renvoie le stade de l&apos;age suivant de l&apos;entité. Si déjà au dernier stade il meurt. </para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a9a2e90a74f078038fc635079b54384fc"/><section>
+    <title>ADULT</title>
+<indexterm><primary>ADULT</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>ADULT</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Age.ADULT</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1ab4d74b5f13a9ff078a20c7736da9d104"/><section>
+    <title>BABY</title>
+<indexterm><primary>BABY</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>BABY</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Age.BABY</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1a625ba5f1998386a437626ed4d9396844"/><section>
+    <title>CHILD</title>
+<indexterm><primary>CHILD</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>CHILD</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Age.CHILD</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1adfb6672614489f032a17a238edf31008"/><section>
+    <title>ELDER</title>
+<indexterm><primary>ELDER</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>ELDER</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Age.ELDER</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_creature_1_1_caracteristic_1_1_age_1aeaa14bce03ec9b944d09bce268f096f4"/><section>
+    <title>TEEN</title>
+<indexterm><primary>TEEN</primary><secondary>Game.Creature.Caracteristic.Age</secondary></indexterm>
+<indexterm><primary>Game.Creature.Caracteristic.Age</primary><secondary>TEEN</secondary></indexterm>
+<para><computeroutput>Game.Creature.Caracteristic.Age.TEEN</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Creature/Caracteristic/<link linkend="__age_8java">Age.java</link></section>
+</section>

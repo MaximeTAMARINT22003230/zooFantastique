@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene" xml:lang="en-US">
+<title>Game.Corral.Caracteristic.Hygiene Enum Reference</title>
+<indexterm><primary>Game.Corral.Caracteristic.Hygiene</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene">Hygiene</link> <link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a0ce884f96c1648bab78d89a3c260fe78">clean</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5c5c6ca66ffdc25a69181c87efd0f331">BAD</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1acc2a48b99d1086f2900e0e3b99df8a5b">CORRECTLY</link></para>
+</listitem>
+            <listitem><para><link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5acf95390e5e634e9630711a5a5a08e9">GOOD</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a0ce884f96c1648bab78d89a3c260fe78"/><section>
+    <title>clean()</title>
+<indexterm><primary>clean</primary><secondary>Game.Corral.Caracteristic.Hygiene</secondary></indexterm>
+<indexterm><primary>Game.Corral.Caracteristic.Hygiene</primary><secondary>clean</secondary></indexterm>
+<para><computeroutput><link linkend="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene">Hygiene</link> Game.Corral.Caracteristic.Hygiene.clean ( )</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5c5c6ca66ffdc25a69181c87efd0f331"/><section>
+    <title>BAD</title>
+<indexterm><primary>BAD</primary><secondary>Game.Corral.Caracteristic.Hygiene</secondary></indexterm>
+<indexterm><primary>Game.Corral.Caracteristic.Hygiene</primary><secondary>BAD</secondary></indexterm>
+<para><computeroutput>Game.Corral.Caracteristic.Hygiene.BAD</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1acc2a48b99d1086f2900e0e3b99df8a5b"/><section>
+    <title>CORRECTLY</title>
+<indexterm><primary>CORRECTLY</primary><secondary>Game.Corral.Caracteristic.Hygiene</secondary></indexterm>
+<indexterm><primary>Game.Corral.Caracteristic.Hygiene</primary><secondary>CORRECTLY</secondary></indexterm>
+<para><computeroutput>Game.Corral.Caracteristic.Hygiene.CORRECTLY</computeroutput></para></section>
+<anchor xml:id="_enum_game_1_1_corral_1_1_caracteristic_1_1_hygiene_1a5acf95390e5e634e9630711a5a5a08e9"/><section>
+    <title>GOOD</title>
+<indexterm><primary>GOOD</primary><secondary>Game.Corral.Caracteristic.Hygiene</secondary></indexterm>
+<indexterm><primary>Game.Corral.Caracteristic.Hygiene</primary><secondary>GOOD</secondary></indexterm>
+<para><computeroutput>Game.Corral.Caracteristic.Hygiene.GOOD</computeroutput></para></section>
+<para>
+The documentation for this enum was generated from the following file:</para>
+Application/src/Game/Corral/Caracteristic/<link linkend="__hygiene_8java">Hygiene.java</link></section>
+</section>

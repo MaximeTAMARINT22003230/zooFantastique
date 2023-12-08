@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_c1700732fddcde8eb5519c2d8f8ddc29" kind="dir">
+    <compoundname>Application/src/Game/Creature</compoundname>
+    <innerdir refid="dir_9b30e57ca1f62c21d737ebe39c022df9">Application/src/Game/Creature/Behavior</innerdir>
+    <innerdir refid="dir_8293f5905212068ccabf0c1907c358b7">Application/src/Game/Creature/Bestiary</innerdir>
+    <innerdir refid="dir_ac494b7c61ebabcdbf451d19a49471a8">Application/src/Game/Creature/Caracteristic</innerdir>
+    <innerfile refid="_creature_8java">Creature.java</innerfile>
+    <innerfile refid="_egg_8java">Egg.java</innerfile>
+    <innerfile refid="_oviparian_8java">Oviparian.java</innerfile>
+    <innerfile refid="_viviparian_8java">Viviparian.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application/src/Game/Creature/"/>
+  </compounddef>
+</doxygen>

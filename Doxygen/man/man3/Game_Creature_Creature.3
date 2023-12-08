@@ -1,0 +1,206 @@
+.TH "Game.Creature.Creature" 3 "Version 1.0" "Zoo Fantastique" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Game.Creature.Creature
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.PP
+Inherited by \fBGame\&.Creature\&.Oviparian\fP, and \fBGame\&.Creature\&.Viviparian\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBrun\fP ()"
+.br
+.ti -1c
+.RI "void \fBeat\fP ()"
+.br
+.ti -1c
+.RI "String \fBgetName\fP ()"
+.br
+.ti -1c
+.RI "Sex \fBgetSex\fP ()"
+.br
+.ti -1c
+.RI "Hunger \fBgetHunger\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBequals\fP (Object o)"
+.br
+.in -1c
+.SS "Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "BirthBehavior \fBbirthingBehavior\fP"
+.br
+.in -1c
+.SS "Protected Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBCreature\fP (String \fBname\fP, Sex \fBsex\fP, Weight \fBweight\fP, Height \fBheight\fP, Age \fBage\fP, Hunger \fBhunger\fP, Fatigue \fBfatigue\fP, Health \fBhealth\fP)"
+.br
+.ti -1c
+.RI "void \fBtoFly\fP ()"
+.br
+.RI "Behavior\&. "
+.ti -1c
+.RI "void \fBtoRun\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoSwim\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoBeHungry\fP ()"
+.br
+.ti -1c
+.RI "void \fBshout\fP ()"
+.br
+.ti -1c
+.RI "void \fBloseHealth\fP ()"
+.br
+.ti -1c
+.RI "void \fBheal\fP ()"
+.br
+.ti -1c
+.RI "void \fBgettingFatigue\fP ()"
+.br
+.ti -1c
+.RI "void \fBsleep\fP ()"
+.br
+.ti -1c
+.RI "void \fBage\fP ()"
+.br
+.ti -1c
+.RI "void \fBgrowUp\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoSwell\fP ()"
+.br
+.ti -1c
+.RI "void \fBtoLoseWeight\fP ()"
+.br
+.ti -1c
+.RI "void \fBreproduce\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "String \fBname\fP"
+.br
+.ti -1c
+.RI "Sex \fBsex\fP"
+.br
+.ti -1c
+.RI "Weight \fBweight\fP"
+.br
+.ti -1c
+.RI "Height \fBheight\fP"
+.br
+.ti -1c
+.RI "Age \fBage\fP"
+.br
+.ti -1c
+.RI "Hunger \fBhunger\fP"
+.br
+.ti -1c
+.RI "Fatigue \fBfatigue\fP"
+.br
+.ti -1c
+.RI "Health \fBhealth\fP"
+.br
+.ti -1c
+.RI "boolean \fBisAlive\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The creature abstract class\&. Contain anything common to all creatures\&. Notify the controler when any change occures\&. 
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Game\&.Creature\&.Creature\&.Creature (String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)\fC [protected]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "void Game\&.Creature\&.Creature\&.age ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.eat ()"
+
+.SS "boolean Game\&.Creature\&.Creature\&.equals (Object o)"
+
+.SS "Hunger Game\&.Creature\&.Creature\&.getHunger ()"
+
+.SS "String Game\&.Creature\&.Creature\&.getName ()"
+
+.SS "Sex Game\&.Creature\&.Creature\&.getSex ()"
+
+.SS "void Game\&.Creature\&.Creature\&.gettingFatigue ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.growUp ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.heal ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.loseHealth ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.reproduce ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.run ()"
+
+.PP
+Reimplemented in \fBGame\&.Creature\&.Bestiary\&.Dragon\fP, \fBGame\&.Creature\&.Bestiary\&.Kraken\fP, \fBGame\&.Creature\&.Bestiary\&.Megalodon\fP, \fBGame\&.Creature\&.Bestiary\&.Mermaid\fP, \fBGame\&.Creature\&.Bestiary\&.Nymph\fP, \fBGame\&.Creature\&.Bestiary\&.Phenix\fP, and \fBGame\&.Creature\&.Bestiary\&.Unicorn\fP\&.
+.SS "void Game\&.Creature\&.Creature\&.shout ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.sleep ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.toBeHungry ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.toFly ()\fC [protected]\fP"
+
+.PP
+Behavior\&. 
+.SS "void Game\&.Creature\&.Creature\&.toLoseWeight ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.toRun ()\fC [protected]\fP"
+
+.SS "String Game\&.Creature\&.Creature\&.toString ()"
+
+.SS "void Game\&.Creature\&.Creature\&.toSwell ()\fC [protected]\fP"
+
+.SS "void Game\&.Creature\&.Creature\&.toSwim ()\fC [protected]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "Age Game\&.Creature\&.Creature\&.age\fC [protected]\fP"
+
+.SS "BirthBehavior Game\&.Creature\&.Creature\&.birthingBehavior"
+
+.SS "Fatigue Game\&.Creature\&.Creature\&.fatigue\fC [protected]\fP"
+
+.SS "Health Game\&.Creature\&.Creature\&.health\fC [protected]\fP"
+
+.SS "Height Game\&.Creature\&.Creature\&.height\fC [protected]\fP"
+
+.SS "Hunger Game\&.Creature\&.Creature\&.hunger\fC [protected]\fP"
+
+.SS "boolean Game\&.Creature\&.Creature\&.isAlive\fC [protected]\fP"
+
+.SS "String Game\&.Creature\&.Creature\&.name\fC [protected]\fP"
+
+.SS "Sex Game\&.Creature\&.Creature\&.sex\fC [protected]\fP"
+
+.SS "Weight Game\&.Creature\&.Creature\&.weight\fC [protected]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Zoo Fantastique from the source code\&.

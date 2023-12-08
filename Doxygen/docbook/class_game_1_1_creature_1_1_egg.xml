@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_game_1_1_creature_1_1_egg" xml:lang="en-US">
+<title>Game.Creature.Egg Class Reference</title>
+<indexterm><primary>Game.Creature.Egg</primary></indexterm>
+<para>Inheritance diagram for Game.Creature.Egg:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_game_1_1_creature_1_1_egg.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83">hatch</link> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50">run</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_class_game_1_1_creature_1_1_egg">Egg</link> <link linkend="_class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908">lay</link> (<link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> creature, Corral corral)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Represents an egg that can hatch into a creature. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_game_1_1_creature_1_1_egg_1ade97a2141dd2eefecd995793840a0e83"/><section>
+    <title>hatch()</title>
+<indexterm><primary>hatch</primary><secondary>Game.Creature.Egg</secondary></indexterm>
+<indexterm><primary>Game.Creature.Egg</primary><secondary>hatch</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Egg.hatch ( )</computeroutput></para>
+<para>Hatches the egg, adding the creature to the corral after the hatching time. </para>
+</section>
+<anchor xml:id="_class_game_1_1_creature_1_1_egg_1a6b8e8f942d989b5f76513ee28890d908"/><section>
+    <title>lay()</title>
+<indexterm><primary>lay</primary><secondary>Game.Creature.Egg</secondary></indexterm>
+<indexterm><primary>Game.Creature.Egg</primary><secondary>lay</secondary></indexterm>
+<para><computeroutput>static <link linkend="_class_game_1_1_creature_1_1_egg">Egg</link> Game.Creature.Egg.lay (<link linkend="_class_game_1_1_creature_1_1_creature">Creature</link> creature, Corral corral)<computeroutput>[static]</computeroutput></computeroutput></para>
+<para>Creates and returns a new Egg laid by a creature in a specific corral.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>creature</entry><entry>
+<para>The creature laying the egg. </para>
+</entry>
+                            </row>
+                            <row>
+<entry>corral</entry><entry>
+<para>The corral where the egg is laid. </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>A new Egg instance. </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_game_1_1_creature_1_1_egg_1a4d6ddd1fd0b294d724f5ccd0bd4ede50"/><section>
+    <title>run()</title>
+<indexterm><primary>run</primary><secondary>Game.Creature.Egg</secondary></indexterm>
+<indexterm><primary>Game.Creature.Egg</primary><secondary>run</secondary></indexterm>
+<para><computeroutput>void Game.Creature.Egg.run ( )</computeroutput></para>
+<para>Runs a thread to simulate the hatching process after the specified hatch time. </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Application/src/Game/Creature/<link linkend="__egg_8java">Egg.java</link></section>
+</section>
