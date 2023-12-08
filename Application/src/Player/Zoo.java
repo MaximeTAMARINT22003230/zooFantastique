@@ -4,6 +4,7 @@ import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;
 import Game.Lycantropus.Howl;
+import Game.Lycantropus.Lycantropus;
 import Game.Lycantropus.Pack;
 import Game.Creature.Creature;
 import Game.Corral.Corral;

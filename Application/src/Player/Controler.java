@@ -2,6 +2,7 @@ package Player;
 
 import Game.Corral.*;
 import Game.Creature.Creature;
+import Game.Lycantropus.Lycantropus;
 
 /**
  * The main controler of the app. <br>

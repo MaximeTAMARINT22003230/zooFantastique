@@ -13,8 +13,14 @@ public class Laying extends BirthBehavior {
      * @param creature The creature laying an egg
      * @return the new egg
      */
-    public Egg lay(Creature creature)
+    private Egg lay(Creature creature)
     {
         return Egg.lay(creature, Controler.getInstance().zoo.corralOf(creature));
+    }
+
+    @Override
+    public void makeBaby(Creature baby, Creature parent)
+    {
+        this.lay(parent);
     }
 }

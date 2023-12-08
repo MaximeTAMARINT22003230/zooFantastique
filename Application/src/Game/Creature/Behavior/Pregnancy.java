@@ -26,7 +26,7 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
      * @param baby the future newborn
      * @param parent the baby's parent
      */
-    public void inseminate(Creature baby, Creature parent)
+    private void inseminate(Creature baby, Creature parent)
     {
         this.baby = baby;
         this.parent = parent;
@@ -36,7 +36,7 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
     /** Give birth to the handled baby
      * Adds it to the parent's corral
      */
-    public void giveBirth()
+    private void giveBirth()
     {
         Controler.getInstance().addCreature(this.baby, Controler.getInstance().zoo.corralOf(this.parent));
         this.baby = null;
@@ -59,5 +59,10 @@ public class Pregnancy extends BirthBehavior implements Cooldownable {
     private void pregnancyCooldown()
     {
         new Cooldown(PREGNANCY_COOLDOWN, this, CooldownType.INCUBATION);
+    }
+
+    @Override
+    public void makeBaby(Creature baby, Creature parent) {
+        this.inseminate(baby, parent);
     }
 }

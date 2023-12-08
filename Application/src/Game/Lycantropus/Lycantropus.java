@@ -1,27 +1,42 @@
-package Game.Lycantropus.Component;
+package Game.Lycantropus;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Caracteristic.*;
 import Game.Creature.Viviparian;
 import Game.Lycantropus.Caracteristics.Rank;
 import Game.Lycantropus.Caracteristics.Level;
 import Game.Lycantropus.Caracteristics.Strength;
-import Game.Lycantropus.Howl;
-import Game.Lycantropus.Pack;
 import Player.Controler;
 
 import java.util.List;
 import java.util.Objects;
 
-public final class Lycantropus extends Viviparian implements Run {
+public final class Lycantropus extends Viviparian implements Run, Runnable {
+    /**
+     * The actual strength of the lycan
+     */
     private Strength strength;
-    private int domination;
+    /**
+     * Its rank in the pack
+     */
     private Rank rank;
+    /**
+     * A sort of quality criteria
+     */
     private Level level;
+    /**
+     * Its pack. Null if its a lone wolf
+     */
     private Pack pack;
-    private Howl howl;
-    private List<Lycantropus> foes;
+    /**
+     * A float between 0 and 1 wich represent its probabilty to resist a domination
+     */
+    private float impetuosity;
     private Lycantropus(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health) {
         super(name, sex, weight, height, age, hunger, fatigue, health);
+    }
+    public int getDomination()
+    {
+        return pack.dominationOf(this);
     }
     public static Lycantropus newBorn(String name, Sex sex)
     {
@@ -49,7 +64,9 @@ public final class Lycantropus extends Viviparian implements Run {
         {
             case BELONGING ->
             {
-                if(!Objects.equals(howl.getHowler(), this)) this.howl(Howl.ANSWER);
+                if(!Objects.equals(howl.getHowler(), this)) {
+                    this.howl(Howl.ANSWER);
+                }
                 break;
             }
             case DOMINATION ->
@@ -58,7 +75,7 @@ public final class Lycantropus extends Viviparian implements Run {
             }
             case ANSWER ->
             {
-                //HE IS AGGRESSED
+                break;
             }
             case AGGRESSIVE ->
             {
@@ -66,7 +83,7 @@ public final class Lycantropus extends Viviparian implements Run {
             }
             case SUBMISSION ->
             {
-                //HE IS AGGRESSED
+                //HE WON
             }
             default ->
             {

@@ -1,13 +1,10 @@
 package Game.Lycantropus;
 
-import Game.Lycantropus.Component.Lycantropus;
-
-import java.util.HashMap;
 import java.util.List;
 
 public class Pack {
     private Couple alpha;
-    private List<Lycan> lycans;
+    private List<Lycantropus> lycans;
     public String toString()
     {
         return "A IMPLEMENTER";
@@ -20,13 +17,15 @@ public class Pack {
     {
         return "A IMPLEMENTER";
     }
-    private List<Lycan> rank()
+    private List<Lycantropus> rank()
     {
         return null; //TODO THIS METHOD
     }
     private Couple couple()
     {
-        //TODO THIS METHOD
+        //trouver la meilleure femelle et meilleur male
+        //créer un couple avec eux
+        // c'est le couple alpha
         return null;
     }
     private void reproduce()
@@ -37,16 +36,16 @@ public class Pack {
     {
 
     }
-    private Lycan omega()
+    private Lycantropus omega()
     {
         return null;
         //TODO THIS METHOD
     }
-    private void addLycan(Lycan lycan)
+    private void addLycan(Lycantropus lycan)
     {
 
     }
-    private void removeLycan(Lycan lycan)
+    private void removeLycan(Lycantropus lycan)
     {
 
     }
@@ -54,14 +53,14 @@ public class Pack {
     {
         if(howl == Howl.BELONGING)
         {
-            for (Lycan lycan : this.lycans)
+            for (Lycantropus lycan : this.lycans)
             {
                 ((Lycantropus) lycan).hear(howl);
             }
         }
         else if (howl.getTarget() != null)
         {
-            for (Lycan lycan : this.lycans) {
+            for (Lycantropus lycan : this.lycans) {
                 if(howl.getTarget() == lycan)
                 {
                     ((Lycantropus) lycan).hear(howl);
@@ -69,8 +68,16 @@ public class Pack {
             }
         }
     }
-    public boolean contains(Lycan lycan)
+    public boolean contains(Lycantropus lycan)
     {
         return true; //TODO THIS METHOD
+    }
+    public int dominationOf(Lycantropus lycan)
+    {
+        //TODO THIS METHOD
+        // return the domination of the Lycan depending on who he dominates and who he does not
+        // +1 for each domination
+        // -1 for each dominated
+        return 0;
     }
 }

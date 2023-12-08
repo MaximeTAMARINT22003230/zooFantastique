@@ -17,7 +17,7 @@ public abstract class Creature implements Runnable{
     protected Hunger hunger;
     protected Fatigue fatigue;
     protected Health health;
-    protected BirthBehavior birthingBehavior;
+    public BirthBehavior birthingBehavior;
     protected Creature(String name, Sex sex, Weight weight, Height height, Age age, Hunger hunger, Fatigue fatigue, Health health)
     {
         this.name = name;

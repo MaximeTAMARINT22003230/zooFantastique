@@ -3,23 +3,23 @@ package Game.Lycantropus;
 public enum Howl
 {
     AGGRESSIVE, BELONGING, SUBMISSION, DOMINATION, ANSWER;
-    private Lycan howler;
-    public Howl setHowler(Lycan howler)
+    private Lycantropus howler;
+    public Howl setHowler(Lycantropus howler)
     {
         this.howler = howler;
         return this;
     }
-    public Lycan getHowler()
+    public Lycantropus getHowler()
     {
         return this.howler;
     }
-    private Lycan target;
-    public Howl setTarget(Lycan target)
+    private Lycantropus target;
+    public Howl setTarget(Lycantropus target)
     {
         this.target = target;
         return this;
     }
-    public Lycan getTarget()
+    public Lycantropus getTarget()
     {
         return this.target;
     }
