@@ -1,6 +1,7 @@
 package Game.Creature;
 
 import Game.Creature.Behavior.*;
+import Game.Logic.DiceRoll;
 import Player.Controler;
 import Game.Creature.Behavior.BirthBehavior;
 import Game.Creature.Caracteristic.*;
@@ -37,7 +38,7 @@ public abstract class Creature implements Runnable{
     public void run() {
         while (this.isAlive){
             if (fatigue.isSleeping()) {
-                int t = Model.DiceRoll.d4();
+                int t = DiceRoll.d4();
                 if (t == 1) {
                     Controler.getInstance().notification(this.name + " se reveil (" + this.getClass().getSimpleName() + ") : " +t);
                     sleep();
@@ -46,7 +47,7 @@ public abstract class Creature implements Runnable{
                 }
             }
             else {
-                int randomAction = Model.DiceRoll.d12();
+                int randomAction = DiceRoll.d12();
 
                 switch (randomAction) {
                     case 1:
@@ -83,7 +84,7 @@ public abstract class Creature implements Runnable{
                             toSwim();
                         break;
                 }
-                if (Model.DiceRoll.d20() == 1)
+                if (DiceRoll.d20() == 1)
                     reproduce();
             }
 
@@ -107,7 +108,7 @@ public abstract class Creature implements Runnable{
     ///
     public void eat(){
         hunger = hunger.eat();
-        if (Model.DiceRoll.d4() == 1)
+        if (DiceRoll.d4() == 1)
             toSwell();
     }
     protected void toBeHungry() {

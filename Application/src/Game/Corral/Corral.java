@@ -6,6 +6,8 @@ import Game.Creature.Behavior.Run;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Caracteristic.StorageLevel;
 import Game.Creature.Creature;
+import Game.Logic.DiceRoll;
+import Game.Lycantropus.Lycantropus;
 import Player.Interface;
 
 import java.util.ArrayList;
@@ -136,7 +138,7 @@ public class Corral implements Runnable{
             for (Creature creature : creatures) {
                 if (creature.getHunger().isHungry()) {
                     creature.eat();
-                    if (Model.DiceRoll.d20() == 1)
+                    if (DiceRoll.d20() == 1)
                         this.food.levelDown();
                 }
             }
@@ -186,5 +188,9 @@ public class Corral implements Runnable{
                 throw new RuntimeException(e);
             }
         }
+    }
+    public void destroy()
+    {
+        this.isDestroyed = true;
     }
 }

@@ -94,4 +94,9 @@ public class Controler
         this.zoo.removeCorral(corral);
         Interface.show("Vous avez explosé un enclos...");
     }
+    public void kill(Creature creature)
+    {
+        this.zoo.kill(creature);
+        Interface.show("Vous avez tué une créature...");
+    }
 }

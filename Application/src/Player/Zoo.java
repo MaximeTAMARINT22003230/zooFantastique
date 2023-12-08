@@ -1,7 +1,6 @@
 package Player;
 
 import Game.Creature.Behavior.Revive;
-import Interactions.Controler;
 import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;
@@ -138,7 +137,7 @@ public class Zoo implements Cooldownable {
     public void removeCorral(Corral corral)
     {
         this.corrals.remove(corral);
-        corral.isDestroyed();
+        corral.destroy();
     }
     public void extend(int size)
     {
