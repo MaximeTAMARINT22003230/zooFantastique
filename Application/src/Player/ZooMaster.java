@@ -12,6 +12,10 @@ import Game.Creature.Creature;
 import Game.Corral.Corral;
 import Interactions.Interface;
 
+/**
+ * Represents the ZooMaster, controlling actions in the zoo.
+ * Implements Cooldownable interface for managing cooldowns.
+ */
 public class ZooMaster implements Cooldownable {
     private final static int REFRESH_COOLDOWN = 9999;
     private final static int MAX = 5;

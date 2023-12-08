@@ -9,7 +9,10 @@ import Interactions.Interface;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Corral implements Runnable {
+/**
+ * Represents an enclosure to house creatures with the ability to run.
+ */
+public class Corral implements Runnable{
     private static final int MAX = 5;
     protected String name;
     protected String size;
@@ -24,6 +27,13 @@ public class Corral implements Runnable {
         this.max = MAX;
         this.creatures = new ArrayList<Run>();
     }
+    /**
+     * Creates and returns a new instance of Corral.
+     *
+     * @param name The name of the corral.
+     * @param size The size of the corral.
+     * @return A new Corral instance.
+     */
     public static Corral inaugurate(String name, String size)
     {
         return new Corral(name, size);

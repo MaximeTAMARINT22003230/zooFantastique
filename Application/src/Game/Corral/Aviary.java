@@ -6,6 +6,9 @@ import Game.Creature.Creature;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents an aviary
+ */
 public class Aviary extends Corral {
     private List<Fly> creatures;
     private int height;
@@ -13,8 +16,15 @@ public class Aviary extends Corral {
         super(name,size);
         this.creatures = new ArrayList<Fly>();
     }
-    public static Aviary inaugurate(String name, String size)
-    {
+
+    /**
+     * Creates and returns a new instance of Aviary.
+     *
+     * @param name The name of the aviary.
+     * @param size The size of the aviary.
+     * @return A new Aviary instance.
+     */
+    public static Aviary inaugurate(String name, String size) {
         return new Aviary(name, size);
     }
 

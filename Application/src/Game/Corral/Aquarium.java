@@ -7,6 +7,9 @@ import Game.Creature.Creature;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents an aquarium
+ */
 public class Aquarium extends Corral {
     private List<Swim> creatures;
     private int depth;
@@ -14,8 +17,15 @@ public class Aquarium extends Corral {
         super(name, size);
         this.creatures = new ArrayList<Swim>();
     }
-    public static Aquarium inaugurate(String name, String size)
-    {
+
+    /**
+     * Creates and returns a new instance of Aquarium.
+     *
+     * @param name The name of the aquarium.
+     * @param size The size of the aquarium.
+     * @return A new Aquarium instance.
+     */
+    public static Aquarium inaugurate(String name, String size) {
         return new Aquarium(name, size);
     }
 

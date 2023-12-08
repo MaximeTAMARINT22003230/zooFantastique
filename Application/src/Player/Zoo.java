@@ -9,7 +9,9 @@ import Interactions.Interface;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-
+/**
+ * Represents a Zoo that manages various corrals and creatures.
+ */
 public class Zoo {
     private final int MAX = 5;
     private String name;
