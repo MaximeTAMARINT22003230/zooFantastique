@@ -39,9 +39,6 @@ public abstract class Creature implements Runnable{
     public void run() {
         while (this.isAlive){
 
-            if (!this.isAlive)
-                break;
-
             if (fatigue.isSleeping()) {
                 int t = Model.DiceRoll.d4();
                 if (t == 1) {
@@ -89,7 +86,7 @@ public abstract class Creature implements Runnable{
             }
 
             try {
-                Thread.sleep(2000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -114,7 +111,8 @@ public abstract class Creature implements Runnable{
     protected void toBeHungry() {
         if (this.hunger == Hunger.values()[0])
             loseHealth();
-        this.hunger = hunger.toBeHungry();
+        else
+            this.hunger = hunger.toBeHungry();
     }
     protected void shout(){
         Controler.getInstance().notification(this.name+" émet un son ("+this.getClass().getSimpleName()+")");
@@ -124,7 +122,8 @@ public abstract class Creature implements Runnable{
             this.isAlive = false;
             Controler.getInstance().kill(this);
         }
-        this.health = health.loseHealth();
+        else
+            this.health = health.loseHealth();
     }
     protected void heal(){
         health = health.heal();
@@ -145,7 +144,8 @@ public abstract class Creature implements Runnable{
             this.isAlive = false;
             loseHealth();
         }
-        age = age.gettingOder();
+        else
+            age = age.gettingOder();
     }
     protected void growUp() {
         this.height = height.growUp();
@@ -153,12 +153,14 @@ public abstract class Creature implements Runnable{
     protected void toSwell() {
         if (this.weight == Weight.values()[Weight.values().length-1])
             loseHealth();
-        this.weight = weight.toSwell();
+        else
+            this.weight = weight.toSwell();
     }
     protected void toLoseWeight() {
         if (this.weight == Weight.values()[0])
             loseHealth();
-        this.weight = weight.toLoseWeight();
+        else
+            this.weight = weight.toLoseWeight();
     }
     public String getName()
     {

@@ -50,6 +50,9 @@ public class Controler{
     {
         this.zoo.kill(creature);
         Interface.show(creature.getName()+" est mort(e)... ("+creature.getClass().getSimpleName()+")");
+        if (creature instanceof Revive)
+            Interface.show(creature.getName()+" Resucite ... ("+creature.getClass().getSimpleName()+")");
+
     }
 
     public void removeCorral(Corral corral)

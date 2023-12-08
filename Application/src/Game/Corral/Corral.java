@@ -9,13 +9,12 @@ import Interactions.Interface;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Corral {
+public class Corral implements Runnable {
     private static final int MAX = 5;
     protected String name;
     protected String size;
     protected int max;
-//    private List<Run> creatures;
-    private List<Creature> creatures;
+    private List<Run> creatures;
     protected String hygiene;
     protected String food;
     protected Corral(String name, String size)
@@ -23,8 +22,7 @@ public class Corral {
         this.name = name;
         this.size = size;
         this.max = MAX;
-//        this.creatures = new ArrayList<Run>();
-        this.creatures = new ArrayList<Creature>();
+        this.creatures = new ArrayList<Run>();
     }
     public static Corral inaugurate(String name, String size)
     {
@@ -34,7 +32,7 @@ public class Corral {
     {
         StringBuilder returnString = new StringBuilder("Enclos " + this.name + "\n");
         ArrayList<Creature> creatures = new ArrayList<>();
-        for (Creature creature : this.creatures) {
+        for (Run creature : this.creatures) {
             creatures.add((Creature) creature);
         }
         for (Creature creature : creatures) {
@@ -42,25 +40,14 @@ public class Corral {
         }
         return returnString.toString();
     }
-//    public void addCreature(Creature creature)
-//    {
-//        if (!(creature instanceof Run))
-//        {
-//            // TODO : THROW ERROR
-//        }
-//        assert creature instanceof Run;
-//        this.creatures.add((Run) creature);
-//        Thread thread = new Thread(creature);
-//        thread.start();
-//    }
     public void addCreature(Creature creature)
     {
         if (!(creature instanceof Run))
         {
-            // TODO : THROW ERROR
+            throw new IllegalArgumentException("Cette créature ne peut pas courir");
         }
         assert creature instanceof Run;
-        this.creatures.add(creature);
+        this.creatures.add((Run) creature);
         Thread thread = new Thread(creature);
         thread.start();
     }
@@ -77,30 +64,31 @@ public class Corral {
             removeCreature(creature);
             switch (type) {
                 case "Dragon":
-                    Dragon.newBorn(creature.getName(),creature.getSex());
+                    creature = Dragon.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Kraken":
-                    Kraken.newBorn(creature.getName(),creature.getSex());
+                    creature = Kraken.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Lycantropus":
-                    Lycantropus.newBorn(creature.getName(),creature.getSex());
+                    creature = Lycantropus.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Megalodon":
-                    Megalodon.newBorn(creature.getName(),creature.getSex());
+                    creature = Megalodon.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Mermaid":
-                    Mermaid.newBorn(creature.getName(),creature.getSex());
+                    creature = Mermaid.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Nymph":
-                    Nymph.newBorn(creature.getName(),creature.getSex());
+                    creature = Nymph.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Phenix":
-                    Phenix.newBorn(creature.getName(),creature.getSex());
+                    creature = Phenix.newBorn(creature.getName(),creature.getSex());
                     break;
                 case "Unicorn":
-                    Unicorn.newBorn(creature.getName(),creature.getSex());
+                    creature = Unicorn.newBorn(creature.getName(),creature.getSex());
                     break;
             }
+            addCreature(creature);
         }
         else
             removeCreature(creature);
@@ -125,7 +113,7 @@ public class Corral {
     }
     public boolean contains(Creature searched)
     {
-        for(Creature creature : this.creatures)
+        for(Run creature : this.creatures)
         {
             if (creature.equals(searched))
             {
@@ -144,10 +132,15 @@ public class Corral {
     public List<Creature> getCreatures()
     {
         List<Creature> creatures = new ArrayList<>();
-        for (Creature creature : this.creatures) {
+        for (Run creature : this.creatures) {
             creatures.add((Creature) creature);
         }
         Interface.show(creatures.toString());
         return creatures;
     }
+
+    @Override
+    public void run(){
+    }
+
 }
