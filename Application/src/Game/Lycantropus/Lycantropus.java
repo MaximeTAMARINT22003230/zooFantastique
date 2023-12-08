@@ -113,4 +113,12 @@ public final class Lycantropus extends Viviparian implements Run, Runnable {
     {
         return this.level;
     }
+
+    /**
+     * Escape from its pack and become a lone wolf
+     */
+    private void escape()
+    {
+        this.pack = null;
+    }
 }
