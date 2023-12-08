@@ -1,9 +1,6 @@
 package Game.Creature;
 
-import Game.Creature.Behavior.BirthBehavior;
-import Game.Creature.Behavior.Fly;
-import Game.Creature.Behavior.Run;
-import Game.Creature.Behavior.Swim;
+import Game.Creature.Behavior.*;
 import Game.Creature.Caracteristic.*;
 import Interactions.Controler;
 
@@ -71,18 +68,23 @@ public abstract class Creature implements Runnable{
                         growUp();
                         break;
                     case 7:
+                        heal();
+                        break;
+                    case 8:
                         if(this instanceof Fly)
                             toFly();
                         break;
-                    case 8:
+                    case 9:
                         if(this instanceof Run)
                             toRun();
                         break;
-                    case 9:
+                    case 10:
                         if (this instanceof Swim)
                             toSwim();
                         break;
                 }
+                if (Model.DiceRoll.d20() == 1)
+                    reproduce();
             }
 
             try {
@@ -102,6 +104,7 @@ public abstract class Creature implements Runnable{
     protected void toSwim() {
         Controler.getInstance().notification(this.name+" swims ("+this.getClass().getSimpleName()+")");
     }
+    ///
     public void eat(){
         hunger = hunger.eat();
         if (Model.DiceRoll.d4() == 1)
@@ -161,11 +164,13 @@ public abstract class Creature implements Runnable{
         else
             this.weight = weight.toLoseWeight();
     }
+    protected void reproduce() {
+        // implement reproduce
+    }
     public String getName()
     {
         return this.name;
     }
-
     public Sex getSex(){
         return this.sex;
     }
