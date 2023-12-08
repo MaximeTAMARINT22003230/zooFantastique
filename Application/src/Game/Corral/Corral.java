@@ -24,7 +24,7 @@ public class Corral {
         this.size = size;
         this.max = MAX;
         this.creatures = new ArrayList<Run>();
-        this.cleanliness = CleanlinessLevel.BON;
+        this.cleanliness = CleanlinessLevel.GOOD;
     }
 
     /**
