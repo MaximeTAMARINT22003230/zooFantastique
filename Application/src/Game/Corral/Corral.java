@@ -1,7 +1,6 @@
 package Game.Corral;
 
 import Game.Creature.Behavior.Revive;
-import Game.Corral.Caracteristic.Hygiene;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Caracteristic.StorageLevel;
@@ -9,6 +8,7 @@ import Game.Creature.Creature;
 import Game.Logic.DiceRoll;
 import Game.Lycantropus.Lycantropus;
 import Player.Interface;
+import Game.Corral.Caracteristic.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,7 +88,7 @@ public class Corral implements Runnable{
 
     public Hygiene getHygiene() {
         return this.hygiene;
-
+    }
     public void kill(Creature creature)
     {
         if (creature instanceof Revive) {
@@ -124,12 +124,6 @@ public class Corral implements Runnable{
         }
         else
             removeCreature(creature);
-    }
-
-    public void clean()
-    {
-        hygiene= Hygiene.GOOD;
-        System.out.println("Le Corral a été nettoyé et est maintenant propre.");
     }
     public int count()
     {
