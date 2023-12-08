@@ -3,7 +3,7 @@ package Game.Corral;
 import Game.Corral.Caracteristic.Hygiene;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Creature;
-import Interactions.Interface;
+import Player.Interface;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package Game.Creature.Behavior;
 
 import Game.Creature.Creature;
-import Interactions.Controler;
+import Player.Controler;
 import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;

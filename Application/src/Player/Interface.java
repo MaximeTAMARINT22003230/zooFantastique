@@ -1,4 +1,4 @@
-package Interactions;
+package Player;
 
 import java.util.Scanner;
 

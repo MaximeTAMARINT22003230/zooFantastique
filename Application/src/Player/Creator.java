@@ -1,4 +1,4 @@
-package Interactions;
+package Player;
 
 import Game.Corral.Aquarium;
 import Game.Corral.Aviary;
@@ -6,7 +6,6 @@ import Game.Corral.Corral;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Creature;
 import Game.Lycantropus.Component.Lycantropus;
-import Player.*;
 
 import java.util.Objects;
 

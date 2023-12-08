@@ -7,7 +7,7 @@ import Game.Lycantropus.Caracteristics.Level;
 import Game.Lycantropus.Caracteristics.Strength;
 import Game.Lycantropus.Howl;
 import Game.Lycantropus.Pack;
-import Interactions.Controler;
+import Player.Controler;
 
 import java.util.List;
 import java.util.Objects;

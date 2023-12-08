@@ -3,14 +3,10 @@ package Player;
 import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;
-import Interactions.Asker;
-import Interactions.Controler;
-import Interactions.Creator;
 import Game.Creature.Caracteristic.Age;
 import Game.Creature.Caracteristic.Sex;
 import Game.Creature.Creature;
 import Game.Corral.Corral;
-import Interactions.Interface;
 
 public class ZooMaster implements Cooldownable {
     private final static int REFRESH_COOLDOWN = 9999;

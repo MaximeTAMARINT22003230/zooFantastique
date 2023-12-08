@@ -4,12 +4,9 @@ import Game.Logic.Cooldown.Cooldown;
 import Game.Logic.Cooldown.CooldownType;
 import Game.Logic.Cooldown.Cooldownable;
 import Game.Lycantropus.Howl;
-import Game.Lycantropus.Lycan;
 import Game.Lycantropus.Pack;
-import Interactions.Controler;
 import Game.Creature.Creature;
 import Game.Corral.Corral;
-import Interactions.Interface;
 
 import java.util.ArrayList;
 import java.util.List;

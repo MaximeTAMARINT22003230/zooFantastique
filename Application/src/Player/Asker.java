@@ -1,4 +1,4 @@
-package Interactions;
+package Player;
 
 import Game.Corral.Corral;
 import Game.Creature.Caracteristic.Age;

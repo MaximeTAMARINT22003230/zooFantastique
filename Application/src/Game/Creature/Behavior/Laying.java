@@ -1,9 +1,8 @@
 package Game.Creature.Behavior;
 
-import Game.Corral.Corral;
 import Game.Creature.Creature;
 import Game.Creature.Egg;
-import Interactions.Controler;
+import Player.Controler;
 
 /** The Laying behavior, used by Oviparrian
  * Allows a creature to lay eggs

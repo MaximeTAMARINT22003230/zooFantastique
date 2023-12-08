@@ -1,8 +1,7 @@
-package Interactions;
+package Player;
 
 import Game.Corral.*;
 import Game.Creature.Creature;
-import Player.Zoo;
 
 /**
  * The main controler of the app. <br>
