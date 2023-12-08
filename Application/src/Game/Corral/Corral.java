@@ -4,6 +4,7 @@ import Game.Creature.Behavior.Revive;
 import Game.Creature.Behavior.Run;
 import Game.Creature.Bestiary.*;
 import Game.Creature.Creature;
+import Interactions.Controler;
 import Interactions.Interface;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class Corral implements Runnable{
     private static final int MAX = 5;
     protected String name;
     protected String size;
+    protected boolean isDestroyed;
     protected int max;
     private List<Run> creatures;
     protected String hygiene;
@@ -25,6 +27,7 @@ public class Corral implements Runnable{
         this.name = name;
         this.size = size;
         this.max = MAX;
+        this.isDestroyed = false;
         this.creatures = new ArrayList<Run>();
     }
     /**
@@ -148,9 +151,25 @@ public class Corral implements Runnable{
         Interface.show(creatures.toString());
         return creatures;
     }
-
+    public void isDestroyed()
+    {
+        this.isDestroyed = true;
+    }
     @Override
     public void run(){
-    }
+        while (!isDestroyed) {
 
+            int randomAction = Model.DiceRoll.d8();
+
+            if (randomAction == 1) {
+                // perd un point de propreté
+            }
+
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 }

@@ -86,7 +86,7 @@ public abstract class Creature implements Runnable{
             }
 
             try {
-                Thread.sleep(500);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

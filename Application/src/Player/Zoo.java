@@ -104,6 +104,8 @@ public class Zoo {
         if(this.countCorrals() < maxCorral)
         {
             this.corrals.add(corral);
+            Thread thread = new Thread(corral);
+            thread.start();
         }
     }
     public String corrals()
@@ -127,6 +129,7 @@ public class Zoo {
     public void removeCorral(Corral corral)
     {
         this.corrals.remove(corral);
+        corral.isDestroyed();
     }
     public void extend(int size)
     {
