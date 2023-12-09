@@ -22,9 +22,4 @@ public final class Unicorn extends Viviparian implements Run {
     {
         return new Unicorn(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-
-    @Override
-    public void run() {
-
-    }
 }

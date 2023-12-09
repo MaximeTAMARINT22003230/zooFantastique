@@ -48,7 +48,6 @@ public abstract class Creature implements Runnable{
             }
             else {
                 int randomAction = DiceRoll.d12();
-
                 switch (randomAction) {
                     case 1:
                         shout();

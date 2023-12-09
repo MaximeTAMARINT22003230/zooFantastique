@@ -23,9 +23,4 @@ public final class Phenix extends Oviparian implements Fly, Revive {
     public static Phenix newBorn(String name, Sex sex) {
         return new Phenix(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-
-    @Override
-    public void run() {
-
-    }
 }

@@ -22,10 +22,4 @@ public final class Mermaid extends Viviparian implements Swim {
     public static Mermaid newBorn(String name, Sex sex) {
         return new Mermaid(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-
-    @Override
-    public void run() {
-
-    }
-
 }

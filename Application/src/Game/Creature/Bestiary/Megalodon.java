@@ -23,10 +23,4 @@ public final class Megalodon extends Oviparian implements Swim {
     public static Megalodon newBorn(String name, Sex sex) {
         return new Megalodon(name, sex, Weight.LIGHT, Height.SMALL, Age.BABY, Hunger.GOOD, Fatigue.GOOD, Health.GOOD);
     }
-
-    @Override
-    public void run() {
-
-    }
-
 }
